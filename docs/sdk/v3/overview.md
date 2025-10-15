@@ -24,7 +24,7 @@ npm i --save @pegasys-fi/sdk-core
 
 ## Developer Links
 
-- [**V3 SDK Github Repo**](https://github.com/Pegasys-fi/v3-sdk)
+- [**V3 SDK Github Repo**](https://github.com/Jingo-Finance/v3-sdk)
 - [**Core SDK Github Repo**](https://github.com/Jingo-Finance/sdk-core)
 - [**V3 SDK NPM Package**](https://www.npmjs.com/package/@pollum-io/v3-sdk)
 

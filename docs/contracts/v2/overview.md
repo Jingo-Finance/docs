@@ -23,5 +23,5 @@ For a deeper dive, read through the [technical reference](./reference/overview) 
 
 # Resources
 
-- [**V3 Core**](https://github.com/Pegasys-fi/v3-core)
-- [**V3 Periphery**](https://github.com/Pegasys-fi/v3-periphery)
+- [**V3 Core**](https://github.com/Jingo-Finance/v3-core)
+- [**V3 Periphery**](https://github.com/Jingo-Finance/v3-periphery)

@@ -14,7 +14,7 @@ External calls will primarily call the periphery interfaces. Externally availabl
 
 ## Core
 
-> [**Core Source Code**](https://github.com/Pegasys-fi/v3-core)
+> [**Core Source Code**](https://github.com/Jingo-Finance/v3-core)
 
 The core consists of a single factory, a pool deployer, and the many pools the factory will create.
 

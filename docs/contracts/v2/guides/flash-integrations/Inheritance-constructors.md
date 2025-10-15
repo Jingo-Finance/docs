@@ -23,7 +23,7 @@ Pegasys V3 introduces a new function, `flash`, within the Pool contract. `Flash`
 
 ## The Flash Callback
 
-`flash` will withdraw the tokens, but how are they paid back? To understand this, we must look inside the flash function code. midway through the [**flash**](https://github.com/Pegasys-fi/v3-core/blob/main/contracts/PegasysV3Pool.sol#L791) function, we see this:
+`flash` will withdraw the tokens, but how are they paid back? To understand this, we must look inside the flash function code. midway through the [**flash**](https://github.com/Jingo-Finance/v3-core/blob/main/contracts/PegasysV3Pool.sol#L791) function, we see this:
 
 ```solidity
 IPegasysV3FlashCallback(msg.sender).pegasysV3FlashCallback(fee0, fee1, data);

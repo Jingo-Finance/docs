@@ -39,22 +39,22 @@ export const actions = [
 export const developerLinks = [
   {
     title: 'v3-core',
-    href: 'https://github.com/Pegasys-fi/v3-core',
+    href: 'https://github.com/Jingo-Finance/v3-core',
     icon: GitHub,
   },
   {
     title: 'v3-sdk',
-    href: 'https://github.com/Pegasys-fi/v3-sdk',
+    href: 'https://github.com/Jingo-Finance/v3-sdk',
     icon: GitHub,
   },
   {
     title: 'v3-periphery',
-    href: 'https://github.com/Pegasys-fi/v3-periphery',
+    href: 'https://github.com/Jingo-Finance/v3-periphery',
     icon: GitHub,
   },
   // {
   //   title: 'Deployment addresses',
-  //   href: 'https://github.com/Pegasys-fi/v3-periphery/blob/main/deploys.md',
+  //   href: 'https://github.com/Jingo-Finance/v3-periphery/blob/main/deploys.md',
   //   icon: GitHub,
   // },
   {
