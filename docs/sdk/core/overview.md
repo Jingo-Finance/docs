@@ -16,7 +16,7 @@ We recommend taking a look at the [**Technical Reference**](./reference/overview
 
 # Resources
 
-- [**SDK Core Github Repo**](https://github.com/Pegasys-fi/sdk-core)
+- [**SDK Core Github Repo**](https://github.com/Jingo-Finance/sdk-core)
 - [**Core SDK NPM Package**](https://www.npmjs.com/package/@pollum-io/sdk-core)
 
 [![npm version](https://img.shields.io/npm/v/@pegasys-fi/sdk-core/latest.svg)](https://www.npmjs.com/package/@pollum-io/sdk-core/v/latest)

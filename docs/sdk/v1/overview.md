@@ -12,7 +12,7 @@ Welcome to the Pegasys Protocol V1 SDK. To begin, we recommend looking at the [*
 # Pegasys V1 SDK
 
 - [**V1 SDK Github**](https://github.com/Pegasys-fi/v1-sdk)
-- [**SDK Core Github**](https://github.com/Pegasys-fi/sdk-core)
+- [**SDK Core Github**](https://github.com/Jingo-Finance/sdk-core)
 - [**SDK NPM Package**](https://www.npmjs.com/package/@pollum-io/v1-sdk)
 
 [![npm version](https://img.shields.io/npm/v/@pegasys-fi/v1-sdk/latest.svg)](https://www.npmjs.com/package/@pollum-io/v1-sdk/v/latest)

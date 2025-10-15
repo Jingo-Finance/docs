@@ -24,4 +24,4 @@ The V1 Pegasys protocol is separated across two repositories
 The V1 SDK, which can assist developers when interacting with the Pegasys V1 Protocol can be found here.
 
 - [`pegasys-sdk`](https://github.com/Pegasys-fi/v1-sdk)
-- [`pegasys-sdk-core`](https://github.com/Pegasys-fi/sdk-core)
+- [`pegasys-sdk-core`](https://github.com/Jingo-Finance/sdk-core)
