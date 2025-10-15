@@ -145,11 +145,11 @@ module.exports = {
             },
             {
               label: 'App',
-              href: 'https://app.pegasys.fi/',
+              href: 'https://app.jingo.finance/',
             },
             {
               label: 'Analytics',
-              href: 'https://info.pegasys.fi/home',
+              href: 'https://info.jingo.finance/home',
             },
             // {
             //   label: 'Token Lists',
@@ -174,7 +174,7 @@ module.exports = {
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/PegasysDEX',
+              href: 'https://x.com/JingoFinance',
             },
             // {
             //   label: 'Blog',

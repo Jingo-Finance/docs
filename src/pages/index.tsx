@@ -287,7 +287,7 @@ const StyledIcon = styled.div`
 
 export default function Home() {
   return (
-    <Layout title={`Pegasys Docs`} description="Technical Documentation For The Pegasys Protocol">
+    <Layout title={`Jingo Docs`} description="Technical Documentation For The Pegasys Protocol">
       <Container>
         <DocsHeader>
           <div
@@ -299,7 +299,7 @@ export default function Home() {
               alignItems: 'center',
             }}
           >
-            <h1 style={{ fontWeight: 600, color: 'white' }}> Welcome to Pegasys Docs</h1>
+            <h1 style={{ fontWeight: 600, color: 'white' }}> Welcome to Jingo Docs</h1>
             <HideMedium>
               <SearchBarWithAnalytics />
             </HideMedium>
