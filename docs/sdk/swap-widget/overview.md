@@ -6,7 +6,7 @@ title: Overview
 
 # The Pegasys Swap Widget
 
-Welcome to the Pegasys Swap Widget. To begin, we recommend looking at the [**Guides**](./guides/swap-widget.mdx) and for deeper reference see the [**Swap Widget Github**](https://github.com/Pegasys-fi/widgets) repo.
+Welcome to the Pegasys Swap Widget. To begin, we recommend looking at the [**Guides**](./guides/swap-widget.mdx) and for deeper reference see the [**Swap Widget Github**](https://github.com/Jingo-Finance/widgets) repo.
 
 # Alpha software
 
@@ -17,7 +17,7 @@ Pull requests are welcome!
 
 # Pegasys Swap Widget
 
-- [**Swap Widget Github Repo**](https://github.com/Pegasys-fi/widgets)
+- [**Swap Widget Github Repo**](https://github.com/Jingo-Finance/widgets)
 - [**Swap Widget NPM Package**](https://www.npmjs.com/package/@pollum-io/widgets)
 
 [![npm version](https://img.shields.io/npm/v/@pegasys-fi/widgets/latest.svg)](https://www.npmjs.com/package/@pollum-io/v3-sdk/v/latest)
