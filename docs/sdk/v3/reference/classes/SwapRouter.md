@@ -2,7 +2,7 @@
 
 # Class: SwapRouter
 
-Represents the Pegasys V3 SwapRouter, and has static methods for helping execute trades.
+Represents the Jingo V3 SwapRouter, and has static methods for helping execute trades.
 
 ## Table of contents
 

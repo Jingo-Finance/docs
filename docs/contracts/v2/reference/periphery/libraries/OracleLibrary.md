@@ -11,13 +11,13 @@ Provides functions to integrate with V3 pool oracle
   ) internal view returns (int24 arithmeticMeanTick, uint128 harmonicMeanLiquidity)
 ```
 
-Calculates time-weighted means of tick and liquidity for a given Pegasys V3 pool
+Calculates time-weighted means of tick and liquidity for a given Jingo V3 pool
 
 #### Parameters:
 
 | Name     | Type    | Description                                                              |
 | :------- | :------ | :----------------------------------------------------------------------- |
-| `pool`   | address | Address of Pegasys V3 pool that we want to observe                       |
+| `pool`   | address | Address of Jingo V3 pool that we want to observe                       |
 | `period` | uint32  | Number of seconds in the past to start calculating time-weighted average |
 
 #### Return Values:

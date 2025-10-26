@@ -8,7 +8,7 @@ sidebar_position: 3
 Unfamiliar with the concept of an oracle? Check out the Ethereum Foundation's [oracle overview](https://ethereum.org/en/developers/docs/oracles/) first.
 :::
 
-All Pegasys v3 pools can serve as oracles, offering access to historical price and liquidity data. This capability unlocks a wide range of on-chain use cases.
+All Jingo v3 pools can serve as oracles, offering access to historical price and liquidity data. This capability unlocks a wide range of on-chain use cases.
 
 Historical data is stored as an array of observations. At first, each pool tracks only a single observation, overwriting it as blocks elapse. This limits how far into the past users may access data. However, any party willing to pay the transaction fees may [increase the number of tracked observations](../../contracts/v3/reference/core/PegasysV3Pool#increaseobservationcardinalitynext) (up to a maximum of `65535`), expanding the period of data availability to ~9 days or more.
 
@@ -90,4 +90,4 @@ Ticks are signed integers and can be expressed as a negative number, so for any 
 
 ### Optimism
 
-On Optimism, every transaction is confirmed as an individual block. The `block.timestamp` of these blocks, however, reflect the `block.timestamp` of the last L1 block ingested by the Sequencer. For this reason, Pegasys pools on Optimism are not suitable for providing oracle prices, as this high-latency `block.timestamp` update process makes the oracle much less costly to manipulate. In the future, it's possible that the Optimism `block.timestamp` will have much higher granularity (with a small trust assumption in the Sequencer), or that forced inclusion transactions will improve oracle security. For more information on these potential upcoming changes, please see the [Optimistic Specs repo](https://github.com/ethereum-optimism/optimistic-specs/discussions/23). For the time being, usage of the oracle feature on Optimism should be avoided.
+On Optimism, every transaction is confirmed as an individual block. The `block.timestamp` of these blocks, however, reflect the `block.timestamp` of the last L1 block ingested by the Sequencer. For this reason, Jingo pools on Optimism are not suitable for providing oracle prices, as this high-latency `block.timestamp` update process makes the oracle much less costly to manipulate. In the future, it's possible that the Optimism `block.timestamp` will have much higher granularity (with a small trust assumption in the Sequencer), or that forced inclusion transactions will improve oracle security. For more information on these potential upcoming changes, please see the [Optimistic Specs repo](https://github.com/ethereum-optimism/optimistic-specs/discussions/23). For the time being, usage of the oracle feature on Optimism should be avoided.

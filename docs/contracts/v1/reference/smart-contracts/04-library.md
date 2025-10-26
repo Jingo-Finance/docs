@@ -7,7 +7,7 @@ title: Library
 
 ## Code
 
-[`PegasysV1Library.sol`](https://github.com/Pegasys-fi/v1-periphery/blob/master/contracts/libraries/PegasysV1Library.sol)
+[`PegasysV1Library.sol`](https://github.com/Jingo-Finance/v1-periphery/blob/master/contracts/libraries/PegasysV1Library.sol)
 
 # Internal Functions
 

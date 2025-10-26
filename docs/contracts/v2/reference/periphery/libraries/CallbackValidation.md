@@ -1,4 +1,4 @@
-Provides validation for callbacks from Pegasys V3 Pools
+Provides validation for callbacks from Jingo V3 Pools
 
 ## Functions
 
@@ -13,13 +13,13 @@ Provides validation for callbacks from Pegasys V3 Pools
   ) internal returns (contract IPegasysV3Pool pool)
 ```
 
-Returns the address of a valid Pegasys V3 Pool
+Returns the address of a valid Jingo V3 Pool
 
 #### Parameters:
 
 | Name      | Type    | Description                                                                       |
 | :-------- | :------ | :-------------------------------------------------------------------------------- |
-| `factory` | address | The contract address of the Pegasys V3 factory                                    |
+| `factory` | address | The contract address of the Jingo V3 factory                                    |
 | `tokenA`  | address | The contract address of either token0 or token1                                   |
 | `tokenB`  | address | The contract address of the other token                                           |
 | `fee`     | uint24  | The fee collected upon every swap in the pool, denominated in hundredths of a bip |
@@ -39,13 +39,13 @@ Returns the address of a valid Pegasys V3 Pool
   ) internal returns (contract IPegasysV3Pool pool)
 ```
 
-Returns the address of a valid Pegasys V3 Pool
+Returns the address of a valid Jingo V3 Pool
 
 #### Parameters:
 
 | Name      | Type                       | Description                                    |
 | :-------- | :------------------------- | :--------------------------------------------- |
-| `factory` | address                    | The contract address of the Pegasys V3 factory |
+| `factory` | address                    | The contract address of the Jingo V3 factory |
 | `poolKey` | struct PoolAddress.PoolKey | The identifying key of the V3 pool             |
 
 #### Return Values:

@@ -1,4 +1,4 @@
-Router for stateless execution of swaps against Pegasys V3
+Router for stateless execution of swaps against Jingo V3
 
 > Input parameters are viewable on the [**Swap Router Interface**](./interfaces/ISwapRouter)
 

@@ -3,7 +3,7 @@ id: deployments
 title: Deployment Addresses
 ---
 
-# Pegasys Contract Deployments
+# Jingo Contract Deployments
 
 The latest version of `@pegasys-fi/v3-core`, `@pegasys-fi/v3-periphery`, `@pegasys-fi/swap-router-contracts`, and `@pegasys-fi/v3-staker` are deployed at the addresses listed below. Integrators should **no longer assume that they are deployed to the same addresses across chains** and be extremely careful to confirm mappings below.
 
@@ -21,27 +21,27 @@ The latest version of `@pegasys-fi/v3-core`, `@pegasys-fi/v3-periphery`, `@pegas
 | [NonfungiblePositionManager](https://github.com/Jingo-Finance/v3-periphery/blob/v1.0.0/contracts/NonfungiblePositionManager.sol)                           | `0xC36442b4a4522E871399CD717aBDD847Ab11FE88`           | `0x3d79EdAaBC0EaB6F08ED885C05Fc0B014290D95A` |
 | [V3Migrator](https://github.com/Jingo-Finance/v3-periphery/blob/v1.0.0/contracts/V3Migrator.sol)                                                           | `0xA5644E29708357803b5A882D272c41cC0dF92B34`           | `0x3cFd4d48EDfDCC53D3f173F596f621064614C582` |
 | [QuoterV1](https://github.com/Jingo-Finance/v3-periphery/blob/main/contracts/lens/QuoterV1.sol)                                                                    | `0x61fFE014bA17989E743c5F6cB21bF9697530B21e`           | `0x82825d0554fA07f7FC52Ab63c961F330fdEFa8E8` |
-| [SwapRouter02](https://github.com/Pegasys-fi/swap-router-contracts/blob/main/contracts/SwapRouter02.sol)                                                        | `0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45`           | `0x5615CDAb10dc425a742d643d949a7F474C01abc4` |
-| [Permit2](https://github.com/Pegasys-fi/permit2)                                                                                                                | `0x000000000022d473030f116ddee9f6b43ac78ba3`           | `0x000000000022d473030f116ddee9f6b43ac78ba3` |
+| [SwapRouter02](https://github.com/Jingo-Finance/swap-router-contracts/blob/main/contracts/SwapRouter02.sol)                                                        | `0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45`           | `0x5615CDAb10dc425a742d643d949a7F474C01abc4` |
+| [Permit2](https://github.com/Jingo-Finance/permit2)                                                                                                                | `0x000000000022d473030f116ddee9f6b43ac78ba3`           | `0x000000000022d473030f116ddee9f6b43ac78ba3` |
 
 The new `UniversalRouter` has been deployed to the following addresses on the following chains:
 
 | Contract                                                                                               | Mainnet Address                              | Optimism Address                             | Arbitrum Address                             | Polygon Address                              | See other chain addresses here                                                            |
 | ------------------------------------------------------------------------------------------------------ | -------------------------------------------- | -------------------------------------------- | -------------------------------------------- | -------------------------------------------- | ----------------------------------------------------------------------------------------- |
-| [UniversalRouter](https://github.com/Pegasys-fi/universal-router/blob/main/contracts/UniversalRouter.sol) | `0xEf1c6E67703c7BD7107eed8303Fbe6EC2554BF6B` | `0xb555edF5dcF85f42cEeF1f3630a52A108E55A654` | `0x4C60051384bd2d3C01bfc845Cf5F4b44bcbE9de5` | `0x4C60051384bd2d3C01bfc845Cf5F4b44bcbE9de5` | [Other addresses](https://github.com/Pegasys-fi/universal-router/tree/main/deploy-addresses) |
+| [UniversalRouter](https://github.com/Jingo-Finance/universal-router/blob/main/contracts/UniversalRouter.sol) | `0xEf1c6E67703c7BD7107eed8303Fbe6EC2554BF6B` | `0xb555edF5dcF85f42cEeF1f3630a52A108E55A654` | `0x4C60051384bd2d3C01bfc845Cf5F4b44bcbE9de5` | `0x4C60051384bd2d3C01bfc845Cf5F4b44bcbE9de5` | [Other addresses](https://github.com/Jingo-Finance/universal-router/tree/main/deploy-addresses) |
 
 These addresses are final and were deployed from these npm package versions:
 
 - [`@pegasys-fi/v3-core@1.0.0`](https://github.com/Jingo-Finance/v3-core/tree/v1.0.0)
 - [`@pegasys-fi/v3-periphery@1.0.0`](https://github.com/Jingo-Finance/v3-periphery/tree/v1.0.0)
-- [`@pegasys-fi/swap-router-contracts@1.1.0`](https://github.com/Pegasys-fi/swap-router-contracts/tree/v1.1.0)
-- [`@pegasys-fi/v3-staker@1.0.2`](https://github.com/Pegasys-fi/v3-staker/tree/v1.0.2)
+- [`@pegasys-fi/swap-router-contracts@1.1.0`](https://github.com/Jingo-Finance/swap-router-contracts/tree/v1.1.0)
+- [`@pegasys-fi/v3-staker@1.0.2`](https://github.com/Jingo-Finance/v3-staker/tree/v1.0.2)
 
-# Pegasys Pool Deployments
+# Jingo Pool Deployments
 
-Every Pegasys pool is a unique instance of the `PegasysV3Pool` contract and is deployed at its own unique address. The contract source code of the pool will be auto-verified on etherscan. For example, here is the [ETH/USDC 0.3% pool](https://etherscan.io/address/0x8ad599c3a0ff1de082011efddc58f1908eb6e6d8) on Ethereum mainnet.
+Every Jingo pool is a unique instance of the `PegasysV3Pool` contract and is deployed at its own unique address. The contract source code of the pool will be auto-verified on etherscan. For example, here is the [ETH/USDC 0.3% pool](https://etherscan.io/address/0x8ad599c3a0ff1de082011efddc58f1908eb6e6d8) on Ethereum mainnet.
 
-You can look up the address of an existing pool on [Pegasys Info](https://info.jingo.finance/#/) or by calling the [`getPool`](../reference/core/interfaces/IPegasysV3Factory.md#getpool) function on the `PegasysV3Factory` contract.
+You can look up the address of an existing pool on [Jingo Info](https://info.jingo.finance/#/) or by calling the [`getPool`](../reference/core/interfaces/IPegasysV3Factory.md#getpool) function on the `PegasysV3Factory` contract.
 
 ```solidity
 getPool("0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48", "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2", 3000)
@@ -49,7 +49,7 @@ getPool("0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48", "0xc02aaa39b223fe8d0a0e5c4
 
 # Wrapped Native Token Addresses
 
-The Pegasys Protocol supports trading of ERC20 tokens. In order to swap a native asset like ETH (or MATIC on Polygon), the Pegasys protocol wraps these assets in an ERC20 wrapped native token contract. The protocol uses the following WETH9 addresses on Ethereum and WMATIC addresses on Polygon.
+The Jingo Protocol supports trading of ERC20 tokens. In order to swap a native asset like ETH (or MATIC on Polygon), the Jingo protocol wraps these assets in an ERC20 wrapped native token contract. The protocol uses the following WETH9 addresses on Ethereum and WMATIC addresses on Polygon.
 
 | Network          | ChainId  | Wrapped Native Token | Address                                      |
 | ---------------- | -------- | --------------------- | -------------------------------------------- |

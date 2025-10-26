@@ -3,7 +3,7 @@ id: getting-started
 title: Getting Started
 ---
 
-The pages that follow contain technical reference information on the Pegasys SDK.
+The pages that follow contain technical reference information on the Jingo SDK.
 Looking for a [quick start](../guides/quick-start) instead?
 You may also want to jump into a [guide](../guides/fetching-data),
 which offers a friendlier introduction to the SDK!
@@ -31,7 +31,7 @@ The [source code is available on GitHub](https://github.com/Jingo-Finance/v3-sdk
 
 ## Dependencies
 
-The SDK declares its dependencies as [peer dependencies](https://github.com/Pegasys-fi/sdk/blob/v1/package.json#L33).
+The SDK declares its dependencies as [peer dependencies](https://github.com/Jingo-Finance/sdk/blob/v1/package.json#L33).
 This is for two reasons:
 
 - prevent installation of unused dependencies (e.g. `@ethersproject/providers` and `@ethersproject/contracts`, only used in [`Fetcher`](fetcher))

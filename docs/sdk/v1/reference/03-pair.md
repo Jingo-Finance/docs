@@ -7,7 +7,7 @@ title: Pair
 constructor(tokenAmountA: TokenAmount, tokenAmountB: TokenAmount)
 ```
 
-The Pair entity represents a Pegasys pair with a balance of each of its pair tokens.
+The Pair entity represents a Jingo pair with a balance of each of its pair tokens.
 
 # Example
 

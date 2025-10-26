@@ -3,13 +3,13 @@ id: queries
 title: Queries
 ---
 
-The subgraph can be queried to retrieve important information about Pegasys, pairs, tokens, transactions, users, and more. This page will provide examples for common queries.
+The subgraph can be queried to retrieve important information about Jingo, pairs, tokens, transactions, users, and more. This page will provide examples for common queries.
 
 To try these queries and run your own visit the [subgraph sandbox](https://thegraph.com/explorer/subgraph/pegasys-fi/v1).
 
 ### Global Data
 
-To query global data you can pass in the Pegasys Factory address and select from available fields.
+To query global data you can pass in the Jingo Factory address and select from available fields.
 
 #### Global Stats
 
@@ -72,9 +72,9 @@ Fetch a snapshot of the current state of the pair with common values. This examp
 }
 ```
 
-#### All pairs in Pegasys
+#### All pairs in Jingo
 
-The Graph limits entity return amounts to 1000 per query as of now. To get all pairs on Pegasys use a loop and graphql skip query to fetch multiple chunks of 1000 pairs. The query would look like this (where skip is some incrementing variable passed into your query).
+The Graph limits entity return amounts to 1000 per query as of now. To get all pairs on Jingo use a loop and graphql skip query to fetch multiple chunks of 1000 pairs. The query would look like this (where skip is some incrementing variable passed into your query).
 
 ```
 {
@@ -88,7 +88,7 @@ The Graph limits entity return amounts to 1000 per query as of now. To get all p
 
 #### Most liquid pairs
 
-Order by liquidity to get the most liquid pairs in Pegasys.
+Order by liquidity to get the most liquid pairs in Jingo.
 
 ```
 {
@@ -148,11 +148,11 @@ Day data is useful for building charts and historical views around entities. To 
 
 ### Token Data
 
-Token data can be fetched using the token contract address as an ID. Token data is aggregated across all pairs the token is included in. Any token that is included in some pair in Pegasys can be queried.
+Token data can be fetched using the token contract address as an ID. Token data is aggregated across all pairs the token is included in. Any token that is included in some pair in Jingo can be queried.
 
 #### Token Overview
 
-Get a snapshot of the current stats on a token in Pegasys. This query fetches current stats on DAI.
+Get a snapshot of the current stats on a token in Jingo. This query fetches current stats on DAI.
 The allPairs field gets the first 200 pairs DAI is included in sorted by liquidity in derived USD.
 
 ```
@@ -168,9 +168,9 @@ The allPairs field gets the first 200 pairs DAI is included in sorted by liquidi
 }
 ```
 
-#### All Tokens in Pegasys
+#### All Tokens in Jingo
 
-Similar to fetching all pairs (see above), you can query all tokens in Pegasys. Because The Graph service limits return size to 1000 entities use graphql skip query. (Note this query will not work in the graph sandbox and more resembles the structure of a query you'd pass to some graphql middleware like [Apollo](https://www.apollographql.com/)).
+Similar to fetching all pairs (see above), you can query all tokens in Jingo. Because The Graph service limits return size to 1000 entities use graphql skip query. (Note this query will not work in the graph sandbox and more resembles the structure of a query you'd pass to some graphql middleware like [Apollo](https://www.apollographql.com/)).
 
 ```
 {
@@ -262,7 +262,7 @@ Like pair and global daily lookups, tokens have daily entities that can be queri
 
 ### ETH Price
 
-You can use the Bundle entity to query current USD price of ETH in Pegasys based on a weighted average of stablecoins.
+You can use the Bundle entity to query current USD price of ETH in Jingo based on a weighted average of stablecoins.
 
 ```
 {

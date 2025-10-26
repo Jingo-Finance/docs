@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## Setting up the Contract
 
-This guide is an example of a custodial contract Pegasys V3 positions, which allows interaction with the Pegasys V3 Periphery by minting a position, adding liquidity to a position, decreasing liquidity, and collecting fees.
+This guide is an example of a custodial contract Jingo V3 positions, which allows interaction with the Jingo V3 Periphery by minting a position, adding liquidity to a position, decreasing liquidity, and collecting fees.
 
 First, declare the solidity version used to compile the contract and `abicoder v2` to allow arbitrary nested arrays and structs to be encoded and decoded in calldata, a feature we use when transacting with a pool.
 

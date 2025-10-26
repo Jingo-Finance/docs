@@ -4,18 +4,18 @@ sidebar_position: 1
 title: Overview
 ---
 
-# The Pegasys Swap Widget
+# The Jingo Swap Widget
 
-Welcome to the Pegasys Swap Widget. To begin, we recommend looking at the [**Guides**](./guides/swap-widget.mdx) and for deeper reference see the [**Swap Widget Github**](https://github.com/Jingo-Finance/widgets) repo.
+Welcome to the Jingo Swap Widget. To begin, we recommend looking at the [**Guides**](./guides/swap-widget.mdx) and for deeper reference see the [**Swap Widget Github**](https://github.com/Jingo-Finance/widgets) repo.
 
 # Alpha software
 
-The latest version of the Swap Widget is in production in the Pegasys Interface,
+The latest version of the Swap Widget is in production in the Jingo Interface,
 but it is considered Alpha software and may contain bugs or change significantly between patch versions.
 If you have questions about how to use the SDK, please reach out in the `#dev-chat` channel of our Discord.
 Pull requests are welcome!
 
-# Pegasys Swap Widget
+# Jingo Swap Widget
 
 - [**Swap Widget Github Repo**](https://github.com/Jingo-Finance/widgets)
 - [**Swap Widget NPM Package**](https://www.npmjs.com/package/@pollum-io/widgets)

@@ -2,7 +2,7 @@
 
 # Class: Position
 
-Represents a position on a Pegasys V3 Pool
+Represents a position on a Jingo V3 Pool
 
 ## Table of contents
 

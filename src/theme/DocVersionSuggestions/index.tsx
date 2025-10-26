@@ -28,7 +28,7 @@ function UnreleasedVersionLabel({ siteTitle, versionLabel }: VersionLabelProps) 
         versionLabel: <strong>{versionLabel}</strong>,
       }}
     >
-      {'This is unreleased documentation for the Pegasys Protocol.'}
+      {'This is unreleased documentation for the Jingo Protocol.'}
     </Translate>
   )
 }

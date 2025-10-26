@@ -1,4 +1,4 @@
-Internal functions for safely managing liquidity in Pegasys V3
+Internal functions for safely managing liquidity in Jingo V3
 
 ## Parameter Structs
 

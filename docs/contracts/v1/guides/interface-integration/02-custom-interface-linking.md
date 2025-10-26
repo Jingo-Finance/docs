@@ -5,7 +5,7 @@ title: Custom Linking
 
 # Query Parameters
 
-The Pegasys front-end supports URL query parameters to allow for custom linking to the Pegasys frontend. Users and developers can use these query parameters to link to the Pegasys frontend with custom prefilled settings.
+The Jingo front-end supports URL query parameters to allow for custom linking to the Jingo frontend. Users and developers can use these query parameters to link to the Jingo frontend with custom prefilled settings.
 
 Each Page has specific available URL parameters that can be set. Global parameters can be used on all pages.
 

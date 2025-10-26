@@ -11,15 +11,15 @@ module.exports = {
     // From node
     nodeEnv: process.env.NODE_ENV,
   },
-  title: 'Pegasys',
+  title: 'Jingo',
   tagline: 'Documentation and Guides',
   url: 'https://docs.pegasys.fi/',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'ignore',
   favicon: 'img/pegasys.png',
-  organizationName: 'Pegasys-fi', // Usually your GitHub org/user name.
-  projectName: 'Pegasys-fi-docs', // Usually your repo name.
+  organizationName: 'Jingo-fi', // Usually your GitHub org/user name.
+  projectName: 'Jingo-fi-docs', // Usually your repo name.
   themeConfig: {
     image: 'img/twitter_card_bg.jpg',
     prism: {
@@ -31,9 +31,9 @@ module.exports = {
       appId: 'ULGD82ZSGJ',
     },
     navbar: {
-      title: 'Pegasys-fi Docs',
+      title: 'Jingo-fi Docs',
       logo: {
-        alt: 'Pegasys-fi Unicorn',
+        alt: 'Jingo-fi Unicorn',
         src: 'img/logoPegasys.svg',
       },
       items: [
@@ -99,7 +99,7 @@ module.exports = {
             // },
             // {
             //   label: 'Bug Bounty',
-            //   href: 'https://github.com/Pegasys-fi/v1-periphery/blob/main/bug-bounty.md',
+            //   href: 'https://github.com/Jingo-Finance/v1-periphery/blob/main/bug-bounty.md',
             // },
             {
               label: '#dev-chat',

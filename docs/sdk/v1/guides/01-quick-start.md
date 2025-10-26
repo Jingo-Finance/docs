@@ -3,11 +3,11 @@ id: quick-start
 title: SDK Quick start
 ---
 
-The Pegasys SDK exists to help developers build on top of Pegasys. It's designed to run in any environment that can execute JavaScript (think websites, node scripts, etc.). While simple enough to use in a hackathon project, it's also robust enough to power production applications.
+The Jingo SDK exists to help developers build on top of Jingo. It's designed to run in any environment that can execute JavaScript (think websites, node scripts, etc.). While simple enough to use in a hackathon project, it's also robust enough to power production applications.
 
 # Installation
 
-The easiest way to consume the SDK is via [npm](https://github.com/Pegasys-fi/v1-sdk). To install it in your project, simply run `yarn add @pegasys-fi/v3-sdk` (or `npm install @pegasys-fi/v3-sdk`).
+The easiest way to consume the SDK is via [npm](https://github.com/Jingo-Finance/v1-sdk). To install it in your project, simply run `yarn add @pegasys-fi/v3-sdk` (or `npm install @pegasys-fi/v3-sdk`).
 
 # Usage
 
@@ -29,4 +29,4 @@ console.log(`The chainId of mainnet is ${PEGASYS.ChainId.MAINNET}.`)
 
 # Reference
 
-Comprehensive reference material for the SDK is publicly available on the [Jingo Finance Github](https://github.com/Pegasys).
+Comprehensive reference material for the SDK is publicly available on the [Jingo Finance Github](https://github.com/Jingo).

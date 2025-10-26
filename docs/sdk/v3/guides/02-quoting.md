@@ -5,7 +5,7 @@ title: Getting a Quote
 
 ## Introduction
 
-This guide will cover how to get the current quotes for any token pair on the Pegasys protocol. It is based on the [Quoting code example](https://github.com/uniswap/examples/tree/main/v3-sdk/quoting), found in the Pegasys code examples [repository](https://github.com/Uniswap/examples). To run this example, check out the examples's [README](https://github.com/uniswap/examples/blob/main/v3-sdk/minting-position/README.md) and follow the setup instructions.
+This guide will cover how to get the current quotes for any token pair on the Jingo protocol. It is based on the [Quoting code example](https://github.com/uniswap/examples/tree/main/v3-sdk/quoting), found in the Jingo code examples [repository](https://github.com/Uniswap/examples). To run this example, check out the examples's [README](https://github.com/uniswap/examples/blob/main/v3-sdk/minting-position/README.md) and follow the setup instructions.
 
 :::info
 If you need a briefer on the SDK and to learn more about how these guides connect to the examples repository, please visit our [background](./01-background.md) page!
@@ -24,7 +24,7 @@ The guide will **cover**:
 
 At the end of the guide, we should be able to fetch a quote for the given input token pair and the input token amount with the press of a button on the web application.
 
-For this guide, the following Pegasys packages are used:
+For this guide, the following Jingo packages are used:
 
 - [`@pegasys-fi/v3-sdk`](https://www.npmjs.com/package/@pollum-io/v3-sdk)
 - [`@pegasys-fi/sdk-core`](https://www.npmjs.com/package/@pollum-io/sdk-core)
@@ -40,7 +40,7 @@ The SDK provides a utility method for that:
 https://github.com/Uniswap/examples/blob/b5e64e3d6c17cb91bc081f1ed17581bbf22024bc/v3-sdk/quoting/src/libs/quote.ts#L40-L45
 ```
 
-Since each *Pegasys V3 Pool* is uniquely identified by 3 characteristics (token in, token out, fee), we use those
+Since each *Jingo V3 Pool* is uniquely identified by 3 characteristics (token in, token out, fee), we use those
 in combination with the address of the *PoolFactory* contract to compute the address of the **USDC - ETH** Pool.
 These parameters have already been defined in our configuration file:
 
@@ -57,9 +57,9 @@ https://github.com/Uniswap/examples/blob/b5e64e3d6c17cb91bc081f1ed17581bbf22024b
 ```
 
 To construct the *Contract* we need to provide the address of the contract, its ABI and the provider that will carry out the RPC call for us.
-We get access to the contract's ABI through the [@pegasys-fi/v3-core](https://www.npmjs.com/package/@pollum-io/v3-core) package, which holds the core smart contracts of the Pegasys V3 protocol:
+We get access to the contract's ABI through the [@pegasys-fi/v3-core](https://www.npmjs.com/package/@pollum-io/v3-core) package, which holds the core smart contracts of the Jingo V3 protocol:
 
-```typescript reference title="Pegasys V3 Pool smart contract ABI" referenceLinkText="View on Github" customStyling
+```typescript reference title="Jingo V3 Pool smart contract ABI" referenceLinkText="View on Github" customStyling
 https://github.com/Uniswap/examples/blob/b5e64e3d6c17cb91bc081f1ed17581bbf22024bc/v3-sdk/quoting/src/libs/quote.ts#L5
 ```
 
@@ -84,15 +84,15 @@ Like we did for the Pool contract, we need to construct an instance of an **ethe
 https://github.com/Uniswap/examples/blob/b5e64e3d6c17cb91bc081f1ed17581bbf22024bc/v3-sdk/quoting/src/libs/quote.ts#L14-L18
 ```
 
-We get access to the contract's ABI through the [@pegasys-fi/v3-periphery](https://www.npmjs.com/package/@pollum-io/v3-periphery) package, which holds the periphery smart contracts of the Pegasys V3 protocol:
+We get access to the contract's ABI through the [@pegasys-fi/v3-periphery](https://www.npmjs.com/package/@pollum-io/v3-periphery) package, which holds the periphery smart contracts of the Jingo V3 protocol:
 
-```typescript reference title="Pegasys V3 Quoter smart contract ABI" referenceLinkText="View on Github" customStyling
+```typescript reference title="Jingo V3 Quoter smart contract ABI" referenceLinkText="View on Github" customStyling
 https://github.com/Uniswap/examples/blob/b5e64e3d6c17cb91bc081f1ed17581bbf22024bc/v3-sdk/quoting/src/libs/quote.ts#L4
 ```
 
 We can now use our Quoter contract to obtain the quote.
 
-In an ideal world, the quoter functions would be `view` functions, which would make them very easy to query on-chain with minimal gas costs. However, the Pegasys V3 Quoter contracts rely on state-changing calls designed to be reverted to return the desired data. This means calling the quoter will be very expensive and should not be called on-chain.
+In an ideal world, the quoter functions would be `view` functions, which would make them very easy to query on-chain with minimal gas costs. However, the Jingo V3 Quoter contracts rely on state-changing calls designed to be reverted to return the desired data. This means calling the quoter will be very expensive and should not be called on-chain.
 
 To get around this difficulty, we can use the `callStatic` method provided by the **ethers.js** `Contract` instances.
 This is a useful method that submits a state-changing transaction to an Ethereum node, but asks the node to simulate the state change, rather than to execute it. Our script can then return the result of the simulated state change:

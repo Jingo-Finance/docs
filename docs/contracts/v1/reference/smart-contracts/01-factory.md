@@ -7,11 +7,11 @@ title: Factory
 
 ## Code
 
-[`PegasysV1Factory.sol`](https://github.com/Pegasys-fi/v1-core/blob/master/contracts/PegasysV1Factory.sol)
+[`PegasysV1Factory.sol`](https://github.com/Jingo-Finance/v1-core/blob/master/contracts/PegasysV1Factory.sol)
 
 # Address
 
-`PegasysV1Factory` is deployed at `0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f` on the Ethereum [mainnet](https://etherscan.io/address/0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f), and the [Ropsten](https://ropsten.etherscan.io/address/0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f), [Rinkeby](https://rinkeby.etherscan.io/address/0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f), [Görli](https://goerli.etherscan.io/address/0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f), and [Kovan](https://kovan.etherscan.io/address/0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f) testnets. It was built from commit [8160750](https://github.com/Pegasys-fi/v1-core/tree/816075049f811f1b061bca81d5d040b96f4c07eb).
+`PegasysV1Factory` is deployed at `0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f` on the Ethereum [mainnet](https://etherscan.io/address/0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f), and the [Ropsten](https://ropsten.etherscan.io/address/0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f), [Rinkeby](https://rinkeby.etherscan.io/address/0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f), [Görli](https://goerli.etherscan.io/address/0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f), and [Kovan](https://kovan.etherscan.io/address/0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f) testnets. It was built from commit [8160750](https://github.com/Jingo-Finance/v1-core/tree/816075049f811f1b061bca81d5d040b96f4c07eb).
 
 # Events
 

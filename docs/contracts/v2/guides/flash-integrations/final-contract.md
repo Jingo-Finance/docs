@@ -22,7 +22,7 @@ import '@pegasys-fi/v3-periphery/contracts/libraries/TransferHelper.sol';
 import '@pegasys-fi/v3-periphery/contracts/interfaces/ISwapRouter.sol';
 
 /// @title Flash contract implementation
-/// @notice An example contract using the Pegasys V3 flash function
+/// @notice An example contract using the Jingo V3 flash function
 contract PairFlash is IPegasysV3FlashCallback, PeripheryImmutableState, PeripheryPayments {
     using LowGasSafeMath for uint256;
     using LowGasSafeMath for int256;

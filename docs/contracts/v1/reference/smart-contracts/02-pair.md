@@ -3,11 +3,11 @@ id: pair
 title: Pair
 ---
 
-This documentation covers Pegasys-specific functionality. For ERC-20 functionality, see [Pair (ERC-20)](../smart-contracts/pair-erc-20).
+This documentation covers Jingo-specific functionality. For ERC-20 functionality, see [Pair (ERC-20)](../smart-contracts/pair-erc-20).
 
 # Code
 
-[`PegasysV1Pair.sol`](https://github.com/Pegasys-fi/v1-core/blob/master/contracts/PegasysV1Pair.sol)
+[`PegasysV1Pair.sol`](https://github.com/Jingo-Finance/v1-core/blob/master/contracts/PegasysV1Pair.sol)
 
 # Address
 

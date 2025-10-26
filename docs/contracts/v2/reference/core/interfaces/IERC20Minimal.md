@@ -1,4 +1,4 @@
-Contains a subset of the full ERC20 interface that is used in Pegasys V3
+Contains a subset of the full ERC20 interface that is used in Jingo V3
 
 ## Functions
 

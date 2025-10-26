@@ -7,7 +7,7 @@ Developing smart contracts for Ethereum involves a bevy of off-chain tools used 
 that runs on the [Ethereum Virtual Machine (EVM)](<https://eth.wiki/en/concepts/evm/ethereum-virtual-machine-(evm)-awesome-list>).
 Some tools also include workflows for deploying this bytecode to the Ethereum network and testnets.
 There are many options for these tools. This guide walks you through writing and testing a simple smart contract that
-interacts with the Pegasys Protocol using one specific set of tools (`truffle` + `npm` + `mocha`).
+interacts with the Jingo Protocol using one specific set of tools (`truffle` + `npm` + `mocha`).
 
 ## Requirements
 
@@ -29,7 +29,7 @@ npx truffle init
 
 ## Setting up npm
 
-In order to reference the Pegasys V1 contracts, you should use the npm artifacts we deploy containing the core and
+In order to reference the Jingo V1 contracts, you should use the npm artifacts we deploy containing the core and
 periphery smart contracts and interfaces. To add npm dependencies, we first initialize the npm package.
 We can run `npm init` in the same directory to create a `package.json` file. You can accept all the defaults and
 change it later.
@@ -49,7 +49,7 @@ npm i --save @pegasys-fi/v1-core
 npm i --save @pegasys-fi/v1-periphery
 ```
 
-If you check the `node_modules/@pegasys-fi` directory, you can now find the Pegasys V1 contracts.
+If you check the `node_modules/@pegasys-fi` directory, you can now find the Jingo V1 contracts.
 
 ```shell script
 moody@MacBook-Pro ~/I/u/demo> ls node_modules/@pegasys-fi/v1-core/contracts
@@ -176,11 +176,11 @@ In order to test your contract, you need to:
 
 \#1 is handled for you automatically by the `truffle test` command.
 
-Note you should only deploy the precompiled Pegasys contracts in the `build` directories for unit tests.
+Note you should only deploy the precompiled Jingo contracts in the `build` directories for unit tests.
 This is because solidity appends a metadata hash to compiled contract artifacts which includes the hash of the contract
 source code path, and compilations on other machines will not result in the exact same bytecode.
-This is problematic because in Pegasys V1 we use the hash of the bytecode in the v1-periphery
-[`PegasysV1Library`](https://github.com/Pegasys-fi/v1-periphery/blob/master/contracts/libraries/PegasysV1Library.sol#L24),
+This is problematic because in Jingo V1 we use the hash of the bytecode in the v1-periphery
+[`PegasysV1Library`](https://github.com/Jingo-Finance/v1-periphery/blob/master/contracts/libraries/PegasysV1Library.sol#L24),
 to compute the pair address.
 
 To get the bytecode for deploying PegasysV1Factory, you can import the file via:

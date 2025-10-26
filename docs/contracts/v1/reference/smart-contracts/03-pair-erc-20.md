@@ -3,11 +3,11 @@ id: Pair-ERC-20
 title: Pair (ERC-20)
 ---
 
-This documentation covers ERC-20 functionality for denominating pool tokens. For Pegasys-specific functionality, see [Pair](../smart-contracts/pair).
+This documentation covers ERC-20 functionality for denominating pool tokens. For Jingo-specific functionality, see [Pair](../smart-contracts/pair).
 
 # Code
 
-[`PegasysV1ERC20.sol`](https://github.com/Pegasys-fi/v1-core/blob/master/contracts/PegasysV1ERC20.sol)
+[`PegasysV1ERC20.sol`](https://github.com/Jingo-Finance/v1-core/blob/master/contracts/PegasysV1ERC20.sol)
 
 # Events
 
@@ -35,7 +35,7 @@ Emitted each time a transfer occurs via [transfer](#transfer-1), [transferFrom](
 function name() external pure returns (string memory);
 ```
 
-Returns `Pegasys V1` for all pairs.
+Returns `Jingo V1` for all pairs.
 
 ## symbol
 

@@ -3,13 +3,13 @@ id: common-errors
 title: Common Errors
 ---
 
-This document covers a few error codes frequently encountered while building on Pegasys V1.
+This document covers a few error codes frequently encountered while building on Jingo V1.
 
 # PegasysV1: K
 
 This is an error that is frequently encountered, and requires a bit of context to understand it.
 
-The Pegasys constant product formula is “X \* Y = K”. Where X and Y represent the respective reserve balances of two ERC-20 tokens, and “K” represents the product of the reserves. It is this “K” to which the “K” error refers.
+The Jingo constant product formula is “X \* Y = K”. Where X and Y represent the respective reserve balances of two ERC-20 tokens, and “K” represents the product of the reserves. It is this “K” to which the “K” error refers.
 
 In essence, the “K” error means that a trade was attempted that somehow left the trading pair with less reserves than should be there, and as a result the transaction is reverted.
 
@@ -45,13 +45,13 @@ A negative rebasing token, the more common variant, deflates the balances of tok
 
 Needless to say, an unenviable position.
 
-Negative rebasing tokens have solved this error by altering their token contract to call [sync](../smart-contracts/pair#sync) on the trading pair at the end of every transaction involving the Pegasys router contract. Those interested in forking the router contract should anticipate that negative rebasing tokens will break the pair until the token contracts are updated to accommodate your new router.
+Negative rebasing tokens have solved this error by altering their token contract to call [sync](../smart-contracts/pair#sync) on the trading pair at the end of every transaction involving the Jingo router contract. Those interested in forking the router contract should anticipate that negative rebasing tokens will break the pair until the token contracts are updated to accommodate your new router.
 
 ### Positive Rebasing Tokens
 
 Positive rebasing tokens arbitrarily increase the balances of token holders. When a positive rebase happens, it creates a surplus that is unaccounted for in the trading pair. Because the extra tokens are unaccounted for in the trading pair, anyone can call skim() on the trading pair and effectively steal the positive difference from the rebalance.
 
-While positive rebalancing does not break any functionality of Pegasys, those interested in them should be aware that the positive balance found in any pair will be freely available for taking.
+While positive rebalancing does not break any functionality of Jingo, those interested in them should be aware that the positive balance found in any pair will be freely available for taking.
 
 ### A Note on Rebasing Tokens
 
@@ -79,7 +79,7 @@ This means the core contract was unable to send tokens to the recipient. This is
 
 This is a result of a transaction that took too long to be broadcast to the mainnet.
 
-Pegasys does not set gas prices natively, so most users default to the suggested gas prices in metamask. Sometimes metamask gets it wrong, though, and sets the gas price too low. If a swap takes more than 20 minutes to execute, the core contract won’t allow it to go through.
+Jingo does not set gas prices natively, so most users default to the suggested gas prices in metamask. Sometimes metamask gets it wrong, though, and sets the gas price too low. If a swap takes more than 20 minutes to execute, the core contract won’t allow it to go through.
 
 # Action Requires an Active Reserve
 
@@ -89,7 +89,7 @@ This is potentially a ganache bug encountered when working on flash swaps. We ha
 
 # Unable To Approve Transaction On The Front End
 
-There are rare circumstances where users are unable to approve a token on the Pegasys front end.
+There are rare circumstances where users are unable to approve a token on the Jingo front end.
 
 This is a result of some token contracts taking steps to defend against malicious contracts that attempt to front run approvals and steal a users tokens. It happens only when the user is trying to increase an approval allowance from a preallocated amount to a larger one, and only happens with a few token contracts.
 

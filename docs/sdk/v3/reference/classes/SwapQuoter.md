@@ -2,7 +2,7 @@
 
 # Class: SwapQuoter
 
-Represents the Pegasys V3 QuoterV1 contract with a method for returning the formatted
+Represents the Jingo V3 QuoterV1 contract with a method for returning the formatted
 calldata needed to call the quoter contract.
 
 ## Table of contents
