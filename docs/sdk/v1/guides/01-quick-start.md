@@ -29,4 +29,4 @@ console.log(`The chainId of mainnet is ${PEGASYS.ChainId.MAINNET}.`)
 
 # Reference
 
-Comprehensive reference material for the SDK is publicly available on the [Pegasys Labs Github](https://github.com/Pegasys).
+Comprehensive reference material for the SDK is publicly available on the [Jingo Finance Github](https://github.com/Pegasys).
