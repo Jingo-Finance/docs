@@ -1,4 +1,4 @@
-[@pegasys-fi/v3-sdk](../README.md) / [Exports](../modules.md) / Position
+[@jingofi/v3-sdk](../README.md) / [Exports](../modules.md) / Position
 
 # Class: Position
 

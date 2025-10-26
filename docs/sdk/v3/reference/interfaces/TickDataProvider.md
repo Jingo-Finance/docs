@@ -1,4 +1,4 @@
-[@pegasys-fi/v3-sdk](../README.md) / [Exports](../modules.md) / TickDataProvider
+[@jingofi/v3-sdk](../README.md) / [Exports](../modules.md) / TickDataProvider
 
 # Interface: TickDataProvider
 

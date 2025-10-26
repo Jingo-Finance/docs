@@ -1,4 +1,4 @@
-[@pegasys-fi/v3-sdk](../README.md) / [Exports](../modules.md) / MintSpecificOptions
+[@jingofi/v3-sdk](../README.md) / [Exports](../modules.md) / MintSpecificOptions
 
 # Interface: MintSpecificOptions
 

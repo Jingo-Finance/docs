@@ -18,16 +18,16 @@ For complete documentation of the SDK's offerings, see the [**Technical Referenc
 To interact with the V3 SDK we recommend installing though npm:
 
 ```bash
-npm i --save @pegasys-fi/v3-sdk
-npm i --save @pegasys-fi/sdk-core
+npm i --save @jingofi/v3-sdk
+npm i --save @jingofi/sdk-core
 ```
 
 ## Developer Links
 
 - [**V3 SDK Github Repo**](https://github.com/Jingo-Finance/v3-sdk)
 - [**Core SDK Github Repo**](https://github.com/Jingo-Finance/sdk-core)
-- [**V3 SDK NPM Package**](https://www.npmjs.com/package/@pollum-io/v3-sdk)
+- [**V3 SDK NPM Package**](https://www.npmjs.com/package/@jingofi/v3-sdk)
 
-[![npm version](https://img.shields.io/npm/v/@pegasys-fi/v3-sdk/latest.svg)](https://www.npmjs.com/package/@pollum-io/v3-sdk/v/latest)
-[![npm bundle size (scoped version)](https://img.shields.io/bundlephobia/minzip/@pegasys-fi/v3-sdk/latest.svg)](https://bundlephobia.com/result?p=@pollum-io/v3-sdk@latest)
+[![npm version](https://img.shields.io/npm/v/@jingofi/v3-sdk/latest.svg)](https://www.npmjs.com/package/@jingofi/v3-sdk/v/latest)
+[![npm bundle size (scoped version)](https://img.shields.io/bundlephobia/minzip/@jingofi/v3-sdk/latest.svg)](https://bundlephobia.com/result?p=@jingofi/v3-sdk@latest)
 [![Discord](https://img.shields.io/badge/discord-join%20chat-blue.svg)](https://discord.com/channels/597638925346930701/607978109089611786)

@@ -1,4 +1,4 @@
-[@pegasys-fi/v3-sdk](../README.md) / [Exports](../modules.md) / CollectOptions
+[@jingofi/v3-sdk](../README.md) / [Exports](../modules.md) / CollectOptions
 
 # Interface: CollectOptions
 

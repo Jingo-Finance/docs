@@ -1,4 +1,4 @@
-[@pegasys-fi/v3-sdk](../README.md) / [Exports](../modules.md) / TickMath
+[@jingofi/v3-sdk](../README.md) / [Exports](../modules.md) / TickMath
 
 # Class: TickMath
 

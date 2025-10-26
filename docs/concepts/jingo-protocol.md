@@ -1,5 +1,5 @@
 ---
-id: pegasys-protocol
+id: jingo-protocol
 title: The Jingo Protocol
 sidebar_position: 2
 ---

@@ -1,4 +1,4 @@
-[@pegasys-fi/v3-sdk](../README.md) / [Exports](../modules.md) / Staker
+[@jingofi/v3-sdk](../README.md) / [Exports](../modules.md) / Staker
 
 # Class: Staker
 

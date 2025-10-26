@@ -1,4 +1,4 @@
-[@pegasys-fi/sdk-core](../README.md) / [Exports](../modules.md) / Ether
+[@jingofi/sdk-core](../README.md) / [Exports](../modules.md) / Ether
 
 # Class: Ether
 

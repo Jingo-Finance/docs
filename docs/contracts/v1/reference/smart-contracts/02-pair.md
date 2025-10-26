@@ -173,7 +173,7 @@ See the <a href='/whitepaper.pdf' target='_blank' rel='noopener noreferrer'>whit
 # Interface
 
 ```solidity
-import '@pegasys-fi/v1-core/contracts/interfaces/IPegasysV1Pair.sol';
+import '@jingofi/v1-core/contracts/interfaces/IPegasysV1Pair.sol';
 ```
 
 ```solidity
@@ -232,7 +232,7 @@ interface IPegasysV1Pair {
 # ABI
 
 ```typescript
-import IPegasysV1Pair from '@pegasys-fi/v1-core/build/IPegasysV1Pair.json'
+import IPegasysV1Pair from '@jingofi/v1-core/build/IPegasysV1Pair.json'
 ```
 
-[https://unpkg.com/@pegasys-fi/v1-core@1.0.0/build/IPegasysV1Pair.json](https://unpkg.com/@pegasys-fi/v1-core@1.0.0/build/IPegasysV1Pair.json)
+[https://unpkg.com/@jingofi/v1-core@1.0.0/build/IPegasysV1Pair.json](https://unpkg.com/@jingofi/v1-core@1.0.0/build/IPegasysV1Pair.json)

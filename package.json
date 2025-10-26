@@ -1,5 +1,5 @@
 {
-  "name": "@pegasys-fi/docs",
+  "name": "@jingofi/docs",
   "description": "Jingo-fi docs",
   "scripts": {
     "docusaurus": "docusaurus",

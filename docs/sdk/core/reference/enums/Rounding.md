@@ -1,4 +1,4 @@
-[@pegasys-fi/sdk-core](../README.md) / [Exports](../modules.md) / Rounding
+[@jingofi/sdk-core](../README.md) / [Exports](../modules.md) / Rounding
 
 # Enumeration: Rounding
 

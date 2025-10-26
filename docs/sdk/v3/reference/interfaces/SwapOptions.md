@@ -1,4 +1,4 @@
-[@pegasys-fi/v3-sdk](../README.md) / [Exports](../modules.md) / SwapOptions
+[@jingofi/v3-sdk](../README.md) / [Exports](../modules.md) / SwapOptions
 
 # Interface: SwapOptions
 

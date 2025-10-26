@@ -1,4 +1,4 @@
-[@pegasys-fi/sdk-core](../README.md) / [Exports](../modules.md) / Token
+[@jingofi/sdk-core](../README.md) / [Exports](../modules.md) / Token
 
 # Class: Token
 

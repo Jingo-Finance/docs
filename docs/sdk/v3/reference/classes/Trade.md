@@ -1,4 +1,4 @@
-[@pegasys-fi/v3-sdk](../README.md) / [Exports](../modules.md) / Trade
+[@jingofi/v3-sdk](../README.md) / [Exports](../modules.md) / Trade
 
 # Class: Trade<TInput, TOutput, TTradeType\>
 

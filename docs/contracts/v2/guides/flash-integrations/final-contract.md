@@ -11,15 +11,15 @@ sidebar_position: 4
 pragma solidity =0.7.6;
 pragma abicoder v2;
 
-import '@pegasys-fi/v3-core/contracts/interfaces/callback/IPegasysV3FlashCallback.sol';
-import '@pegasys-fi/v3-core/contracts/libraries/LowGasSafeMath.sol';
+import '@jingofi/v3-core/contracts/interfaces/callback/IPegasysV3FlashCallback.sol';
+import '@jingofi/v3-core/contracts/libraries/LowGasSafeMath.sol';
 
-import '@pegasys-fi/v3-periphery/contracts/base/PeripheryPayments.sol';
-import '@pegasys-fi/v3-periphery/contracts/base/PeripheryImmutableState.sol';
-import '@pegasys-fi/v3-periphery/contracts/libraries/PoolAddress.sol';
-import '@pegasys-fi/v3-periphery/contracts/libraries/CallbackValidation.sol';
-import '@pegasys-fi/v3-periphery/contracts/libraries/TransferHelper.sol';
-import '@pegasys-fi/v3-periphery/contracts/interfaces/ISwapRouter.sol';
+import '@jingofi/v3-periphery/contracts/base/PeripheryPayments.sol';
+import '@jingofi/v3-periphery/contracts/base/PeripheryImmutableState.sol';
+import '@jingofi/v3-periphery/contracts/libraries/PoolAddress.sol';
+import '@jingofi/v3-periphery/contracts/libraries/CallbackValidation.sol';
+import '@jingofi/v3-periphery/contracts/libraries/TransferHelper.sol';
+import '@jingofi/v3-periphery/contracts/interfaces/ISwapRouter.sol';
 
 /// @title Flash contract implementation
 /// @notice An example contract using the Jingo V3 flash function

@@ -19,13 +19,13 @@ pragma abicoder v2;
 Import the contracts needed from the npm package installation.
 
 ```solidity
-import '@pegasys-fi/v3-core/contracts/interfaces/IPegasysV3Pool.sol';
-import '@pegasys-fi/v3-core/contracts/libraries/TickMath.sol';
+import '@jingofi/v3-core/contracts/interfaces/IPegasysV3Pool.sol';
+import '@jingofi/v3-core/contracts/libraries/TickMath.sol';
 import '@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol';
-import '@pegasys-fi/v3-periphery/contracts/interfaces/ISwapRouter.sol';
-import '@pegasys-fi/v3-periphery/contracts/interfaces/INonfungiblePositionManager.sol';
-import '@pegasys-fi/v3-periphery/contracts/libraries/TransferHelper.sol';
-import '@pegasys-fi/v3-periphery/contracts/base/LiquidityManagement.sol';
+import '@jingofi/v3-periphery/contracts/interfaces/ISwapRouter.sol';
+import '@jingofi/v3-periphery/contracts/interfaces/INonfungiblePositionManager.sol';
+import '@jingofi/v3-periphery/contracts/libraries/TransferHelper.sol';
+import '@jingofi/v3-periphery/contracts/base/LiquidityManagement.sol';
 ```
 
 Create a contract called `LiquidityExamples` and inherit both `IERC721Receiver` and `LiquidityManagement`.
@@ -120,8 +120,8 @@ To add a `Deposit` instance to the `deposits` mapping, create an internal functi
 pragma solidity =0.7.6;
 pragma abicoder v2;
 
-import '@pegasys-fi/v3-core/contracts/interfaces/IPegasysV3Pool.sol';
-import '@pegasys-fi/v3-core/contracts/libraries/TickMath.sol';
+import '@jingofi/v3-core/contracts/interfaces/IPegasysV3Pool.sol';
+import '@jingofi/v3-core/contracts/libraries/TickMath.sol';
 import '@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol';
 import '../libraries/TransferHelper.sol';
 import '../interfaces/INonfungiblePositionManager.sol';

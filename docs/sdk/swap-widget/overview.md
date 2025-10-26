@@ -18,7 +18,7 @@ Pull requests are welcome!
 # Jingo Swap Widget
 
 - [**Swap Widget Github Repo**](https://github.com/Jingo-Finance/widgets)
-- [**Swap Widget NPM Package**](https://www.npmjs.com/package/@pollum-io/widgets)
+- [**Swap Widget NPM Package**](https://www.npmjs.com/package/@jingofi/widgets)
 
-[![npm version](https://img.shields.io/npm/v/@pegasys-fi/widgets/latest.svg)](https://www.npmjs.com/package/@pollum-io/v3-sdk/v/latest)
-[![npm bundle size (scoped version)](https://img.shields.io/bundlephobia/minzip/@pegasys-fi/widgets/latest.svg)](https://bundlephobia.com/result?p=@pollum-io/v3-sdk@latest)
+[![npm version](https://img.shields.io/npm/v/@jingofi/widgets/latest.svg)](https://www.npmjs.com/package/@jingofi/v3-sdk/v/latest)
+[![npm bundle size (scoped version)](https://img.shields.io/bundlephobia/minzip/@jingofi/widgets/latest.svg)](https://bundlephobia.com/result?p=@jingofi/v3-sdk@latest)

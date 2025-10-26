@@ -1,4 +1,4 @@
-[@pegasys-fi/sdk-core](../README.md) / [Exports](../modules.md) / CurrencyAmount
+[@jingofi/sdk-core](../README.md) / [Exports](../modules.md) / CurrencyAmount
 
 # Class: CurrencyAmount<T\>
 

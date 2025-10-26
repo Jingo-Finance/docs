@@ -7,7 +7,7 @@ The Jingo SDK exists to help developers build on top of Jingo. It's designed to 
 
 # Installation
 
-The easiest way to consume the SDK is via [npm](https://github.com/Jingo-Finance/v1-sdk). To install it in your project, simply run `yarn add @pegasys-fi/v3-sdk` (or `npm install @pegasys-fi/v3-sdk`).
+The easiest way to consume the SDK is via [npm](https://github.com/Jingo-Finance/v1-sdk). To install it in your project, simply run `yarn add @jingofi/v3-sdk` (or `npm install @jingofi/v3-sdk`).
 
 # Usage
 
@@ -16,14 +16,14 @@ To run code from the SDK in your application, use an `import` or `require` state
 ## ES6 (import)
 
 ```typescript
-import { ChainId } from '@pegasys-fi/v3-sdk'
+import { ChainId } from '@jingofi/v3-sdk'
 console.log(`The chainId of mainnet is ${ChainId.MAINNET}.`)
 ```
 
 ## CommonJS (require)
 
 ```typescript
-const PEGASYS = require('@pegasys-fi/v3-sdk')
+const PEGASYS = require('@jingofi/v3-sdk')
 console.log(`The chainId of mainnet is ${PEGASYS.ChainId.MAINNET}.`)
 ```
 

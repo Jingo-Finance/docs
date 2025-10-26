@@ -11,8 +11,8 @@ Below we have the complete functioning code example: a contract that can custody
 pragma solidity =0.7.6;
 pragma abicoder v2;
 
-import '@pegasys-fi/v3-core/contracts/interfaces/IPegasysV3Pool.sol';
-import '@pegasys-fi/v3-core/contracts/libraries/TickMath.sol';
+import '@jingofi/v3-core/contracts/interfaces/IPegasysV3Pool.sol';
+import '@jingofi/v3-core/contracts/libraries/TickMath.sol';
 import '@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol';
 import '../libraries/TransferHelper.sol';
 import '../interfaces/INonfungiblePositionManager.sol';

@@ -1,4 +1,4 @@
-[@pegasys-fi/v3-sdk](../README.md) / [Exports](../modules.md) / WithdrawOptions
+[@jingofi/v3-sdk](../README.md) / [Exports](../modules.md) / WithdrawOptions
 
 # Interface: WithdrawOptions
 

@@ -26,8 +26,8 @@ At the end of the guide, we should be able to fetch a quote for the given input 
 
 For this guide, the following Jingo packages are used:
 
-- [`@pegasys-fi/v3-sdk`](https://www.npmjs.com/package/@pollum-io/v3-sdk)
-- [`@pegasys-fi/sdk-core`](https://www.npmjs.com/package/@pollum-io/sdk-core)
+- [`@jingofi/v3-sdk`](https://www.npmjs.com/package/@jingofi/v3-sdk)
+- [`@jingofi/sdk-core`](https://www.npmjs.com/package/@jingofi/sdk-core)
 
 The core code of this guide can be found in [`quote.ts`](https://github.com/uniswap/examples/blob/main/v3-sdk/quoting/src/libs/quote.ts)
 
@@ -57,7 +57,7 @@ https://github.com/Uniswap/examples/blob/b5e64e3d6c17cb91bc081f1ed17581bbf22024b
 ```
 
 To construct the *Contract* we need to provide the address of the contract, its ABI and the provider that will carry out the RPC call for us.
-We get access to the contract's ABI through the [@pegasys-fi/v3-core](https://www.npmjs.com/package/@pollum-io/v3-core) package, which holds the core smart contracts of the Jingo V3 protocol:
+We get access to the contract's ABI through the [@jingofi/v3-core](https://www.npmjs.com/package/@jingofi/v3-core) package, which holds the core smart contracts of the Jingo V3 protocol:
 
 ```typescript reference title="Jingo V3 Pool smart contract ABI" referenceLinkText="View on Github" customStyling
 https://github.com/Uniswap/examples/blob/b5e64e3d6c17cb91bc081f1ed17581bbf22024bc/v3-sdk/quoting/src/libs/quote.ts#L5
@@ -84,7 +84,7 @@ Like we did for the Pool contract, we need to construct an instance of an **ethe
 https://github.com/Uniswap/examples/blob/b5e64e3d6c17cb91bc081f1ed17581bbf22024bc/v3-sdk/quoting/src/libs/quote.ts#L14-L18
 ```
 
-We get access to the contract's ABI through the [@pegasys-fi/v3-periphery](https://www.npmjs.com/package/@pollum-io/v3-periphery) package, which holds the periphery smart contracts of the Jingo V3 protocol:
+We get access to the contract's ABI through the [@jingofi/v3-periphery](https://www.npmjs.com/package/@jingofi/v3-periphery) package, which holds the periphery smart contracts of the Jingo V3 protocol:
 
 ```typescript reference title="Jingo V3 Quoter smart contract ABI" referenceLinkText="View on Github" customStyling
 https://github.com/Uniswap/examples/blob/b5e64e3d6c17cb91bc081f1ed17581bbf22024bc/v3-sdk/quoting/src/libs/quote.ts#L4

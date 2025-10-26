@@ -1,4 +1,4 @@
-[@pegasys-fi/sdk-core](../README.md) / [Exports](../modules.md) / Fraction
+[@jingofi/sdk-core](../README.md) / [Exports](../modules.md) / Fraction
 
 # Class: Fraction
 

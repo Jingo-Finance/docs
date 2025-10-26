@@ -26,9 +26,9 @@ At the end of the guide, given the inputs above, we should be able to mint a liq
 
 For this guide, the following Jingo packages are used:
 
-- [`@pegasys-fi/v3-sdk`](https://www.npmjs.com/package/@pollum-io/v3-sdk)
-- [`@pegasys-fi/sdk-core`](https://www.npmjs.com/package/@pollum-io/sdk-core)
-- [`@pegasys-fi/smart-order-router`](https://www.npmjs.com/package/@pollum-io/smart-order-router)
+- [`@jingofi/v3-sdk`](https://www.npmjs.com/package/@jingofi/v3-sdk)
+- [`@jingofi/sdk-core`](https://www.npmjs.com/package/@jingofi/sdk-core)
+- [`@jingofi/smart-order-router`](https://www.npmjs.com/package/@jingofi/smart-order-router)
 
 The core code of this guide can be found in [`mintPosition()`](https://github.com/uniswap/examples/blob/main/v3-sdk/minting-position/src/libs/positions.ts#L37)
 

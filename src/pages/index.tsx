@@ -59,7 +59,7 @@ export const developerLinks = [
   // },
   {
     title: 'widgets',
-    href: 'https://www.npmjs.com/package/@pollum-io/widgets',
+    href: 'https://www.npmjs.com/package/@jingofi/widgets',
     icon: Npm,
   },
 ]

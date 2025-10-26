@@ -530,7 +530,7 @@ Identical to [swapExactTokensForETH](#swapexacttokensforeth), but succeeds for t
 # Interface
 
 ```solidity
-import '@pegasys-fi/v1-periphery/contracts/interfaces/IPegasysV1Router02.sol';
+import '@jingofi/v1-periphery/contracts/interfaces/IPegasysV1Router02.sol';
 ```
 
 ```solidity
@@ -675,7 +675,7 @@ interface IPegasysV1Router02 is IPegasysV1Router01 {
 # ABI
 
 ```typescript
-import IPegasysV1Router02 from '@pegasys-fi/v1-periphery/build/IPegasysV1Router02.json'
+import IPegasysV1Router02 from '@jingofi/v1-periphery/build/IPegasysV1Router02.json'
 ```
 
-[https://unpkg.com/@pegasys-fi/v1-periphery@1.1.0-beta.0/build/IPegasysV1Router02.json](https://unpkg.com/@pegasys-fi/v1-periphery@1.1.0-beta.0/build/IPegasysV1Router02.json)
+[https://unpkg.com/@jingofi/v1-periphery@1.1.0-beta.0/build/IPegasysV1Router02.json](https://unpkg.com/@jingofi/v1-periphery@1.1.0-beta.0/build/IPegasysV1Router02.json)

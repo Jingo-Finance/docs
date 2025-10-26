@@ -1,4 +1,4 @@
-[@pegasys-fi/v3-sdk](../README.md) / [Exports](../modules.md) / RemoveLiquidityOptions
+[@jingofi/v3-sdk](../README.md) / [Exports](../modules.md) / RemoveLiquidityOptions
 
 # Interface: RemoveLiquidityOptions
 

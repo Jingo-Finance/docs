@@ -1,4 +1,4 @@
-[@pegasys-fi/v3-sdk](../README.md) / [Exports](../modules.md) / Route
+[@jingofi/v3-sdk](../README.md) / [Exports](../modules.md) / Route
 
 # Class: Route<TInput, TOutput\>
 

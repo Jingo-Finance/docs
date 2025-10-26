@@ -1,6 +1,6 @@
-import { CurrencyAmount, Percent, Token } from '@pegasys-fi/sdk-core'
-import { abi as IPegasysV3PoolABI } from '@pegasys-fi/v3-core/artifacts/contracts/interfaces/IPegasysV3Pool.sol/IPegasysV3Pool.json'
-import { nearestUsableTick, NonfungiblePositionManager, Pool, Position } from '@pegasys-fi/v3-sdk'
+import { CurrencyAmount, Percent, Token } from '@jingofi/sdk-core'
+import { abi as IPegasysV3PoolABI } from '@jingofi/v3-core/artifacts/contracts/interfaces/IPegasysV3Pool.sol/IPegasysV3Pool.json'
+import { nearestUsableTick, NonfungiblePositionManager, Pool, Position } from '@jingofi/v3-sdk'
 import { ethers } from 'ethers'
 
 // default uses “http://localhost:8545”

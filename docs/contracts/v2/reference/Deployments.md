@@ -5,7 +5,7 @@ title: Deployment Addresses
 
 # Jingo Contract Deployments
 
-The latest version of `@pegasys-fi/v3-core`, `@pegasys-fi/v3-periphery`, `@pegasys-fi/swap-router-contracts`, and `@pegasys-fi/v3-staker` are deployed at the addresses listed below. Integrators should **no longer assume that they are deployed to the same addresses across chains** and be extremely careful to confirm mappings below.
+The latest version of `@jingofi/v3-core`, `@jingofi/v3-periphery`, `@jingofi/swap-router-contracts`, and `@jingofi/v3-staker` are deployed at the addresses listed below. Integrators should **no longer assume that they are deployed to the same addresses across chains** and be extremely careful to confirm mappings below.
 
 | Contract                                                                                                                                                     | Mainnet, Polygon, Optimism, Arbitrum, Testnets Address | Celo Address                                 |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------ | -------------------------------------------- |
@@ -32,10 +32,10 @@ The new `UniversalRouter` has been deployed to the following addresses on the fo
 
 These addresses are final and were deployed from these npm package versions:
 
-- [`@pegasys-fi/v3-core@1.0.0`](https://github.com/Jingo-Finance/v3-core/tree/v1.0.0)
-- [`@pegasys-fi/v3-periphery@1.0.0`](https://github.com/Jingo-Finance/v3-periphery/tree/v1.0.0)
-- [`@pegasys-fi/swap-router-contracts@1.1.0`](https://github.com/Jingo-Finance/swap-router-contracts/tree/v1.1.0)
-- [`@pegasys-fi/v3-staker@1.0.2`](https://github.com/Jingo-Finance/v3-staker/tree/v1.0.2)
+- [`@jingofi/v3-core@1.0.0`](https://github.com/Jingo-Finance/v3-core/tree/v1.0.0)
+- [`@jingofi/v3-periphery@1.0.0`](https://github.com/Jingo-Finance/v3-periphery/tree/v1.0.0)
+- [`@jingofi/swap-router-contracts@1.1.0`](https://github.com/Jingo-Finance/swap-router-contracts/tree/v1.1.0)
+- [`@jingofi/v3-staker@1.0.2`](https://github.com/Jingo-Finance/v3-staker/tree/v1.0.2)
 
 # Jingo Pool Deployments
 

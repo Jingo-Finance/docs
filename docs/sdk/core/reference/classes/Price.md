@@ -1,4 +1,4 @@
-[@pegasys-fi/sdk-core](../README.md) / [Exports](../modules.md) / Price
+[@jingofi/sdk-core](../README.md) / [Exports](../modules.md) / Price
 
 # Class: Price<TBase, TQuote\>
 
