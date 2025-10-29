@@ -22,8 +22,8 @@ At the end of the guide, given the inputs above, we should be able to collect th
 
 For this guide, the following Jingo packages are used:
 
-- [`@jingofi/v3-sdk`](https://www.npmjs.com/package/@pollum-io/v3-sdk)
-- [`@jingofi/sdk-core`](https://www.npmjs.com/package/@pollum-io/sdk-core)
+- [`@jingofi/v3-sdk`](https://www.npmjs.com/package/@jingofi/v3-sdk)
+- [`@jingofi/sdk-core`](https://www.npmjs.com/package/@jingofi/sdk-core)
 
 The core code of this guide can be found in [`collectFees()`](https://github.com/uniswap/examples/blob/main/v3-sdk/collecting-fees/src/libs/liquidity.ts#L35).
 

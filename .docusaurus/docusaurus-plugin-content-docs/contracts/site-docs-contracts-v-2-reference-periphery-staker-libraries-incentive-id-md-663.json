@@ -14,8 +14,8 @@
   "frontMatter": {},
   "sidebar": "defaultSidebar",
   "previous": {
-    "title": "IPegasysV3Staker",
-    "permalink": "/contracts/v2/reference/periphery/staker/interfaces/IPegasysV3Staker"
+    "title": "IJingoV3Staker",
+    "permalink": "/contracts/v2/reference/periphery/staker/interfaces/IJingoV3Staker"
   },
   "next": {
     "title": "NFTPositionInfo",

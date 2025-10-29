@@ -14,11 +14,11 @@
   "frontMatter": {},
   "sidebar": "defaultSidebar",
   "previous": {
-    "title": "TestERC20PermitAllowed",
-    "permalink": "/contracts/v2/reference/periphery/test/TestERC20PermitAllowed"
+    "title": "TestJingoV3Callee",
+    "permalink": "/contracts/v2/reference/periphery/test/TestJingoV3Callee"
   },
   "next": {
-    "title": "TestPegasysV3Callee",
-    "permalink": "/contracts/v2/reference/periphery/test/TestPegasysV3Callee"
+    "title": "TestPositionNFTOwner",
+    "permalink": "/contracts/v2/reference/periphery/test/TestPositionNFTOwner"
   }
 }

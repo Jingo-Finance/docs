@@ -22,8 +22,8 @@ At the end of the guide, given the inputs above, we should be able to add or rem
 
 For this guide, the following Jingo packages are used:
 
-- [`@jingofi/v3-sdk`](https://www.npmjs.com/package/@pollum-io/v3-sdk)
-- [`@jingofi/sdk-core`](https://www.npmjs.com/package/@pollum-io/sdk-core)
+- [`@jingofi/v3-sdk`](https://www.npmjs.com/package/@jingofi/v3-sdk)
+- [`@jingofi/sdk-core`](https://www.npmjs.com/package/@jingofi/sdk-core)
 
 The core code of this guide can be found in [`addLiquidity()`](https://github.com/Uniswap/examples/blob/d34a53412dbf905802da2249391788a225719bb8/v3-sdk/modifying-position/src/example/Example.tsx#L33) and [`removeLiquidity()`](https://github.com/Uniswap/examples/blob/733d586070afe2c8cceb35d557a77eac7a19a656/v3-sdk/modifying-position/src/example/Example.tsx#L83)
 

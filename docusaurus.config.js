@@ -186,7 +186,7 @@ module.exports = {
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/JingoDEX',
+              href: 'https://x.com/JingoFinance',
             },
             // {
             //   label: 'Blog',

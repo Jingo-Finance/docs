@@ -41,8 +41,8 @@ npm init
 ## Adding dependencies
 
 Now that we have an npm package, we can add our dependencies. Let's add both the
-[`@jingofi/v1-core`](https://www.npmjs.com/package/@pollum-io/v1-core) and
-[`@jingofi/v1-periphery`](https://www.npmjs.com/package/@pollum-io/v1-periphery) packages.
+[`@jingofi/v1-core`](https://www.npmjs.com/package/@jingofi/v1-core) and
+[`@jingofi/v1-periphery`](https://www.npmjs.com/package/@jingofi/v1-periphery) packages.
 
 ```shell script
 npm i --save @jingofi/v1-core

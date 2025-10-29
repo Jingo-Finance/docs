@@ -14,8 +14,8 @@
   "frontMatter": {},
   "sidebar": "defaultSidebar",
   "previous": {
-    "title": "TestPegasysV3Callee",
-    "permalink": "/contracts/v2/reference/periphery/test/TestPegasysV3Callee"
+    "title": "TestMulticall",
+    "permalink": "/contracts/v2/reference/periphery/test/TestMulticall"
   },
   "next": {
     "title": "TickLensTest",

@@ -17,10 +17,10 @@ We recommend taking a look at the [**Technical Reference**](./reference/overview
 # Resources
 
 - [**SDK Core Github Repo**](https://github.com/Jingo-Finance/sdk-core)
-- [**Core SDK NPM Package**](https://www.npmjs.com/package/@pollum-io/sdk-core)
+- [**Core SDK NPM Package**](https://www.npmjs.com/package/@jingofi/sdk-core)
 
-[![npm version](https://img.shields.io/npm/v/@jingofi/sdk-core/latest.svg)](https://www.npmjs.com/package/@pollum-io/sdk-core/v/latest)
-[![npm bundle size (scoped version)](https://img.shields.io/bundlephobia/minzip/@jingofi/sdk-core/latest.svg)](https://bundlephobia.com/result?p=@pollum-io/sdk-core@latest)
+[![npm version](https://img.shields.io/npm/v/@jingofi/sdk-core/latest.svg)](https://www.npmjs.com/package/@jingofi/sdk-core/v/latest)
+[![npm bundle size (scoped version)](https://img.shields.io/bundlephobia/minzip/@jingofi/sdk-core/latest.svg)](https://bundlephobia.com/result?p=@jingofi/sdk-core@latest)
 [![Discord](https://img.shields.io/badge/discord-join%20chat-blue.svg)](https://discord.com/channels/597638925346930701/607978109089611786)
 
 

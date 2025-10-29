@@ -3,41 +3,6 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '4da'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '7be'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', '2da'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', '680'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', 'baf'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '0bc'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '064'),
-    exact: true
-  },
-  {
     path: '/search',
     component: ComponentCreator('/search', '372'),
     exact: true
@@ -62,7 +27,7 @@ export default [
   },
   {
     path: '/concepts/',
-    component: ComponentCreator('/concepts/', '153'),
+    component: ComponentCreator('/concepts/', '5dd'),
     routes: [
       {
         path: '/concepts/glossary',
@@ -72,13 +37,13 @@ export default [
       },
       {
         path: '/concepts/jingo-protocol',
-        component: ComponentCreator('/concepts/jingo-protocol', 'b3e'),
+        component: ComponentCreator('/concepts/jingo-protocol', 'ab2'),
         exact: true,
         sidebar: "defaultSidebar"
       },
       {
         path: '/concepts/overview',
-        component: ComponentCreator('/concepts/overview', '6c5'),
+        component: ComponentCreator('/concepts/overview', '593'),
         exact: true,
         sidebar: "defaultSidebar"
       },
@@ -128,7 +93,7 @@ export default [
   },
   {
     path: '/contracts/',
-    component: ComponentCreator('/contracts/', '423'),
+    component: ComponentCreator('/contracts/', '838'),
     routes: [
       {
         path: '/contracts/permit2/overview',
@@ -234,7 +199,7 @@ export default [
       },
       {
         path: '/contracts/v1/concepts/protocol-overview/how-jingo-works',
-        component: ComponentCreator('/contracts/v1/concepts/protocol-overview/how-jingo-works', '8d9'),
+        component: ComponentCreator('/contracts/v1/concepts/protocol-overview/how-jingo-works', '080'),
         exact: true,
         sidebar: "defaultSidebar"
       },
@@ -473,20 +438,20 @@ export default [
         sidebar: "defaultSidebar"
       },
       {
-        path: '/contracts/v2/reference/core/interfaces/callback/IPegasysV3FlashCallback',
-        component: ComponentCreator('/contracts/v2/reference/core/interfaces/callback/IPegasysV3FlashCallback', 'fd9'),
+        path: '/contracts/v2/reference/core/interfaces/callback/IJingoV3FlashCallback',
+        component: ComponentCreator('/contracts/v2/reference/core/interfaces/callback/IJingoV3FlashCallback', '784'),
         exact: true,
         sidebar: "defaultSidebar"
       },
       {
-        path: '/contracts/v2/reference/core/interfaces/callback/IPegasysV3MintCallback',
-        component: ComponentCreator('/contracts/v2/reference/core/interfaces/callback/IPegasysV3MintCallback', 'f75'),
+        path: '/contracts/v2/reference/core/interfaces/callback/IJingoV3MintCallback',
+        component: ComponentCreator('/contracts/v2/reference/core/interfaces/callback/IJingoV3MintCallback', '6b2'),
         exact: true,
         sidebar: "defaultSidebar"
       },
       {
-        path: '/contracts/v2/reference/core/interfaces/callback/IPegasysV3SwapCallback',
-        component: ComponentCreator('/contracts/v2/reference/core/interfaces/callback/IPegasysV3SwapCallback', 'ecb'),
+        path: '/contracts/v2/reference/core/interfaces/callback/IJingoV3SwapCallback',
+        component: ComponentCreator('/contracts/v2/reference/core/interfaces/callback/IJingoV3SwapCallback', '68a'),
         exact: true,
         sidebar: "defaultSidebar"
       },
@@ -497,56 +462,74 @@ export default [
         sidebar: "defaultSidebar"
       },
       {
-        path: '/contracts/v2/reference/core/interfaces/IPegasysV3Factory',
-        component: ComponentCreator('/contracts/v2/reference/core/interfaces/IPegasysV3Factory', '854'),
+        path: '/contracts/v2/reference/core/interfaces/IJingoV3Factory',
+        component: ComponentCreator('/contracts/v2/reference/core/interfaces/IJingoV3Factory', 'ea7'),
         exact: true,
         sidebar: "defaultSidebar"
       },
       {
-        path: '/contracts/v2/reference/core/interfaces/IPegasysV3Pool',
-        component: ComponentCreator('/contracts/v2/reference/core/interfaces/IPegasysV3Pool', '68f'),
+        path: '/contracts/v2/reference/core/interfaces/IJingoV3Pool',
+        component: ComponentCreator('/contracts/v2/reference/core/interfaces/IJingoV3Pool', 'c70'),
         exact: true,
         sidebar: "defaultSidebar"
       },
       {
-        path: '/contracts/v2/reference/core/interfaces/IPegasysV3PoolDeployer',
-        component: ComponentCreator('/contracts/v2/reference/core/interfaces/IPegasysV3PoolDeployer', '0aa'),
+        path: '/contracts/v2/reference/core/interfaces/IJingoV3PoolDeployer',
+        component: ComponentCreator('/contracts/v2/reference/core/interfaces/IJingoV3PoolDeployer', 'e81'),
         exact: true,
         sidebar: "defaultSidebar"
       },
       {
-        path: '/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolActions',
-        component: ComponentCreator('/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolActions', '371'),
+        path: '/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolActions',
+        component: ComponentCreator('/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolActions', 'cee'),
         exact: true,
         sidebar: "defaultSidebar"
       },
       {
-        path: '/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolDerivedState',
-        component: ComponentCreator('/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolDerivedState', 'db2'),
+        path: '/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolDerivedState',
+        component: ComponentCreator('/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolDerivedState', '5d3'),
         exact: true,
         sidebar: "defaultSidebar"
       },
       {
-        path: '/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolEvents',
-        component: ComponentCreator('/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolEvents', 'a27'),
+        path: '/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolEvents',
+        component: ComponentCreator('/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolEvents', 'c21'),
         exact: true,
         sidebar: "defaultSidebar"
       },
       {
-        path: '/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolImmutables',
-        component: ComponentCreator('/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolImmutables', 'fcb'),
+        path: '/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolImmutables',
+        component: ComponentCreator('/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolImmutables', '1d9'),
         exact: true,
         sidebar: "defaultSidebar"
       },
       {
-        path: '/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolOwnerActions',
-        component: ComponentCreator('/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolOwnerActions', '7c9'),
+        path: '/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolOwnerActions',
+        component: ComponentCreator('/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolOwnerActions', 'c8e'),
         exact: true,
         sidebar: "defaultSidebar"
       },
       {
-        path: '/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolState',
-        component: ComponentCreator('/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolState', '930'),
+        path: '/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolState',
+        component: ComponentCreator('/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolState', '066'),
+        exact: true,
+        sidebar: "defaultSidebar"
+      },
+      {
+        path: '/contracts/v2/reference/core/JingoV3Factory',
+        component: ComponentCreator('/contracts/v2/reference/core/JingoV3Factory', '1ae'),
+        exact: true,
+        sidebar: "defaultSidebar"
+      },
+      {
+        path: '/contracts/v2/reference/core/JingoV3Pool',
+        component: ComponentCreator('/contracts/v2/reference/core/JingoV3Pool', '086'),
+        exact: true,
+        sidebar: "defaultSidebar"
+      },
+      {
+        path: '/contracts/v2/reference/core/JingoV3PoolDeployer',
+        component: ComponentCreator('/contracts/v2/reference/core/JingoV3PoolDeployer', 'b21'),
         exact: true,
         sidebar: "defaultSidebar"
       },
@@ -649,24 +632,6 @@ export default [
       {
         path: '/contracts/v2/reference/core/libraries/UnsafeMath',
         component: ComponentCreator('/contracts/v2/reference/core/libraries/UnsafeMath', '2b8'),
-        exact: true,
-        sidebar: "defaultSidebar"
-      },
-      {
-        path: '/contracts/v2/reference/core/PegasysV3Factory',
-        component: ComponentCreator('/contracts/v2/reference/core/PegasysV3Factory', '6b0'),
-        exact: true,
-        sidebar: "defaultSidebar"
-      },
-      {
-        path: '/contracts/v2/reference/core/PegasysV3Pool',
-        component: ComponentCreator('/contracts/v2/reference/core/PegasysV3Pool', 'b86'),
-        exact: true,
-        sidebar: "defaultSidebar"
-      },
-      {
-        path: '/contracts/v2/reference/core/PegasysV3PoolDeployer',
-        component: ComponentCreator('/contracts/v2/reference/core/PegasysV3PoolDeployer', '969'),
         exact: true,
         sidebar: "defaultSidebar"
       },
@@ -989,8 +954,14 @@ export default [
         sidebar: "defaultSidebar"
       },
       {
-        path: '/contracts/v2/reference/periphery/staker/interfaces/IPegasysV3Staker',
-        component: ComponentCreator('/contracts/v2/reference/periphery/staker/interfaces/IPegasysV3Staker', '34d'),
+        path: '/contracts/v2/reference/periphery/staker/interfaces/IJingoV3Staker',
+        component: ComponentCreator('/contracts/v2/reference/periphery/staker/interfaces/IJingoV3Staker', '8ca'),
+        exact: true,
+        sidebar: "defaultSidebar"
+      },
+      {
+        path: '/contracts/v2/reference/periphery/staker/JingoV3Staker',
+        component: ComponentCreator('/contracts/v2/reference/periphery/staker/JingoV3Staker', '33a'),
         exact: true,
         sidebar: "defaultSidebar"
       },
@@ -1009,12 +980,6 @@ export default [
       {
         path: '/contracts/v2/reference/periphery/staker/libraries/RewardMath',
         component: ComponentCreator('/contracts/v2/reference/periphery/staker/libraries/RewardMath', 'b13'),
-        exact: true,
-        sidebar: "defaultSidebar"
-      },
-      {
-        path: '/contracts/v2/reference/periphery/staker/PegasysV3Staker',
-        component: ComponentCreator('/contracts/v2/reference/periphery/staker/PegasysV3Staker', 'f06'),
         exact: true,
         sidebar: "defaultSidebar"
       },
@@ -1103,14 +1068,14 @@ export default [
         sidebar: "defaultSidebar"
       },
       {
-        path: '/contracts/v2/reference/periphery/test/TestMulticall',
-        component: ComponentCreator('/contracts/v2/reference/periphery/test/TestMulticall', '69c'),
+        path: '/contracts/v2/reference/periphery/test/TestJingoV3Callee',
+        component: ComponentCreator('/contracts/v2/reference/periphery/test/TestJingoV3Callee', 'c95'),
         exact: true,
         sidebar: "defaultSidebar"
       },
       {
-        path: '/contracts/v2/reference/periphery/test/TestPegasysV3Callee',
-        component: ComponentCreator('/contracts/v2/reference/periphery/test/TestPegasysV3Callee', '4fc'),
+        path: '/contracts/v2/reference/periphery/test/TestMulticall',
+        component: ComponentCreator('/contracts/v2/reference/periphery/test/TestMulticall', '69c'),
         exact: true,
         sidebar: "defaultSidebar"
       },

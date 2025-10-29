@@ -13,7 +13,7 @@ Welcome to the Jingo Protocol V1 SDK. To begin, we recommend looking at the [**G
 
 - [**V1 SDK Github**](https://github.com/Jingo-Finance/v1-sdk)
 - [**SDK Core Github**](https://github.com/Jingo-Finance/sdk-core)
-- [**SDK NPM Package**](https://www.npmjs.com/package/@pollum-io/v1-sdk)
+- [**SDK NPM Package**](https://www.npmjs.com/package/@jingofi/v1-sdk)
 
-[![npm version](https://img.shields.io/npm/v/@jingofi/v1-sdk/latest.svg)](https://www.npmjs.com/package/@pollum-io/v1-sdk/v/latest)
-[![npm bundle size (scoped version)](https://img.shields.io/bundlephobia/minzip/@jingofi/v1-sdk/latest.svg)](https://bundlephobia.com/result?p=@pollum-io/v1-sdk@latest)
+[![npm version](https://img.shields.io/npm/v/@jingofi/v1-sdk/latest.svg)](https://www.npmjs.com/package/@jingofi/v1-sdk/v/latest)
+[![npm bundle size (scoped version)](https://img.shields.io/bundlephobia/minzip/@jingofi/v1-sdk/latest.svg)](https://bundlephobia.com/result?p=@jingofi/v1-sdk@latest)

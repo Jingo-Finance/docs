@@ -14,8 +14,8 @@
   "frontMatter": {},
   "sidebar": "defaultSidebar",
   "previous": {
-    "title": "IPegasysV3PoolState",
-    "permalink": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolState"
+    "title": "IJingoV3PoolState",
+    "permalink": "/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolState"
   },
   "next": {
     "title": "FixedPoint128",

@@ -18,7 +18,7 @@
     "permalink": "/contracts/v2/reference/periphery/test/TestERC20Metadata"
   },
   "next": {
-    "title": "TestMulticall",
-    "permalink": "/contracts/v2/reference/periphery/test/TestMulticall"
+    "title": "TestJingoV3Callee",
+    "permalink": "/contracts/v2/reference/periphery/test/TestJingoV3Callee"
   }
 }

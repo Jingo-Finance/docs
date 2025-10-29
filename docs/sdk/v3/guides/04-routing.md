@@ -23,9 +23,9 @@ At the end of the guide, we should be able to create a route and and execute a s
 
 For this guide, the following Jingo packages are used:
 
-- [`@jingofi/v3-sdk`](https://www.npmjs.com/package/@pollum-io/v3-sdk)
-- [`@jingofi/sdk-core`](https://www.npmjs.com/package/@pollum-io/sdk-core)
-- [`@jingofi/smart-order-router`](https://www.npmjs.com/package/@pollum-io/smart-order-router)
+- [`@jingofi/v3-sdk`](https://www.npmjs.com/package/@jingofi/v3-sdk)
+- [`@jingofi/sdk-core`](https://www.npmjs.com/package/@jingofi/sdk-core)
+- [`@jingofi/smart-order-router`](https://www.npmjs.com/package/@jingofi/smart-order-router)
 
 The core code of this guide can be found in [`routing.ts`](https://github.com/uniswap/examples/blob/main/v3-sdk/routing/src/libs/routing.ts)
 

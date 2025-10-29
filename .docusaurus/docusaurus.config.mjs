@@ -5,7 +5,7 @@
  */
 export default {
   "customFields": {
-    "nodeEnv": "development"
+    "nodeEnv": "production"
   },
   "title": "Jingo",
   "tagline": "Documentation and Guides",
@@ -290,7 +290,7 @@ export default {
             },
             {
               "label": "Twitter",
-              "href": "https://twitter.com/JingoDEX"
+              "href": "https://x.com/JingoFinance"
             }
           ]
         }

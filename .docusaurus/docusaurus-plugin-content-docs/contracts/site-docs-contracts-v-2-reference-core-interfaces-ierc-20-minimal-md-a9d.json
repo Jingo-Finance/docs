@@ -14,11 +14,11 @@
   "frontMatter": {},
   "sidebar": "defaultSidebar",
   "previous": {
-    "title": "PegasysV3PoolDeployer",
-    "permalink": "/contracts/v2/reference/core/PegasysV3PoolDeployer"
+    "title": "JingoV3PoolDeployer",
+    "permalink": "/contracts/v2/reference/core/JingoV3PoolDeployer"
   },
   "next": {
-    "title": "IPegasysV3Factory",
-    "permalink": "/contracts/v2/reference/core/interfaces/IPegasysV3Factory"
+    "title": "IJingoV3Factory",
+    "permalink": "/contracts/v2/reference/core/interfaces/IJingoV3Factory"
   }
 }

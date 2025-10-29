@@ -505,12 +505,12 @@
               "id": "v1/concepts/protocol-overview/how-jingo-works",
               "title": "How Jingo works",
               "description": "Jingo is an automated liquidity protocol powered by a constant product formula",
-              "source": "@site/docs/contracts/v1/concepts/01-protocol-overview/01-how-pegasys-works.md",
+              "source": "@site/docs/contracts/v1/concepts/01-protocol-overview/01-how-jingo-works.md",
               "sourceDirName": "v1/concepts/01-protocol-overview",
               "slug": "/v1/concepts/protocol-overview/how-jingo-works",
               "permalink": "/contracts/v1/concepts/protocol-overview/how-jingo-works",
               "draft": false,
-              "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v1/concepts/01-protocol-overview/01-how-pegasys-works.md",
+              "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v1/concepts/01-protocol-overview/01-how-jingo-works.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -1627,75 +1627,75 @@
               }
             },
             {
-              "unversionedId": "v2/reference/core/interfaces/callback/IPegasysV3FlashCallback",
-              "id": "v2/reference/core/interfaces/callback/IPegasysV3FlashCallback",
-              "title": "IPegasysV3FlashCallback",
+              "unversionedId": "v2/reference/core/interfaces/callback/IJingoV3FlashCallback",
+              "id": "v2/reference/core/interfaces/callback/IJingoV3FlashCallback",
+              "title": "IJingoV3FlashCallback",
               "description": "Any contract that calls IJingoV3PoolActions#flash must implement this interface",
-              "source": "@site/docs/contracts/v2/reference/core/interfaces/callback/IPegasysV3FlashCallback.md",
+              "source": "@site/docs/contracts/v2/reference/core/interfaces/callback/IJingoV3FlashCallback.md",
               "sourceDirName": "v2/reference/core/interfaces/callback",
-              "slug": "/v2/reference/core/interfaces/callback/IPegasysV3FlashCallback",
-              "permalink": "/contracts/v2/reference/core/interfaces/callback/IPegasysV3FlashCallback",
+              "slug": "/v2/reference/core/interfaces/callback/IJingoV3FlashCallback",
+              "permalink": "/contracts/v2/reference/core/interfaces/callback/IJingoV3FlashCallback",
               "draft": false,
-              "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v2/reference/core/interfaces/callback/IPegasysV3FlashCallback.md",
+              "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v2/reference/core/interfaces/callback/IJingoV3FlashCallback.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "defaultSidebar",
               "previous": {
-                "title": "IPegasysV3PoolDeployer",
-                "permalink": "/contracts/v2/reference/core/interfaces/IPegasysV3PoolDeployer"
+                "title": "IJingoV3PoolDeployer",
+                "permalink": "/contracts/v2/reference/core/interfaces/IJingoV3PoolDeployer"
               },
               "next": {
-                "title": "IPegasysV3MintCallback",
-                "permalink": "/contracts/v2/reference/core/interfaces/callback/IPegasysV3MintCallback"
+                "title": "IJingoV3MintCallback",
+                "permalink": "/contracts/v2/reference/core/interfaces/callback/IJingoV3MintCallback"
               }
             },
             {
-              "unversionedId": "v2/reference/core/interfaces/callback/IPegasysV3MintCallback",
-              "id": "v2/reference/core/interfaces/callback/IPegasysV3MintCallback",
-              "title": "IPegasysV3MintCallback",
+              "unversionedId": "v2/reference/core/interfaces/callback/IJingoV3MintCallback",
+              "id": "v2/reference/core/interfaces/callback/IJingoV3MintCallback",
+              "title": "IJingoV3MintCallback",
               "description": "Any contract that calls IJingoV3PoolActions#mint must implement this interface",
-              "source": "@site/docs/contracts/v2/reference/core/interfaces/callback/IPegasysV3MintCallback.md",
+              "source": "@site/docs/contracts/v2/reference/core/interfaces/callback/IJingoV3MintCallback.md",
               "sourceDirName": "v2/reference/core/interfaces/callback",
-              "slug": "/v2/reference/core/interfaces/callback/IPegasysV3MintCallback",
-              "permalink": "/contracts/v2/reference/core/interfaces/callback/IPegasysV3MintCallback",
+              "slug": "/v2/reference/core/interfaces/callback/IJingoV3MintCallback",
+              "permalink": "/contracts/v2/reference/core/interfaces/callback/IJingoV3MintCallback",
               "draft": false,
-              "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v2/reference/core/interfaces/callback/IPegasysV3MintCallback.md",
+              "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v2/reference/core/interfaces/callback/IJingoV3MintCallback.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "defaultSidebar",
               "previous": {
-                "title": "IPegasysV3FlashCallback",
-                "permalink": "/contracts/v2/reference/core/interfaces/callback/IPegasysV3FlashCallback"
+                "title": "IJingoV3FlashCallback",
+                "permalink": "/contracts/v2/reference/core/interfaces/callback/IJingoV3FlashCallback"
               },
               "next": {
-                "title": "IPegasysV3SwapCallback",
-                "permalink": "/contracts/v2/reference/core/interfaces/callback/IPegasysV3SwapCallback"
+                "title": "IJingoV3SwapCallback",
+                "permalink": "/contracts/v2/reference/core/interfaces/callback/IJingoV3SwapCallback"
               }
             },
             {
-              "unversionedId": "v2/reference/core/interfaces/callback/IPegasysV3SwapCallback",
-              "id": "v2/reference/core/interfaces/callback/IPegasysV3SwapCallback",
-              "title": "IPegasysV3SwapCallback",
+              "unversionedId": "v2/reference/core/interfaces/callback/IJingoV3SwapCallback",
+              "id": "v2/reference/core/interfaces/callback/IJingoV3SwapCallback",
+              "title": "IJingoV3SwapCallback",
               "description": "Any contract that calls IJingoV3PoolActions#swap must implement this interface",
-              "source": "@site/docs/contracts/v2/reference/core/interfaces/callback/IPegasysV3SwapCallback.md",
+              "source": "@site/docs/contracts/v2/reference/core/interfaces/callback/IJingoV3SwapCallback.md",
               "sourceDirName": "v2/reference/core/interfaces/callback",
-              "slug": "/v2/reference/core/interfaces/callback/IPegasysV3SwapCallback",
-              "permalink": "/contracts/v2/reference/core/interfaces/callback/IPegasysV3SwapCallback",
+              "slug": "/v2/reference/core/interfaces/callback/IJingoV3SwapCallback",
+              "permalink": "/contracts/v2/reference/core/interfaces/callback/IJingoV3SwapCallback",
               "draft": false,
-              "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v2/reference/core/interfaces/callback/IPegasysV3SwapCallback.md",
+              "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v2/reference/core/interfaces/callback/IJingoV3SwapCallback.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "defaultSidebar",
               "previous": {
-                "title": "IPegasysV3MintCallback",
-                "permalink": "/contracts/v2/reference/core/interfaces/callback/IPegasysV3MintCallback"
+                "title": "IJingoV3MintCallback",
+                "permalink": "/contracts/v2/reference/core/interfaces/callback/IJingoV3MintCallback"
               },
               "next": {
-                "title": "IPegasysV3PoolActions",
-                "permalink": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolActions"
+                "title": "IJingoV3PoolActions",
+                "permalink": "/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolActions"
               }
             },
             {
@@ -1714,25 +1714,25 @@
               "frontMatter": {},
               "sidebar": "defaultSidebar",
               "previous": {
-                "title": "PegasysV3PoolDeployer",
-                "permalink": "/contracts/v2/reference/core/PegasysV3PoolDeployer"
+                "title": "JingoV3PoolDeployer",
+                "permalink": "/contracts/v2/reference/core/JingoV3PoolDeployer"
               },
               "next": {
-                "title": "IPegasysV3Factory",
-                "permalink": "/contracts/v2/reference/core/interfaces/IPegasysV3Factory"
+                "title": "IJingoV3Factory",
+                "permalink": "/contracts/v2/reference/core/interfaces/IJingoV3Factory"
               }
             },
             {
-              "unversionedId": "v2/reference/core/interfaces/IPegasysV3Factory",
-              "id": "v2/reference/core/interfaces/IPegasysV3Factory",
-              "title": "IPegasysV3Factory",
+              "unversionedId": "v2/reference/core/interfaces/IJingoV3Factory",
+              "id": "v2/reference/core/interfaces/IJingoV3Factory",
+              "title": "IJingoV3Factory",
               "description": "The Jingo V3 Factory facilitates creation of Jingo V3 pools and control over the protocol fees",
-              "source": "@site/docs/contracts/v2/reference/core/interfaces/IPegasysV3Factory.md",
+              "source": "@site/docs/contracts/v2/reference/core/interfaces/IJingoV3Factory.md",
               "sourceDirName": "v2/reference/core/interfaces",
-              "slug": "/v2/reference/core/interfaces/IPegasysV3Factory",
-              "permalink": "/contracts/v2/reference/core/interfaces/IPegasysV3Factory",
+              "slug": "/v2/reference/core/interfaces/IJingoV3Factory",
+              "permalink": "/contracts/v2/reference/core/interfaces/IJingoV3Factory",
               "draft": false,
-              "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v2/reference/core/interfaces/IPegasysV3Factory.md",
+              "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v2/reference/core/interfaces/IJingoV3Factory.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
@@ -1742,200 +1742,272 @@
                 "permalink": "/contracts/v2/reference/core/interfaces/IERC20Minimal"
               },
               "next": {
-                "title": "IPegasysV3Pool",
-                "permalink": "/contracts/v2/reference/core/interfaces/IPegasysV3Pool"
+                "title": "IJingoV3Pool",
+                "permalink": "/contracts/v2/reference/core/interfaces/IJingoV3Pool"
               }
             },
             {
-              "unversionedId": "v2/reference/core/interfaces/IPegasysV3Pool",
-              "id": "v2/reference/core/interfaces/IPegasysV3Pool",
-              "title": "IPegasysV3Pool",
+              "unversionedId": "v2/reference/core/interfaces/IJingoV3Pool",
+              "id": "v2/reference/core/interfaces/IJingoV3Pool",
+              "title": "IJingoV3Pool",
               "description": "A Jingo pool facilitates swapping and automated market making between any two assets that strictly conform",
-              "source": "@site/docs/contracts/v2/reference/core/interfaces/IPegasysV3Pool.md",
+              "source": "@site/docs/contracts/v2/reference/core/interfaces/IJingoV3Pool.md",
               "sourceDirName": "v2/reference/core/interfaces",
-              "slug": "/v2/reference/core/interfaces/IPegasysV3Pool",
-              "permalink": "/contracts/v2/reference/core/interfaces/IPegasysV3Pool",
+              "slug": "/v2/reference/core/interfaces/IJingoV3Pool",
+              "permalink": "/contracts/v2/reference/core/interfaces/IJingoV3Pool",
               "draft": false,
-              "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v2/reference/core/interfaces/IPegasysV3Pool.md",
+              "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v2/reference/core/interfaces/IJingoV3Pool.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "defaultSidebar",
               "previous": {
-                "title": "IPegasysV3Factory",
-                "permalink": "/contracts/v2/reference/core/interfaces/IPegasysV3Factory"
+                "title": "IJingoV3Factory",
+                "permalink": "/contracts/v2/reference/core/interfaces/IJingoV3Factory"
               },
               "next": {
-                "title": "IPegasysV3PoolDeployer",
-                "permalink": "/contracts/v2/reference/core/interfaces/IPegasysV3PoolDeployer"
+                "title": "IJingoV3PoolDeployer",
+                "permalink": "/contracts/v2/reference/core/interfaces/IJingoV3PoolDeployer"
               }
             },
             {
-              "unversionedId": "v2/reference/core/interfaces/IPegasysV3PoolDeployer",
-              "id": "v2/reference/core/interfaces/IPegasysV3PoolDeployer",
-              "title": "IPegasysV3PoolDeployer",
+              "unversionedId": "v2/reference/core/interfaces/IJingoV3PoolDeployer",
+              "id": "v2/reference/core/interfaces/IJingoV3PoolDeployer",
+              "title": "IJingoV3PoolDeployer",
               "description": "A contract that constructs a pool must implement this to pass arguments to the pool",
-              "source": "@site/docs/contracts/v2/reference/core/interfaces/IPegasysV3PoolDeployer.md",
+              "source": "@site/docs/contracts/v2/reference/core/interfaces/IJingoV3PoolDeployer.md",
               "sourceDirName": "v2/reference/core/interfaces",
-              "slug": "/v2/reference/core/interfaces/IPegasysV3PoolDeployer",
-              "permalink": "/contracts/v2/reference/core/interfaces/IPegasysV3PoolDeployer",
+              "slug": "/v2/reference/core/interfaces/IJingoV3PoolDeployer",
+              "permalink": "/contracts/v2/reference/core/interfaces/IJingoV3PoolDeployer",
               "draft": false,
-              "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v2/reference/core/interfaces/IPegasysV3PoolDeployer.md",
+              "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v2/reference/core/interfaces/IJingoV3PoolDeployer.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "defaultSidebar",
               "previous": {
-                "title": "IPegasysV3Pool",
-                "permalink": "/contracts/v2/reference/core/interfaces/IPegasysV3Pool"
+                "title": "IJingoV3Pool",
+                "permalink": "/contracts/v2/reference/core/interfaces/IJingoV3Pool"
               },
               "next": {
-                "title": "IPegasysV3FlashCallback",
-                "permalink": "/contracts/v2/reference/core/interfaces/callback/IPegasysV3FlashCallback"
+                "title": "IJingoV3FlashCallback",
+                "permalink": "/contracts/v2/reference/core/interfaces/callback/IJingoV3FlashCallback"
               }
             },
             {
-              "unversionedId": "v2/reference/core/interfaces/pool/IPegasysV3PoolActions",
-              "id": "v2/reference/core/interfaces/pool/IPegasysV3PoolActions",
-              "title": "IPegasysV3PoolActions",
+              "unversionedId": "v2/reference/core/interfaces/pool/IJingoV3PoolActions",
+              "id": "v2/reference/core/interfaces/pool/IJingoV3PoolActions",
+              "title": "IJingoV3PoolActions",
               "description": "Contains pool methods that can be called by anyone",
-              "source": "@site/docs/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolActions.md",
+              "source": "@site/docs/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolActions.md",
               "sourceDirName": "v2/reference/core/interfaces/pool",
-              "slug": "/v2/reference/core/interfaces/pool/IPegasysV3PoolActions",
-              "permalink": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolActions",
+              "slug": "/v2/reference/core/interfaces/pool/IJingoV3PoolActions",
+              "permalink": "/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolActions",
               "draft": false,
-              "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolActions.md",
+              "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolActions.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "defaultSidebar",
               "previous": {
-                "title": "IPegasysV3SwapCallback",
-                "permalink": "/contracts/v2/reference/core/interfaces/callback/IPegasysV3SwapCallback"
+                "title": "IJingoV3SwapCallback",
+                "permalink": "/contracts/v2/reference/core/interfaces/callback/IJingoV3SwapCallback"
               },
               "next": {
-                "title": "IPegasysV3PoolDerivedState",
-                "permalink": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolDerivedState"
+                "title": "IJingoV3PoolDerivedState",
+                "permalink": "/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolDerivedState"
               }
             },
             {
-              "unversionedId": "v2/reference/core/interfaces/pool/IPegasysV3PoolDerivedState",
-              "id": "v2/reference/core/interfaces/pool/IPegasysV3PoolDerivedState",
-              "title": "IPegasysV3PoolDerivedState",
+              "unversionedId": "v2/reference/core/interfaces/pool/IJingoV3PoolDerivedState",
+              "id": "v2/reference/core/interfaces/pool/IJingoV3PoolDerivedState",
+              "title": "IJingoV3PoolDerivedState",
               "description": "Contains view functions to provide information about the pool that is computed rather than stored on the",
-              "source": "@site/docs/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolDerivedState.md",
+              "source": "@site/docs/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolDerivedState.md",
               "sourceDirName": "v2/reference/core/interfaces/pool",
-              "slug": "/v2/reference/core/interfaces/pool/IPegasysV3PoolDerivedState",
-              "permalink": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolDerivedState",
+              "slug": "/v2/reference/core/interfaces/pool/IJingoV3PoolDerivedState",
+              "permalink": "/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolDerivedState",
               "draft": false,
-              "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolDerivedState.md",
+              "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolDerivedState.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "defaultSidebar",
               "previous": {
-                "title": "IPegasysV3PoolActions",
-                "permalink": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolActions"
+                "title": "IJingoV3PoolActions",
+                "permalink": "/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolActions"
               },
               "next": {
-                "title": "IPegasysV3PoolEvents",
-                "permalink": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolEvents"
+                "title": "IJingoV3PoolEvents",
+                "permalink": "/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolEvents"
               }
             },
             {
-              "unversionedId": "v2/reference/core/interfaces/pool/IPegasysV3PoolEvents",
-              "id": "v2/reference/core/interfaces/pool/IPegasysV3PoolEvents",
-              "title": "IPegasysV3PoolEvents",
+              "unversionedId": "v2/reference/core/interfaces/pool/IJingoV3PoolEvents",
+              "id": "v2/reference/core/interfaces/pool/IJingoV3PoolEvents",
+              "title": "IJingoV3PoolEvents",
               "description": "Contains all events emitted by the pool",
-              "source": "@site/docs/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolEvents.md",
+              "source": "@site/docs/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolEvents.md",
               "sourceDirName": "v2/reference/core/interfaces/pool",
-              "slug": "/v2/reference/core/interfaces/pool/IPegasysV3PoolEvents",
-              "permalink": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolEvents",
+              "slug": "/v2/reference/core/interfaces/pool/IJingoV3PoolEvents",
+              "permalink": "/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolEvents",
               "draft": false,
-              "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolEvents.md",
+              "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolEvents.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "defaultSidebar",
               "previous": {
-                "title": "IPegasysV3PoolDerivedState",
-                "permalink": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolDerivedState"
+                "title": "IJingoV3PoolDerivedState",
+                "permalink": "/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolDerivedState"
               },
               "next": {
-                "title": "IPegasysV3PoolImmutables",
-                "permalink": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolImmutables"
+                "title": "IJingoV3PoolImmutables",
+                "permalink": "/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolImmutables"
               }
             },
             {
-              "unversionedId": "v2/reference/core/interfaces/pool/IPegasysV3PoolImmutables",
-              "id": "v2/reference/core/interfaces/pool/IPegasysV3PoolImmutables",
-              "title": "IPegasysV3PoolImmutables",
+              "unversionedId": "v2/reference/core/interfaces/pool/IJingoV3PoolImmutables",
+              "id": "v2/reference/core/interfaces/pool/IJingoV3PoolImmutables",
+              "title": "IJingoV3PoolImmutables",
               "description": "These parameters are fixed for a pool forever, i.e., the methods will always return the same values",
-              "source": "@site/docs/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolImmutables.md",
+              "source": "@site/docs/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolImmutables.md",
               "sourceDirName": "v2/reference/core/interfaces/pool",
-              "slug": "/v2/reference/core/interfaces/pool/IPegasysV3PoolImmutables",
-              "permalink": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolImmutables",
+              "slug": "/v2/reference/core/interfaces/pool/IJingoV3PoolImmutables",
+              "permalink": "/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolImmutables",
               "draft": false,
-              "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolImmutables.md",
+              "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolImmutables.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "defaultSidebar",
               "previous": {
-                "title": "IPegasysV3PoolEvents",
-                "permalink": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolEvents"
+                "title": "IJingoV3PoolEvents",
+                "permalink": "/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolEvents"
               },
               "next": {
-                "title": "IPegasysV3PoolOwnerActions",
-                "permalink": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolOwnerActions"
+                "title": "IJingoV3PoolOwnerActions",
+                "permalink": "/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolOwnerActions"
               }
             },
             {
-              "unversionedId": "v2/reference/core/interfaces/pool/IPegasysV3PoolOwnerActions",
-              "id": "v2/reference/core/interfaces/pool/IPegasysV3PoolOwnerActions",
-              "title": "IPegasysV3PoolOwnerActions",
+              "unversionedId": "v2/reference/core/interfaces/pool/IJingoV3PoolOwnerActions",
+              "id": "v2/reference/core/interfaces/pool/IJingoV3PoolOwnerActions",
+              "title": "IJingoV3PoolOwnerActions",
               "description": "Contains pool methods that may only be called by the factory owner",
-              "source": "@site/docs/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolOwnerActions.md",
+              "source": "@site/docs/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolOwnerActions.md",
               "sourceDirName": "v2/reference/core/interfaces/pool",
-              "slug": "/v2/reference/core/interfaces/pool/IPegasysV3PoolOwnerActions",
-              "permalink": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolOwnerActions",
+              "slug": "/v2/reference/core/interfaces/pool/IJingoV3PoolOwnerActions",
+              "permalink": "/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolOwnerActions",
               "draft": false,
-              "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolOwnerActions.md",
+              "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolOwnerActions.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "defaultSidebar",
               "previous": {
-                "title": "IPegasysV3PoolImmutables",
-                "permalink": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolImmutables"
+                "title": "IJingoV3PoolImmutables",
+                "permalink": "/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolImmutables"
               },
               "next": {
-                "title": "IPegasysV3PoolState",
-                "permalink": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolState"
+                "title": "IJingoV3PoolState",
+                "permalink": "/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolState"
               }
             },
             {
-              "unversionedId": "v2/reference/core/interfaces/pool/IPegasysV3PoolState",
-              "id": "v2/reference/core/interfaces/pool/IPegasysV3PoolState",
-              "title": "IPegasysV3PoolState",
+              "unversionedId": "v2/reference/core/interfaces/pool/IJingoV3PoolState",
+              "id": "v2/reference/core/interfaces/pool/IJingoV3PoolState",
+              "title": "IJingoV3PoolState",
               "description": "These methods compose the pool's state, and can change with any frequency including multiple times",
-              "source": "@site/docs/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolState.md",
+              "source": "@site/docs/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolState.md",
               "sourceDirName": "v2/reference/core/interfaces/pool",
-              "slug": "/v2/reference/core/interfaces/pool/IPegasysV3PoolState",
-              "permalink": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolState",
+              "slug": "/v2/reference/core/interfaces/pool/IJingoV3PoolState",
+              "permalink": "/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolState",
               "draft": false,
-              "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolState.md",
+              "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolState.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "defaultSidebar",
               "previous": {
-                "title": "IPegasysV3PoolOwnerActions",
-                "permalink": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolOwnerActions"
+                "title": "IJingoV3PoolOwnerActions",
+                "permalink": "/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolOwnerActions"
               },
               "next": {
                 "title": "BitMath",
                 "permalink": "/contracts/v2/reference/core/libraries/BitMath"
+              }
+            },
+            {
+              "unversionedId": "v2/reference/core/JingoV3Factory",
+              "id": "v2/reference/core/JingoV3Factory",
+              "title": "JingoV3Factory",
+              "description": "Deploys Jingo V3 pools and manages ownership and control over pool protocol fees",
+              "source": "@site/docs/contracts/v2/reference/core/JingoV3Factory.md",
+              "sourceDirName": "v2/reference/core",
+              "slug": "/v2/reference/core/JingoV3Factory",
+              "permalink": "/contracts/v2/reference/core/JingoV3Factory",
+              "draft": false,
+              "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v2/reference/core/JingoV3Factory.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/contracts/v2/reference/Governance/overview"
+              },
+              "next": {
+                "title": "JingoV3Pool",
+                "permalink": "/contracts/v2/reference/core/JingoV3Pool"
+              }
+            },
+            {
+              "unversionedId": "v2/reference/core/JingoV3Pool",
+              "id": "v2/reference/core/JingoV3Pool",
+              "title": "JingoV3Pool",
+              "description": "Functions",
+              "source": "@site/docs/contracts/v2/reference/core/JingoV3Pool.md",
+              "sourceDirName": "v2/reference/core",
+              "slug": "/v2/reference/core/JingoV3Pool",
+              "permalink": "/contracts/v2/reference/core/JingoV3Pool",
+              "draft": false,
+              "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v2/reference/core/JingoV3Pool.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "JingoV3Factory",
+                "permalink": "/contracts/v2/reference/core/JingoV3Factory"
+              },
+              "next": {
+                "title": "JingoV3PoolDeployer",
+                "permalink": "/contracts/v2/reference/core/JingoV3PoolDeployer"
+              }
+            },
+            {
+              "unversionedId": "v2/reference/core/JingoV3PoolDeployer",
+              "id": "v2/reference/core/JingoV3PoolDeployer",
+              "title": "JingoV3PoolDeployer",
+              "description": "Functions",
+              "source": "@site/docs/contracts/v2/reference/core/JingoV3PoolDeployer.md",
+              "sourceDirName": "v2/reference/core",
+              "slug": "/v2/reference/core/JingoV3PoolDeployer",
+              "permalink": "/contracts/v2/reference/core/JingoV3PoolDeployer",
+              "draft": false,
+              "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v2/reference/core/JingoV3PoolDeployer.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "JingoV3Pool",
+                "permalink": "/contracts/v2/reference/core/JingoV3Pool"
+              },
+              "next": {
+                "title": "IERC20Minimal",
+                "permalink": "/contracts/v2/reference/core/interfaces/IERC20Minimal"
               }
             },
             {
@@ -1954,8 +2026,8 @@
               "frontMatter": {},
               "sidebar": "defaultSidebar",
               "previous": {
-                "title": "IPegasysV3PoolState",
-                "permalink": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolState"
+                "title": "IJingoV3PoolState",
+                "permalink": "/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolState"
               },
               "next": {
                 "title": "FixedPoint128",
@@ -2347,78 +2419,6 @@
               }
             },
             {
-              "unversionedId": "v2/reference/core/PegasysV3Factory",
-              "id": "v2/reference/core/PegasysV3Factory",
-              "title": "PegasysV3Factory",
-              "description": "Deploys Jingo V3 pools and manages ownership and control over pool protocol fees",
-              "source": "@site/docs/contracts/v2/reference/core/PegasysV3Factory.md",
-              "sourceDirName": "v2/reference/core",
-              "slug": "/v2/reference/core/PegasysV3Factory",
-              "permalink": "/contracts/v2/reference/core/PegasysV3Factory",
-              "draft": false,
-              "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v2/reference/core/PegasysV3Factory.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "defaultSidebar",
-              "previous": {
-                "title": "Overview",
-                "permalink": "/contracts/v2/reference/Governance/overview"
-              },
-              "next": {
-                "title": "PegasysV3Pool",
-                "permalink": "/contracts/v2/reference/core/PegasysV3Pool"
-              }
-            },
-            {
-              "unversionedId": "v2/reference/core/PegasysV3Pool",
-              "id": "v2/reference/core/PegasysV3Pool",
-              "title": "PegasysV3Pool",
-              "description": "Functions",
-              "source": "@site/docs/contracts/v2/reference/core/PegasysV3Pool.md",
-              "sourceDirName": "v2/reference/core",
-              "slug": "/v2/reference/core/PegasysV3Pool",
-              "permalink": "/contracts/v2/reference/core/PegasysV3Pool",
-              "draft": false,
-              "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v2/reference/core/PegasysV3Pool.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "defaultSidebar",
-              "previous": {
-                "title": "PegasysV3Factory",
-                "permalink": "/contracts/v2/reference/core/PegasysV3Factory"
-              },
-              "next": {
-                "title": "PegasysV3PoolDeployer",
-                "permalink": "/contracts/v2/reference/core/PegasysV3PoolDeployer"
-              }
-            },
-            {
-              "unversionedId": "v2/reference/core/PegasysV3PoolDeployer",
-              "id": "v2/reference/core/PegasysV3PoolDeployer",
-              "title": "PegasysV3PoolDeployer",
-              "description": "Functions",
-              "source": "@site/docs/contracts/v2/reference/core/PegasysV3PoolDeployer.md",
-              "sourceDirName": "v2/reference/core",
-              "slug": "/v2/reference/core/PegasysV3PoolDeployer",
-              "permalink": "/contracts/v2/reference/core/PegasysV3PoolDeployer",
-              "draft": false,
-              "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v2/reference/core/PegasysV3PoolDeployer.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "defaultSidebar",
-              "previous": {
-                "title": "PegasysV3Pool",
-                "permalink": "/contracts/v2/reference/core/PegasysV3Pool"
-              },
-              "next": {
-                "title": "IERC20Minimal",
-                "permalink": "/contracts/v2/reference/core/interfaces/IERC20Minimal"
-              }
-            },
-            {
               "unversionedId": "v2/reference/deployments",
               "id": "v2/reference/deployments",
               "title": "Deployment Addresses",
@@ -2495,8 +2495,8 @@
                 "permalink": "/contracts/v2/reference/overview"
               },
               "next": {
-                "title": "PegasysV3Factory",
-                "permalink": "/contracts/v2/reference/core/PegasysV3Factory"
+                "title": "JingoV3Factory",
+                "permalink": "/contracts/v2/reference/core/JingoV3Factory"
               }
             },
             {
@@ -3705,31 +3705,59 @@
               },
               "next": {
                 "title": "Jingo V3 Staker Contract",
-                "permalink": "/contracts/v2/reference/periphery/staker/PegasysV3Staker"
+                "permalink": "/contracts/v2/reference/periphery/staker/JingoV3Staker"
               }
             },
             {
-              "unversionedId": "v2/reference/periphery/staker/interfaces/IPegasysV3Staker",
-              "id": "v2/reference/periphery/staker/interfaces/IPegasysV3Staker",
-              "title": "IPegasysV3Staker",
+              "unversionedId": "v2/reference/periphery/staker/interfaces/IJingoV3Staker",
+              "id": "v2/reference/periphery/staker/interfaces/IJingoV3Staker",
+              "title": "IJingoV3Staker",
               "description": "Allows staking nonfungible liquidity tokens in exchange for reward tokens",
-              "source": "@site/docs/contracts/v2/reference/periphery/staker/interfaces/IPegasysV3Staker.md",
+              "source": "@site/docs/contracts/v2/reference/periphery/staker/interfaces/IJingoV3Staker.md",
               "sourceDirName": "v2/reference/periphery/staker/interfaces",
-              "slug": "/v2/reference/periphery/staker/interfaces/IPegasysV3Staker",
-              "permalink": "/contracts/v2/reference/periphery/staker/interfaces/IPegasysV3Staker",
+              "slug": "/v2/reference/periphery/staker/interfaces/IJingoV3Staker",
+              "permalink": "/contracts/v2/reference/periphery/staker/interfaces/IJingoV3Staker",
               "draft": false,
-              "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v2/reference/periphery/staker/interfaces/IPegasysV3Staker.md",
+              "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v2/reference/periphery/staker/interfaces/IJingoV3Staker.md",
               "tags": [],
               "version": "current",
               "frontMatter": {},
               "sidebar": "defaultSidebar",
               "previous": {
                 "title": "Jingo V3 Staker Contract",
-                "permalink": "/contracts/v2/reference/periphery/staker/PegasysV3Staker"
+                "permalink": "/contracts/v2/reference/periphery/staker/JingoV3Staker"
               },
               "next": {
                 "title": "IncentiveId",
                 "permalink": "/contracts/v2/reference/periphery/staker/libraries/IncentiveId"
+              }
+            },
+            {
+              "unversionedId": "v2/reference/periphery/staker/JingoV3Staker",
+              "id": "v2/reference/periphery/staker/JingoV3Staker",
+              "title": "Jingo V3 Staker Contract",
+              "description": "Below is the technical reference for the staker contract, JingoV3Staker.sol. A technical guide for interacting with this staking contract will be released soon.",
+              "source": "@site/docs/contracts/v2/reference/periphery/staker/JingoV3Staker.md",
+              "sourceDirName": "v2/reference/periphery/staker",
+              "slug": "/v2/reference/periphery/staker/JingoV3Staker",
+              "permalink": "/contracts/v2/reference/periphery/staker/JingoV3Staker",
+              "draft": false,
+              "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v2/reference/periphery/staker/JingoV3Staker.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_label": "Jingo V3 Staker Contract",
+                "sidebar_position": 2
+              },
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "Jingo V3 Staker Design",
+                "permalink": "/contracts/v2/reference/periphery/staker/Design"
+              },
+              "next": {
+                "title": "IJingoV3Staker",
+                "permalink": "/contracts/v2/reference/periphery/staker/interfaces/IJingoV3Staker"
               }
             },
             {
@@ -3748,8 +3776,8 @@
               "frontMatter": {},
               "sidebar": "defaultSidebar",
               "previous": {
-                "title": "IPegasysV3Staker",
-                "permalink": "/contracts/v2/reference/periphery/staker/interfaces/IPegasysV3Staker"
+                "title": "IJingoV3Staker",
+                "permalink": "/contracts/v2/reference/periphery/staker/interfaces/IJingoV3Staker"
               },
               "next": {
                 "title": "NFTPositionInfo",
@@ -3802,34 +3830,6 @@
               "next": {
                 "title": "Base64Test",
                 "permalink": "/contracts/v2/reference/periphery/test/Base64Test"
-              }
-            },
-            {
-              "unversionedId": "v2/reference/periphery/staker/PegasysV3Staker",
-              "id": "v2/reference/periphery/staker/PegasysV3Staker",
-              "title": "Jingo V3 Staker Contract",
-              "description": "Below is the technical reference for the staker contract, JingoV3Staker.sol. A technical guide for interacting with this staking contract will be released soon.",
-              "source": "@site/docs/contracts/v2/reference/periphery/staker/PegasysV3Staker.md",
-              "sourceDirName": "v2/reference/periphery/staker",
-              "slug": "/v2/reference/periphery/staker/PegasysV3Staker",
-              "permalink": "/contracts/v2/reference/periphery/staker/PegasysV3Staker",
-              "draft": false,
-              "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v2/reference/periphery/staker/PegasysV3Staker.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_label": "Jingo V3 Staker Contract",
-                "sidebar_position": 2
-              },
-              "sidebar": "defaultSidebar",
-              "previous": {
-                "title": "Jingo V3 Staker Design",
-                "permalink": "/contracts/v2/reference/periphery/staker/Design"
-              },
-              "next": {
-                "title": "IPegasysV3Staker",
-                "permalink": "/contracts/v2/reference/periphery/staker/interfaces/IPegasysV3Staker"
               }
             },
             {
@@ -4164,6 +4164,30 @@
                 "permalink": "/contracts/v2/reference/periphery/test/TestERC20Metadata"
               },
               "next": {
+                "title": "TestJingoV3Callee",
+                "permalink": "/contracts/v2/reference/periphery/test/TestJingoV3Callee"
+              }
+            },
+            {
+              "unversionedId": "v2/reference/periphery/test/TestJingoV3Callee",
+              "id": "v2/reference/periphery/test/TestJingoV3Callee",
+              "title": "TestJingoV3Callee",
+              "description": "Functions",
+              "source": "@site/docs/contracts/v2/reference/periphery/test/TestJingoV3Callee.md",
+              "sourceDirName": "v2/reference/periphery/test",
+              "slug": "/v2/reference/periphery/test/TestJingoV3Callee",
+              "permalink": "/contracts/v2/reference/periphery/test/TestJingoV3Callee",
+              "draft": false,
+              "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v2/reference/periphery/test/TestJingoV3Callee.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {},
+              "sidebar": "defaultSidebar",
+              "previous": {
+                "title": "TestERC20PermitAllowed",
+                "permalink": "/contracts/v2/reference/periphery/test/TestERC20PermitAllowed"
+              },
+              "next": {
                 "title": "TestMulticall",
                 "permalink": "/contracts/v2/reference/periphery/test/TestMulticall"
               }
@@ -4184,32 +4208,8 @@
               "frontMatter": {},
               "sidebar": "defaultSidebar",
               "previous": {
-                "title": "TestERC20PermitAllowed",
-                "permalink": "/contracts/v2/reference/periphery/test/TestERC20PermitAllowed"
-              },
-              "next": {
-                "title": "TestPegasysV3Callee",
-                "permalink": "/contracts/v2/reference/periphery/test/TestPegasysV3Callee"
-              }
-            },
-            {
-              "unversionedId": "v2/reference/periphery/test/TestPegasysV3Callee",
-              "id": "v2/reference/periphery/test/TestPegasysV3Callee",
-              "title": "TestPegasysV3Callee",
-              "description": "Functions",
-              "source": "@site/docs/contracts/v2/reference/periphery/test/TestPegasysV3Callee.md",
-              "sourceDirName": "v2/reference/periphery/test",
-              "slug": "/v2/reference/periphery/test/TestPegasysV3Callee",
-              "permalink": "/contracts/v2/reference/periphery/test/TestPegasysV3Callee",
-              "draft": false,
-              "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v2/reference/periphery/test/TestPegasysV3Callee.md",
-              "tags": [],
-              "version": "current",
-              "frontMatter": {},
-              "sidebar": "defaultSidebar",
-              "previous": {
-                "title": "TestMulticall",
-                "permalink": "/contracts/v2/reference/periphery/test/TestMulticall"
+                "title": "TestJingoV3Callee",
+                "permalink": "/contracts/v2/reference/periphery/test/TestJingoV3Callee"
               },
               "next": {
                 "title": "TestPositionNFTOwner",
@@ -4232,8 +4232,8 @@
               "frontMatter": {},
               "sidebar": "defaultSidebar",
               "previous": {
-                "title": "TestPegasysV3Callee",
-                "permalink": "/contracts/v2/reference/periphery/test/TestPegasysV3Callee"
+                "title": "TestMulticall",
+                "permalink": "/contracts/v2/reference/periphery/test/TestMulticall"
               },
               "next": {
                 "title": "TickLensTest",
@@ -4440,15 +4440,15 @@
                         "items": [
                           {
                             "type": "doc",
-                            "id": "v2/reference/core/PegasysV3Factory"
+                            "id": "v2/reference/core/JingoV3Factory"
                           },
                           {
                             "type": "doc",
-                            "id": "v2/reference/core/PegasysV3Pool"
+                            "id": "v2/reference/core/JingoV3Pool"
                           },
                           {
                             "type": "doc",
-                            "id": "v2/reference/core/PegasysV3PoolDeployer"
+                            "id": "v2/reference/core/JingoV3PoolDeployer"
                           },
                           {
                             "type": "category",
@@ -4462,15 +4462,15 @@
                               },
                               {
                                 "type": "doc",
-                                "id": "v2/reference/core/interfaces/IPegasysV3Factory"
+                                "id": "v2/reference/core/interfaces/IJingoV3Factory"
                               },
                               {
                                 "type": "doc",
-                                "id": "v2/reference/core/interfaces/IPegasysV3Pool"
+                                "id": "v2/reference/core/interfaces/IJingoV3Pool"
                               },
                               {
                                 "type": "doc",
-                                "id": "v2/reference/core/interfaces/IPegasysV3PoolDeployer"
+                                "id": "v2/reference/core/interfaces/IJingoV3PoolDeployer"
                               },
                               {
                                 "type": "category",
@@ -4480,15 +4480,15 @@
                                 "items": [
                                   {
                                     "type": "doc",
-                                    "id": "v2/reference/core/interfaces/callback/IPegasysV3FlashCallback"
+                                    "id": "v2/reference/core/interfaces/callback/IJingoV3FlashCallback"
                                   },
                                   {
                                     "type": "doc",
-                                    "id": "v2/reference/core/interfaces/callback/IPegasysV3MintCallback"
+                                    "id": "v2/reference/core/interfaces/callback/IJingoV3MintCallback"
                                   },
                                   {
                                     "type": "doc",
-                                    "id": "v2/reference/core/interfaces/callback/IPegasysV3SwapCallback"
+                                    "id": "v2/reference/core/interfaces/callback/IJingoV3SwapCallback"
                                   }
                                 ]
                               },
@@ -4500,27 +4500,27 @@
                                 "items": [
                                   {
                                     "type": "doc",
-                                    "id": "v2/reference/core/interfaces/pool/IPegasysV3PoolActions"
+                                    "id": "v2/reference/core/interfaces/pool/IJingoV3PoolActions"
                                   },
                                   {
                                     "type": "doc",
-                                    "id": "v2/reference/core/interfaces/pool/IPegasysV3PoolDerivedState"
+                                    "id": "v2/reference/core/interfaces/pool/IJingoV3PoolDerivedState"
                                   },
                                   {
                                     "type": "doc",
-                                    "id": "v2/reference/core/interfaces/pool/IPegasysV3PoolEvents"
+                                    "id": "v2/reference/core/interfaces/pool/IJingoV3PoolEvents"
                                   },
                                   {
                                     "type": "doc",
-                                    "id": "v2/reference/core/interfaces/pool/IPegasysV3PoolImmutables"
+                                    "id": "v2/reference/core/interfaces/pool/IJingoV3PoolImmutables"
                                   },
                                   {
                                     "type": "doc",
-                                    "id": "v2/reference/core/interfaces/pool/IPegasysV3PoolOwnerActions"
+                                    "id": "v2/reference/core/interfaces/pool/IJingoV3PoolOwnerActions"
                                   },
                                   {
                                     "type": "doc",
-                                    "id": "v2/reference/core/interfaces/pool/IPegasysV3PoolState"
+                                    "id": "v2/reference/core/interfaces/pool/IJingoV3PoolState"
                                   }
                                 ]
                               }
@@ -4847,7 +4847,7 @@
                               },
                               {
                                 "type": "doc",
-                                "id": "v2/reference/periphery/staker/PegasysV3Staker",
+                                "id": "v2/reference/periphery/staker/JingoV3Staker",
                                 "label": "Jingo V3 Staker Contract"
                               },
                               {
@@ -4858,7 +4858,7 @@
                                 "items": [
                                   {
                                     "type": "doc",
-                                    "id": "v2/reference/periphery/staker/interfaces/IPegasysV3Staker"
+                                    "id": "v2/reference/periphery/staker/interfaces/IJingoV3Staker"
                                   }
                                 ]
                               },
@@ -4944,11 +4944,11 @@
                               },
                               {
                                 "type": "doc",
-                                "id": "v2/reference/periphery/test/TestMulticall"
+                                "id": "v2/reference/periphery/test/TestJingoV3Callee"
                               },
                               {
                                 "type": "doc",
-                                "id": "v2/reference/periphery/test/TestPegasysV3Callee"
+                                "id": "v2/reference/periphery/test/TestMulticall"
                               },
                               {
                                 "type": "doc",
@@ -8062,7 +8062,7 @@
               "id": "jingo-protocol",
               "title": "The Jingo Protocol",
               "description": "Introduction",
-              "source": "@site/docs/concepts/pegasys-protocol.md",
+              "source": "@site/docs/concepts/jingo-protocol.md",
               "sourceDirName": ".",
               "slug": "/jingo-protocol",
               "permalink": "/concepts/jingo-protocol",
@@ -8090,7 +8090,7 @@
               "id": "overview",
               "title": "What Is Jingo?",
               "description": "Protocol, Interface, Labs",
-              "source": "@site/docs/concepts/what-is-pegasys.md",
+              "source": "@site/docs/concepts/what-is-jingo.md",
               "sourceDirName": ".",
               "slug": "/overview",
               "permalink": "/concepts/overview",

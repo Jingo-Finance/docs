@@ -1,5 +1,113 @@
 {
   "docusaurus-plugin-content-docs": {
+    "concepts": {
+      "path": "/concepts/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/concepts/",
+          "mainDocId": "overview",
+          "docs": [
+            {
+              "id": "glossary",
+              "path": "/concepts/glossary",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "jingo-protocol",
+              "path": "/concepts/jingo-protocol",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "overview",
+              "path": "/concepts/overview",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "protocol/concentrated-liquidity",
+              "path": "/concepts/protocol/concentrated-liquidity",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "protocol/fees",
+              "path": "/concepts/protocol/fees",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "protocol/integration-issues",
+              "path": "/concepts/protocol/integration-issues",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "protocol/oracle",
+              "path": "/concepts/protocol/oracle",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "protocol/range-orders",
+              "path": "/concepts/protocol/range-orders",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "protocol/swaps",
+              "path": "/concepts/protocol/swaps",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "resources",
+              "path": "/concepts/resources",
+              "sidebar": "defaultSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "defaultSidebar": {
+              "link": {
+                "path": "/concepts/overview",
+                "label": "overview"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "api": {
+      "path": "/api/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/api/",
+          "mainDocId": "subgraph/overview",
+          "docs": [
+            {
+              "id": "subgraph/guides/examples",
+              "path": "/api/subgraph/guides/examples",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "subgraph/overview",
+              "path": "/api/subgraph/overview",
+              "sidebar": "defaultSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "defaultSidebar": {
+              "link": {
+                "path": "/api/subgraph/overview",
+                "label": "subgraph/overview"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
     "contracts": {
       "path": "/contracts/",
       "versions": [
@@ -296,18 +404,18 @@
               "sidebar": "defaultSidebar"
             },
             {
-              "id": "v2/reference/core/interfaces/callback/IPegasysV3FlashCallback",
-              "path": "/contracts/v2/reference/core/interfaces/callback/IPegasysV3FlashCallback",
+              "id": "v2/reference/core/interfaces/callback/IJingoV3FlashCallback",
+              "path": "/contracts/v2/reference/core/interfaces/callback/IJingoV3FlashCallback",
               "sidebar": "defaultSidebar"
             },
             {
-              "id": "v2/reference/core/interfaces/callback/IPegasysV3MintCallback",
-              "path": "/contracts/v2/reference/core/interfaces/callback/IPegasysV3MintCallback",
+              "id": "v2/reference/core/interfaces/callback/IJingoV3MintCallback",
+              "path": "/contracts/v2/reference/core/interfaces/callback/IJingoV3MintCallback",
               "sidebar": "defaultSidebar"
             },
             {
-              "id": "v2/reference/core/interfaces/callback/IPegasysV3SwapCallback",
-              "path": "/contracts/v2/reference/core/interfaces/callback/IPegasysV3SwapCallback",
+              "id": "v2/reference/core/interfaces/callback/IJingoV3SwapCallback",
+              "path": "/contracts/v2/reference/core/interfaces/callback/IJingoV3SwapCallback",
               "sidebar": "defaultSidebar"
             },
             {
@@ -316,48 +424,63 @@
               "sidebar": "defaultSidebar"
             },
             {
-              "id": "v2/reference/core/interfaces/IPegasysV3Factory",
-              "path": "/contracts/v2/reference/core/interfaces/IPegasysV3Factory",
+              "id": "v2/reference/core/interfaces/IJingoV3Factory",
+              "path": "/contracts/v2/reference/core/interfaces/IJingoV3Factory",
               "sidebar": "defaultSidebar"
             },
             {
-              "id": "v2/reference/core/interfaces/IPegasysV3Pool",
-              "path": "/contracts/v2/reference/core/interfaces/IPegasysV3Pool",
+              "id": "v2/reference/core/interfaces/IJingoV3Pool",
+              "path": "/contracts/v2/reference/core/interfaces/IJingoV3Pool",
               "sidebar": "defaultSidebar"
             },
             {
-              "id": "v2/reference/core/interfaces/IPegasysV3PoolDeployer",
-              "path": "/contracts/v2/reference/core/interfaces/IPegasysV3PoolDeployer",
+              "id": "v2/reference/core/interfaces/IJingoV3PoolDeployer",
+              "path": "/contracts/v2/reference/core/interfaces/IJingoV3PoolDeployer",
               "sidebar": "defaultSidebar"
             },
             {
-              "id": "v2/reference/core/interfaces/pool/IPegasysV3PoolActions",
-              "path": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolActions",
+              "id": "v2/reference/core/interfaces/pool/IJingoV3PoolActions",
+              "path": "/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolActions",
               "sidebar": "defaultSidebar"
             },
             {
-              "id": "v2/reference/core/interfaces/pool/IPegasysV3PoolDerivedState",
-              "path": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolDerivedState",
+              "id": "v2/reference/core/interfaces/pool/IJingoV3PoolDerivedState",
+              "path": "/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolDerivedState",
               "sidebar": "defaultSidebar"
             },
             {
-              "id": "v2/reference/core/interfaces/pool/IPegasysV3PoolEvents",
-              "path": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolEvents",
+              "id": "v2/reference/core/interfaces/pool/IJingoV3PoolEvents",
+              "path": "/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolEvents",
               "sidebar": "defaultSidebar"
             },
             {
-              "id": "v2/reference/core/interfaces/pool/IPegasysV3PoolImmutables",
-              "path": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolImmutables",
+              "id": "v2/reference/core/interfaces/pool/IJingoV3PoolImmutables",
+              "path": "/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolImmutables",
               "sidebar": "defaultSidebar"
             },
             {
-              "id": "v2/reference/core/interfaces/pool/IPegasysV3PoolOwnerActions",
-              "path": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolOwnerActions",
+              "id": "v2/reference/core/interfaces/pool/IJingoV3PoolOwnerActions",
+              "path": "/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolOwnerActions",
               "sidebar": "defaultSidebar"
             },
             {
-              "id": "v2/reference/core/interfaces/pool/IPegasysV3PoolState",
-              "path": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolState",
+              "id": "v2/reference/core/interfaces/pool/IJingoV3PoolState",
+              "path": "/contracts/v2/reference/core/interfaces/pool/IJingoV3PoolState",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/core/JingoV3Factory",
+              "path": "/contracts/v2/reference/core/JingoV3Factory",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/core/JingoV3Pool",
+              "path": "/contracts/v2/reference/core/JingoV3Pool",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/core/JingoV3PoolDeployer",
+              "path": "/contracts/v2/reference/core/JingoV3PoolDeployer",
               "sidebar": "defaultSidebar"
             },
             {
@@ -443,21 +566,6 @@
             {
               "id": "v2/reference/core/libraries/UnsafeMath",
               "path": "/contracts/v2/reference/core/libraries/UnsafeMath",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v2/reference/core/PegasysV3Factory",
-              "path": "/contracts/v2/reference/core/PegasysV3Factory",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v2/reference/core/PegasysV3Pool",
-              "path": "/contracts/v2/reference/core/PegasysV3Pool",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v2/reference/core/PegasysV3PoolDeployer",
-              "path": "/contracts/v2/reference/core/PegasysV3PoolDeployer",
               "sidebar": "defaultSidebar"
             },
             {
@@ -726,8 +834,13 @@
               "sidebar": "defaultSidebar"
             },
             {
-              "id": "v2/reference/periphery/staker/interfaces/IPegasysV3Staker",
-              "path": "/contracts/v2/reference/periphery/staker/interfaces/IPegasysV3Staker",
+              "id": "v2/reference/periphery/staker/interfaces/IJingoV3Staker",
+              "path": "/contracts/v2/reference/periphery/staker/interfaces/IJingoV3Staker",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/staker/JingoV3Staker",
+              "path": "/contracts/v2/reference/periphery/staker/JingoV3Staker",
               "sidebar": "defaultSidebar"
             },
             {
@@ -743,11 +856,6 @@
             {
               "id": "v2/reference/periphery/staker/libraries/RewardMath",
               "path": "/contracts/v2/reference/periphery/staker/libraries/RewardMath",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v2/reference/periphery/staker/PegasysV3Staker",
-              "path": "/contracts/v2/reference/periphery/staker/PegasysV3Staker",
               "sidebar": "defaultSidebar"
             },
             {
@@ -821,13 +929,13 @@
               "sidebar": "defaultSidebar"
             },
             {
-              "id": "v2/reference/periphery/test/TestMulticall",
-              "path": "/contracts/v2/reference/periphery/test/TestMulticall",
+              "id": "v2/reference/periphery/test/TestJingoV3Callee",
+              "path": "/contracts/v2/reference/periphery/test/TestJingoV3Callee",
               "sidebar": "defaultSidebar"
             },
             {
-              "id": "v2/reference/periphery/test/TestPegasysV3Callee",
-              "path": "/contracts/v2/reference/periphery/test/TestPegasysV3Callee",
+              "id": "v2/reference/periphery/test/TestMulticall",
+              "path": "/contracts/v2/reference/periphery/test/TestMulticall",
               "sidebar": "defaultSidebar"
             },
             {
@@ -1306,114 +1414,6 @@
               "link": {
                 "path": "/sdk/v3/overview",
                 "label": "v3/overview"
-              }
-            }
-          }
-        }
-      ],
-      "breadcrumbs": true
-    },
-    "api": {
-      "path": "/api/",
-      "versions": [
-        {
-          "name": "current",
-          "label": "Next",
-          "isLast": true,
-          "path": "/api/",
-          "mainDocId": "subgraph/overview",
-          "docs": [
-            {
-              "id": "subgraph/guides/examples",
-              "path": "/api/subgraph/guides/examples",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "subgraph/overview",
-              "path": "/api/subgraph/overview",
-              "sidebar": "defaultSidebar"
-            }
-          ],
-          "draftIds": [],
-          "sidebars": {
-            "defaultSidebar": {
-              "link": {
-                "path": "/api/subgraph/overview",
-                "label": "subgraph/overview"
-              }
-            }
-          }
-        }
-      ],
-      "breadcrumbs": true
-    },
-    "concepts": {
-      "path": "/concepts/",
-      "versions": [
-        {
-          "name": "current",
-          "label": "Next",
-          "isLast": true,
-          "path": "/concepts/",
-          "mainDocId": "overview",
-          "docs": [
-            {
-              "id": "glossary",
-              "path": "/concepts/glossary",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "jingo-protocol",
-              "path": "/concepts/jingo-protocol",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "overview",
-              "path": "/concepts/overview",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "protocol/concentrated-liquidity",
-              "path": "/concepts/protocol/concentrated-liquidity",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "protocol/fees",
-              "path": "/concepts/protocol/fees",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "protocol/integration-issues",
-              "path": "/concepts/protocol/integration-issues",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "protocol/oracle",
-              "path": "/concepts/protocol/oracle",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "protocol/range-orders",
-              "path": "/concepts/protocol/range-orders",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "protocol/swaps",
-              "path": "/concepts/protocol/swaps",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "resources",
-              "path": "/concepts/resources",
-              "sidebar": "defaultSidebar"
-            }
-          ],
-          "draftIds": [],
-          "sidebars": {
-            "defaultSidebar": {
-              "link": {
-                "path": "/concepts/overview",
-                "label": "overview"
               }
             }
           }
