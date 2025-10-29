@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/interfaces/IPeripheryImmutableState",
+  "id": "v2/reference/periphery/interfaces/IPeripheryImmutableState",
+  "title": "IPeripheryImmutableState",
+  "description": "Functions that return immutable state of the router",
+  "source": "@site/docs/contracts/v2/reference/periphery/interfaces/IPeripheryImmutableState.md",
+  "sourceDirName": "v2/reference/periphery/interfaces",
+  "slug": "/v2/reference/periphery/interfaces/IPeripheryImmutableState",
+  "permalink": "/contracts/v2/reference/periphery/interfaces/IPeripheryImmutableState",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/interfaces/IPeripheryImmutableState.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "INonfungibleTokenPositionDescriptor",
+    "permalink": "/contracts/v2/reference/periphery/interfaces/INonfungibleTokenPositionDescriptor"
+  },
+  "next": {
+    "title": "IPeripheryPayments",
+    "permalink": "/contracts/v2/reference/periphery/interfaces/IPeripheryPayments"
+  }
+}

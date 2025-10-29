@@ -1,0 +1,27 @@
+{
+  "unversionedId": "v1/reference/getting-started",
+  "id": "v1/reference/getting-started",
+  "title": "Getting Started",
+  "description": "The pages that follow contain technical reference information on the Jingo SDK.",
+  "source": "@site/docs/sdk/v1/reference/01-getting-started.md",
+  "sourceDirName": "v1/reference",
+  "slug": "/v1/reference/getting-started",
+  "permalink": "/sdk/v1/reference/getting-started",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "getting-started",
+    "title": "Getting Started"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Pair Addresses",
+    "permalink": "/sdk/v1/guides/getting-pair-addresses"
+  },
+  "next": {
+    "title": "Token",
+    "permalink": "/sdk/v1/reference/token"
+  }
+}

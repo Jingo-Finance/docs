@@ -1,0 +1,28 @@
+{
+  "unversionedId": "v1/concepts/advanced-topics/fees",
+  "id": "v1/concepts/advanced-topics/fees",
+  "title": "Fees",
+  "description": "Liquidity provider fees",
+  "source": "@site/docs/contracts/v1/concepts/03-advanced-topics/01-fees.md",
+  "sourceDirName": "v1/concepts/03-advanced-topics",
+  "slug": "/v1/concepts/advanced-topics/fees",
+  "permalink": "/contracts/v1/concepts/advanced-topics/fees",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v1/concepts/03-advanced-topics/01-fees.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "fees",
+    "title": "Fees"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Oracles",
+    "permalink": "/contracts/v1/concepts/core-concepts/oracles"
+  },
+  "next": {
+    "title": "Pricing",
+    "permalink": "/contracts/v1/concepts/advanced-topics/pricing"
+  }
+}

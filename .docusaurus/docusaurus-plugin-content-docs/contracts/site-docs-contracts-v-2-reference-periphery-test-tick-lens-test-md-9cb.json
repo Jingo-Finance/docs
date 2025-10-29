@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/test/TickLensTest",
+  "id": "v2/reference/periphery/test/TickLensTest",
+  "title": "TickLensTest",
+  "description": "Functions",
+  "source": "@site/docs/contracts/v2/reference/periphery/test/TickLensTest.md",
+  "sourceDirName": "v2/reference/periphery/test",
+  "slug": "/v2/reference/periphery/test/TickLensTest",
+  "permalink": "/contracts/v2/reference/periphery/test/TickLensTest",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/test/TickLensTest.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "TestPositionNFTOwner",
+    "permalink": "/contracts/v2/reference/periphery/test/TestPositionNFTOwner"
+  },
+  "next": {
+    "title": "NonfungiblePositionManager",
+    "permalink": "/contracts/v2/reference/periphery/NonfungiblePositionManager"
+  }
+}

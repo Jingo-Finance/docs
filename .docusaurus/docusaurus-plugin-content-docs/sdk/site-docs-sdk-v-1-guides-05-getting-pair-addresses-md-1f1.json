@@ -1,0 +1,27 @@
+{
+  "unversionedId": "v1/guides/getting-pair-addresses",
+  "id": "v1/guides/getting-pair-addresses",
+  "title": "Pair Addresses",
+  "description": "The most obvious way to get the address for a pair is to call getPair on the factory. If the pair exists, this function will return its address, else address(0) (0x0000000000000000000000000000000000000000).",
+  "source": "@site/docs/sdk/v1/guides/05-getting-pair-addresses.md",
+  "sourceDirName": "v1/guides",
+  "slug": "/v1/guides/getting-pair-addresses",
+  "permalink": "/sdk/v1/guides/getting-pair-addresses",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "id": "getting-pair-addresses",
+    "title": "Pair Addresses"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Trading",
+    "permalink": "/sdk/v1/guides/trading"
+  },
+  "next": {
+    "title": "Getting Started",
+    "permalink": "/sdk/v1/reference/getting-started"
+  }
+}

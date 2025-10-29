@@ -1,0 +1,29 @@
+{
+  "unversionedId": "v2/guides/liquidity-mining/overview",
+  "id": "v2/guides/liquidity-mining/overview",
+  "title": "Overview",
+  "description": "Introduction",
+  "source": "@site/docs/contracts/v2/guides/liquidity-mining/overview.md",
+  "sourceDirName": "v2/guides/liquidity-mining",
+  "slug": "/v2/guides/liquidity-mining/overview",
+  "permalink": "/contracts/v2/guides/liquidity-mining/overview",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/guides/liquidity-mining/overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "overview",
+    "title": "Overview",
+    "sidebar_position": 1
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "The Full Contract",
+    "permalink": "/contracts/v2/guides/providing-liquidity/the-full-contract"
+  },
+  "next": {
+    "title": "Getting Started",
+    "permalink": "/contracts/v2/guides/flash-integrations/inheritance-constructors"
+  }
+}

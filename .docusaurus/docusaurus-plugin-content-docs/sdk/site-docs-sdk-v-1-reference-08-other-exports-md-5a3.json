@@ -1,0 +1,23 @@
+{
+  "unversionedId": "v1/reference/other-exports",
+  "id": "v1/reference/other-exports",
+  "title": "Other Exports",
+  "description": "The default export from jsbi.",
+  "source": "@site/docs/sdk/v1/reference/08-other-exports.md",
+  "sourceDirName": "v1/reference",
+  "slug": "/v1/reference/other-exports",
+  "permalink": "/sdk/v1/reference/other-exports",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "id": "other-exports",
+    "title": "Other Exports"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Fetcher",
+    "permalink": "/sdk/v1/reference/fetcher"
+  }
+}

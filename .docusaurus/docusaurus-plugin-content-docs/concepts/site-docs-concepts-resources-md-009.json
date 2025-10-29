@@ -1,0 +1,28 @@
+{
+  "unversionedId": "resources",
+  "id": "resources",
+  "title": "Resources",
+  "description": "This page will be periodically updated with helpful resources for calculations and software design as they are made available.",
+  "source": "@site/docs/concepts/resources.md",
+  "sourceDirName": ".",
+  "slug": "/resources",
+  "permalink": "/concepts/resources",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "id": "resources",
+    "title": "Resources",
+    "sidebar_position": 5
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Token Integration Issues",
+    "permalink": "/concepts/protocol/integration-issues"
+  },
+  "next": {
+    "title": "Glossary",
+    "permalink": "/concepts/glossary"
+  }
+}

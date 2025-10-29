@@ -1,0 +1,23 @@
+{
+  "unversionedId": "v3/reference/classes/NoTickDataProvider",
+  "id": "v3/reference/classes/NoTickDataProvider",
+  "title": "NoTickDataProvider",
+  "description": "@jingofi/v3-sdk / Exports / NoTickDataProvider",
+  "source": "@site/docs/sdk/v3/reference/classes/NoTickDataProvider.md",
+  "sourceDirName": "v3/reference/classes",
+  "slug": "/v3/reference/classes/NoTickDataProvider",
+  "permalink": "/sdk/v3/reference/classes/NoTickDataProvider",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Multicall",
+    "permalink": "/sdk/v3/reference/classes/Multicall"
+  },
+  "next": {
+    "title": "NonfungiblePositionManager",
+    "permalink": "/sdk/v3/reference/classes/NonfungiblePositionManager"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/interfaces/IV3Migrator",
+  "id": "v2/reference/periphery/interfaces/IV3Migrator",
+  "title": "IV3Migrator",
+  "description": "Enables migration of liqudity from Jingo v1-compatible pairs into Jingo v3 pools",
+  "source": "@site/docs/contracts/v2/reference/periphery/interfaces/IV3Migrator.md",
+  "sourceDirName": "v2/reference/periphery/interfaces",
+  "slug": "/v2/reference/periphery/interfaces/IV3Migrator",
+  "permalink": "/contracts/v2/reference/periphery/interfaces/IV3Migrator",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/interfaces/IV3Migrator.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "ITickLens",
+    "permalink": "/contracts/v2/reference/periphery/interfaces/ITickLens"
+  },
+  "next": {
+    "title": "IERC1271",
+    "permalink": "/contracts/v2/reference/periphery/interfaces/external/IERC1271"
+  }
+}

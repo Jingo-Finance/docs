@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/base/ERC721Permit",
+  "id": "v2/reference/periphery/base/ERC721Permit",
+  "title": "ERC721Permit",
+  "description": "Nonfungible tokens that support an approve via signature, i.e. permit",
+  "source": "@site/docs/contracts/v2/reference/periphery/base/ERC721Permit.md",
+  "sourceDirName": "v2/reference/periphery/base",
+  "slug": "/v2/reference/periphery/base/ERC721Permit",
+  "permalink": "/contracts/v2/reference/periphery/base/ERC721Permit",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/base/ERC721Permit.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "BlockTimestamp",
+    "permalink": "/contracts/v2/reference/periphery/base/BlockTimestamp"
+  },
+  "next": {
+    "title": "LiquidityManagement",
+    "permalink": "/contracts/v2/reference/periphery/base/LiquidityManagement"
+  }
+}

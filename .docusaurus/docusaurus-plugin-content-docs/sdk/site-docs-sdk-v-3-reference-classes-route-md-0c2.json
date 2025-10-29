@@ -1,0 +1,23 @@
+{
+  "unversionedId": "v3/reference/classes/Route",
+  "id": "v3/reference/classes/Route",
+  "title": "Route",
+  "description": "@jingofi/v3-sdk / Exports / Route",
+  "source": "@site/docs/sdk/v3/reference/classes/Route.md",
+  "sourceDirName": "v3/reference/classes",
+  "slug": "/v3/reference/classes/Route",
+  "permalink": "/sdk/v3/reference/classes/Route",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "PositionLibrary",
+    "permalink": "/sdk/v3/reference/classes/PositionLibrary"
+  },
+  "next": {
+    "title": "SelfPermit",
+    "permalink": "/sdk/v3/reference/classes/SelfPermit"
+  }
+}

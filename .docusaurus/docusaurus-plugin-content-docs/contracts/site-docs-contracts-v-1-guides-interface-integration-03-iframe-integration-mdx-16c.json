@@ -1,0 +1,28 @@
+{
+  "unversionedId": "v1/guides/interface-integration/iframe-integration",
+  "id": "v1/guides/interface-integration/iframe-integration",
+  "title": "Iframe Integration",
+  "description": "These docs are deprecated. Please refer to Swap Widget to embed the Jingo swap widget as a React component in your website in 2 minutes.",
+  "source": "@site/docs/contracts/v1/guides/interface-integration/03-iframe-integration.mdx",
+  "sourceDirName": "v1/guides/interface-integration",
+  "slug": "/v1/guides/interface-integration/iframe-integration",
+  "permalink": "/contracts/v1/guides/interface-integration/iframe-integration",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v1/guides/interface-integration/03-iframe-integration.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "iframe-integration",
+    "title": "Iframe Integration"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Custom Linking",
+    "permalink": "/contracts/v1/guides/interface-integration/custom-interface-linking"
+  },
+  "next": {
+    "title": "Smart Contract Quick start",
+    "permalink": "/contracts/v1/guides/smart-contract-integration/quick-start"
+  }
+}

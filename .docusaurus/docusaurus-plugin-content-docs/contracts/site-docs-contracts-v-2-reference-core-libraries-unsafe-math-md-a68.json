@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/core/libraries/UnsafeMath",
+  "id": "v2/reference/core/libraries/UnsafeMath",
+  "title": "UnsafeMath",
+  "description": "Contains methods that perform common math functions but do not do any overflow or underflow checks",
+  "source": "@site/docs/contracts/v2/reference/core/libraries/UnsafeMath.md",
+  "sourceDirName": "v2/reference/core/libraries",
+  "slug": "/v2/reference/core/libraries/UnsafeMath",
+  "permalink": "/contracts/v2/reference/core/libraries/UnsafeMath",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/core/libraries/UnsafeMath.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "TransferHelper",
+    "permalink": "/contracts/v2/reference/core/libraries/TransferHelper"
+  },
+  "next": {
+    "title": "BlockTimestamp",
+    "permalink": "/contracts/v2/reference/periphery/base/BlockTimestamp"
+  }
+}

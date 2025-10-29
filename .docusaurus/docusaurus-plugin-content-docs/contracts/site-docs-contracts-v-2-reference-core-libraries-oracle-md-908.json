@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/core/libraries/Oracle",
+  "id": "v2/reference/core/libraries/Oracle",
+  "title": "Oracle",
+  "description": "Provides price and liquidity data useful for a wide variety of system designs",
+  "source": "@site/docs/contracts/v2/reference/core/libraries/Oracle.md",
+  "sourceDirName": "v2/reference/core/libraries",
+  "slug": "/v2/reference/core/libraries/Oracle",
+  "permalink": "/contracts/v2/reference/core/libraries/Oracle",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/core/libraries/Oracle.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "LowGasSafeMath",
+    "permalink": "/contracts/v2/reference/core/libraries/LowGasSafeMath"
+  },
+  "next": {
+    "title": "Position",
+    "permalink": "/contracts/v2/reference/core/libraries/Position"
+  }
+}

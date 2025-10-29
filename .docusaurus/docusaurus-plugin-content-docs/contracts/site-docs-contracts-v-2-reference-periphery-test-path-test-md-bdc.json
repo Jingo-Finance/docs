@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/test/PathTest",
+  "id": "v2/reference/periphery/test/PathTest",
+  "title": "PathTest",
+  "description": "Functions",
+  "source": "@site/docs/contracts/v2/reference/periphery/test/PathTest.md",
+  "sourceDirName": "v2/reference/periphery/test",
+  "slug": "/v2/reference/periphery/test/PathTest",
+  "permalink": "/contracts/v2/reference/periphery/test/PathTest",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/test/PathTest.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "NFTDescriptorTest",
+    "permalink": "/contracts/v2/reference/periphery/test/NFTDescriptorTest"
+  },
+  "next": {
+    "title": "PeripheryImmutableStateTest",
+    "permalink": "/contracts/v2/reference/periphery/test/PeripheryImmutableStateTest"
+  }
+}

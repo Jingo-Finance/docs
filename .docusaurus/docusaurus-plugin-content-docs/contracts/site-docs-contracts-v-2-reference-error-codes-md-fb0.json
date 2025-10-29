@@ -1,0 +1,27 @@
+{
+  "unversionedId": "v2/reference/error-codes",
+  "id": "v2/reference/error-codes",
+  "title": "Error Codes",
+  "description": "LiquidityMath.sol",
+  "source": "@site/docs/contracts/v2/reference/error-codes.md",
+  "sourceDirName": "v2/reference",
+  "slug": "/v2/reference/error-codes",
+  "permalink": "/contracts/v2/reference/error-codes",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/error-codes.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "error-codes",
+    "title": "Error Codes"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Deployment Addresses",
+    "permalink": "/contracts/v2/reference/deployments"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/contracts/universal-router/overview"
+  }
+}

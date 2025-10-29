@@ -1,0 +1,23 @@
+{
+  "unversionedId": "v3/reference/enums/FeeAmount",
+  "id": "v3/reference/enums/FeeAmount",
+  "title": "FeeAmount",
+  "description": "@jingofi/v3-sdk / Exports / FeeAmount",
+  "source": "@site/docs/sdk/v3/reference/enums/FeeAmount.md",
+  "sourceDirName": "v3/reference/enums",
+  "slug": "/v3/reference/enums/FeeAmount",
+  "permalink": "/sdk/v3/reference/enums/FeeAmount",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Trade",
+    "permalink": "/sdk/v3/reference/classes/Trade"
+  },
+  "next": {
+    "title": "AllowedPermitArguments",
+    "permalink": "/sdk/v3/reference/interfaces/AllowedPermitArguments"
+  }
+}

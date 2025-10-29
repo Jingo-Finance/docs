@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/libraries/Path",
+  "id": "v2/reference/periphery/libraries/Path",
+  "title": "Path",
+  "description": "Functions",
+  "source": "@site/docs/contracts/v2/reference/periphery/libraries/Path.md",
+  "sourceDirName": "v2/reference/periphery/libraries",
+  "slug": "/v2/reference/periphery/libraries/Path",
+  "permalink": "/contracts/v2/reference/periphery/libraries/Path",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/libraries/Path.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "OracleLibrary",
+    "permalink": "/contracts/v2/reference/periphery/libraries/OracleLibrary"
+  },
+  "next": {
+    "title": "PoolAddress",
+    "permalink": "/contracts/v2/reference/periphery/libraries/PoolAddress"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "v3/reference/interfaces/MintSpecificOptions",
+  "id": "v3/reference/interfaces/MintSpecificOptions",
+  "title": "MintSpecificOptions",
+  "description": "@jingofi/v3-sdk / Exports / MintSpecificOptions",
+  "source": "@site/docs/sdk/v3/reference/interfaces/MintSpecificOptions.md",
+  "sourceDirName": "v3/reference/interfaces",
+  "slug": "/v3/reference/interfaces/MintSpecificOptions",
+  "permalink": "/sdk/v3/reference/interfaces/MintSpecificOptions",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "MethodParameters",
+    "permalink": "/sdk/v3/reference/interfaces/MethodParameters"
+  },
+  "next": {
+    "title": "NFTPermitOptions",
+    "permalink": "/sdk/v3/reference/interfaces/NFTPermitOptions"
+  }
+}

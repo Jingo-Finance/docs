@@ -1,0 +1,28 @@
+{
+  "unversionedId": "v1/concepts/protocol-overview/glossary",
+  "id": "v1/concepts/protocol-overview/glossary",
+  "title": "Glossary",
+  "description": "Automated market maker",
+  "source": "@site/docs/contracts/v1/concepts/01-protocol-overview/04-glossary.md",
+  "sourceDirName": "v1/concepts/01-protocol-overview",
+  "slug": "/v1/concepts/protocol-overview/glossary",
+  "permalink": "/contracts/v1/concepts/protocol-overview/glossary",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v1/concepts/01-protocol-overview/04-glossary.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "id": "glossary",
+    "title": "Glossary"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Smart contracts",
+    "permalink": "/contracts/v1/concepts/protocol-overview/smart-contracts"
+  },
+  "next": {
+    "title": "Swaps",
+    "permalink": "/contracts/v1/concepts/core-concepts/swaps"
+  }
+}

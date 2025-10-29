@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/libraries/CallbackValidation",
+  "id": "v2/reference/periphery/libraries/CallbackValidation",
+  "title": "CallbackValidation",
+  "description": "Provides validation for callbacks from Jingo V3 Pools",
+  "source": "@site/docs/contracts/v2/reference/periphery/libraries/CallbackValidation.md",
+  "sourceDirName": "v2/reference/periphery/libraries",
+  "slug": "/v2/reference/periphery/libraries/CallbackValidation",
+  "permalink": "/contracts/v2/reference/periphery/libraries/CallbackValidation",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/libraries/CallbackValidation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "BytesLib",
+    "permalink": "/contracts/v2/reference/periphery/libraries/BytesLib"
+  },
+  "next": {
+    "title": "ChainId",
+    "permalink": "/contracts/v2/reference/periphery/libraries/ChainId"
+  }
+}

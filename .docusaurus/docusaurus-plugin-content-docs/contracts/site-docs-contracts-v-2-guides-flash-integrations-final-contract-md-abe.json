@@ -1,0 +1,29 @@
+{
+  "unversionedId": "v2/guides/flash-integrations/final-contract",
+  "id": "v2/guides/flash-integrations/final-contract",
+  "title": "The Final Contract",
+  "description": "The Full Contract",
+  "source": "@site/docs/contracts/v2/guides/flash-integrations/final-contract.md",
+  "sourceDirName": "v2/guides/flash-integrations",
+  "slug": "/v2/guides/flash-integrations/final-contract",
+  "permalink": "/contracts/v2/guides/flash-integrations/final-contract",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/guides/flash-integrations/final-contract.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "id": "final-contract",
+    "title": "The Final Contract",
+    "sidebar_position": 4
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "The Flash Callback",
+    "permalink": "/contracts/v2/guides/flash-integrations/flash-callback"
+  },
+  "next": {
+    "title": "License Modifications",
+    "permalink": "/contracts/v2/guides/governance/liscense-modifications"
+  }
+}

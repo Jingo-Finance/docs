@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/core/libraries/SecondsOutside",
+  "id": "v2/reference/core/libraries/SecondsOutside",
+  "title": "SecondsOutside",
+  "description": "Contains methods for working with a mapping from tick to 32 bit timestamp values, specifically seconds",
+  "source": "@site/docs/contracts/v2/reference/core/libraries/SecondsOutside.md",
+  "sourceDirName": "v2/reference/core/libraries",
+  "slug": "/v2/reference/core/libraries/SecondsOutside",
+  "permalink": "/contracts/v2/reference/core/libraries/SecondsOutside",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/core/libraries/SecondsOutside.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "SafeCast",
+    "permalink": "/contracts/v2/reference/core/libraries/SafeCast"
+  },
+  "next": {
+    "title": "SqrtPriceMath",
+    "permalink": "/contracts/v2/reference/core/libraries/SqrtPriceMath"
+  }
+}

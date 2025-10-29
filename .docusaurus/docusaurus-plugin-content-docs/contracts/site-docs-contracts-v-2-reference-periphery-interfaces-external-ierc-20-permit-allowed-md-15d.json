@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/interfaces/external/IERC20PermitAllowed",
+  "id": "v2/reference/periphery/interfaces/external/IERC20PermitAllowed",
+  "title": "IERC20PermitAllowed",
+  "description": "Interface used by DAI/CHAI for permit",
+  "source": "@site/docs/contracts/v2/reference/periphery/interfaces/external/IERC20PermitAllowed.md",
+  "sourceDirName": "v2/reference/periphery/interfaces/external",
+  "slug": "/v2/reference/periphery/interfaces/external/IERC20PermitAllowed",
+  "permalink": "/contracts/v2/reference/periphery/interfaces/external/IERC20PermitAllowed",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/interfaces/external/IERC20PermitAllowed.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "IERC1271",
+    "permalink": "/contracts/v2/reference/periphery/interfaces/external/IERC1271"
+  },
+  "next": {
+    "title": "IWETH9",
+    "permalink": "/contracts/v2/reference/periphery/interfaces/external/IWETH9"
+  }
+}

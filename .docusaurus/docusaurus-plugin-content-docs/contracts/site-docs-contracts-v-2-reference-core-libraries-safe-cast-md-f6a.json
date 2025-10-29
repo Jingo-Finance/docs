@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/core/libraries/SafeCast",
+  "id": "v2/reference/core/libraries/SafeCast",
+  "title": "SafeCast",
+  "description": "Contains methods for safely casting between types",
+  "source": "@site/docs/contracts/v2/reference/core/libraries/SafeCast.md",
+  "sourceDirName": "v2/reference/core/libraries",
+  "slug": "/v2/reference/core/libraries/SafeCast",
+  "permalink": "/contracts/v2/reference/core/libraries/SafeCast",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/core/libraries/SafeCast.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Position",
+    "permalink": "/contracts/v2/reference/core/libraries/Position"
+  },
+  "next": {
+    "title": "SecondsOutside",
+    "permalink": "/contracts/v2/reference/core/libraries/SecondsOutside"
+  }
+}

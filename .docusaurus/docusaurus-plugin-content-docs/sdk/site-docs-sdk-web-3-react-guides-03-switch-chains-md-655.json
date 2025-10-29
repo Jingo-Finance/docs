@@ -1,0 +1,27 @@
+{
+  "unversionedId": "web3-react/guides/switch-chains",
+  "id": "web3-react/guides/switch-chains",
+  "title": "Switching Chains",
+  "description": "Introduction",
+  "source": "@site/docs/sdk/web3-react/guides/03-switch-chains.md",
+  "sourceDirName": "web3-react/guides",
+  "slug": "/web3-react/guides/switch-chains",
+  "permalink": "/sdk/web3-react/guides/switch-chains",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "switch-chains",
+    "title": "Switching Chains"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Supported Connectors",
+    "permalink": "/sdk/web3-react/guides/connectors"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/sdk/core/overview"
+  }
+}

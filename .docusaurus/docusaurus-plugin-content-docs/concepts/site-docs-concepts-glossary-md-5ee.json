@@ -1,0 +1,24 @@
+{
+  "unversionedId": "glossary",
+  "id": "glossary",
+  "title": "Glossary",
+  "description": "Automated Market Maker",
+  "source": "@site/docs/concepts/glossary.md",
+  "sourceDirName": ".",
+  "slug": "/glossary",
+  "permalink": "/concepts/glossary",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "id": "glossary",
+    "title": "Glossary",
+    "sidebar_position": 6
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Resources",
+    "permalink": "/concepts/resources"
+  }
+}

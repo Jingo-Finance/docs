@@ -1,0 +1,27 @@
+{
+  "unversionedId": "v3/guides/liquidity/liquidity-fees",
+  "id": "v3/guides/liquidity/liquidity-fees",
+  "title": "Collecting Fees",
+  "description": "Introduction",
+  "source": "@site/docs/sdk/v3/guides/liquidity/03-collecting-fees.md",
+  "sourceDirName": "v3/guides/liquidity",
+  "slug": "/v3/guides/liquidity/liquidity-fees",
+  "permalink": "/sdk/v3/guides/liquidity/liquidity-fees",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "liquidity-fees",
+    "title": "Collecting Fees"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Adding & Removing Liquidity",
+    "permalink": "/sdk/v3/guides/liquidity/modifying-position"
+  },
+  "next": {
+    "title": "Swapping and Adding Liquidity",
+    "permalink": "/sdk/v3/guides/liquidity/swap-and-add"
+  }
+}

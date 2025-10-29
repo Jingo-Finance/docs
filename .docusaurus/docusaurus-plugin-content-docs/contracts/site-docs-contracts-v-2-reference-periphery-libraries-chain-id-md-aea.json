@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/libraries/ChainId",
+  "id": "v2/reference/periphery/libraries/ChainId",
+  "title": "ChainId",
+  "description": "Functions",
+  "source": "@site/docs/contracts/v2/reference/periphery/libraries/ChainId.md",
+  "sourceDirName": "v2/reference/periphery/libraries",
+  "slug": "/v2/reference/periphery/libraries/ChainId",
+  "permalink": "/contracts/v2/reference/periphery/libraries/ChainId",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/libraries/ChainId.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "CallbackValidation",
+    "permalink": "/contracts/v2/reference/periphery/libraries/CallbackValidation"
+  },
+  "next": {
+    "title": "HexStrings",
+    "permalink": "/contracts/v2/reference/periphery/libraries/HexStrings"
+  }
+}

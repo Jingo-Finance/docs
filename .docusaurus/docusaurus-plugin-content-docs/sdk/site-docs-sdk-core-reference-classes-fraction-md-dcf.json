@@ -1,0 +1,23 @@
+{
+  "unversionedId": "core/reference/classes/Fraction",
+  "id": "core/reference/classes/Fraction",
+  "title": "Fraction",
+  "description": "@jingofi/sdk-core / Exports / Fraction",
+  "source": "@site/docs/sdk/core/reference/classes/Fraction.md",
+  "sourceDirName": "core/reference/classes",
+  "slug": "/core/reference/classes/Fraction",
+  "permalink": "/sdk/core/reference/classes/Fraction",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Ether",
+    "permalink": "/sdk/core/reference/classes/Ether"
+  },
+  "next": {
+    "title": "NativeCurrency",
+    "permalink": "/sdk/core/reference/classes/NativeCurrency"
+  }
+}

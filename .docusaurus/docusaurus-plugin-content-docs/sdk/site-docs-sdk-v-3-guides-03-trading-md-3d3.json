@@ -1,0 +1,27 @@
+{
+  "unversionedId": "v3/guides/trading",
+  "id": "v3/guides/trading",
+  "title": "Executing a Trade",
+  "description": "Introduction",
+  "source": "@site/docs/sdk/v3/guides/03-trading.md",
+  "sourceDirName": "v3/guides",
+  "slug": "/v3/guides/trading",
+  "permalink": "/sdk/v3/guides/trading",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "trading",
+    "title": "Executing a Trade"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Getting a Quote",
+    "permalink": "/sdk/v3/guides/quoting"
+  },
+  "next": {
+    "title": "Routing a Swap",
+    "permalink": "/sdk/v3/guides/routing"
+  }
+}

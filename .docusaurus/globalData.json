@@ -1,0 +1,1425 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "api": {
+      "path": "/api/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/api/",
+          "mainDocId": "subgraph/overview",
+          "docs": [
+            {
+              "id": "subgraph/guides/examples",
+              "path": "/api/subgraph/guides/examples",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "subgraph/overview",
+              "path": "/api/subgraph/overview",
+              "sidebar": "defaultSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "defaultSidebar": {
+              "link": {
+                "path": "/api/subgraph/overview",
+                "label": "subgraph/overview"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "sdk": {
+      "path": "/sdk",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/sdk",
+          "mainDocId": "v3/overview",
+          "docs": [
+            {
+              "id": "core/overview",
+              "path": "/sdk/core/overview",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "core/reference/classes/CurrencyAmount",
+              "path": "/sdk/core/reference/classes/CurrencyAmount",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "core/reference/classes/Ether",
+              "path": "/sdk/core/reference/classes/Ether",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "core/reference/classes/Fraction",
+              "path": "/sdk/core/reference/classes/Fraction",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "core/reference/classes/NativeCurrency",
+              "path": "/sdk/core/reference/classes/NativeCurrency",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "core/reference/classes/Percent",
+              "path": "/sdk/core/reference/classes/Percent",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "core/reference/classes/Price",
+              "path": "/sdk/core/reference/classes/Price",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "core/reference/classes/Token",
+              "path": "/sdk/core/reference/classes/Token",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "core/reference/enums/Rounding",
+              "path": "/sdk/core/reference/enums/Rounding",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "core/reference/enums/SupportedChainId",
+              "path": "/sdk/core/reference/enums/SupportedChainId",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "core/reference/enums/TradeType",
+              "path": "/sdk/core/reference/enums/TradeType",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "core/reference/overview",
+              "path": "/sdk/core/reference/overview",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "swap-widget/guides/examples",
+              "path": "/sdk/swap-widget/guides/examples",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "swap-widget/guides/getting-started",
+              "path": "/sdk/swap-widget/guides/getting-started",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "swap-widget/overview",
+              "path": "/sdk/swap-widget/overview",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "swap-widget/reference/v1",
+              "path": "/sdk/swap-widget/reference/v1",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/guides/fetching-data",
+              "path": "/sdk/v1/guides/fetching-data",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/guides/getting-pair-addresses",
+              "path": "/sdk/v1/guides/getting-pair-addresses",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/guides/pricing",
+              "path": "/sdk/v1/guides/pricing",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/guides/quick-start",
+              "path": "/sdk/v1/guides/quick-start",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/guides/trading",
+              "path": "/sdk/v1/guides/trading",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/overview",
+              "path": "/sdk/v1/overview",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/reference/fetcher",
+              "path": "/sdk/v1/reference/fetcher",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/reference/fractions",
+              "path": "/sdk/v1/reference/fractions",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/reference/getting-started",
+              "path": "/sdk/v1/reference/getting-started",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/reference/other-exports",
+              "path": "/sdk/v1/reference/other-exports",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/reference/pair",
+              "path": "/sdk/v1/reference/pair",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/reference/route",
+              "path": "/sdk/v1/reference/route",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/reference/token",
+              "path": "/sdk/v1/reference/token",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/reference/trade",
+              "path": "/sdk/v1/reference/trade",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/guides/background",
+              "path": "/sdk/v3/guides/background",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/guides/liquidity/liquidity-fees",
+              "path": "/sdk/v3/guides/liquidity/liquidity-fees",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/guides/liquidity/minting",
+              "path": "/sdk/v3/guides/liquidity/minting",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/guides/liquidity/modifying-position",
+              "path": "/sdk/v3/guides/liquidity/modifying-position",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/guides/liquidity/swap-and-add",
+              "path": "/sdk/v3/guides/liquidity/swap-and-add",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/guides/quoting",
+              "path": "/sdk/v3/guides/quoting",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/guides/routing",
+              "path": "/sdk/v3/guides/routing",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/guides/trading",
+              "path": "/sdk/v3/guides/trading",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/overview",
+              "path": "/sdk/v3/overview",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/FullMath",
+              "path": "/sdk/v3/reference/classes/FullMath",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/LiquidityMath",
+              "path": "/sdk/v3/reference/classes/LiquidityMath",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/Multicall",
+              "path": "/sdk/v3/reference/classes/Multicall",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/NonfungiblePositionManager",
+              "path": "/sdk/v3/reference/classes/NonfungiblePositionManager",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/NoTickDataProvider",
+              "path": "/sdk/v3/reference/classes/NoTickDataProvider",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/Payments",
+              "path": "/sdk/v3/reference/classes/Payments",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/Pool",
+              "path": "/sdk/v3/reference/classes/Pool",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/Position",
+              "path": "/sdk/v3/reference/classes/Position",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/PositionLibrary",
+              "path": "/sdk/v3/reference/classes/PositionLibrary",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/Route",
+              "path": "/sdk/v3/reference/classes/Route",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/SelfPermit",
+              "path": "/sdk/v3/reference/classes/SelfPermit",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/SqrtPriceMath",
+              "path": "/sdk/v3/reference/classes/SqrtPriceMath",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/Staker",
+              "path": "/sdk/v3/reference/classes/Staker",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/SwapMath",
+              "path": "/sdk/v3/reference/classes/SwapMath",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/SwapQuoter",
+              "path": "/sdk/v3/reference/classes/SwapQuoter",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/SwapRouter",
+              "path": "/sdk/v3/reference/classes/SwapRouter",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/Tick",
+              "path": "/sdk/v3/reference/classes/Tick",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/TickLibrary",
+              "path": "/sdk/v3/reference/classes/TickLibrary",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/TickList",
+              "path": "/sdk/v3/reference/classes/TickList",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/TickListDataProvider",
+              "path": "/sdk/v3/reference/classes/TickListDataProvider",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/TickMath",
+              "path": "/sdk/v3/reference/classes/TickMath",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/Trade",
+              "path": "/sdk/v3/reference/classes/Trade",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/enums/FeeAmount",
+              "path": "/sdk/v3/reference/enums/FeeAmount",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/interfaces/AllowedPermitArguments",
+              "path": "/sdk/v3/reference/interfaces/AllowedPermitArguments",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/interfaces/BestTradeOptions",
+              "path": "/sdk/v3/reference/interfaces/BestTradeOptions",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/interfaces/ClaimOptions",
+              "path": "/sdk/v3/reference/interfaces/ClaimOptions",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/interfaces/CollectOptions",
+              "path": "/sdk/v3/reference/interfaces/CollectOptions",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/interfaces/CommonAddLiquidityOptions",
+              "path": "/sdk/v3/reference/interfaces/CommonAddLiquidityOptions",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/interfaces/FeeOptions",
+              "path": "/sdk/v3/reference/interfaces/FeeOptions",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/interfaces/IncentiveKey",
+              "path": "/sdk/v3/reference/interfaces/IncentiveKey",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/interfaces/IncreaseSpecificOptions",
+              "path": "/sdk/v3/reference/interfaces/IncreaseSpecificOptions",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/interfaces/MethodParameters",
+              "path": "/sdk/v3/reference/interfaces/MethodParameters",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/interfaces/MintSpecificOptions",
+              "path": "/sdk/v3/reference/interfaces/MintSpecificOptions",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/interfaces/NFTPermitOptions",
+              "path": "/sdk/v3/reference/interfaces/NFTPermitOptions",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/interfaces/QuoteOptions",
+              "path": "/sdk/v3/reference/interfaces/QuoteOptions",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/interfaces/RemoveLiquidityOptions",
+              "path": "/sdk/v3/reference/interfaces/RemoveLiquidityOptions",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/interfaces/SafeTransferOptions",
+              "path": "/sdk/v3/reference/interfaces/SafeTransferOptions",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/interfaces/StandardPermitArguments",
+              "path": "/sdk/v3/reference/interfaces/StandardPermitArguments",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/interfaces/SwapOptions",
+              "path": "/sdk/v3/reference/interfaces/SwapOptions",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/interfaces/TickConstructorArgs",
+              "path": "/sdk/v3/reference/interfaces/TickConstructorArgs",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/interfaces/TickDataProvider",
+              "path": "/sdk/v3/reference/interfaces/TickDataProvider",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/interfaces/WithdrawOptions",
+              "path": "/sdk/v3/reference/interfaces/WithdrawOptions",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/overview",
+              "path": "/sdk/v3/reference/overview",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "web3-react/guides/connect-wallet",
+              "path": "/sdk/web3-react/guides/connect-wallet",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "web3-react/guides/connectors",
+              "path": "/sdk/web3-react/guides/connectors",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "web3-react/guides/switch-chains",
+              "path": "/sdk/web3-react/guides/switch-chains",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "web3-react/overview",
+              "path": "/sdk/web3-react/overview",
+              "sidebar": "defaultSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "defaultSidebar": {
+              "link": {
+                "path": "/sdk/v3/overview",
+                "label": "v3/overview"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "contracts": {
+      "path": "/contracts/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/contracts/",
+          "mainDocId": "v2/overview",
+          "docs": [
+            {
+              "id": "permit2/overview",
+              "path": "/contracts/permit2/overview",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "permit2/reference/allowance-transfer",
+              "path": "/contracts/permit2/reference/allowance-transfer",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "permit2/reference/signature-transfer",
+              "path": "/contracts/permit2/reference/signature-transfer",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "universal-router/overview",
+              "path": "/contracts/universal-router/overview",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "universal-router/technical-reference",
+              "path": "/contracts/universal-router/technical-reference",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/concepts/advanced-topics/fees",
+              "path": "/contracts/v1/concepts/advanced-topics/fees",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/concepts/advanced-topics/math",
+              "path": "/contracts/v1/concepts/advanced-topics/math",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/concepts/advanced-topics/pricing",
+              "path": "/contracts/v1/concepts/advanced-topics/pricing",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/concepts/advanced-topics/research",
+              "path": "/contracts/v1/concepts/advanced-topics/research",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/concepts/advanced-topics/security",
+              "path": "/contracts/v1/concepts/advanced-topics/security",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/concepts/advanced-topics/understanding-returns",
+              "path": "/contracts/v1/concepts/advanced-topics/understanding-returns",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/concepts/core-concepts/flash-swaps",
+              "path": "/contracts/v1/concepts/core-concepts/flash-swaps",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/concepts/core-concepts/oracles",
+              "path": "/contracts/v1/concepts/core-concepts/oracles",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/concepts/core-concepts/pools",
+              "path": "/contracts/v1/concepts/core-concepts/pools",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/concepts/core-concepts/swaps",
+              "path": "/contracts/v1/concepts/core-concepts/swaps",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/concepts/protocol-overview/ecosystem-participants",
+              "path": "/contracts/v1/concepts/protocol-overview/ecosystem-participants",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/concepts/protocol-overview/glossary",
+              "path": "/contracts/v1/concepts/protocol-overview/glossary",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/concepts/protocol-overview/how-pegasys-works",
+              "path": "/contracts/v1/concepts/protocol-overview/how-pegasys-works",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/concepts/protocol-overview/smart-contracts",
+              "path": "/contracts/v1/concepts/protocol-overview/smart-contracts",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/guides/interface-integration/custom-interface-linking",
+              "path": "/contracts/v1/guides/interface-integration/custom-interface-linking",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/guides/interface-integration/iframe-integration",
+              "path": "/contracts/v1/guides/interface-integration/iframe-integration",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/guides/interface-integration/using-the-api",
+              "path": "/contracts/v1/guides/interface-integration/using-the-api",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/guides/smart-contract-integration/building-an-oracle",
+              "path": "/contracts/v1/guides/smart-contract-integration/building-an-oracle",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/guides/smart-contract-integration/getting-pair-addresses",
+              "path": "/contracts/v1/guides/smart-contract-integration/getting-pair-addresses",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/guides/smart-contract-integration/providing-liquidity",
+              "path": "/contracts/v1/guides/smart-contract-integration/providing-liquidity",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/guides/smart-contract-integration/quick-start",
+              "path": "/contracts/v1/guides/smart-contract-integration/quick-start",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/guides/smart-contract-integration/supporting-meta-transactions",
+              "path": "/contracts/v1/guides/smart-contract-integration/supporting-meta-transactions",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/guides/smart-contract-integration/trading-from-a-smart-contract",
+              "path": "/contracts/v1/guides/smart-contract-integration/trading-from-a-smart-contract",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/guides/smart-contract-integration/using-flash-swaps",
+              "path": "/contracts/v1/guides/smart-contract-integration/using-flash-swaps",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/overview",
+              "path": "/contracts/v1/overview",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/reference/API/entities",
+              "path": "/contracts/v1/reference/API/entities",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/reference/API/overview",
+              "path": "/contracts/v1/reference/API/overview",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/reference/API/queries",
+              "path": "/contracts/v1/reference/API/queries",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/reference/Governance/governance-reference",
+              "path": "/contracts/v1/reference/Governance/governance-reference",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/reference/smart-contracts/common-errors",
+              "path": "/contracts/v1/reference/smart-contracts/common-errors",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/reference/smart-contracts/factory",
+              "path": "/contracts/v1/reference/smart-contracts/factory",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/reference/smart-contracts/library",
+              "path": "/contracts/v1/reference/smart-contracts/library",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/reference/smart-contracts/pair",
+              "path": "/contracts/v1/reference/smart-contracts/pair",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/reference/smart-contracts/Pair-ERC-20",
+              "path": "/contracts/v1/reference/smart-contracts/Pair-ERC-20",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/reference/smart-contracts/router-01",
+              "path": "/contracts/v1/reference/smart-contracts/router-01",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/reference/smart-contracts/router-02",
+              "path": "/contracts/v1/reference/smart-contracts/router-02",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/guides/flash-integrations/calling-flash",
+              "path": "/contracts/v2/guides/flash-integrations/calling-flash",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/guides/flash-integrations/final-contract",
+              "path": "/contracts/v2/guides/flash-integrations/final-contract",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/guides/flash-integrations/flash-callback",
+              "path": "/contracts/v2/guides/flash-integrations/flash-callback",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/guides/flash-integrations/inheritance-constructors",
+              "path": "/contracts/v2/guides/flash-integrations/inheritance-constructors",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/guides/governance/liscense-modifications",
+              "path": "/contracts/v2/guides/governance/liscense-modifications",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/guides/liquidity-mining/overview",
+              "path": "/contracts/v2/guides/liquidity-mining/overview",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/guides/local-environment",
+              "path": "/contracts/v2/guides/local-environment",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/guides/providing-liquidity/collect-fees",
+              "path": "/contracts/v2/guides/providing-liquidity/collect-fees",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/guides/providing-liquidity/decrease-liquidity",
+              "path": "/contracts/v2/guides/providing-liquidity/decrease-liquidity",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/guides/providing-liquidity/increase-liquidity",
+              "path": "/contracts/v2/guides/providing-liquidity/increase-liquidity",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/guides/providing-liquidity/mint-a-position",
+              "path": "/contracts/v2/guides/providing-liquidity/mint-a-position",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/guides/providing-liquidity/setting-up",
+              "path": "/contracts/v2/guides/providing-liquidity/setting-up",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/guides/providing-liquidity/the-full-contract",
+              "path": "/contracts/v2/guides/providing-liquidity/the-full-contract",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/guides/swaps/multihop-swaps",
+              "path": "/contracts/v2/guides/swaps/multihop-swaps",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/guides/swaps/single-swaps",
+              "path": "/contracts/v2/guides/swaps/single-swaps",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/overview",
+              "path": "/contracts/v2/overview",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/core/interfaces/callback/IPegasysV3FlashCallback",
+              "path": "/contracts/v2/reference/core/interfaces/callback/IPegasysV3FlashCallback",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/core/interfaces/callback/IPegasysV3MintCallback",
+              "path": "/contracts/v2/reference/core/interfaces/callback/IPegasysV3MintCallback",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/core/interfaces/callback/IPegasysV3SwapCallback",
+              "path": "/contracts/v2/reference/core/interfaces/callback/IPegasysV3SwapCallback",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/core/interfaces/IERC20Minimal",
+              "path": "/contracts/v2/reference/core/interfaces/IERC20Minimal",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/core/interfaces/IPegasysV3Factory",
+              "path": "/contracts/v2/reference/core/interfaces/IPegasysV3Factory",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/core/interfaces/IPegasysV3Pool",
+              "path": "/contracts/v2/reference/core/interfaces/IPegasysV3Pool",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/core/interfaces/IPegasysV3PoolDeployer",
+              "path": "/contracts/v2/reference/core/interfaces/IPegasysV3PoolDeployer",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/core/interfaces/pool/IPegasysV3PoolActions",
+              "path": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolActions",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/core/interfaces/pool/IPegasysV3PoolDerivedState",
+              "path": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolDerivedState",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/core/interfaces/pool/IPegasysV3PoolEvents",
+              "path": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolEvents",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/core/interfaces/pool/IPegasysV3PoolImmutables",
+              "path": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolImmutables",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/core/interfaces/pool/IPegasysV3PoolOwnerActions",
+              "path": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolOwnerActions",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/core/interfaces/pool/IPegasysV3PoolState",
+              "path": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolState",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/core/libraries/BitMath",
+              "path": "/contracts/v2/reference/core/libraries/BitMath",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/core/libraries/FixedPoint128",
+              "path": "/contracts/v2/reference/core/libraries/FixedPoint128",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/core/libraries/FixedPoint96",
+              "path": "/contracts/v2/reference/core/libraries/FixedPoint96",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/core/libraries/FullMath",
+              "path": "/contracts/v2/reference/core/libraries/FullMath",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/core/libraries/LiquidityMath",
+              "path": "/contracts/v2/reference/core/libraries/LiquidityMath",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/core/libraries/LowGasSafeMath",
+              "path": "/contracts/v2/reference/core/libraries/LowGasSafeMath",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/core/libraries/Oracle",
+              "path": "/contracts/v2/reference/core/libraries/Oracle",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/core/libraries/Position",
+              "path": "/contracts/v2/reference/core/libraries/Position",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/core/libraries/SafeCast",
+              "path": "/contracts/v2/reference/core/libraries/SafeCast",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/core/libraries/SecondsOutside",
+              "path": "/contracts/v2/reference/core/libraries/SecondsOutside",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/core/libraries/SqrtPriceMath",
+              "path": "/contracts/v2/reference/core/libraries/SqrtPriceMath",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/core/libraries/SwapMath",
+              "path": "/contracts/v2/reference/core/libraries/SwapMath",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/core/libraries/Tick",
+              "path": "/contracts/v2/reference/core/libraries/Tick",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/core/libraries/TickBitmap",
+              "path": "/contracts/v2/reference/core/libraries/TickBitmap",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/core/libraries/TickMath",
+              "path": "/contracts/v2/reference/core/libraries/TickMath",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/core/libraries/TransferHelper",
+              "path": "/contracts/v2/reference/core/libraries/TransferHelper",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/core/libraries/UnsafeMath",
+              "path": "/contracts/v2/reference/core/libraries/UnsafeMath",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/core/PegasysV3Factory",
+              "path": "/contracts/v2/reference/core/PegasysV3Factory",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/core/PegasysV3Pool",
+              "path": "/contracts/v2/reference/core/PegasysV3Pool",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/core/PegasysV3PoolDeployer",
+              "path": "/contracts/v2/reference/core/PegasysV3PoolDeployer",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/deployments",
+              "path": "/contracts/v2/reference/deployments",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/error-codes",
+              "path": "/contracts/v2/reference/error-codes",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/Governance/overview",
+              "path": "/contracts/v2/reference/Governance/overview",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/overview",
+              "path": "/contracts/v2/reference/overview",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/base/BlockTimestamp",
+              "path": "/contracts/v2/reference/periphery/base/BlockTimestamp",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/base/ERC721Permit",
+              "path": "/contracts/v2/reference/periphery/base/ERC721Permit",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/base/LiquidityManagement",
+              "path": "/contracts/v2/reference/periphery/base/LiquidityManagement",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/base/Multicall",
+              "path": "/contracts/v2/reference/periphery/base/Multicall",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/base/PeripheryImmutableState",
+              "path": "/contracts/v2/reference/periphery/base/PeripheryImmutableState",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/base/PeripheryPayments",
+              "path": "/contracts/v2/reference/periphery/base/PeripheryPayments",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/base/PeripheryPaymentsWithFee",
+              "path": "/contracts/v2/reference/periphery/base/PeripheryPaymentsWithFee",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/base/PoolInitializer",
+              "path": "/contracts/v2/reference/periphery/base/PoolInitializer",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/base/SelfPermit",
+              "path": "/contracts/v2/reference/periphery/base/SelfPermit",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/interfaces/external/IERC1271",
+              "path": "/contracts/v2/reference/periphery/interfaces/external/IERC1271",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/interfaces/external/IERC20PermitAllowed",
+              "path": "/contracts/v2/reference/periphery/interfaces/external/IERC20PermitAllowed",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/interfaces/external/IWETH9",
+              "path": "/contracts/v2/reference/periphery/interfaces/external/IWETH9",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/interfaces/IERC20Metadata",
+              "path": "/contracts/v2/reference/periphery/interfaces/IERC20Metadata",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/interfaces/IERC721Permit",
+              "path": "/contracts/v2/reference/periphery/interfaces/IERC721Permit",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/interfaces/IMulticall",
+              "path": "/contracts/v2/reference/periphery/interfaces/IMulticall",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/interfaces/INonfungiblePositionManager",
+              "path": "/contracts/v2/reference/periphery/interfaces/INonfungiblePositionManager",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/interfaces/INonfungibleTokenPositionDescriptor",
+              "path": "/contracts/v2/reference/periphery/interfaces/INonfungibleTokenPositionDescriptor",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/interfaces/IPeripheryImmutableState",
+              "path": "/contracts/v2/reference/periphery/interfaces/IPeripheryImmutableState",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/interfaces/IPeripheryPayments",
+              "path": "/contracts/v2/reference/periphery/interfaces/IPeripheryPayments",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/interfaces/IPeripheryPaymentsWithFee",
+              "path": "/contracts/v2/reference/periphery/interfaces/IPeripheryPaymentsWithFee",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/interfaces/IPoolInitializer",
+              "path": "/contracts/v2/reference/periphery/interfaces/IPoolInitializer",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/interfaces/IQuoter",
+              "path": "/contracts/v2/reference/periphery/interfaces/IQuoter",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/interfaces/IQuoterV2",
+              "path": "/contracts/v2/reference/periphery/interfaces/IQuoterV2",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/interfaces/ISelfPermit",
+              "path": "/contracts/v2/reference/periphery/interfaces/ISelfPermit",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/interfaces/ISwapRouter",
+              "path": "/contracts/v2/reference/periphery/interfaces/ISwapRouter",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/interfaces/ITickLens",
+              "path": "/contracts/v2/reference/periphery/interfaces/ITickLens",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/interfaces/IV3Migrator",
+              "path": "/contracts/v2/reference/periphery/interfaces/IV3Migrator",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/lens/Quoter",
+              "path": "/contracts/v2/reference/periphery/lens/Quoter",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/lens/QuoterV2",
+              "path": "/contracts/v2/reference/periphery/lens/QuoterV2",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/lens/TickLens",
+              "path": "/contracts/v2/reference/periphery/lens/TickLens",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/libraries/Base64",
+              "path": "/contracts/v2/reference/periphery/libraries/Base64",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/libraries/BytesLib",
+              "path": "/contracts/v2/reference/periphery/libraries/BytesLib",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/libraries/CallbackValidation",
+              "path": "/contracts/v2/reference/periphery/libraries/CallbackValidation",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/libraries/ChainId",
+              "path": "/contracts/v2/reference/periphery/libraries/ChainId",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/libraries/HexStrings",
+              "path": "/contracts/v2/reference/periphery/libraries/HexStrings",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/libraries/LiquidityAmounts",
+              "path": "/contracts/v2/reference/periphery/libraries/LiquidityAmounts",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/libraries/NFTDescriptor",
+              "path": "/contracts/v2/reference/periphery/libraries/NFTDescriptor",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/libraries/NFTSVG",
+              "path": "/contracts/v2/reference/periphery/libraries/NFTSVG",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/libraries/OracleLibrary",
+              "path": "/contracts/v2/reference/periphery/libraries/OracleLibrary",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/libraries/Path",
+              "path": "/contracts/v2/reference/periphery/libraries/Path",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/libraries/PoolAddress",
+              "path": "/contracts/v2/reference/periphery/libraries/PoolAddress",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/libraries/PoolTicksCounter",
+              "path": "/contracts/v2/reference/periphery/libraries/PoolTicksCounter",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/libraries/PositionKey",
+              "path": "/contracts/v2/reference/periphery/libraries/PositionKey",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/libraries/TokenRatioSortOrder",
+              "path": "/contracts/v2/reference/periphery/libraries/TokenRatioSortOrder",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/libraries/TransferHelper",
+              "path": "/contracts/v2/reference/periphery/libraries/TransferHelper",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/libraries/WeightedOracleLibrary",
+              "path": "/contracts/v2/reference/periphery/libraries/WeightedOracleLibrary",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/NonfungiblePositionManager",
+              "path": "/contracts/v2/reference/periphery/NonfungiblePositionManager",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/NonfungibleTokenPositionDescriptor",
+              "path": "/contracts/v2/reference/periphery/NonfungibleTokenPositionDescriptor",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/staker/Design",
+              "path": "/contracts/v2/reference/periphery/staker/Design",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/staker/interfaces/IPegasysV3Staker",
+              "path": "/contracts/v2/reference/periphery/staker/interfaces/IPegasysV3Staker",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/staker/libraries/IncentiveId",
+              "path": "/contracts/v2/reference/periphery/staker/libraries/IncentiveId",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/staker/libraries/NFTPositionInfo",
+              "path": "/contracts/v2/reference/periphery/staker/libraries/NFTPositionInfo",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/staker/libraries/RewardMath",
+              "path": "/contracts/v2/reference/periphery/staker/libraries/RewardMath",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/staker/PegasysV3Staker",
+              "path": "/contracts/v2/reference/periphery/staker/PegasysV3Staker",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/SwapRouter",
+              "path": "/contracts/v2/reference/periphery/SwapRouter",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/test/Base64Test",
+              "path": "/contracts/v2/reference/periphery/test/Base64Test",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/test/LiquidityAmountsTest",
+              "path": "/contracts/v2/reference/periphery/test/LiquidityAmountsTest",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/test/MockTimeNonfungiblePositionManager",
+              "path": "/contracts/v2/reference/periphery/test/MockTimeNonfungiblePositionManager",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/test/MockTimeSwapRouter",
+              "path": "/contracts/v2/reference/periphery/test/MockTimeSwapRouter",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/test/NFTDescriptorTest",
+              "path": "/contracts/v2/reference/periphery/test/NFTDescriptorTest",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/test/PathTest",
+              "path": "/contracts/v2/reference/periphery/test/PathTest",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/test/PeripheryImmutableStateTest",
+              "path": "/contracts/v2/reference/periphery/test/PeripheryImmutableStateTest",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/test/PoolAddressTest",
+              "path": "/contracts/v2/reference/periphery/test/PoolAddressTest",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/test/SelfPermitTest",
+              "path": "/contracts/v2/reference/periphery/test/SelfPermitTest",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/test/TestCallbackValidation",
+              "path": "/contracts/v2/reference/periphery/test/TestCallbackValidation",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/test/TestERC20",
+              "path": "/contracts/v2/reference/periphery/test/TestERC20",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/test/TestERC20Metadata",
+              "path": "/contracts/v2/reference/periphery/test/TestERC20Metadata",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/test/TestERC20PermitAllowed",
+              "path": "/contracts/v2/reference/periphery/test/TestERC20PermitAllowed",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/test/TestMulticall",
+              "path": "/contracts/v2/reference/periphery/test/TestMulticall",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/test/TestPegasysV3Callee",
+              "path": "/contracts/v2/reference/periphery/test/TestPegasysV3Callee",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/test/TestPositionNFTOwner",
+              "path": "/contracts/v2/reference/periphery/test/TestPositionNFTOwner",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/test/TickLensTest",
+              "path": "/contracts/v2/reference/periphery/test/TickLensTest",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v2/reference/periphery/V3Migrator",
+              "path": "/contracts/v2/reference/periphery/V3Migrator",
+              "sidebar": "defaultSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "defaultSidebar": {
+              "link": {
+                "path": "/contracts/v2/overview",
+                "label": "v2/overview"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "concepts": {
+      "path": "/concepts/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/concepts/",
+          "mainDocId": "overview",
+          "docs": [
+            {
+              "id": "glossary",
+              "path": "/concepts/glossary",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "jingo-protocol",
+              "path": "/concepts/jingo-protocol",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "overview",
+              "path": "/concepts/overview",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "protocol/concentrated-liquidity",
+              "path": "/concepts/protocol/concentrated-liquidity",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "protocol/fees",
+              "path": "/concepts/protocol/fees",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "protocol/integration-issues",
+              "path": "/concepts/protocol/integration-issues",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "protocol/oracle",
+              "path": "/concepts/protocol/oracle",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "protocol/range-orders",
+              "path": "/concepts/protocol/range-orders",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "protocol/swaps",
+              "path": "/concepts/protocol/swaps",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "resources",
+              "path": "/concepts/resources",
+              "sidebar": "defaultSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "defaultSidebar": {
+              "link": {
+                "path": "/concepts/overview",
+                "label": "overview"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

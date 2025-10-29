@@ -1,0 +1,23 @@
+{
+  "unversionedId": "core/reference/classes/Ether",
+  "id": "core/reference/classes/Ether",
+  "title": "Ether",
+  "description": "@jingofi/sdk-core / Exports / Ether",
+  "source": "@site/docs/sdk/core/reference/classes/Ether.md",
+  "sourceDirName": "core/reference/classes",
+  "slug": "/core/reference/classes/Ether",
+  "permalink": "/sdk/core/reference/classes/Ether",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "CurrencyAmount",
+    "permalink": "/sdk/core/reference/classes/CurrencyAmount"
+  },
+  "next": {
+    "title": "Fraction",
+    "permalink": "/sdk/core/reference/classes/Fraction"
+  }
+}

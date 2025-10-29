@@ -1,0 +1,23 @@
+{
+  "unversionedId": "v3/reference/interfaces/TickConstructorArgs",
+  "id": "v3/reference/interfaces/TickConstructorArgs",
+  "title": "TickConstructorArgs",
+  "description": "@jingofi/v3-sdk / Exports / TickConstructorArgs",
+  "source": "@site/docs/sdk/v3/reference/interfaces/TickConstructorArgs.md",
+  "sourceDirName": "v3/reference/interfaces",
+  "slug": "/v3/reference/interfaces/TickConstructorArgs",
+  "permalink": "/sdk/v3/reference/interfaces/TickConstructorArgs",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "SwapOptions",
+    "permalink": "/sdk/v3/reference/interfaces/SwapOptions"
+  },
+  "next": {
+    "title": "TickDataProvider",
+    "permalink": "/sdk/v3/reference/interfaces/TickDataProvider"
+  }
+}

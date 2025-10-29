@@ -1,0 +1,23 @@
+{
+  "unversionedId": "core/reference/enums/SupportedChainId",
+  "id": "core/reference/enums/SupportedChainId",
+  "title": "SupportedChainId",
+  "description": "@jingofi/sdk-core / Exports / SupportedChainId",
+  "source": "@site/docs/sdk/core/reference/enums/SupportedChainId.md",
+  "sourceDirName": "core/reference/enums",
+  "slug": "/core/reference/enums/SupportedChainId",
+  "permalink": "/sdk/core/reference/enums/SupportedChainId",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Rounding",
+    "permalink": "/sdk/core/reference/enums/Rounding"
+  },
+  "next": {
+    "title": "TradeType",
+    "permalink": "/sdk/core/reference/enums/TradeType"
+  }
+}

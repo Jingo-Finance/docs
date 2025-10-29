@@ -1,0 +1,29 @@
+{
+  "unversionedId": "v1/concepts/core-concepts/swaps",
+  "id": "v1/concepts/core-concepts/swaps",
+  "title": "Swaps",
+  "description": "Token swaps in Jingo are a simple way to trade one ERC-20 token for another.",
+  "source": "@site/docs/contracts/v1/concepts/02-core-concepts/01-swaps.md",
+  "sourceDirName": "v1/concepts/02-core-concepts",
+  "slug": "/v1/concepts/core-concepts/swaps",
+  "permalink": "/contracts/v1/concepts/core-concepts/swaps",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v1/concepts/02-core-concepts/01-swaps.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "swaps",
+    "title": "Swaps",
+    "subtitle": "Learn about the core functionality of the pegasys protocol. Token Swaps."
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Glossary",
+    "permalink": "/contracts/v1/concepts/protocol-overview/glossary"
+  },
+  "next": {
+    "title": "Pools",
+    "permalink": "/contracts/v1/concepts/core-concepts/pools"
+  }
+}

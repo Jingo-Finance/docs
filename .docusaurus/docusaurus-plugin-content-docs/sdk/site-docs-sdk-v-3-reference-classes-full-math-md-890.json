@@ -1,0 +1,23 @@
+{
+  "unversionedId": "v3/reference/classes/FullMath",
+  "id": "v3/reference/classes/FullMath",
+  "title": "FullMath",
+  "description": "@jingofi/v3-sdk / Exports / FullMath",
+  "source": "@site/docs/sdk/v3/reference/classes/FullMath.md",
+  "sourceDirName": "v3/reference/classes",
+  "slug": "/v3/reference/classes/FullMath",
+  "permalink": "/sdk/v3/reference/classes/FullMath",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/sdk/v3/reference/overview"
+  },
+  "next": {
+    "title": "LiquidityMath",
+    "permalink": "/sdk/v3/reference/classes/LiquidityMath"
+  }
+}

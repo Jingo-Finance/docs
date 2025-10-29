@@ -1,0 +1,27 @@
+{
+  "unversionedId": "web3-react/guides/connectors",
+  "id": "web3-react/guides/connectors",
+  "title": "Supported Connectors",
+  "description": "Introduction",
+  "source": "@site/docs/sdk/web3-react/guides/02-connectors.md",
+  "sourceDirName": "web3-react/guides",
+  "slug": "/web3-react/guides/connectors",
+  "permalink": "/sdk/web3-react/guides/connectors",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "connectors",
+    "title": "Supported Connectors"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Connecting to Wallets",
+    "permalink": "/sdk/web3-react/guides/connect-wallet"
+  },
+  "next": {
+    "title": "Switching Chains",
+    "permalink": "/sdk/web3-react/guides/switch-chains"
+  }
+}

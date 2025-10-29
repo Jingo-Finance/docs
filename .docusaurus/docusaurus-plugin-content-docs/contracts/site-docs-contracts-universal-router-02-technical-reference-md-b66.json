@@ -1,0 +1,29 @@
+{
+  "unversionedId": "universal-router/technical-reference",
+  "id": "universal-router/technical-reference",
+  "title": "Technical Reference",
+  "description": "Functions",
+  "source": "@site/docs/contracts/universal-router/02-technical-reference.md",
+  "sourceDirName": "universal-router",
+  "slug": "/universal-router/technical-reference",
+  "permalink": "/contracts/universal-router/technical-reference",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/universal-router/02-technical-reference.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "technical-reference",
+    "title": "Technical Reference",
+    "sidebar_position": 1
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/contracts/universal-router/overview"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/contracts/permit2/overview"
+  }
+}

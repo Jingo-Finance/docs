@@ -1,0 +1,27 @@
+{
+  "unversionedId": "v1/guides/fetching-data",
+  "id": "v1/guides/fetching-data",
+  "title": "Fetching Data",
+  "description": "Looking for a quickstart?",
+  "source": "@site/docs/sdk/v1/guides/02-fetching-data.md",
+  "sourceDirName": "v1/guides",
+  "slug": "/v1/guides/fetching-data",
+  "permalink": "/sdk/v1/guides/fetching-data",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "fetching-data",
+    "title": "Fetching Data"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "SDK Quick start",
+    "permalink": "/sdk/v1/guides/quick-start"
+  },
+  "next": {
+    "title": "Pricing",
+    "permalink": "/sdk/v1/guides/pricing"
+  }
+}

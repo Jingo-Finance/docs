@@ -1,0 +1,28 @@
+{
+  "unversionedId": "v1/guides/interface-integration/using-the-api",
+  "id": "v1/guides/interface-integration/using-the-api",
+  "title": "Using the API",
+  "description": "In this guide we will create a web interface that consumes and displays data from the Jingo Subgraph. The goal is to provide a quick overview of a setup that you can extend to create your own UIs and analytics around Jingo data.",
+  "source": "@site/docs/contracts/v1/guides/interface-integration/01-using-the-api.md",
+  "sourceDirName": "v1/guides/interface-integration",
+  "slug": "/v1/guides/interface-integration/using-the-api",
+  "permalink": "/contracts/v1/guides/interface-integration/using-the-api",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v1/guides/interface-integration/01-using-the-api.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "using-the-api",
+    "title": "Using the API"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Research",
+    "permalink": "/contracts/v1/concepts/advanced-topics/research"
+  },
+  "next": {
+    "title": "Custom Linking",
+    "permalink": "/contracts/v1/guides/interface-integration/custom-interface-linking"
+  }
+}

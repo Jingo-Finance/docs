@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/test/PoolAddressTest",
+  "id": "v2/reference/periphery/test/PoolAddressTest",
+  "title": "PoolAddressTest",
+  "description": "Functions",
+  "source": "@site/docs/contracts/v2/reference/periphery/test/PoolAddressTest.md",
+  "sourceDirName": "v2/reference/periphery/test",
+  "slug": "/v2/reference/periphery/test/PoolAddressTest",
+  "permalink": "/contracts/v2/reference/periphery/test/PoolAddressTest",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/test/PoolAddressTest.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "PeripheryImmutableStateTest",
+    "permalink": "/contracts/v2/reference/periphery/test/PeripheryImmutableStateTest"
+  },
+  "next": {
+    "title": "SelfPermitTest",
+    "permalink": "/contracts/v2/reference/periphery/test/SelfPermitTest"
+  }
+}

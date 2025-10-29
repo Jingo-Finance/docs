@@ -1,0 +1,27 @@
+{
+  "unversionedId": "v2/reference/deployments",
+  "id": "v2/reference/deployments",
+  "title": "Deployment Addresses",
+  "description": "The latest version of @jingofi/v3-core, @jingofi/v3-periphery, @jingofi/swap-router-contracts, and @jingofi/v3-staker are deployed at the addresses listed below. Integrators should no longer assume that they are deployed to the same addresses across chains and be extremely careful to confirm mappings below.",
+  "source": "@site/docs/contracts/v2/reference/Deployments.md",
+  "sourceDirName": "v2/reference",
+  "slug": "/v2/reference/deployments",
+  "permalink": "/contracts/v2/reference/deployments",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/Deployments.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "deployments",
+    "title": "Deployment Addresses"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "V3Migrator",
+    "permalink": "/contracts/v2/reference/periphery/V3Migrator"
+  },
+  "next": {
+    "title": "Error Codes",
+    "permalink": "/contracts/v2/reference/error-codes"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "unversionedId": "v1/reference/smart-contracts/Pair-ERC-20",
+  "id": "v1/reference/smart-contracts/Pair-ERC-20",
+  "title": "Pair (ERC-20)",
+  "description": "This documentation covers ERC-20 functionality for denominating pool tokens. For Jingo-specific functionality, see Pair.",
+  "source": "@site/docs/contracts/v1/reference/smart-contracts/03-pair-erc-20.md",
+  "sourceDirName": "v1/reference/smart-contracts",
+  "slug": "/v1/reference/smart-contracts/Pair-ERC-20",
+  "permalink": "/contracts/v1/reference/smart-contracts/Pair-ERC-20",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v1/reference/smart-contracts/03-pair-erc-20.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "Pair-ERC-20",
+    "title": "Pair (ERC-20)"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Pair",
+    "permalink": "/contracts/v1/reference/smart-contracts/pair"
+  },
+  "next": {
+    "title": "Library",
+    "permalink": "/contracts/v1/reference/smart-contracts/library"
+  }
+}

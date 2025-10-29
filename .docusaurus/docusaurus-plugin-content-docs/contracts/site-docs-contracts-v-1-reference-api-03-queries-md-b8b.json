@@ -1,0 +1,28 @@
+{
+  "unversionedId": "v1/reference/API/queries",
+  "id": "v1/reference/API/queries",
+  "title": "Queries",
+  "description": "The subgraph can be queried to retrieve important information about Jingo, pairs, tokens, transactions, users, and more. This page will provide examples for common queries.",
+  "source": "@site/docs/contracts/v1/reference/API/03-queries.md",
+  "sourceDirName": "v1/reference/API",
+  "slug": "/v1/reference/API/queries",
+  "permalink": "/contracts/v1/reference/API/queries",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v1/reference/API/03-queries.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "queries",
+    "title": "Queries"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Entities",
+    "permalink": "/contracts/v1/reference/API/entities"
+  },
+  "next": {
+    "title": "Governance Reference",
+    "permalink": "/contracts/v1/reference/Governance/governance-reference"
+  }
+}

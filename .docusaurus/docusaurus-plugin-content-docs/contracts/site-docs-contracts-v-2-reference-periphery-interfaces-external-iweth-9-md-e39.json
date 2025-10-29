@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/interfaces/external/IWETH9",
+  "id": "v2/reference/periphery/interfaces/external/IWETH9",
+  "title": "IWETH9",
+  "description": "Functions",
+  "source": "@site/docs/contracts/v2/reference/periphery/interfaces/external/IWETH9.md",
+  "sourceDirName": "v2/reference/periphery/interfaces/external",
+  "slug": "/v2/reference/periphery/interfaces/external/IWETH9",
+  "permalink": "/contracts/v2/reference/periphery/interfaces/external/IWETH9",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/interfaces/external/IWETH9.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "IERC20PermitAllowed",
+    "permalink": "/contracts/v2/reference/periphery/interfaces/external/IERC20PermitAllowed"
+  },
+  "next": {
+    "title": "Quoter",
+    "permalink": "/contracts/v2/reference/periphery/lens/Quoter"
+  }
+}

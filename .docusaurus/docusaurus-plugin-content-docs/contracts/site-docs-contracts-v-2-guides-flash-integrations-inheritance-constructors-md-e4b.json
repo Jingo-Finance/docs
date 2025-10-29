@@ -1,0 +1,29 @@
+{
+  "unversionedId": "v2/guides/flash-integrations/inheritance-constructors",
+  "id": "v2/guides/flash-integrations/inheritance-constructors",
+  "title": "Getting Started",
+  "description": "In this guide, we will write a smart contract that calls flash on a V3 pool and swaps the full amount withdrawn of token0 and token1 in the corresponding pools with the same token pair - but different fee tiers. After the swap, the contract will pay back the first pool and transfer profits to the original calling address.",
+  "source": "@site/docs/contracts/v2/guides/flash-integrations/Inheritance-constructors.md",
+  "sourceDirName": "v2/guides/flash-integrations",
+  "slug": "/v2/guides/flash-integrations/inheritance-constructors",
+  "permalink": "/contracts/v2/guides/flash-integrations/inheritance-constructors",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/guides/flash-integrations/Inheritance-constructors.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "inheritance-constructors",
+    "title": "Getting Started",
+    "sidebar_position": 1
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/contracts/v2/guides/liquidity-mining/overview"
+  },
+  "next": {
+    "title": "Calling Flash",
+    "permalink": "/contracts/v2/guides/flash-integrations/calling-flash"
+  }
+}

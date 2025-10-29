@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/test/Base64Test",
+  "id": "v2/reference/periphery/test/Base64Test",
+  "title": "Base64Test",
+  "description": "Functions",
+  "source": "@site/docs/contracts/v2/reference/periphery/test/Base64Test.md",
+  "sourceDirName": "v2/reference/periphery/test",
+  "slug": "/v2/reference/periphery/test/Base64Test",
+  "permalink": "/contracts/v2/reference/periphery/test/Base64Test",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/test/Base64Test.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "RewardMath",
+    "permalink": "/contracts/v2/reference/periphery/staker/libraries/RewardMath"
+  },
+  "next": {
+    "title": "LiquidityAmountsTest",
+    "permalink": "/contracts/v2/reference/periphery/test/LiquidityAmountsTest"
+  }
+}

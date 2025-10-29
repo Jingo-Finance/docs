@@ -1,0 +1,23 @@
+{
+  "unversionedId": "v3/reference/classes/SqrtPriceMath",
+  "id": "v3/reference/classes/SqrtPriceMath",
+  "title": "SqrtPriceMath",
+  "description": "@jingofi/v3-sdk / Exports / SqrtPriceMath",
+  "source": "@site/docs/sdk/v3/reference/classes/SqrtPriceMath.md",
+  "sourceDirName": "v3/reference/classes",
+  "slug": "/v3/reference/classes/SqrtPriceMath",
+  "permalink": "/sdk/v3/reference/classes/SqrtPriceMath",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "SelfPermit",
+    "permalink": "/sdk/v3/reference/classes/SelfPermit"
+  },
+  "next": {
+    "title": "Staker",
+    "permalink": "/sdk/v3/reference/classes/Staker"
+  }
+}

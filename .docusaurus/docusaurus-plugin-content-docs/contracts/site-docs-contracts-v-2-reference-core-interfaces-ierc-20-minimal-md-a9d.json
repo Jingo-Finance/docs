@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/core/interfaces/IERC20Minimal",
+  "id": "v2/reference/core/interfaces/IERC20Minimal",
+  "title": "IERC20Minimal",
+  "description": "Contains a subset of the full ERC20 interface that is used in Jingo V3",
+  "source": "@site/docs/contracts/v2/reference/core/interfaces/IERC20Minimal.md",
+  "sourceDirName": "v2/reference/core/interfaces",
+  "slug": "/v2/reference/core/interfaces/IERC20Minimal",
+  "permalink": "/contracts/v2/reference/core/interfaces/IERC20Minimal",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/core/interfaces/IERC20Minimal.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "PegasysV3PoolDeployer",
+    "permalink": "/contracts/v2/reference/core/PegasysV3PoolDeployer"
+  },
+  "next": {
+    "title": "IPegasysV3Factory",
+    "permalink": "/contracts/v2/reference/core/interfaces/IPegasysV3Factory"
+  }
+}

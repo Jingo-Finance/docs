@@ -1,0 +1,28 @@
+{
+  "unversionedId": "v2/reference/periphery/staker/PegasysV3Staker",
+  "id": "v2/reference/periphery/staker/PegasysV3Staker",
+  "title": "Jingo V3 Staker Contract",
+  "description": "Below is the technical reference for the staker contract, PegasysV3Staker.sol. A technical guide for interacting with this staking contract will be released soon.",
+  "source": "@site/docs/contracts/v2/reference/periphery/staker/PegasysV3Staker.md",
+  "sourceDirName": "v2/reference/periphery/staker",
+  "slug": "/v2/reference/periphery/staker/PegasysV3Staker",
+  "permalink": "/contracts/v2/reference/periphery/staker/PegasysV3Staker",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/staker/PegasysV3Staker.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_label": "Jingo V3 Staker Contract",
+    "sidebar_position": 2
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Jingo V3 Staker Design",
+    "permalink": "/contracts/v2/reference/periphery/staker/Design"
+  },
+  "next": {
+    "title": "IPegasysV3Staker",
+    "permalink": "/contracts/v2/reference/periphery/staker/interfaces/IPegasysV3Staker"
+  }
+}

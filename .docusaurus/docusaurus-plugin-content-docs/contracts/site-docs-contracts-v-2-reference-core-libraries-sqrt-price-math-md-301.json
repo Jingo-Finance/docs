@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/core/libraries/SqrtPriceMath",
+  "id": "v2/reference/core/libraries/SqrtPriceMath",
+  "title": "SqrtPriceMath",
+  "description": "Contains the math that uses square root of price as a Q64.96 and liquidity to compute deltas",
+  "source": "@site/docs/contracts/v2/reference/core/libraries/SqrtPriceMath.md",
+  "sourceDirName": "v2/reference/core/libraries",
+  "slug": "/v2/reference/core/libraries/SqrtPriceMath",
+  "permalink": "/contracts/v2/reference/core/libraries/SqrtPriceMath",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/core/libraries/SqrtPriceMath.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "SecondsOutside",
+    "permalink": "/contracts/v2/reference/core/libraries/SecondsOutside"
+  },
+  "next": {
+    "title": "SwapMath",
+    "permalink": "/contracts/v2/reference/core/libraries/SwapMath"
+  }
+}

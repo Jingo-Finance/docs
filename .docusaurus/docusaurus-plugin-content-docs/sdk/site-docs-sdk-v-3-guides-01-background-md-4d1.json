@@ -1,0 +1,27 @@
+{
+  "unversionedId": "v3/guides/background",
+  "id": "v3/guides/background",
+  "title": "Background",
+  "description": "Before integrating with Jingo, it may be helpful for newcomers to review the following background information on some important developer web3 concepts, the structure of our examples, and SDK concepts.",
+  "source": "@site/docs/sdk/v3/guides/01-background.md",
+  "sourceDirName": "v3/guides",
+  "slug": "/v3/guides/background",
+  "permalink": "/sdk/v3/guides/background",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "background",
+    "title": "Background"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/sdk/v3/overview"
+  },
+  "next": {
+    "title": "Getting a Quote",
+    "permalink": "/sdk/v3/guides/quoting"
+  }
+}

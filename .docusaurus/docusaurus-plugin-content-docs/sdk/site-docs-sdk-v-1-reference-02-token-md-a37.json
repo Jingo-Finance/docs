@@ -1,0 +1,27 @@
+{
+  "unversionedId": "v1/reference/token",
+  "id": "v1/reference/token",
+  "title": "Token",
+  "description": "The Token entity represents an ERC-20 token at a specific address on a specific chain.",
+  "source": "@site/docs/sdk/v1/reference/02-token.md",
+  "sourceDirName": "v1/reference",
+  "slug": "/v1/reference/token",
+  "permalink": "/sdk/v1/reference/token",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "token",
+    "title": "Token"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/sdk/v1/reference/getting-started"
+  },
+  "next": {
+    "title": "Pair",
+    "permalink": "/sdk/v1/reference/pair"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/core/interfaces/IPegasysV3PoolDeployer",
+  "id": "v2/reference/core/interfaces/IPegasysV3PoolDeployer",
+  "title": "IPegasysV3PoolDeployer",
+  "description": "A contract that constructs a pool must implement this to pass arguments to the pool",
+  "source": "@site/docs/contracts/v2/reference/core/interfaces/IPegasysV3PoolDeployer.md",
+  "sourceDirName": "v2/reference/core/interfaces",
+  "slug": "/v2/reference/core/interfaces/IPegasysV3PoolDeployer",
+  "permalink": "/contracts/v2/reference/core/interfaces/IPegasysV3PoolDeployer",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/core/interfaces/IPegasysV3PoolDeployer.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "IPegasysV3Pool",
+    "permalink": "/contracts/v2/reference/core/interfaces/IPegasysV3Pool"
+  },
+  "next": {
+    "title": "IPegasysV3FlashCallback",
+    "permalink": "/contracts/v2/reference/core/interfaces/callback/IPegasysV3FlashCallback"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "unversionedId": "v1/overview",
+  "id": "v1/overview",
+  "title": "Overview",
+  "description": "Welcome to the Jingo protocol V1 docs.",
+  "source": "@site/docs/contracts/v1/overview.md",
+  "sourceDirName": "v1",
+  "slug": "/v1/overview",
+  "permalink": "/contracts/v1/overview",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v1/overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "overview",
+    "title": "Overview",
+    "sidebar_position": 1
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "AllowanceTransfer",
+    "permalink": "/contracts/permit2/reference/allowance-transfer"
+  },
+  "next": {
+    "title": "How Jingo works",
+    "permalink": "/contracts/v1/concepts/protocol-overview/how-pegasys-works"
+  }
+}

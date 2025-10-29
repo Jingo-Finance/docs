@@ -1,0 +1,28 @@
+{
+  "unversionedId": "jingo-protocol",
+  "id": "jingo-protocol",
+  "title": "The Jingo Protocol",
+  "description": "Introduction",
+  "source": "@site/docs/concepts/jingo-protocol.md",
+  "sourceDirName": ".",
+  "slug": "/jingo-protocol",
+  "permalink": "/concepts/jingo-protocol",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "jingo-protocol",
+    "title": "The Jingo Protocol",
+    "sidebar_position": 2
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "What Is Jingo?",
+    "permalink": "/concepts/overview"
+  },
+  "next": {
+    "title": "Concentrated Liquidity",
+    "permalink": "/concepts/protocol/concentrated-liquidity"
+  }
+}

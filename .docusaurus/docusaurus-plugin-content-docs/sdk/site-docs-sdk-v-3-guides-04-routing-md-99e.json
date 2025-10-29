@@ -1,0 +1,27 @@
+{
+  "unversionedId": "v3/guides/routing",
+  "id": "v3/guides/routing",
+  "title": "Routing a Swap",
+  "description": "Introduction",
+  "source": "@site/docs/sdk/v3/guides/04-routing.md",
+  "sourceDirName": "v3/guides",
+  "slug": "/v3/guides/routing",
+  "permalink": "/sdk/v3/guides/routing",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "id": "routing",
+    "title": "Routing a Swap"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Executing a Trade",
+    "permalink": "/sdk/v3/guides/trading"
+  },
+  "next": {
+    "title": "Minting a Position",
+    "permalink": "/sdk/v3/guides/liquidity/minting"
+  }
+}

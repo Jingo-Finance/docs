@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/libraries/NFTSVG",
+  "id": "v2/reference/periphery/libraries/NFTSVG",
+  "title": "NFTSVG",
+  "description": "A library that provides a function for generating an SVG associated with a Jingo NFT",
+  "source": "@site/docs/contracts/v2/reference/periphery/libraries/NFTSVG.md",
+  "sourceDirName": "v2/reference/periphery/libraries",
+  "slug": "/v2/reference/periphery/libraries/NFTSVG",
+  "permalink": "/contracts/v2/reference/periphery/libraries/NFTSVG",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/libraries/NFTSVG.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "NFTDescriptor",
+    "permalink": "/contracts/v2/reference/periphery/libraries/NFTDescriptor"
+  },
+  "next": {
+    "title": "OracleLibrary",
+    "permalink": "/contracts/v2/reference/periphery/libraries/OracleLibrary"
+  }
+}

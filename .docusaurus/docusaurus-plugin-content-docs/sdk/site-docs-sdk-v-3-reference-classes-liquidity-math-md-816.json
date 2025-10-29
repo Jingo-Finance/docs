@@ -1,0 +1,23 @@
+{
+  "unversionedId": "v3/reference/classes/LiquidityMath",
+  "id": "v3/reference/classes/LiquidityMath",
+  "title": "LiquidityMath",
+  "description": "@jingofi/v3-sdk / Exports / LiquidityMath",
+  "source": "@site/docs/sdk/v3/reference/classes/LiquidityMath.md",
+  "sourceDirName": "v3/reference/classes",
+  "slug": "/v3/reference/classes/LiquidityMath",
+  "permalink": "/sdk/v3/reference/classes/LiquidityMath",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "FullMath",
+    "permalink": "/sdk/v3/reference/classes/FullMath"
+  },
+  "next": {
+    "title": "Multicall",
+    "permalink": "/sdk/v3/reference/classes/Multicall"
+  }
+}

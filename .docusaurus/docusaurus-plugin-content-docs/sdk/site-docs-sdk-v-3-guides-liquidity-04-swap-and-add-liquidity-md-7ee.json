@@ -1,0 +1,27 @@
+{
+  "unversionedId": "v3/guides/liquidity/swap-and-add",
+  "id": "v3/guides/liquidity/swap-and-add",
+  "title": "Swapping and Adding Liquidity",
+  "description": "Introduction",
+  "source": "@site/docs/sdk/v3/guides/liquidity/04-swap-and-add-liquidity.md",
+  "sourceDirName": "v3/guides/liquidity",
+  "slug": "/v3/guides/liquidity/swap-and-add",
+  "permalink": "/sdk/v3/guides/liquidity/swap-and-add",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "id": "swap-and-add",
+    "title": "Swapping and Adding Liquidity"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Collecting Fees",
+    "permalink": "/sdk/v3/guides/liquidity/liquidity-fees"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/sdk/v3/reference/overview"
+  }
+}

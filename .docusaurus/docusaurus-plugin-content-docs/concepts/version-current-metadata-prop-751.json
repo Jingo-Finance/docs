@@ -1,0 +1,144 @@
+{
+  "pluginId": "concepts",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "defaultSidebar": [
+      {
+        "type": "link",
+        "label": "What Is Jingo?",
+        "href": "/concepts/overview",
+        "docId": "overview"
+      },
+      {
+        "type": "link",
+        "label": "The Jingo Protocol",
+        "href": "/concepts/jingo-protocol",
+        "docId": "jingo-protocol"
+      },
+      {
+        "type": "category",
+        "label": "Protocol Concepts",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Concentrated Liquidity",
+            "href": "/concepts/protocol/concentrated-liquidity",
+            "docId": "protocol/concentrated-liquidity"
+          },
+          {
+            "type": "link",
+            "label": "Fees",
+            "href": "/concepts/protocol/fees",
+            "docId": "protocol/fees"
+          },
+          {
+            "type": "link",
+            "label": "Oracle",
+            "href": "/concepts/protocol/oracle",
+            "docId": "protocol/oracle"
+          },
+          {
+            "type": "link",
+            "label": "Range Orders",
+            "href": "/concepts/protocol/range-orders",
+            "docId": "protocol/range-orders"
+          },
+          {
+            "type": "link",
+            "label": "Swaps",
+            "href": "/concepts/protocol/swaps",
+            "docId": "protocol/swaps"
+          },
+          {
+            "type": "link",
+            "label": "Token Integration Issues",
+            "href": "/concepts/protocol/integration-issues",
+            "docId": "protocol/integration-issues"
+          }
+        ]
+      },
+      {
+        "type": "link",
+        "label": "Resources",
+        "href": "/concepts/resources",
+        "docId": "resources"
+      },
+      {
+        "type": "link",
+        "label": "Glossary",
+        "href": "/concepts/glossary",
+        "docId": "glossary"
+      }
+    ]
+  },
+  "docs": {
+    "glossary": {
+      "id": "glossary",
+      "title": "Glossary",
+      "description": "Automated Market Maker",
+      "sidebar": "defaultSidebar"
+    },
+    "jingo-protocol": {
+      "id": "jingo-protocol",
+      "title": "The Jingo Protocol",
+      "description": "Introduction",
+      "sidebar": "defaultSidebar"
+    },
+    "overview": {
+      "id": "overview",
+      "title": "What Is Jingo?",
+      "description": "Protocol, Interface, Labs",
+      "sidebar": "defaultSidebar"
+    },
+    "protocol/concentrated-liquidity": {
+      "id": "protocol/concentrated-liquidity",
+      "title": "Concentrated Liquidity",
+      "description": "Your browser does not support the video tag.",
+      "sidebar": "defaultSidebar"
+    },
+    "protocol/fees": {
+      "id": "protocol/fees",
+      "title": "Fees",
+      "description": "Swap Fees",
+      "sidebar": "defaultSidebar"
+    },
+    "protocol/integration-issues": {
+      "id": "protocol/integration-issues",
+      "title": "Token Integration Issues",
+      "description": "Fee-on-transfer and rebasing tokens will not function correctly on v3.",
+      "sidebar": "defaultSidebar"
+    },
+    "protocol/oracle": {
+      "id": "protocol/oracle",
+      "title": "Oracle",
+      "description": "Unfamiliar with the concept of an oracle? Check out the Ethereum Foundation's oracle overview first.",
+      "sidebar": "defaultSidebar"
+    },
+    "protocol/range-orders": {
+      "id": "protocol/range-orders",
+      "title": "Range Orders",
+      "description": "Customizable liquidity positions, along with single-sided asset provisioning, allow for a new style of swapping with automated market makers: the range order.",
+      "sidebar": "defaultSidebar"
+    },
+    "protocol/swaps": {
+      "id": "protocol/swaps",
+      "title": "Swaps",
+      "description": "Introduction",
+      "sidebar": "defaultSidebar"
+    },
+    "resources": {
+      "id": "resources",
+      "title": "Resources",
+      "description": "This page will be periodically updated with helpful resources for calculations and software design as they are made available.",
+      "sidebar": "defaultSidebar"
+    }
+  }
+}

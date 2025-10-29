@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/libraries/HexStrings",
+  "id": "v2/reference/periphery/libraries/HexStrings",
+  "title": "HexStrings",
+  "description": "Functions",
+  "source": "@site/docs/contracts/v2/reference/periphery/libraries/HexStrings.md",
+  "sourceDirName": "v2/reference/periphery/libraries",
+  "slug": "/v2/reference/periphery/libraries/HexStrings",
+  "permalink": "/contracts/v2/reference/periphery/libraries/HexStrings",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/libraries/HexStrings.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "ChainId",
+    "permalink": "/contracts/v2/reference/periphery/libraries/ChainId"
+  },
+  "next": {
+    "title": "LiquidityAmounts",
+    "permalink": "/contracts/v2/reference/periphery/libraries/LiquidityAmounts"
+  }
+}

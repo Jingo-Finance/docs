@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/base/PoolInitializer",
+  "id": "v2/reference/periphery/base/PoolInitializer",
+  "title": "PoolInitializer",
+  "description": "Functions",
+  "source": "@site/docs/contracts/v2/reference/periphery/base/PoolInitializer.md",
+  "sourceDirName": "v2/reference/periphery/base",
+  "slug": "/v2/reference/periphery/base/PoolInitializer",
+  "permalink": "/contracts/v2/reference/periphery/base/PoolInitializer",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/base/PoolInitializer.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "PeripheryPaymentsWithFee",
+    "permalink": "/contracts/v2/reference/periphery/base/PeripheryPaymentsWithFee"
+  },
+  "next": {
+    "title": "SelfPermit",
+    "permalink": "/contracts/v2/reference/periphery/base/SelfPermit"
+  }
+}

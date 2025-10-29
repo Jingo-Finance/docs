@@ -1,0 +1,27 @@
+{
+  "unversionedId": "v1/reference/route",
+  "id": "v1/reference/route",
+  "title": "Route",
+  "description": "The Route entity represents one or more ordered Jingo pairs with a fully specified path from input token to output token.",
+  "source": "@site/docs/sdk/v1/reference/04-route.md",
+  "sourceDirName": "v1/reference",
+  "slug": "/v1/reference/route",
+  "permalink": "/sdk/v1/reference/route",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "id": "route",
+    "title": "Route"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Pair",
+    "permalink": "/sdk/v1/reference/pair"
+  },
+  "next": {
+    "title": "Trade",
+    "permalink": "/sdk/v1/reference/trade"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/libraries/LiquidityAmounts",
+  "id": "v2/reference/periphery/libraries/LiquidityAmounts",
+  "title": "LiquidityAmounts",
+  "description": "Provides functions for computing liquidity amounts from token amounts and prices",
+  "source": "@site/docs/contracts/v2/reference/periphery/libraries/LiquidityAmounts.md",
+  "sourceDirName": "v2/reference/periphery/libraries",
+  "slug": "/v2/reference/periphery/libraries/LiquidityAmounts",
+  "permalink": "/contracts/v2/reference/periphery/libraries/LiquidityAmounts",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/libraries/LiquidityAmounts.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "HexStrings",
+    "permalink": "/contracts/v2/reference/periphery/libraries/HexStrings"
+  },
+  "next": {
+    "title": "NFTDescriptor",
+    "permalink": "/contracts/v2/reference/periphery/libraries/NFTDescriptor"
+  }
+}

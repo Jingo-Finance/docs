@@ -1,0 +1,23 @@
+{
+  "unversionedId": "v3/reference/classes/Pool",
+  "id": "v3/reference/classes/Pool",
+  "title": "Pool",
+  "description": "@jingofi/v3-sdk / Exports / Pool",
+  "source": "@site/docs/sdk/v3/reference/classes/Pool.md",
+  "sourceDirName": "v3/reference/classes",
+  "slug": "/v3/reference/classes/Pool",
+  "permalink": "/sdk/v3/reference/classes/Pool",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Payments",
+    "permalink": "/sdk/v3/reference/classes/Payments"
+  },
+  "next": {
+    "title": "Position",
+    "permalink": "/sdk/v3/reference/classes/Position"
+  }
+}

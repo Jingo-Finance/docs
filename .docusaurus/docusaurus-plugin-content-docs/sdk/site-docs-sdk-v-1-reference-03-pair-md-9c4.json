@@ -1,0 +1,27 @@
+{
+  "unversionedId": "v1/reference/pair",
+  "id": "v1/reference/pair",
+  "title": "Pair",
+  "description": "The Pair entity represents a Jingo pair with a balance of each of its pair tokens.",
+  "source": "@site/docs/sdk/v1/reference/03-pair.md",
+  "sourceDirName": "v1/reference",
+  "slug": "/v1/reference/pair",
+  "permalink": "/sdk/v1/reference/pair",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "pair",
+    "title": "Pair"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Token",
+    "permalink": "/sdk/v1/reference/token"
+  },
+  "next": {
+    "title": "Route",
+    "permalink": "/sdk/v1/reference/route"
+  }
+}

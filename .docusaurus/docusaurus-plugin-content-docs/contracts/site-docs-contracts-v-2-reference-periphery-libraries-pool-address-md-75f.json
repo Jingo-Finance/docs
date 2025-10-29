@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/libraries/PoolAddress",
+  "id": "v2/reference/periphery/libraries/PoolAddress",
+  "title": "PoolAddress",
+  "description": "Functions",
+  "source": "@site/docs/contracts/v2/reference/periphery/libraries/PoolAddress.md",
+  "sourceDirName": "v2/reference/periphery/libraries",
+  "slug": "/v2/reference/periphery/libraries/PoolAddress",
+  "permalink": "/contracts/v2/reference/periphery/libraries/PoolAddress",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/libraries/PoolAddress.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Path",
+    "permalink": "/contracts/v2/reference/periphery/libraries/Path"
+  },
+  "next": {
+    "title": "PoolTicksCounter",
+    "permalink": "/contracts/v2/reference/periphery/libraries/PoolTicksCounter"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "unversionedId": "v1/guides/smart-contract-integration/supporting-meta-transactions",
+  "id": "v1/guides/smart-contract-integration/supporting-meta-transactions",
+  "title": "Supporting meta transactions",
+  "description": "All Jingo V1 pool tokens support meta-transaction approvals via the permit function. This obviates the need for a blocking approve transaction before programmatic interactions with pool tokens can occur.",
+  "source": "@site/docs/contracts/v1/guides/smart-contract-integration/07-supporting-meta-transactions.md",
+  "sourceDirName": "v1/guides/smart-contract-integration",
+  "slug": "/v1/guides/smart-contract-integration/supporting-meta-transactions",
+  "permalink": "/contracts/v1/guides/smart-contract-integration/supporting-meta-transactions",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v1/guides/smart-contract-integration/07-supporting-meta-transactions.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "id": "supporting-meta-transactions",
+    "title": "Supporting meta transactions"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Pair Addresses",
+    "permalink": "/contracts/v1/guides/smart-contract-integration/getting-pair-addresses"
+  },
+  "next": {
+    "title": "API Overview",
+    "permalink": "/contracts/v1/reference/API/overview"
+  }
+}

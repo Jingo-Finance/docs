@@ -1,0 +1,23 @@
+{
+  "unversionedId": "core/reference/classes/Percent",
+  "id": "core/reference/classes/Percent",
+  "title": "Percent",
+  "description": "@jingofi/sdk-core / Exports / Percent",
+  "source": "@site/docs/sdk/core/reference/classes/Percent.md",
+  "sourceDirName": "core/reference/classes",
+  "slug": "/core/reference/classes/Percent",
+  "permalink": "/sdk/core/reference/classes/Percent",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "NativeCurrency",
+    "permalink": "/sdk/core/reference/classes/NativeCurrency"
+  },
+  "next": {
+    "title": "Price",
+    "permalink": "/sdk/core/reference/classes/Price"
+  }
+}

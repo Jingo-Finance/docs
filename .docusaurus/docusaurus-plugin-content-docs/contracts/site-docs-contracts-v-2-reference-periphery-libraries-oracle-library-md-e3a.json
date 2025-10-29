@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/libraries/OracleLibrary",
+  "id": "v2/reference/periphery/libraries/OracleLibrary",
+  "title": "OracleLibrary",
+  "description": "Provides functions to integrate with V3 pool oracle",
+  "source": "@site/docs/contracts/v2/reference/periphery/libraries/OracleLibrary.md",
+  "sourceDirName": "v2/reference/periphery/libraries",
+  "slug": "/v2/reference/periphery/libraries/OracleLibrary",
+  "permalink": "/contracts/v2/reference/periphery/libraries/OracleLibrary",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/libraries/OracleLibrary.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "NFTSVG",
+    "permalink": "/contracts/v2/reference/periphery/libraries/NFTSVG"
+  },
+  "next": {
+    "title": "Path",
+    "permalink": "/contracts/v2/reference/periphery/libraries/Path"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/interfaces/INonfungibleTokenPositionDescriptor",
+  "id": "v2/reference/periphery/interfaces/INonfungibleTokenPositionDescriptor",
+  "title": "INonfungibleTokenPositionDescriptor",
+  "description": "Functions",
+  "source": "@site/docs/contracts/v2/reference/periphery/interfaces/INonfungibleTokenPositionDescriptor.md",
+  "sourceDirName": "v2/reference/periphery/interfaces",
+  "slug": "/v2/reference/periphery/interfaces/INonfungibleTokenPositionDescriptor",
+  "permalink": "/contracts/v2/reference/periphery/interfaces/INonfungibleTokenPositionDescriptor",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/interfaces/INonfungibleTokenPositionDescriptor.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "INonfungiblePositionManager",
+    "permalink": "/contracts/v2/reference/periphery/interfaces/INonfungiblePositionManager"
+  },
+  "next": {
+    "title": "IPeripheryImmutableState",
+    "permalink": "/contracts/v2/reference/periphery/interfaces/IPeripheryImmutableState"
+  }
+}

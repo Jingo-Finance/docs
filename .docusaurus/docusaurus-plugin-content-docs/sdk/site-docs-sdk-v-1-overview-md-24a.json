@@ -1,0 +1,28 @@
+{
+  "unversionedId": "v1/overview",
+  "id": "v1/overview",
+  "title": "Overview",
+  "description": "Welcome to the Jingo Protocol V1 SDK. To begin, we recommend looking at the Guides and for deeper reference see the V1 SDK Github repo.",
+  "source": "@site/docs/sdk/v1/overview.md",
+  "sourceDirName": "v1",
+  "slug": "/v1/overview",
+  "permalink": "/sdk/v1/overview",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "overview",
+    "sidebar_position": 1,
+    "title": "Overview"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "TradeType",
+    "permalink": "/sdk/core/reference/enums/TradeType"
+  },
+  "next": {
+    "title": "SDK Quick start",
+    "permalink": "/sdk/v1/guides/quick-start"
+  }
+}

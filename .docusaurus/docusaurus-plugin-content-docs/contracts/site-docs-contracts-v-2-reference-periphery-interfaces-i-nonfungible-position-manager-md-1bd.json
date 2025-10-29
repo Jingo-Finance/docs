@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/interfaces/INonfungiblePositionManager",
+  "id": "v2/reference/periphery/interfaces/INonfungiblePositionManager",
+  "title": "INonfungiblePositionManager",
+  "description": "Wraps Jingo V3 positions in a non-fungible token interface which allows for them to be transferred",
+  "source": "@site/docs/contracts/v2/reference/periphery/interfaces/INonfungiblePositionManager.md",
+  "sourceDirName": "v2/reference/periphery/interfaces",
+  "slug": "/v2/reference/periphery/interfaces/INonfungiblePositionManager",
+  "permalink": "/contracts/v2/reference/periphery/interfaces/INonfungiblePositionManager",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/interfaces/INonfungiblePositionManager.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "IMulticall",
+    "permalink": "/contracts/v2/reference/periphery/interfaces/IMulticall"
+  },
+  "next": {
+    "title": "INonfungibleTokenPositionDescriptor",
+    "permalink": "/contracts/v2/reference/periphery/interfaces/INonfungibleTokenPositionDescriptor"
+  }
+}

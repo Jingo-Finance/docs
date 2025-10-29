@@ -1,0 +1,27 @@
+{
+  "unversionedId": "v1/guides/pricing",
+  "id": "v1/guides/pricing",
+  "title": "Pricing",
+  "description": "Looking for a quickstart?",
+  "source": "@site/docs/sdk/v1/guides/03-pricing.md",
+  "sourceDirName": "v1/guides",
+  "slug": "/v1/guides/pricing",
+  "permalink": "/sdk/v1/guides/pricing",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "pricing",
+    "title": "Pricing"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Fetching Data",
+    "permalink": "/sdk/v1/guides/fetching-data"
+  },
+  "next": {
+    "title": "Trading",
+    "permalink": "/sdk/v1/guides/trading"
+  }
+}

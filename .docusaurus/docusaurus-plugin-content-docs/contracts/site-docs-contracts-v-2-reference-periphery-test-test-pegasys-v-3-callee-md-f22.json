@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/test/TestPegasysV3Callee",
+  "id": "v2/reference/periphery/test/TestPegasysV3Callee",
+  "title": "TestPegasysV3Callee",
+  "description": "Functions",
+  "source": "@site/docs/contracts/v2/reference/periphery/test/TestPegasysV3Callee.md",
+  "sourceDirName": "v2/reference/periphery/test",
+  "slug": "/v2/reference/periphery/test/TestPegasysV3Callee",
+  "permalink": "/contracts/v2/reference/periphery/test/TestPegasysV3Callee",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/test/TestPegasysV3Callee.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "TestMulticall",
+    "permalink": "/contracts/v2/reference/periphery/test/TestMulticall"
+  },
+  "next": {
+    "title": "TestPositionNFTOwner",
+    "permalink": "/contracts/v2/reference/periphery/test/TestPositionNFTOwner"
+  }
+}

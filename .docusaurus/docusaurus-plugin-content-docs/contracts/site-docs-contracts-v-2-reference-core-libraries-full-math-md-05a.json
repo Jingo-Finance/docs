@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/core/libraries/FullMath",
+  "id": "v2/reference/core/libraries/FullMath",
+  "title": "FullMath",
+  "description": "Facilitates multiplication and division that can have overflow of an intermediate value without any loss of precision",
+  "source": "@site/docs/contracts/v2/reference/core/libraries/FullMath.md",
+  "sourceDirName": "v2/reference/core/libraries",
+  "slug": "/v2/reference/core/libraries/FullMath",
+  "permalink": "/contracts/v2/reference/core/libraries/FullMath",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/core/libraries/FullMath.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "FixedPoint96",
+    "permalink": "/contracts/v2/reference/core/libraries/FixedPoint96"
+  },
+  "next": {
+    "title": "LiquidityMath",
+    "permalink": "/contracts/v2/reference/core/libraries/LiquidityMath"
+  }
+}

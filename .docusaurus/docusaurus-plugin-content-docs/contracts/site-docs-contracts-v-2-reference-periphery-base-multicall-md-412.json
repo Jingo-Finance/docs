@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/base/Multicall",
+  "id": "v2/reference/periphery/base/Multicall",
+  "title": "Multicall",
+  "description": "Enables calling multiple methods in a single call to the contract",
+  "source": "@site/docs/contracts/v2/reference/periphery/base/Multicall.md",
+  "sourceDirName": "v2/reference/periphery/base",
+  "slug": "/v2/reference/periphery/base/Multicall",
+  "permalink": "/contracts/v2/reference/periphery/base/Multicall",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/base/Multicall.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "LiquidityManagement",
+    "permalink": "/contracts/v2/reference/periphery/base/LiquidityManagement"
+  },
+  "next": {
+    "title": "PeripheryImmutableState",
+    "permalink": "/contracts/v2/reference/periphery/base/PeripheryImmutableState"
+  }
+}

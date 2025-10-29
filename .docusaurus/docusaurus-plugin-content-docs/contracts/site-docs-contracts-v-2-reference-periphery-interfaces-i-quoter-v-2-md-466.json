@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/interfaces/IQuoterV2",
+  "id": "v2/reference/periphery/interfaces/IQuoterV2",
+  "title": "IQuoterV2",
+  "description": "Supports quoting the calculated amounts from exact input or exact output swaps.",
+  "source": "@site/docs/contracts/v2/reference/periphery/interfaces/IQuoterV2.md",
+  "sourceDirName": "v2/reference/periphery/interfaces",
+  "slug": "/v2/reference/periphery/interfaces/IQuoterV2",
+  "permalink": "/contracts/v2/reference/periphery/interfaces/IQuoterV2",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/interfaces/IQuoterV2.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "IQuoter",
+    "permalink": "/contracts/v2/reference/periphery/interfaces/IQuoter"
+  },
+  "next": {
+    "title": "ISelfPermit",
+    "permalink": "/contracts/v2/reference/periphery/interfaces/ISelfPermit"
+  }
+}

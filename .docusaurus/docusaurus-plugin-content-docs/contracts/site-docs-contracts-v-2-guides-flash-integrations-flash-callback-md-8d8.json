@@ -1,0 +1,29 @@
+{
+  "unversionedId": "v2/guides/flash-integrations/flash-callback",
+  "id": "v2/guides/flash-integrations/flash-callback",
+  "title": "The Flash Callback",
+  "description": "Setting Up The Callback",
+  "source": "@site/docs/contracts/v2/guides/flash-integrations/flash-callback.md",
+  "sourceDirName": "v2/guides/flash-integrations",
+  "slug": "/v2/guides/flash-integrations/flash-callback",
+  "permalink": "/contracts/v2/guides/flash-integrations/flash-callback",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/guides/flash-integrations/flash-callback.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "flash-callback",
+    "title": "The Flash Callback",
+    "sidebar_position": 3
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Calling Flash",
+    "permalink": "/contracts/v2/guides/flash-integrations/calling-flash"
+  },
+  "next": {
+    "title": "The Final Contract",
+    "permalink": "/contracts/v2/guides/flash-integrations/final-contract"
+  }
+}

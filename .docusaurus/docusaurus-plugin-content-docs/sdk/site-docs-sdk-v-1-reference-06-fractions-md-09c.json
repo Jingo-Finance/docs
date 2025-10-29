@@ -1,0 +1,27 @@
+{
+  "unversionedId": "v1/reference/fractions",
+  "id": "v1/reference/fractions",
+  "title": "Fractions",
+  "description": "The base class which all subsequent fraction classes extend. Not meant to be used directly.",
+  "source": "@site/docs/sdk/v1/reference/06-fractions.md",
+  "sourceDirName": "v1/reference",
+  "slug": "/v1/reference/fractions",
+  "permalink": "/sdk/v1/reference/fractions",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "id": "fractions",
+    "title": "Fractions"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Trade",
+    "permalink": "/sdk/v1/reference/trade"
+  },
+  "next": {
+    "title": "Fetcher",
+    "permalink": "/sdk/v1/reference/fetcher"
+  }
+}

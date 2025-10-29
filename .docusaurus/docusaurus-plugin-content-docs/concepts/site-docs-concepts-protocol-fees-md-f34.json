@@ -1,0 +1,28 @@
+{
+  "unversionedId": "protocol/fees",
+  "id": "protocol/fees",
+  "title": "Fees",
+  "description": "Swap Fees",
+  "source": "@site/docs/concepts/protocol/fees.md",
+  "sourceDirName": "protocol",
+  "slug": "/protocol/fees",
+  "permalink": "/concepts/protocol/fees",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "fees",
+    "title": "Fees",
+    "sidebar_position": 2
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Concentrated Liquidity",
+    "permalink": "/concepts/protocol/concentrated-liquidity"
+  },
+  "next": {
+    "title": "Oracle",
+    "permalink": "/concepts/protocol/oracle"
+  }
+}

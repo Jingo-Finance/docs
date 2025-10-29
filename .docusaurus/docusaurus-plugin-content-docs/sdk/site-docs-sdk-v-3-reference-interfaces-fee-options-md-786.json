@@ -1,0 +1,23 @@
+{
+  "unversionedId": "v3/reference/interfaces/FeeOptions",
+  "id": "v3/reference/interfaces/FeeOptions",
+  "title": "FeeOptions",
+  "description": "@jingofi/v3-sdk / Exports / FeeOptions",
+  "source": "@site/docs/sdk/v3/reference/interfaces/FeeOptions.md",
+  "sourceDirName": "v3/reference/interfaces",
+  "slug": "/v3/reference/interfaces/FeeOptions",
+  "permalink": "/sdk/v3/reference/interfaces/FeeOptions",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "CommonAddLiquidityOptions",
+    "permalink": "/sdk/v3/reference/interfaces/CommonAddLiquidityOptions"
+  },
+  "next": {
+    "title": "IncentiveKey",
+    "permalink": "/sdk/v3/reference/interfaces/IncentiveKey"
+  }
+}

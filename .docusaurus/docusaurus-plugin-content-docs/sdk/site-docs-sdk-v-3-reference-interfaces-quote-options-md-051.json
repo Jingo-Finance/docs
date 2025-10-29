@@ -1,0 +1,23 @@
+{
+  "unversionedId": "v3/reference/interfaces/QuoteOptions",
+  "id": "v3/reference/interfaces/QuoteOptions",
+  "title": "QuoteOptions",
+  "description": "@jingofi/v3-sdk / Exports / QuoteOptions",
+  "source": "@site/docs/sdk/v3/reference/interfaces/QuoteOptions.md",
+  "sourceDirName": "v3/reference/interfaces",
+  "slug": "/v3/reference/interfaces/QuoteOptions",
+  "permalink": "/sdk/v3/reference/interfaces/QuoteOptions",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "NFTPermitOptions",
+    "permalink": "/sdk/v3/reference/interfaces/NFTPermitOptions"
+  },
+  "next": {
+    "title": "RemoveLiquidityOptions",
+    "permalink": "/sdk/v3/reference/interfaces/RemoveLiquidityOptions"
+  }
+}

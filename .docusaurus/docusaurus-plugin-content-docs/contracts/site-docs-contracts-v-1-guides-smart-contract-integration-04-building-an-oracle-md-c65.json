@@ -1,0 +1,28 @@
+{
+  "unversionedId": "v1/guides/smart-contract-integration/building-an-oracle",
+  "id": "v1/guides/smart-contract-integration/building-an-oracle",
+  "title": "Building an Oracle",
+  "description": "To build a price oracle on Jingo V1, you must first understand the",
+  "source": "@site/docs/contracts/v1/guides/smart-contract-integration/04-building-an-oracle.md",
+  "sourceDirName": "v1/guides/smart-contract-integration",
+  "slug": "/v1/guides/smart-contract-integration/building-an-oracle",
+  "permalink": "/contracts/v1/guides/smart-contract-integration/building-an-oracle",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v1/guides/smart-contract-integration/04-building-an-oracle.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "id": "building-an-oracle",
+    "title": "Building an Oracle"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Providing Liquidity",
+    "permalink": "/contracts/v1/guides/smart-contract-integration/providing-liquidity"
+  },
+  "next": {
+    "title": "Flash Swaps",
+    "permalink": "/contracts/v1/guides/smart-contract-integration/using-flash-swaps"
+  }
+}

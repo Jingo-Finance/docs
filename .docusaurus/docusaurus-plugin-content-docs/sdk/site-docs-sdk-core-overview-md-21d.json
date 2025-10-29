@@ -1,0 +1,28 @@
+{
+  "unversionedId": "core/overview",
+  "id": "core/overview",
+  "title": "Overview",
+  "description": "Welcome to the V3 Core SDK!",
+  "source": "@site/docs/sdk/core/overview.md",
+  "sourceDirName": "core",
+  "slug": "/core/overview",
+  "permalink": "/sdk/core/overview",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "overview",
+    "sidebar_position": 1,
+    "title": "Overview"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Switching Chains",
+    "permalink": "/sdk/web3-react/guides/switch-chains"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/sdk/core/reference/overview"
+  }
+}

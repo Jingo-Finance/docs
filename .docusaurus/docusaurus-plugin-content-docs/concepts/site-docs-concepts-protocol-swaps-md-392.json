@@ -1,0 +1,28 @@
+{
+  "unversionedId": "protocol/swaps",
+  "id": "protocol/swaps",
+  "title": "Swaps",
+  "description": "Introduction",
+  "source": "@site/docs/concepts/protocol/swaps.md",
+  "sourceDirName": "protocol",
+  "slug": "/protocol/swaps",
+  "permalink": "/concepts/protocol/swaps",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "id": "swaps",
+    "title": "Swaps",
+    "sidebar_position": 5
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Range Orders",
+    "permalink": "/concepts/protocol/range-orders"
+  },
+  "next": {
+    "title": "Token Integration Issues",
+    "permalink": "/concepts/protocol/integration-issues"
+  }
+}

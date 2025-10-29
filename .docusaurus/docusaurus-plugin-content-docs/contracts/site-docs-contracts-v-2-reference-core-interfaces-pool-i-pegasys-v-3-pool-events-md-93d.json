@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/core/interfaces/pool/IPegasysV3PoolEvents",
+  "id": "v2/reference/core/interfaces/pool/IPegasysV3PoolEvents",
+  "title": "IPegasysV3PoolEvents",
+  "description": "Contains all events emitted by the pool",
+  "source": "@site/docs/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolEvents.md",
+  "sourceDirName": "v2/reference/core/interfaces/pool",
+  "slug": "/v2/reference/core/interfaces/pool/IPegasysV3PoolEvents",
+  "permalink": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolEvents",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolEvents.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "IPegasysV3PoolDerivedState",
+    "permalink": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolDerivedState"
+  },
+  "next": {
+    "title": "IPegasysV3PoolImmutables",
+    "permalink": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolImmutables"
+  }
+}

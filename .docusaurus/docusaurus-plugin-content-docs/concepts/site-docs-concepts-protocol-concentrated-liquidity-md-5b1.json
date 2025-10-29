@@ -1,0 +1,28 @@
+{
+  "unversionedId": "protocol/concentrated-liquidity",
+  "id": "protocol/concentrated-liquidity",
+  "title": "Concentrated Liquidity",
+  "description": "Your browser does not support the video tag.",
+  "source": "@site/docs/concepts/protocol/concentrated-liquidity.md",
+  "sourceDirName": "protocol",
+  "slug": "/protocol/concentrated-liquidity",
+  "permalink": "/concepts/protocol/concentrated-liquidity",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "concentrated-liquidity",
+    "title": "Concentrated Liquidity",
+    "sidebar_position": 1
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "The Jingo Protocol",
+    "permalink": "/concepts/jingo-protocol"
+  },
+  "next": {
+    "title": "Fees",
+    "permalink": "/concepts/protocol/fees"
+  }
+}

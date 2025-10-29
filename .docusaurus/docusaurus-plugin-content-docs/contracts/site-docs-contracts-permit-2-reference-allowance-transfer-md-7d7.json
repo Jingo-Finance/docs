@@ -1,0 +1,29 @@
+{
+  "unversionedId": "permit2/reference/allowance-transfer",
+  "id": "permit2/reference/allowance-transfer",
+  "title": "AllowanceTransfer",
+  "description": "Source Code",
+  "source": "@site/docs/contracts/permit2/reference/allowance-transfer.md",
+  "sourceDirName": "permit2/reference",
+  "slug": "/permit2/reference/allowance-transfer",
+  "permalink": "/contracts/permit2/reference/allowance-transfer",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/permit2/reference/allowance-transfer.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "allowance-transfer",
+    "title": "AllowanceTransfer",
+    "sidebar_position": 2
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "SignatureTransfer",
+    "permalink": "/contracts/permit2/reference/signature-transfer"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/contracts/v1/overview"
+  }
+}

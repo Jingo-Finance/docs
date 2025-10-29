@@ -1,0 +1,24 @@
+{
+  "unversionedId": "subgraph/overview",
+  "id": "subgraph/overview",
+  "title": "Overview",
+  "description": "Jingo uses multiple subgraphs for indexing and organizing data from the Jingo smart contracts.",
+  "source": "@site/docs/api/subgraph/overview.md",
+  "sourceDirName": "subgraph",
+  "slug": "/subgraph/overview",
+  "permalink": "/api/subgraph/overview",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "overview",
+    "sidebar_position": 1,
+    "title": "Overview"
+  },
+  "sidebar": "defaultSidebar",
+  "next": {
+    "title": "Query Examples",
+    "permalink": "/api/subgraph/guides/examples"
+  }
+}

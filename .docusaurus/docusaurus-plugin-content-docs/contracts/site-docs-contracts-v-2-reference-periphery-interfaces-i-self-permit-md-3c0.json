@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/interfaces/ISelfPermit",
+  "id": "v2/reference/periphery/interfaces/ISelfPermit",
+  "title": "ISelfPermit",
+  "description": "Functionality to call permit on any EIP-2612-compliant token for use in the route",
+  "source": "@site/docs/contracts/v2/reference/periphery/interfaces/ISelfPermit.md",
+  "sourceDirName": "v2/reference/periphery/interfaces",
+  "slug": "/v2/reference/periphery/interfaces/ISelfPermit",
+  "permalink": "/contracts/v2/reference/periphery/interfaces/ISelfPermit",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/interfaces/ISelfPermit.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "IQuoterV2",
+    "permalink": "/contracts/v2/reference/periphery/interfaces/IQuoterV2"
+  },
+  "next": {
+    "title": "ISwapRouter",
+    "permalink": "/contracts/v2/reference/periphery/interfaces/ISwapRouter"
+  }
+}

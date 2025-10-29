@@ -1,0 +1,23 @@
+{
+  "unversionedId": "v3/reference/interfaces/TickDataProvider",
+  "id": "v3/reference/interfaces/TickDataProvider",
+  "title": "TickDataProvider",
+  "description": "@jingofi/v3-sdk / Exports / TickDataProvider",
+  "source": "@site/docs/sdk/v3/reference/interfaces/TickDataProvider.md",
+  "sourceDirName": "v3/reference/interfaces",
+  "slug": "/v3/reference/interfaces/TickDataProvider",
+  "permalink": "/sdk/v3/reference/interfaces/TickDataProvider",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "TickConstructorArgs",
+    "permalink": "/sdk/v3/reference/interfaces/TickConstructorArgs"
+  },
+  "next": {
+    "title": "WithdrawOptions",
+    "permalink": "/sdk/v3/reference/interfaces/WithdrawOptions"
+  }
+}

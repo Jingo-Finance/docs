@@ -1,0 +1,29 @@
+{
+  "unversionedId": "universal-router/overview",
+  "id": "universal-router/overview",
+  "title": "Overview",
+  "description": "The UniversalRouter is an ETH, ERC20, and NFT swap router, that can aggregate trades across protocols to give users access highly-flexible and personalised transactions. The contract is unowned, and is not upgradeable.",
+  "source": "@site/docs/contracts/universal-router/01-overview.md",
+  "sourceDirName": "universal-router",
+  "slug": "/universal-router/overview",
+  "permalink": "/contracts/universal-router/overview",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/universal-router/01-overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "overview",
+    "title": "Overview",
+    "sidebar_position": 1
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Error Codes",
+    "permalink": "/contracts/v2/reference/error-codes"
+  },
+  "next": {
+    "title": "Technical Reference",
+    "permalink": "/contracts/universal-router/technical-reference"
+  }
+}

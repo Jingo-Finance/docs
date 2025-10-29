@@ -1,0 +1,23 @@
+{
+  "unversionedId": "core/reference/classes/Token",
+  "id": "core/reference/classes/Token",
+  "title": "Token",
+  "description": "@jingofi/sdk-core / Exports / Token",
+  "source": "@site/docs/sdk/core/reference/classes/Token.md",
+  "sourceDirName": "core/reference/classes",
+  "slug": "/core/reference/classes/Token",
+  "permalink": "/sdk/core/reference/classes/Token",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Price",
+    "permalink": "/sdk/core/reference/classes/Price"
+  },
+  "next": {
+    "title": "Rounding",
+    "permalink": "/sdk/core/reference/enums/Rounding"
+  }
+}

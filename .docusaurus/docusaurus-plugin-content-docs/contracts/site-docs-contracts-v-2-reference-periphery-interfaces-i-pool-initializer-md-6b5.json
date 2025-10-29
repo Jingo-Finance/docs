@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/interfaces/IPoolInitializer",
+  "id": "v2/reference/periphery/interfaces/IPoolInitializer",
+  "title": "IPoolInitializer",
+  "description": "Provides a method for creating and initializing a pool, if necessary, for bundling with other methods that",
+  "source": "@site/docs/contracts/v2/reference/periphery/interfaces/IPoolInitializer.md",
+  "sourceDirName": "v2/reference/periphery/interfaces",
+  "slug": "/v2/reference/periphery/interfaces/IPoolInitializer",
+  "permalink": "/contracts/v2/reference/periphery/interfaces/IPoolInitializer",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/interfaces/IPoolInitializer.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "IPeripheryPaymentsWithFee",
+    "permalink": "/contracts/v2/reference/periphery/interfaces/IPeripheryPaymentsWithFee"
+  },
+  "next": {
+    "title": "IQuoter",
+    "permalink": "/contracts/v2/reference/periphery/interfaces/IQuoter"
+  }
+}

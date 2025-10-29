@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/SwapRouter",
+  "id": "v2/reference/periphery/SwapRouter",
+  "title": "SwapRouter",
+  "description": "Router for stateless execution of swaps against Jingo V3",
+  "source": "@site/docs/contracts/v2/reference/periphery/SwapRouter.md",
+  "sourceDirName": "v2/reference/periphery",
+  "slug": "/v2/reference/periphery/SwapRouter",
+  "permalink": "/contracts/v2/reference/periphery/SwapRouter",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/SwapRouter.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "NonfungibleTokenPositionDescriptor",
+    "permalink": "/contracts/v2/reference/periphery/NonfungibleTokenPositionDescriptor"
+  },
+  "next": {
+    "title": "V3Migrator",
+    "permalink": "/contracts/v2/reference/periphery/V3Migrator"
+  }
+}

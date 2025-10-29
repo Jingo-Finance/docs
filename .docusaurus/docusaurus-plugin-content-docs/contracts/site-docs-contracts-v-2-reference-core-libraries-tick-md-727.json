@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/core/libraries/Tick",
+  "id": "v2/reference/core/libraries/Tick",
+  "title": "Tick",
+  "description": "Contains functions for managing tick processes and relevant calculations",
+  "source": "@site/docs/contracts/v2/reference/core/libraries/Tick.md",
+  "sourceDirName": "v2/reference/core/libraries",
+  "slug": "/v2/reference/core/libraries/Tick",
+  "permalink": "/contracts/v2/reference/core/libraries/Tick",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/core/libraries/Tick.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "SwapMath",
+    "permalink": "/contracts/v2/reference/core/libraries/SwapMath"
+  },
+  "next": {
+    "title": "TickBitmap",
+    "permalink": "/contracts/v2/reference/core/libraries/TickBitmap"
+  }
+}

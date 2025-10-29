@@ -1,0 +1,29 @@
+{
+  "unversionedId": "v2/guides/providing-liquidity/decrease-liquidity",
+  "id": "v2/guides/providing-liquidity/decrease-liquidity",
+  "title": "Decrease Liquidity",
+  "description": "Make sure to go through the Setting Up Your Contract before continuing to this section",
+  "source": "@site/docs/contracts/v2/guides/providing-liquidity/decrease-liquidity.md",
+  "sourceDirName": "v2/guides/providing-liquidity",
+  "slug": "/v2/guides/providing-liquidity/decrease-liquidity",
+  "permalink": "/contracts/v2/guides/providing-liquidity/decrease-liquidity",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/guides/providing-liquidity/decrease-liquidity.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "id": "decrease-liquidity",
+    "title": "Decrease Liquidity",
+    "sidebar_position": 4
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Collecting Fees",
+    "permalink": "/contracts/v2/guides/providing-liquidity/collect-fees"
+  },
+  "next": {
+    "title": "Increase Liquidity",
+    "permalink": "/contracts/v2/guides/providing-liquidity/increase-liquidity"
+  }
+}

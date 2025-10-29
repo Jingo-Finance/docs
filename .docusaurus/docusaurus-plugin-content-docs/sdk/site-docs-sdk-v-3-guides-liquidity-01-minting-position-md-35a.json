@@ -1,0 +1,27 @@
+{
+  "unversionedId": "v3/guides/liquidity/minting",
+  "id": "v3/guides/liquidity/minting",
+  "title": "Minting a Position",
+  "description": "Introduction",
+  "source": "@site/docs/sdk/v3/guides/liquidity/01-minting-position.md",
+  "sourceDirName": "v3/guides/liquidity",
+  "slug": "/v3/guides/liquidity/minting",
+  "permalink": "/sdk/v3/guides/liquidity/minting",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "minting",
+    "title": "Minting a Position"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Routing a Swap",
+    "permalink": "/sdk/v3/guides/routing"
+  },
+  "next": {
+    "title": "Adding & Removing Liquidity",
+    "permalink": "/sdk/v3/guides/liquidity/modifying-position"
+  }
+}

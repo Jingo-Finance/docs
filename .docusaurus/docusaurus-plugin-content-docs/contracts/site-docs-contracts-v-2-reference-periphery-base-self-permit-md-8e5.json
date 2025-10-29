@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/base/SelfPermit",
+  "id": "v2/reference/periphery/base/SelfPermit",
+  "title": "SelfPermit",
+  "description": "Functionality to call permit on any EIP-2612-compliant token for use in the route",
+  "source": "@site/docs/contracts/v2/reference/periphery/base/SelfPermit.md",
+  "sourceDirName": "v2/reference/periphery/base",
+  "slug": "/v2/reference/periphery/base/SelfPermit",
+  "permalink": "/contracts/v2/reference/periphery/base/SelfPermit",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/base/SelfPermit.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "PoolInitializer",
+    "permalink": "/contracts/v2/reference/periphery/base/PoolInitializer"
+  },
+  "next": {
+    "title": "IERC20Metadata",
+    "permalink": "/contracts/v2/reference/periphery/interfaces/IERC20Metadata"
+  }
+}

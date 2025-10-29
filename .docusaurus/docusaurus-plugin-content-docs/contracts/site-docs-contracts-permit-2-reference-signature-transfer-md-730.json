@@ -1,0 +1,29 @@
+{
+  "unversionedId": "permit2/reference/signature-transfer",
+  "id": "permit2/reference/signature-transfer",
+  "title": "SignatureTransfer",
+  "description": "Source Code",
+  "source": "@site/docs/contracts/permit2/reference/signature-transfer.md",
+  "sourceDirName": "permit2/reference",
+  "slug": "/permit2/reference/signature-transfer",
+  "permalink": "/contracts/permit2/reference/signature-transfer",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/permit2/reference/signature-transfer.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "signature-transfer",
+    "title": "SignatureTransfer",
+    "sidebar_position": 1
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/contracts/permit2/overview"
+  },
+  "next": {
+    "title": "AllowanceTransfer",
+    "permalink": "/contracts/permit2/reference/allowance-transfer"
+  }
+}

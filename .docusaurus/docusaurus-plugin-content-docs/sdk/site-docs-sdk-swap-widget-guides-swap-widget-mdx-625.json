@@ -1,0 +1,29 @@
+{
+  "unversionedId": "swap-widget/guides/getting-started",
+  "id": "swap-widget/guides/getting-started",
+  "title": "Getting Started with the Swap Widget",
+  "description": "This guide walks you through the steps to embed the swap widget in your website in 2 minutes — whether your site is already a decentralized application (dApp) or not. With the swap widget, your users can trade ERC-20 tokens on the Jingo Protocol without leaving your site!",
+  "source": "@site/docs/sdk/swap-widget/guides/swap-widget.mdx",
+  "sourceDirName": "swap-widget/guides",
+  "slug": "/swap-widget/guides/getting-started",
+  "permalink": "/sdk/swap-widget/guides/getting-started",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "getting-started",
+    "title": "Getting Started with the Swap Widget",
+    "sidebar_label": "Getting Started",
+    "sidebar_position": 1
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/sdk/swap-widget/overview"
+  },
+  "next": {
+    "title": "Example Themes",
+    "permalink": "/sdk/swap-widget/guides/examples"
+  }
+}

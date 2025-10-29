@@ -1,0 +1,29 @@
+{
+  "unversionedId": "v2/guides/providing-liquidity/mint-a-position",
+  "id": "v2/guides/providing-liquidity/mint-a-position",
+  "title": "Mint a New Position",
+  "description": "Input Parameters",
+  "source": "@site/docs/contracts/v2/guides/providing-liquidity/mint-a-new-position.md",
+  "sourceDirName": "v2/guides/providing-liquidity",
+  "slug": "/v2/guides/providing-liquidity/mint-a-position",
+  "permalink": "/contracts/v2/guides/providing-liquidity/mint-a-position",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/guides/providing-liquidity/mint-a-new-position.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "mint-a-position",
+    "title": "Mint a New Position",
+    "sidebar_position": 2
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Set Up Your Contract",
+    "permalink": "/contracts/v2/guides/providing-liquidity/setting-up"
+  },
+  "next": {
+    "title": "Collecting Fees",
+    "permalink": "/contracts/v2/guides/providing-liquidity/collect-fees"
+  }
+}

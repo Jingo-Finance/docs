@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/core/libraries/TransferHelper",
+  "id": "v2/reference/core/libraries/TransferHelper",
+  "title": "TransferHelper",
+  "description": "Contains helper methods for interacting with ERC20 tokens that do not consistently return true/false",
+  "source": "@site/docs/contracts/v2/reference/core/libraries/TransferHelper.md",
+  "sourceDirName": "v2/reference/core/libraries",
+  "slug": "/v2/reference/core/libraries/TransferHelper",
+  "permalink": "/contracts/v2/reference/core/libraries/TransferHelper",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/core/libraries/TransferHelper.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "TickMath",
+    "permalink": "/contracts/v2/reference/core/libraries/TickMath"
+  },
+  "next": {
+    "title": "UnsafeMath",
+    "permalink": "/contracts/v2/reference/core/libraries/UnsafeMath"
+  }
+}

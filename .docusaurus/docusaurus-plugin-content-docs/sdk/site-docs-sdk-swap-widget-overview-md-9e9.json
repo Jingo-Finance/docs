@@ -1,0 +1,28 @@
+{
+  "unversionedId": "swap-widget/overview",
+  "id": "swap-widget/overview",
+  "title": "Overview",
+  "description": "Welcome to the Jingo Swap Widget. To begin, we recommend looking at the Guides and for deeper reference see the Swap Widget Github repo.",
+  "source": "@site/docs/sdk/swap-widget/overview.md",
+  "sourceDirName": "swap-widget",
+  "slug": "/swap-widget/overview",
+  "permalink": "/sdk/swap-widget/overview",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "overview",
+    "sidebar_position": 1,
+    "title": "Overview"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "WithdrawOptions",
+    "permalink": "/sdk/v3/reference/interfaces/WithdrawOptions"
+  },
+  "next": {
+    "title": "Getting Started",
+    "permalink": "/sdk/swap-widget/guides/getting-started"
+  }
+}

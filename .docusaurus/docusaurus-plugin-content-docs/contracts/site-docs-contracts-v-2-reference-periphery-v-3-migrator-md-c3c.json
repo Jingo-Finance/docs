@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/V3Migrator",
+  "id": "v2/reference/periphery/V3Migrator",
+  "title": "V3Migrator",
+  "description": "Functions",
+  "source": "@site/docs/contracts/v2/reference/periphery/V3Migrator.md",
+  "sourceDirName": "v2/reference/periphery",
+  "slug": "/v2/reference/periphery/V3Migrator",
+  "permalink": "/contracts/v2/reference/periphery/V3Migrator",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/V3Migrator.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "SwapRouter",
+    "permalink": "/contracts/v2/reference/periphery/SwapRouter"
+  },
+  "next": {
+    "title": "Deployment Addresses",
+    "permalink": "/contracts/v2/reference/deployments"
+  }
+}

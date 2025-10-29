@@ -1,0 +1,27 @@
+{
+  "unversionedId": "v1/reference/trade",
+  "id": "v1/reference/trade",
+  "title": "Trade",
+  "description": "The Trade entity represents a fully specified trade along a route. This entity supplies all the information necessary to craft a router transaction.",
+  "source": "@site/docs/sdk/v1/reference/05-trade.md",
+  "sourceDirName": "v1/reference",
+  "slug": "/v1/reference/trade",
+  "permalink": "/sdk/v1/reference/trade",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "id": "trade",
+    "title": "Trade"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Route",
+    "permalink": "/sdk/v1/reference/route"
+  },
+  "next": {
+    "title": "Fractions",
+    "permalink": "/sdk/v1/reference/fractions"
+  }
+}

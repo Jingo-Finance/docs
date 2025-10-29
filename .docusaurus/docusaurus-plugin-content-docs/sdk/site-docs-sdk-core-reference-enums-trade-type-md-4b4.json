@@ -1,0 +1,23 @@
+{
+  "unversionedId": "core/reference/enums/TradeType",
+  "id": "core/reference/enums/TradeType",
+  "title": "TradeType",
+  "description": "@jingofi/sdk-core / Exports / TradeType",
+  "source": "@site/docs/sdk/core/reference/enums/TradeType.md",
+  "sourceDirName": "core/reference/enums",
+  "slug": "/core/reference/enums/TradeType",
+  "permalink": "/sdk/core/reference/enums/TradeType",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "SupportedChainId",
+    "permalink": "/sdk/core/reference/enums/SupportedChainId"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/sdk/v1/overview"
+  }
+}

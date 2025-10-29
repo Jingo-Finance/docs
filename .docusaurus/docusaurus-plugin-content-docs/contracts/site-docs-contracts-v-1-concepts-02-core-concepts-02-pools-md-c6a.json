@@ -1,0 +1,28 @@
+{
+  "unversionedId": "v1/concepts/core-concepts/pools",
+  "id": "v1/concepts/core-concepts/pools",
+  "title": "Pools",
+  "description": "Each Jingo liquidity pool is a trading venue for a pair of ERC20 tokens. When a pool contract is created, its balances of each token are 0; in order for the pool to begin facilitating trades, someone must seed it with an initial deposit of each token. This first liquidity provider is the one who sets the initial price of the pool. They are incentivized to deposit an equal value of both tokens into the pool. To see why, consider the case where the first liquidity provider deposits tokens at a ratio different from the current market rate. This immediately creates a profitable arbitrage opportunity, which is likely to be taken by an external party.",
+  "source": "@site/docs/contracts/v1/concepts/02-core-concepts/02-pools.md",
+  "sourceDirName": "v1/concepts/02-core-concepts",
+  "slug": "/v1/concepts/core-concepts/pools",
+  "permalink": "/contracts/v1/concepts/core-concepts/pools",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v1/concepts/02-core-concepts/02-pools.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "pools",
+    "title": "Pools"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Swaps",
+    "permalink": "/contracts/v1/concepts/core-concepts/swaps"
+  },
+  "next": {
+    "title": "Flash Swaps",
+    "permalink": "/contracts/v1/concepts/core-concepts/flash-swaps"
+  }
+}

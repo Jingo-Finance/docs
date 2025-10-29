@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/core/interfaces/pool/IPegasysV3PoolState",
+  "id": "v2/reference/core/interfaces/pool/IPegasysV3PoolState",
+  "title": "IPegasysV3PoolState",
+  "description": "These methods compose the pool's state, and can change with any frequency including multiple times",
+  "source": "@site/docs/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolState.md",
+  "sourceDirName": "v2/reference/core/interfaces/pool",
+  "slug": "/v2/reference/core/interfaces/pool/IPegasysV3PoolState",
+  "permalink": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolState",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolState.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "IPegasysV3PoolOwnerActions",
+    "permalink": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolOwnerActions"
+  },
+  "next": {
+    "title": "BitMath",
+    "permalink": "/contracts/v2/reference/core/libraries/BitMath"
+  }
+}

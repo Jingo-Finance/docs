@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/test/TestMulticall",
+  "id": "v2/reference/periphery/test/TestMulticall",
+  "title": "TestMulticall",
+  "description": "Functions",
+  "source": "@site/docs/contracts/v2/reference/periphery/test/TestMulticall.md",
+  "sourceDirName": "v2/reference/periphery/test",
+  "slug": "/v2/reference/periphery/test/TestMulticall",
+  "permalink": "/contracts/v2/reference/periphery/test/TestMulticall",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/test/TestMulticall.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "TestERC20PermitAllowed",
+    "permalink": "/contracts/v2/reference/periphery/test/TestERC20PermitAllowed"
+  },
+  "next": {
+    "title": "TestPegasysV3Callee",
+    "permalink": "/contracts/v2/reference/periphery/test/TestPegasysV3Callee"
+  }
+}

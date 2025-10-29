@@ -1,0 +1,56 @@
+{
+  "pluginId": "api",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "defaultSidebar": [
+      {
+        "type": "category",
+        "label": "Subgraph",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "type": "link",
+            "label": "Overview",
+            "href": "/api/subgraph/overview",
+            "docId": "subgraph/overview"
+          },
+          {
+            "type": "category",
+            "label": "Guides",
+            "collapsible": true,
+            "collapsed": false,
+            "items": [
+              {
+                "type": "link",
+                "label": "Query Examples",
+                "href": "/api/subgraph/guides/examples",
+                "docId": "subgraph/guides/examples"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "docs": {
+    "subgraph/guides/examples": {
+      "id": "subgraph/guides/examples",
+      "title": "Query Examples",
+      "description": "This doc will teach you how to query Jingo V3 analytics by writing GraphQL queries on the subgraph. You can fetch data points like :",
+      "sidebar": "defaultSidebar"
+    },
+    "subgraph/overview": {
+      "id": "subgraph/overview",
+      "title": "Overview",
+      "description": "Jingo uses multiple subgraphs for indexing and organizing data from the Jingo smart contracts.",
+      "sidebar": "defaultSidebar"
+    }
+  }
+}

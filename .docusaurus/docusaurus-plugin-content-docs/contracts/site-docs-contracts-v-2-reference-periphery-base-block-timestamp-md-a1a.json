@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/base/BlockTimestamp",
+  "id": "v2/reference/periphery/base/BlockTimestamp",
+  "title": "BlockTimestamp",
+  "description": "Base contract that is overridden for tests",
+  "source": "@site/docs/contracts/v2/reference/periphery/base/BlockTimestamp.md",
+  "sourceDirName": "v2/reference/periphery/base",
+  "slug": "/v2/reference/periphery/base/BlockTimestamp",
+  "permalink": "/contracts/v2/reference/periphery/base/BlockTimestamp",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/base/BlockTimestamp.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "UnsafeMath",
+    "permalink": "/contracts/v2/reference/core/libraries/UnsafeMath"
+  },
+  "next": {
+    "title": "ERC721Permit",
+    "permalink": "/contracts/v2/reference/periphery/base/ERC721Permit"
+  }
+}

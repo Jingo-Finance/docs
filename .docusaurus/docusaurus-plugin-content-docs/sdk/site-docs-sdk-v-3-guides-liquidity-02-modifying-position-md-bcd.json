@@ -1,0 +1,27 @@
+{
+  "unversionedId": "v3/guides/liquidity/modifying-position",
+  "id": "v3/guides/liquidity/modifying-position",
+  "title": "Adding & Removing Liquidity",
+  "description": "Introduction",
+  "source": "@site/docs/sdk/v3/guides/liquidity/02-modifying-position.md",
+  "sourceDirName": "v3/guides/liquidity",
+  "slug": "/v3/guides/liquidity/modifying-position",
+  "permalink": "/sdk/v3/guides/liquidity/modifying-position",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "modifying-position",
+    "title": "Adding & Removing Liquidity"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Minting a Position",
+    "permalink": "/sdk/v3/guides/liquidity/minting"
+  },
+  "next": {
+    "title": "Collecting Fees",
+    "permalink": "/sdk/v3/guides/liquidity/liquidity-fees"
+  }
+}

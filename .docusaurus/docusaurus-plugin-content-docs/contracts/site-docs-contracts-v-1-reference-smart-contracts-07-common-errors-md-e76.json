@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v1/reference/smart-contracts/common-errors",
+  "id": "v1/reference/smart-contracts/common-errors",
+  "title": "Common Errors",
+  "description": "This document covers a few error codes frequently encountered while building on Jingo V1.",
+  "source": "@site/docs/contracts/v1/reference/smart-contracts/07-common-errors.md",
+  "sourceDirName": "v1/reference/smart-contracts",
+  "slug": "/v1/reference/smart-contracts/common-errors",
+  "permalink": "/contracts/v1/reference/smart-contracts/common-errors",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v1/reference/smart-contracts/07-common-errors.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "id": "common-errors",
+    "title": "Common Errors"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Router02",
+    "permalink": "/contracts/v1/reference/smart-contracts/router-02"
+  }
+}

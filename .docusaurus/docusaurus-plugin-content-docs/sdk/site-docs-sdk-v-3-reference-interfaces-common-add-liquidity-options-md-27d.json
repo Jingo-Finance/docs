@@ -1,0 +1,23 @@
+{
+  "unversionedId": "v3/reference/interfaces/CommonAddLiquidityOptions",
+  "id": "v3/reference/interfaces/CommonAddLiquidityOptions",
+  "title": "CommonAddLiquidityOptions",
+  "description": "@jingofi/v3-sdk / Exports / CommonAddLiquidityOptions",
+  "source": "@site/docs/sdk/v3/reference/interfaces/CommonAddLiquidityOptions.md",
+  "sourceDirName": "v3/reference/interfaces",
+  "slug": "/v3/reference/interfaces/CommonAddLiquidityOptions",
+  "permalink": "/sdk/v3/reference/interfaces/CommonAddLiquidityOptions",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "CollectOptions",
+    "permalink": "/sdk/v3/reference/interfaces/CollectOptions"
+  },
+  "next": {
+    "title": "FeeOptions",
+    "permalink": "/sdk/v3/reference/interfaces/FeeOptions"
+  }
+}

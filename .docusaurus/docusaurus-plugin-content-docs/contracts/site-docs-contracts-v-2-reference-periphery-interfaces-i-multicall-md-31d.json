@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/interfaces/IMulticall",
+  "id": "v2/reference/periphery/interfaces/IMulticall",
+  "title": "IMulticall",
+  "description": "Enables calling multiple methods in a single call to the contract",
+  "source": "@site/docs/contracts/v2/reference/periphery/interfaces/IMulticall.md",
+  "sourceDirName": "v2/reference/periphery/interfaces",
+  "slug": "/v2/reference/periphery/interfaces/IMulticall",
+  "permalink": "/contracts/v2/reference/periphery/interfaces/IMulticall",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/interfaces/IMulticall.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "IERC721Permit",
+    "permalink": "/contracts/v2/reference/periphery/interfaces/IERC721Permit"
+  },
+  "next": {
+    "title": "INonfungiblePositionManager",
+    "permalink": "/contracts/v2/reference/periphery/interfaces/INonfungiblePositionManager"
+  }
+}

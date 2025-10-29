@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/core/libraries/LiquidityMath",
+  "id": "v2/reference/core/libraries/LiquidityMath",
+  "title": "LiquidityMath",
+  "description": "Functions",
+  "source": "@site/docs/contracts/v2/reference/core/libraries/LiquidityMath.md",
+  "sourceDirName": "v2/reference/core/libraries",
+  "slug": "/v2/reference/core/libraries/LiquidityMath",
+  "permalink": "/contracts/v2/reference/core/libraries/LiquidityMath",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/core/libraries/LiquidityMath.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "FullMath",
+    "permalink": "/contracts/v2/reference/core/libraries/FullMath"
+  },
+  "next": {
+    "title": "LowGasSafeMath",
+    "permalink": "/contracts/v2/reference/core/libraries/LowGasSafeMath"
+  }
+}

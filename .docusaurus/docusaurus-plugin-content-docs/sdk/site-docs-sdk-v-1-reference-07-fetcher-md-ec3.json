@@ -1,0 +1,27 @@
+{
+  "unversionedId": "v1/reference/fetcher",
+  "id": "v1/reference/fetcher",
+  "title": "Fetcher",
+  "description": "The data fetching logic is split from the rest of the code for better tree-shaking,",
+  "source": "@site/docs/sdk/v1/reference/07-fetcher.md",
+  "sourceDirName": "v1/reference",
+  "slug": "/v1/reference/fetcher",
+  "permalink": "/sdk/v1/reference/fetcher",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "id": "fetcher",
+    "title": "Fetcher"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Fractions",
+    "permalink": "/sdk/v1/reference/fractions"
+  },
+  "next": {
+    "title": "Other Exports",
+    "permalink": "/sdk/v1/reference/other-exports"
+  }
+}

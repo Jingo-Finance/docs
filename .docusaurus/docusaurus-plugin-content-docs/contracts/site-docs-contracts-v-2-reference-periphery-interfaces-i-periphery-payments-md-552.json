@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/interfaces/IPeripheryPayments",
+  "id": "v2/reference/periphery/interfaces/IPeripheryPayments",
+  "title": "IPeripheryPayments",
+  "description": "Functions to ease deposits and withdrawals of ETH",
+  "source": "@site/docs/contracts/v2/reference/periphery/interfaces/IPeripheryPayments.md",
+  "sourceDirName": "v2/reference/periphery/interfaces",
+  "slug": "/v2/reference/periphery/interfaces/IPeripheryPayments",
+  "permalink": "/contracts/v2/reference/periphery/interfaces/IPeripheryPayments",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/interfaces/IPeripheryPayments.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "IPeripheryImmutableState",
+    "permalink": "/contracts/v2/reference/periphery/interfaces/IPeripheryImmutableState"
+  },
+  "next": {
+    "title": "IPeripheryPaymentsWithFee",
+    "permalink": "/contracts/v2/reference/periphery/interfaces/IPeripheryPaymentsWithFee"
+  }
+}

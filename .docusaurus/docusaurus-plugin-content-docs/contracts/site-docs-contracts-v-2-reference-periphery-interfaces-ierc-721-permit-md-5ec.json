@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/interfaces/IERC721Permit",
+  "id": "v2/reference/periphery/interfaces/IERC721Permit",
+  "title": "IERC721Permit",
+  "description": "Extension to ERC721 that includes a permit function for signature based approvals",
+  "source": "@site/docs/contracts/v2/reference/periphery/interfaces/IERC721Permit.md",
+  "sourceDirName": "v2/reference/periphery/interfaces",
+  "slug": "/v2/reference/periphery/interfaces/IERC721Permit",
+  "permalink": "/contracts/v2/reference/periphery/interfaces/IERC721Permit",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/interfaces/IERC721Permit.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "IERC20Metadata",
+    "permalink": "/contracts/v2/reference/periphery/interfaces/IERC20Metadata"
+  },
+  "next": {
+    "title": "IMulticall",
+    "permalink": "/contracts/v2/reference/periphery/interfaces/IMulticall"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "unversionedId": "v1/guides/smart-contract-integration/using-flash-swaps",
+  "id": "v1/guides/smart-contract-integration/using-flash-swaps",
+  "title": "Flash Swaps",
+  "description": "Flash swaps are an integral feature of Jingo V1. In fact, under the hood, all swaps are actually flash swaps! This simply means that pair contracts send output tokens to the recipient before enforcing that enough input tokens have been received. This is slightly atypical, as one might expect a pair to ensure it's received payment before delivery. However, because Ethereum transactions are atomic, we can roll back the entire swap if it turns out that the contract hasn't received enough tokens to make itself whole by the end of the transaction.",
+  "source": "@site/docs/contracts/v1/guides/smart-contract-integration/05-using-flash-swaps.md",
+  "sourceDirName": "v1/guides/smart-contract-integration",
+  "slug": "/v1/guides/smart-contract-integration/using-flash-swaps",
+  "permalink": "/contracts/v1/guides/smart-contract-integration/using-flash-swaps",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v1/guides/smart-contract-integration/05-using-flash-swaps.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "id": "using-flash-swaps",
+    "title": "Flash Swaps"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Building an Oracle",
+    "permalink": "/contracts/v1/guides/smart-contract-integration/building-an-oracle"
+  },
+  "next": {
+    "title": "Pair Addresses",
+    "permalink": "/contracts/v1/guides/smart-contract-integration/getting-pair-addresses"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "v1/guides/quick-start",
+  "id": "v1/guides/quick-start",
+  "title": "SDK Quick start",
+  "description": "The Jingo SDK exists to help developers build on top of Jingo. It's designed to run in any environment that can execute JavaScript (think websites, node scripts, etc.). While simple enough to use in a hackathon project, it's also robust enough to power production applications.",
+  "source": "@site/docs/sdk/v1/guides/01-quick-start.md",
+  "sourceDirName": "v1/guides",
+  "slug": "/v1/guides/quick-start",
+  "permalink": "/sdk/v1/guides/quick-start",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "quick-start",
+    "title": "SDK Quick start"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/sdk/v1/overview"
+  },
+  "next": {
+    "title": "Fetching Data",
+    "permalink": "/sdk/v1/guides/fetching-data"
+  }
+}

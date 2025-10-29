@@ -1,0 +1,1200 @@
+{
+  "pluginId": "sdk",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "defaultSidebar": [
+      {
+        "type": "category",
+        "label": "V3 SDK",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "type": "link",
+            "label": "Overview",
+            "href": "/sdk/v3/overview",
+            "docId": "v3/overview"
+          },
+          {
+            "type": "category",
+            "label": "Guides",
+            "collapsible": true,
+            "collapsed": false,
+            "items": [
+              {
+                "type": "link",
+                "label": "Background",
+                "href": "/sdk/v3/guides/background",
+                "docId": "v3/guides/background"
+              },
+              {
+                "type": "link",
+                "label": "Getting a Quote",
+                "href": "/sdk/v3/guides/quoting",
+                "docId": "v3/guides/quoting"
+              },
+              {
+                "type": "link",
+                "label": "Executing a Trade",
+                "href": "/sdk/v3/guides/trading",
+                "docId": "v3/guides/trading"
+              },
+              {
+                "type": "link",
+                "label": "Routing a Swap",
+                "href": "/sdk/v3/guides/routing",
+                "docId": "v3/guides/routing"
+              },
+              {
+                "type": "category",
+                "label": "Pooling Liquidity",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Minting a Position",
+                    "href": "/sdk/v3/guides/liquidity/minting",
+                    "docId": "v3/guides/liquidity/minting"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Adding & Removing Liquidity",
+                    "href": "/sdk/v3/guides/liquidity/modifying-position",
+                    "docId": "v3/guides/liquidity/modifying-position"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Collecting Fees",
+                    "href": "/sdk/v3/guides/liquidity/liquidity-fees",
+                    "docId": "v3/guides/liquidity/liquidity-fees"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Swapping and Adding Liquidity",
+                    "href": "/sdk/v3/guides/liquidity/swap-and-add",
+                    "docId": "v3/guides/liquidity/swap-and-add"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "Technical Reference",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Overview",
+                "href": "/sdk/v3/reference/overview",
+                "docId": "v3/reference/overview"
+              },
+              {
+                "type": "category",
+                "label": "classes",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "FullMath",
+                    "href": "/sdk/v3/reference/classes/FullMath",
+                    "docId": "v3/reference/classes/FullMath"
+                  },
+                  {
+                    "type": "link",
+                    "label": "LiquidityMath",
+                    "href": "/sdk/v3/reference/classes/LiquidityMath",
+                    "docId": "v3/reference/classes/LiquidityMath"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Multicall",
+                    "href": "/sdk/v3/reference/classes/Multicall",
+                    "docId": "v3/reference/classes/Multicall"
+                  },
+                  {
+                    "type": "link",
+                    "label": "NoTickDataProvider",
+                    "href": "/sdk/v3/reference/classes/NoTickDataProvider",
+                    "docId": "v3/reference/classes/NoTickDataProvider"
+                  },
+                  {
+                    "type": "link",
+                    "label": "NonfungiblePositionManager",
+                    "href": "/sdk/v3/reference/classes/NonfungiblePositionManager",
+                    "docId": "v3/reference/classes/NonfungiblePositionManager"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Payments",
+                    "href": "/sdk/v3/reference/classes/Payments",
+                    "docId": "v3/reference/classes/Payments"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Pool",
+                    "href": "/sdk/v3/reference/classes/Pool",
+                    "docId": "v3/reference/classes/Pool"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Position",
+                    "href": "/sdk/v3/reference/classes/Position",
+                    "docId": "v3/reference/classes/Position"
+                  },
+                  {
+                    "type": "link",
+                    "label": "PositionLibrary",
+                    "href": "/sdk/v3/reference/classes/PositionLibrary",
+                    "docId": "v3/reference/classes/PositionLibrary"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Route",
+                    "href": "/sdk/v3/reference/classes/Route",
+                    "docId": "v3/reference/classes/Route"
+                  },
+                  {
+                    "type": "link",
+                    "label": "SelfPermit",
+                    "href": "/sdk/v3/reference/classes/SelfPermit",
+                    "docId": "v3/reference/classes/SelfPermit"
+                  },
+                  {
+                    "type": "link",
+                    "label": "SqrtPriceMath",
+                    "href": "/sdk/v3/reference/classes/SqrtPriceMath",
+                    "docId": "v3/reference/classes/SqrtPriceMath"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Staker",
+                    "href": "/sdk/v3/reference/classes/Staker",
+                    "docId": "v3/reference/classes/Staker"
+                  },
+                  {
+                    "type": "link",
+                    "label": "SwapMath",
+                    "href": "/sdk/v3/reference/classes/SwapMath",
+                    "docId": "v3/reference/classes/SwapMath"
+                  },
+                  {
+                    "type": "link",
+                    "label": "SwapQuoter",
+                    "href": "/sdk/v3/reference/classes/SwapQuoter",
+                    "docId": "v3/reference/classes/SwapQuoter"
+                  },
+                  {
+                    "type": "link",
+                    "label": "SwapRouter",
+                    "href": "/sdk/v3/reference/classes/SwapRouter",
+                    "docId": "v3/reference/classes/SwapRouter"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Tick",
+                    "href": "/sdk/v3/reference/classes/Tick",
+                    "docId": "v3/reference/classes/Tick"
+                  },
+                  {
+                    "type": "link",
+                    "label": "TickLibrary",
+                    "href": "/sdk/v3/reference/classes/TickLibrary",
+                    "docId": "v3/reference/classes/TickLibrary"
+                  },
+                  {
+                    "type": "link",
+                    "label": "TickList",
+                    "href": "/sdk/v3/reference/classes/TickList",
+                    "docId": "v3/reference/classes/TickList"
+                  },
+                  {
+                    "type": "link",
+                    "label": "TickListDataProvider",
+                    "href": "/sdk/v3/reference/classes/TickListDataProvider",
+                    "docId": "v3/reference/classes/TickListDataProvider"
+                  },
+                  {
+                    "type": "link",
+                    "label": "TickMath",
+                    "href": "/sdk/v3/reference/classes/TickMath",
+                    "docId": "v3/reference/classes/TickMath"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Trade",
+                    "href": "/sdk/v3/reference/classes/Trade",
+                    "docId": "v3/reference/classes/Trade"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "enums",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "FeeAmount",
+                    "href": "/sdk/v3/reference/enums/FeeAmount",
+                    "docId": "v3/reference/enums/FeeAmount"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "interfaces",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "AllowedPermitArguments",
+                    "href": "/sdk/v3/reference/interfaces/AllowedPermitArguments",
+                    "docId": "v3/reference/interfaces/AllowedPermitArguments"
+                  },
+                  {
+                    "type": "link",
+                    "label": "BestTradeOptions",
+                    "href": "/sdk/v3/reference/interfaces/BestTradeOptions",
+                    "docId": "v3/reference/interfaces/BestTradeOptions"
+                  },
+                  {
+                    "type": "link",
+                    "label": "ClaimOptions",
+                    "href": "/sdk/v3/reference/interfaces/ClaimOptions",
+                    "docId": "v3/reference/interfaces/ClaimOptions"
+                  },
+                  {
+                    "type": "link",
+                    "label": "CollectOptions",
+                    "href": "/sdk/v3/reference/interfaces/CollectOptions",
+                    "docId": "v3/reference/interfaces/CollectOptions"
+                  },
+                  {
+                    "type": "link",
+                    "label": "CommonAddLiquidityOptions",
+                    "href": "/sdk/v3/reference/interfaces/CommonAddLiquidityOptions",
+                    "docId": "v3/reference/interfaces/CommonAddLiquidityOptions"
+                  },
+                  {
+                    "type": "link",
+                    "label": "FeeOptions",
+                    "href": "/sdk/v3/reference/interfaces/FeeOptions",
+                    "docId": "v3/reference/interfaces/FeeOptions"
+                  },
+                  {
+                    "type": "link",
+                    "label": "IncentiveKey",
+                    "href": "/sdk/v3/reference/interfaces/IncentiveKey",
+                    "docId": "v3/reference/interfaces/IncentiveKey"
+                  },
+                  {
+                    "type": "link",
+                    "label": "IncreaseSpecificOptions",
+                    "href": "/sdk/v3/reference/interfaces/IncreaseSpecificOptions",
+                    "docId": "v3/reference/interfaces/IncreaseSpecificOptions"
+                  },
+                  {
+                    "type": "link",
+                    "label": "MethodParameters",
+                    "href": "/sdk/v3/reference/interfaces/MethodParameters",
+                    "docId": "v3/reference/interfaces/MethodParameters"
+                  },
+                  {
+                    "type": "link",
+                    "label": "MintSpecificOptions",
+                    "href": "/sdk/v3/reference/interfaces/MintSpecificOptions",
+                    "docId": "v3/reference/interfaces/MintSpecificOptions"
+                  },
+                  {
+                    "type": "link",
+                    "label": "NFTPermitOptions",
+                    "href": "/sdk/v3/reference/interfaces/NFTPermitOptions",
+                    "docId": "v3/reference/interfaces/NFTPermitOptions"
+                  },
+                  {
+                    "type": "link",
+                    "label": "QuoteOptions",
+                    "href": "/sdk/v3/reference/interfaces/QuoteOptions",
+                    "docId": "v3/reference/interfaces/QuoteOptions"
+                  },
+                  {
+                    "type": "link",
+                    "label": "RemoveLiquidityOptions",
+                    "href": "/sdk/v3/reference/interfaces/RemoveLiquidityOptions",
+                    "docId": "v3/reference/interfaces/RemoveLiquidityOptions"
+                  },
+                  {
+                    "type": "link",
+                    "label": "SafeTransferOptions",
+                    "href": "/sdk/v3/reference/interfaces/SafeTransferOptions",
+                    "docId": "v3/reference/interfaces/SafeTransferOptions"
+                  },
+                  {
+                    "type": "link",
+                    "label": "StandardPermitArguments",
+                    "href": "/sdk/v3/reference/interfaces/StandardPermitArguments",
+                    "docId": "v3/reference/interfaces/StandardPermitArguments"
+                  },
+                  {
+                    "type": "link",
+                    "label": "SwapOptions",
+                    "href": "/sdk/v3/reference/interfaces/SwapOptions",
+                    "docId": "v3/reference/interfaces/SwapOptions"
+                  },
+                  {
+                    "type": "link",
+                    "label": "TickConstructorArgs",
+                    "href": "/sdk/v3/reference/interfaces/TickConstructorArgs",
+                    "docId": "v3/reference/interfaces/TickConstructorArgs"
+                  },
+                  {
+                    "type": "link",
+                    "label": "TickDataProvider",
+                    "href": "/sdk/v3/reference/interfaces/TickDataProvider",
+                    "docId": "v3/reference/interfaces/TickDataProvider"
+                  },
+                  {
+                    "type": "link",
+                    "label": "WithdrawOptions",
+                    "href": "/sdk/v3/reference/interfaces/WithdrawOptions",
+                    "docId": "v3/reference/interfaces/WithdrawOptions"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Swap Widget",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Overview",
+            "href": "/sdk/swap-widget/overview",
+            "docId": "swap-widget/overview"
+          },
+          {
+            "type": "category",
+            "label": "Guides",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Getting Started",
+                "href": "/sdk/swap-widget/guides/getting-started",
+                "docId": "swap-widget/guides/getting-started"
+              },
+              {
+                "type": "link",
+                "label": "Example Themes",
+                "href": "/sdk/swap-widget/guides/examples",
+                "docId": "swap-widget/guides/examples"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "Technical Reference",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "API V1 Reference",
+                "href": "/sdk/swap-widget/reference/v1",
+                "docId": "swap-widget/reference/v1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "web3-react",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Overview",
+            "href": "/sdk/web3-react/overview",
+            "docId": "web3-react/overview"
+          },
+          {
+            "type": "category",
+            "label": "Guides",
+            "collapsible": true,
+            "collapsed": false,
+            "items": [
+              {
+                "type": "link",
+                "label": "Connecting to Wallets",
+                "href": "/sdk/web3-react/guides/connect-wallet",
+                "docId": "web3-react/guides/connect-wallet"
+              },
+              {
+                "type": "link",
+                "label": "Supported Connectors",
+                "href": "/sdk/web3-react/guides/connectors",
+                "docId": "web3-react/guides/connectors"
+              },
+              {
+                "type": "link",
+                "label": "Switching Chains",
+                "href": "/sdk/web3-react/guides/switch-chains",
+                "docId": "web3-react/guides/switch-chains"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Core SDK",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Overview",
+            "href": "/sdk/core/overview",
+            "docId": "core/overview"
+          },
+          {
+            "type": "category",
+            "label": "Technical Reference",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Overview",
+                "href": "/sdk/core/reference/overview",
+                "docId": "core/reference/overview"
+              },
+              {
+                "type": "category",
+                "label": "classes",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "CurrencyAmount",
+                    "href": "/sdk/core/reference/classes/CurrencyAmount",
+                    "docId": "core/reference/classes/CurrencyAmount"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Ether",
+                    "href": "/sdk/core/reference/classes/Ether",
+                    "docId": "core/reference/classes/Ether"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Fraction",
+                    "href": "/sdk/core/reference/classes/Fraction",
+                    "docId": "core/reference/classes/Fraction"
+                  },
+                  {
+                    "type": "link",
+                    "label": "NativeCurrency",
+                    "href": "/sdk/core/reference/classes/NativeCurrency",
+                    "docId": "core/reference/classes/NativeCurrency"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Percent",
+                    "href": "/sdk/core/reference/classes/Percent",
+                    "docId": "core/reference/classes/Percent"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Price",
+                    "href": "/sdk/core/reference/classes/Price",
+                    "docId": "core/reference/classes/Price"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Token",
+                    "href": "/sdk/core/reference/classes/Token",
+                    "docId": "core/reference/classes/Token"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "enums",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Rounding",
+                    "href": "/sdk/core/reference/enums/Rounding",
+                    "docId": "core/reference/enums/Rounding"
+                  },
+                  {
+                    "type": "link",
+                    "label": "SupportedChainId",
+                    "href": "/sdk/core/reference/enums/SupportedChainId",
+                    "docId": "core/reference/enums/SupportedChainId"
+                  },
+                  {
+                    "type": "link",
+                    "label": "TradeType",
+                    "href": "/sdk/core/reference/enums/TradeType",
+                    "docId": "core/reference/enums/TradeType"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "V1 SDK",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Overview",
+            "href": "/sdk/v1/overview",
+            "docId": "v1/overview"
+          },
+          {
+            "type": "category",
+            "label": "Guides",
+            "collapsible": true,
+            "collapsed": false,
+            "items": [
+              {
+                "type": "link",
+                "label": "SDK Quick start",
+                "href": "/sdk/v1/guides/quick-start",
+                "docId": "v1/guides/quick-start"
+              },
+              {
+                "type": "link",
+                "label": "Fetching Data",
+                "href": "/sdk/v1/guides/fetching-data",
+                "docId": "v1/guides/fetching-data"
+              },
+              {
+                "type": "link",
+                "label": "Pricing",
+                "href": "/sdk/v1/guides/pricing",
+                "docId": "v1/guides/pricing"
+              },
+              {
+                "type": "link",
+                "label": "Trading",
+                "href": "/sdk/v1/guides/trading",
+                "docId": "v1/guides/trading"
+              },
+              {
+                "type": "link",
+                "label": "Pair Addresses",
+                "href": "/sdk/v1/guides/getting-pair-addresses",
+                "docId": "v1/guides/getting-pair-addresses"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "Technical Reference",
+            "collapsible": true,
+            "collapsed": false,
+            "items": [
+              {
+                "type": "link",
+                "label": "Getting Started",
+                "href": "/sdk/v1/reference/getting-started",
+                "docId": "v1/reference/getting-started"
+              },
+              {
+                "type": "link",
+                "label": "Token",
+                "href": "/sdk/v1/reference/token",
+                "docId": "v1/reference/token"
+              },
+              {
+                "type": "link",
+                "label": "Pair",
+                "href": "/sdk/v1/reference/pair",
+                "docId": "v1/reference/pair"
+              },
+              {
+                "type": "link",
+                "label": "Route",
+                "href": "/sdk/v1/reference/route",
+                "docId": "v1/reference/route"
+              },
+              {
+                "type": "link",
+                "label": "Trade",
+                "href": "/sdk/v1/reference/trade",
+                "docId": "v1/reference/trade"
+              },
+              {
+                "type": "link",
+                "label": "Fractions",
+                "href": "/sdk/v1/reference/fractions",
+                "docId": "v1/reference/fractions"
+              },
+              {
+                "type": "link",
+                "label": "Fetcher",
+                "href": "/sdk/v1/reference/fetcher",
+                "docId": "v1/reference/fetcher"
+              },
+              {
+                "type": "link",
+                "label": "Other Exports",
+                "href": "/sdk/v1/reference/other-exports",
+                "docId": "v1/reference/other-exports"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "docs": {
+    "core/overview": {
+      "id": "core/overview",
+      "title": "Overview",
+      "description": "Welcome to the V3 Core SDK!",
+      "sidebar": "defaultSidebar"
+    },
+    "core/reference/classes/CurrencyAmount": {
+      "id": "core/reference/classes/CurrencyAmount",
+      "title": "CurrencyAmount",
+      "description": "@jingofi/sdk-core / Exports / CurrencyAmount",
+      "sidebar": "defaultSidebar"
+    },
+    "core/reference/classes/Ether": {
+      "id": "core/reference/classes/Ether",
+      "title": "Ether",
+      "description": "@jingofi/sdk-core / Exports / Ether",
+      "sidebar": "defaultSidebar"
+    },
+    "core/reference/classes/Fraction": {
+      "id": "core/reference/classes/Fraction",
+      "title": "Fraction",
+      "description": "@jingofi/sdk-core / Exports / Fraction",
+      "sidebar": "defaultSidebar"
+    },
+    "core/reference/classes/NativeCurrency": {
+      "id": "core/reference/classes/NativeCurrency",
+      "title": "NativeCurrency",
+      "description": "@jingofi/sdk-core / Exports / NativeCurrency",
+      "sidebar": "defaultSidebar"
+    },
+    "core/reference/classes/Percent": {
+      "id": "core/reference/classes/Percent",
+      "title": "Percent",
+      "description": "@jingofi/sdk-core / Exports / Percent",
+      "sidebar": "defaultSidebar"
+    },
+    "core/reference/classes/Price": {
+      "id": "core/reference/classes/Price",
+      "title": "Price",
+      "description": "@jingofi/sdk-core / Exports / Price",
+      "sidebar": "defaultSidebar"
+    },
+    "core/reference/classes/Token": {
+      "id": "core/reference/classes/Token",
+      "title": "Token",
+      "description": "@jingofi/sdk-core / Exports / Token",
+      "sidebar": "defaultSidebar"
+    },
+    "core/reference/enums/Rounding": {
+      "id": "core/reference/enums/Rounding",
+      "title": "Rounding",
+      "description": "@jingofi/sdk-core / Exports / Rounding",
+      "sidebar": "defaultSidebar"
+    },
+    "core/reference/enums/SupportedChainId": {
+      "id": "core/reference/enums/SupportedChainId",
+      "title": "SupportedChainId",
+      "description": "@jingofi/sdk-core / Exports / SupportedChainId",
+      "sidebar": "defaultSidebar"
+    },
+    "core/reference/enums/TradeType": {
+      "id": "core/reference/enums/TradeType",
+      "title": "TradeType",
+      "description": "@jingofi/sdk-core / Exports / TradeType",
+      "sidebar": "defaultSidebar"
+    },
+    "core/reference/overview": {
+      "id": "core/reference/overview",
+      "title": "Overview",
+      "description": "Table of contents",
+      "sidebar": "defaultSidebar"
+    },
+    "swap-widget/guides/examples": {
+      "id": "swap-widget/guides/examples",
+      "title": "Swap Widget Example Themes",
+      "description": "The Getting Started guide showed how to embed the swap widget and let your users trade tokens on the Jingo Protocol without leaving your dApp.",
+      "sidebar": "defaultSidebar"
+    },
+    "swap-widget/guides/getting-started": {
+      "id": "swap-widget/guides/getting-started",
+      "title": "Getting Started with the Swap Widget",
+      "description": "This guide walks you through the steps to embed the swap widget in your website in 2 minutes — whether your site is already a decentralized application (dApp) or not. With the swap widget, your users can trade ERC-20 tokens on the Jingo Protocol without leaving your site!",
+      "sidebar": "defaultSidebar"
+    },
+    "swap-widget/overview": {
+      "id": "swap-widget/overview",
+      "title": "Overview",
+      "description": "Welcome to the Jingo Swap Widget. To begin, we recommend looking at the Guides and for deeper reference see the Swap Widget Github repo.",
+      "sidebar": "defaultSidebar"
+    },
+    "swap-widget/reference/v1": {
+      "id": "swap-widget/reference/v1",
+      "title": "API V1 Reference",
+      "description": "Recommended Parameters",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/guides/fetching-data": {
+      "id": "v1/guides/fetching-data",
+      "title": "Fetching Data",
+      "description": "Looking for a quickstart?",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/guides/getting-pair-addresses": {
+      "id": "v1/guides/getting-pair-addresses",
+      "title": "Pair Addresses",
+      "description": "The most obvious way to get the address for a pair is to call getPair on the factory. If the pair exists, this function will return its address, else address(0) (0x0000000000000000000000000000000000000000).",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/guides/pricing": {
+      "id": "v1/guides/pricing",
+      "title": "Pricing",
+      "description": "Looking for a quickstart?",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/guides/quick-start": {
+      "id": "v1/guides/quick-start",
+      "title": "SDK Quick start",
+      "description": "The Jingo SDK exists to help developers build on top of Jingo. It's designed to run in any environment that can execute JavaScript (think websites, node scripts, etc.). While simple enough to use in a hackathon project, it's also robust enough to power production applications.",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/guides/trading": {
+      "id": "v1/guides/trading",
+      "title": "Trading",
+      "description": "Looking for a quickstart?",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/overview": {
+      "id": "v1/overview",
+      "title": "Overview",
+      "description": "Welcome to the Jingo Protocol V1 SDK. To begin, we recommend looking at the Guides and for deeper reference see the V1 SDK Github repo.",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/reference/fetcher": {
+      "id": "v1/reference/fetcher",
+      "title": "Fetcher",
+      "description": "The data fetching logic is split from the rest of the code for better tree-shaking,",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/reference/fractions": {
+      "id": "v1/reference/fractions",
+      "title": "Fractions",
+      "description": "The base class which all subsequent fraction classes extend. Not meant to be used directly.",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/reference/getting-started": {
+      "id": "v1/reference/getting-started",
+      "title": "Getting Started",
+      "description": "The pages that follow contain technical reference information on the Jingo SDK.",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/reference/other-exports": {
+      "id": "v1/reference/other-exports",
+      "title": "Other Exports",
+      "description": "The default export from jsbi.",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/reference/pair": {
+      "id": "v1/reference/pair",
+      "title": "Pair",
+      "description": "The Pair entity represents a Jingo pair with a balance of each of its pair tokens.",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/reference/route": {
+      "id": "v1/reference/route",
+      "title": "Route",
+      "description": "The Route entity represents one or more ordered Jingo pairs with a fully specified path from input token to output token.",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/reference/token": {
+      "id": "v1/reference/token",
+      "title": "Token",
+      "description": "The Token entity represents an ERC-20 token at a specific address on a specific chain.",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/reference/trade": {
+      "id": "v1/reference/trade",
+      "title": "Trade",
+      "description": "The Trade entity represents a fully specified trade along a route. This entity supplies all the information necessary to craft a router transaction.",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/guides/background": {
+      "id": "v3/guides/background",
+      "title": "Background",
+      "description": "Before integrating with Jingo, it may be helpful for newcomers to review the following background information on some important developer web3 concepts, the structure of our examples, and SDK concepts.",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/guides/liquidity/liquidity-fees": {
+      "id": "v3/guides/liquidity/liquidity-fees",
+      "title": "Collecting Fees",
+      "description": "Introduction",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/guides/liquidity/minting": {
+      "id": "v3/guides/liquidity/minting",
+      "title": "Minting a Position",
+      "description": "Introduction",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/guides/liquidity/modifying-position": {
+      "id": "v3/guides/liquidity/modifying-position",
+      "title": "Adding & Removing Liquidity",
+      "description": "Introduction",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/guides/liquidity/swap-and-add": {
+      "id": "v3/guides/liquidity/swap-and-add",
+      "title": "Swapping and Adding Liquidity",
+      "description": "Introduction",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/guides/quoting": {
+      "id": "v3/guides/quoting",
+      "title": "Getting a Quote",
+      "description": "Introduction",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/guides/routing": {
+      "id": "v3/guides/routing",
+      "title": "Routing a Swap",
+      "description": "Introduction",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/guides/trading": {
+      "id": "v3/guides/trading",
+      "title": "Executing a Trade",
+      "description": "Introduction",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/overview": {
+      "id": "v3/overview",
+      "title": "Overview",
+      "description": "Welcome to the V3 Jingo SDK!",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/classes/FullMath": {
+      "id": "v3/reference/classes/FullMath",
+      "title": "FullMath",
+      "description": "@jingofi/v3-sdk / Exports / FullMath",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/classes/LiquidityMath": {
+      "id": "v3/reference/classes/LiquidityMath",
+      "title": "LiquidityMath",
+      "description": "@jingofi/v3-sdk / Exports / LiquidityMath",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/classes/Multicall": {
+      "id": "v3/reference/classes/Multicall",
+      "title": "Multicall",
+      "description": "@jingofi/v3-sdk / Exports / Multicall",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/classes/NonfungiblePositionManager": {
+      "id": "v3/reference/classes/NonfungiblePositionManager",
+      "title": "NonfungiblePositionManager",
+      "description": "@jingofi/v3-sdk / Exports / NonfungiblePositionManager",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/classes/NoTickDataProvider": {
+      "id": "v3/reference/classes/NoTickDataProvider",
+      "title": "NoTickDataProvider",
+      "description": "@jingofi/v3-sdk / Exports / NoTickDataProvider",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/classes/Payments": {
+      "id": "v3/reference/classes/Payments",
+      "title": "Payments",
+      "description": "@jingofi/v3-sdk / Exports / Payments",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/classes/Pool": {
+      "id": "v3/reference/classes/Pool",
+      "title": "Pool",
+      "description": "@jingofi/v3-sdk / Exports / Pool",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/classes/Position": {
+      "id": "v3/reference/classes/Position",
+      "title": "Position",
+      "description": "@jingofi/v3-sdk / Exports / Position",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/classes/PositionLibrary": {
+      "id": "v3/reference/classes/PositionLibrary",
+      "title": "PositionLibrary",
+      "description": "@jingofi/v3-sdk / Exports / PositionLibrary",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/classes/Route": {
+      "id": "v3/reference/classes/Route",
+      "title": "Route",
+      "description": "@jingofi/v3-sdk / Exports / Route",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/classes/SelfPermit": {
+      "id": "v3/reference/classes/SelfPermit",
+      "title": "SelfPermit",
+      "description": "@jingofi/v3-sdk / Exports / SelfPermit",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/classes/SqrtPriceMath": {
+      "id": "v3/reference/classes/SqrtPriceMath",
+      "title": "SqrtPriceMath",
+      "description": "@jingofi/v3-sdk / Exports / SqrtPriceMath",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/classes/Staker": {
+      "id": "v3/reference/classes/Staker",
+      "title": "Staker",
+      "description": "@jingofi/v3-sdk / Exports / Staker",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/classes/SwapMath": {
+      "id": "v3/reference/classes/SwapMath",
+      "title": "SwapMath",
+      "description": "@jingofi/v3-sdk / Exports / SwapMath",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/classes/SwapQuoter": {
+      "id": "v3/reference/classes/SwapQuoter",
+      "title": "SwapQuoter",
+      "description": "@jingofi/v3-sdk / Exports / SwapQuoter",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/classes/SwapRouter": {
+      "id": "v3/reference/classes/SwapRouter",
+      "title": "SwapRouter",
+      "description": "@jingofi/v3-sdk / Exports / SwapRouter",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/classes/Tick": {
+      "id": "v3/reference/classes/Tick",
+      "title": "Tick",
+      "description": "@jingofi/v3-sdk / Exports / Tick",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/classes/TickLibrary": {
+      "id": "v3/reference/classes/TickLibrary",
+      "title": "TickLibrary",
+      "description": "@jingofi/v3-sdk / Exports / TickLibrary",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/classes/TickList": {
+      "id": "v3/reference/classes/TickList",
+      "title": "TickList",
+      "description": "@jingofi/v3-sdk / Exports / TickList",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/classes/TickListDataProvider": {
+      "id": "v3/reference/classes/TickListDataProvider",
+      "title": "TickListDataProvider",
+      "description": "@jingofi/v3-sdk / Exports / TickListDataProvider",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/classes/TickMath": {
+      "id": "v3/reference/classes/TickMath",
+      "title": "TickMath",
+      "description": "@jingofi/v3-sdk / Exports / TickMath",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/classes/Trade": {
+      "id": "v3/reference/classes/Trade",
+      "title": "Trade",
+      "description": "@jingofi/v3-sdk / Exports / Trade",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/enums/FeeAmount": {
+      "id": "v3/reference/enums/FeeAmount",
+      "title": "FeeAmount",
+      "description": "@jingofi/v3-sdk / Exports / FeeAmount",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/interfaces/AllowedPermitArguments": {
+      "id": "v3/reference/interfaces/AllowedPermitArguments",
+      "title": "AllowedPermitArguments",
+      "description": "@jingofi/v3-sdk / Exports / AllowedPermitArguments",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/interfaces/BestTradeOptions": {
+      "id": "v3/reference/interfaces/BestTradeOptions",
+      "title": "BestTradeOptions",
+      "description": "@jingofi/v3-sdk / Exports / BestTradeOptions",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/interfaces/ClaimOptions": {
+      "id": "v3/reference/interfaces/ClaimOptions",
+      "title": "ClaimOptions",
+      "description": "@jingofi/v3-sdk / Exports / ClaimOptions",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/interfaces/CollectOptions": {
+      "id": "v3/reference/interfaces/CollectOptions",
+      "title": "CollectOptions",
+      "description": "@jingofi/v3-sdk / Exports / CollectOptions",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/interfaces/CommonAddLiquidityOptions": {
+      "id": "v3/reference/interfaces/CommonAddLiquidityOptions",
+      "title": "CommonAddLiquidityOptions",
+      "description": "@jingofi/v3-sdk / Exports / CommonAddLiquidityOptions",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/interfaces/FeeOptions": {
+      "id": "v3/reference/interfaces/FeeOptions",
+      "title": "FeeOptions",
+      "description": "@jingofi/v3-sdk / Exports / FeeOptions",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/interfaces/IncentiveKey": {
+      "id": "v3/reference/interfaces/IncentiveKey",
+      "title": "IncentiveKey",
+      "description": "@jingofi/v3-sdk / Exports / IncentiveKey",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/interfaces/IncreaseSpecificOptions": {
+      "id": "v3/reference/interfaces/IncreaseSpecificOptions",
+      "title": "IncreaseSpecificOptions",
+      "description": "@jingofi/v3-sdk / Exports / IncreaseSpecificOptions",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/interfaces/MethodParameters": {
+      "id": "v3/reference/interfaces/MethodParameters",
+      "title": "MethodParameters",
+      "description": "@jingofi/v3-sdk / Exports / MethodParameters",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/interfaces/MintSpecificOptions": {
+      "id": "v3/reference/interfaces/MintSpecificOptions",
+      "title": "MintSpecificOptions",
+      "description": "@jingofi/v3-sdk / Exports / MintSpecificOptions",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/interfaces/NFTPermitOptions": {
+      "id": "v3/reference/interfaces/NFTPermitOptions",
+      "title": "NFTPermitOptions",
+      "description": "@jingofi/v3-sdk / Exports / NFTPermitOptions",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/interfaces/QuoteOptions": {
+      "id": "v3/reference/interfaces/QuoteOptions",
+      "title": "QuoteOptions",
+      "description": "@jingofi/v3-sdk / Exports / QuoteOptions",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/interfaces/RemoveLiquidityOptions": {
+      "id": "v3/reference/interfaces/RemoveLiquidityOptions",
+      "title": "RemoveLiquidityOptions",
+      "description": "@jingofi/v3-sdk / Exports / RemoveLiquidityOptions",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/interfaces/SafeTransferOptions": {
+      "id": "v3/reference/interfaces/SafeTransferOptions",
+      "title": "SafeTransferOptions",
+      "description": "@jingofi/v3-sdk / Exports / SafeTransferOptions",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/interfaces/StandardPermitArguments": {
+      "id": "v3/reference/interfaces/StandardPermitArguments",
+      "title": "StandardPermitArguments",
+      "description": "@jingofi/v3-sdk / Exports / StandardPermitArguments",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/interfaces/SwapOptions": {
+      "id": "v3/reference/interfaces/SwapOptions",
+      "title": "SwapOptions",
+      "description": "@jingofi/v3-sdk / Exports / SwapOptions",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/interfaces/TickConstructorArgs": {
+      "id": "v3/reference/interfaces/TickConstructorArgs",
+      "title": "TickConstructorArgs",
+      "description": "@jingofi/v3-sdk / Exports / TickConstructorArgs",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/interfaces/TickDataProvider": {
+      "id": "v3/reference/interfaces/TickDataProvider",
+      "title": "TickDataProvider",
+      "description": "@jingofi/v3-sdk / Exports / TickDataProvider",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/interfaces/WithdrawOptions": {
+      "id": "v3/reference/interfaces/WithdrawOptions",
+      "title": "WithdrawOptions",
+      "description": "@jingofi/v3-sdk / Exports / WithdrawOptions",
+      "sidebar": "defaultSidebar"
+    },
+    "v3/reference/overview": {
+      "id": "v3/reference/overview",
+      "title": "Overview",
+      "description": "Table of contents",
+      "sidebar": "defaultSidebar"
+    },
+    "web3-react/guides/connect-wallet": {
+      "id": "web3-react/guides/connect-wallet",
+      "title": "Connecting to Wallets",
+      "description": "Introduction",
+      "sidebar": "defaultSidebar"
+    },
+    "web3-react/guides/connectors": {
+      "id": "web3-react/guides/connectors",
+      "title": "Supported Connectors",
+      "description": "Introduction",
+      "sidebar": "defaultSidebar"
+    },
+    "web3-react/guides/switch-chains": {
+      "id": "web3-react/guides/switch-chains",
+      "title": "Switching Chains",
+      "description": "Introduction",
+      "sidebar": "defaultSidebar"
+    },
+    "web3-react/overview": {
+      "id": "web3-react/overview",
+      "title": "Overview",
+      "description": "Welcome to web3-react!",
+      "sidebar": "defaultSidebar"
+    }
+  }
+}

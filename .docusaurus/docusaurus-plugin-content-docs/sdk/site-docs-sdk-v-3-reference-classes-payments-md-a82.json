@@ -1,0 +1,23 @@
+{
+  "unversionedId": "v3/reference/classes/Payments",
+  "id": "v3/reference/classes/Payments",
+  "title": "Payments",
+  "description": "@jingofi/v3-sdk / Exports / Payments",
+  "source": "@site/docs/sdk/v3/reference/classes/Payments.md",
+  "sourceDirName": "v3/reference/classes",
+  "slug": "/v3/reference/classes/Payments",
+  "permalink": "/sdk/v3/reference/classes/Payments",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "NonfungiblePositionManager",
+    "permalink": "/sdk/v3/reference/classes/NonfungiblePositionManager"
+  },
+  "next": {
+    "title": "Pool",
+    "permalink": "/sdk/v3/reference/classes/Pool"
+  }
+}

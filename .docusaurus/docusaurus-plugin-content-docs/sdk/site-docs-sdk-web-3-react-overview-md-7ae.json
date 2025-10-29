@@ -1,0 +1,28 @@
+{
+  "unversionedId": "web3-react/overview",
+  "id": "web3-react/overview",
+  "title": "Overview",
+  "description": "Welcome to web3-react!",
+  "source": "@site/docs/sdk/web3-react/overview.md",
+  "sourceDirName": "web3-react",
+  "slug": "/web3-react/overview",
+  "permalink": "/sdk/web3-react/overview",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "overview",
+    "sidebar_position": 1,
+    "title": "Overview"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "API V1 Reference",
+    "permalink": "/sdk/swap-widget/reference/v1"
+  },
+  "next": {
+    "title": "Connecting to Wallets",
+    "permalink": "/sdk/web3-react/guides/connect-wallet"
+  }
+}

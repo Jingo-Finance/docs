@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/core/libraries/BitMath",
+  "id": "v2/reference/core/libraries/BitMath",
+  "title": "BitMath",
+  "description": "This library provides functionality for computing bit properties of an unsigned integer",
+  "source": "@site/docs/contracts/v2/reference/core/libraries/BitMath.md",
+  "sourceDirName": "v2/reference/core/libraries",
+  "slug": "/v2/reference/core/libraries/BitMath",
+  "permalink": "/contracts/v2/reference/core/libraries/BitMath",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/core/libraries/BitMath.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "IPegasysV3PoolState",
+    "permalink": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolState"
+  },
+  "next": {
+    "title": "FixedPoint128",
+    "permalink": "/contracts/v2/reference/core/libraries/FixedPoint128"
+  }
+}

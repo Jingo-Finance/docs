@@ -1,0 +1,23 @@
+{
+  "unversionedId": "core/reference/classes/NativeCurrency",
+  "id": "core/reference/classes/NativeCurrency",
+  "title": "NativeCurrency",
+  "description": "@jingofi/sdk-core / Exports / NativeCurrency",
+  "source": "@site/docs/sdk/core/reference/classes/NativeCurrency.md",
+  "sourceDirName": "core/reference/classes",
+  "slug": "/core/reference/classes/NativeCurrency",
+  "permalink": "/sdk/core/reference/classes/NativeCurrency",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Fraction",
+    "permalink": "/sdk/core/reference/classes/Fraction"
+  },
+  "next": {
+    "title": "Percent",
+    "permalink": "/sdk/core/reference/classes/Percent"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/test/PeripheryImmutableStateTest",
+  "id": "v2/reference/periphery/test/PeripheryImmutableStateTest",
+  "title": "PeripheryImmutableStateTest",
+  "description": "Functions",
+  "source": "@site/docs/contracts/v2/reference/periphery/test/PeripheryImmutableStateTest.md",
+  "sourceDirName": "v2/reference/periphery/test",
+  "slug": "/v2/reference/periphery/test/PeripheryImmutableStateTest",
+  "permalink": "/contracts/v2/reference/periphery/test/PeripheryImmutableStateTest",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/test/PeripheryImmutableStateTest.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "PathTest",
+    "permalink": "/contracts/v2/reference/periphery/test/PathTest"
+  },
+  "next": {
+    "title": "PoolAddressTest",
+    "permalink": "/contracts/v2/reference/periphery/test/PoolAddressTest"
+  }
+}

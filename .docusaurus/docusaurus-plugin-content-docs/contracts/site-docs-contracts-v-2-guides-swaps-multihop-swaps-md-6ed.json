@@ -1,0 +1,29 @@
+{
+  "unversionedId": "v2/guides/swaps/multihop-swaps",
+  "id": "v2/guides/swaps/multihop-swaps",
+  "title": "Multihop Swaps",
+  "description": "Introduction",
+  "source": "@site/docs/contracts/v2/guides/swaps/multihop-swaps.md",
+  "sourceDirName": "v2/guides/swaps",
+  "slug": "/v2/guides/swaps/multihop-swaps",
+  "permalink": "/contracts/v2/guides/swaps/multihop-swaps",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/guides/swaps/multihop-swaps.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "multihop-swaps",
+    "title": "Multihop Swaps",
+    "sidebar_position": 2
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Single Swaps",
+    "permalink": "/contracts/v2/guides/swaps/single-swaps"
+  },
+  "next": {
+    "title": "Set Up Your Contract",
+    "permalink": "/contracts/v2/guides/providing-liquidity/setting-up"
+  }
+}

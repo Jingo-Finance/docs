@@ -1,0 +1,24 @@
+{
+  "unversionedId": "subgraph/guides/examples",
+  "id": "subgraph/guides/examples",
+  "title": "Query Examples",
+  "description": "This doc will teach you how to query Jingo V3 analytics by writing GraphQL queries on the subgraph. You can fetch data points like :",
+  "source": "@site/docs/api/subgraph/guides/subgraph-example.md",
+  "sourceDirName": "subgraph/guides",
+  "slug": "/subgraph/guides/examples",
+  "permalink": "/api/subgraph/guides/examples",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "examples",
+    "title": "Query Examples",
+    "sidebar_position": 3
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/api/subgraph/overview"
+  }
+}

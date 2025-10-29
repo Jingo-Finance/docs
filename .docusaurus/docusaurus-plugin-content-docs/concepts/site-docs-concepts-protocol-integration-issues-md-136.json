@@ -1,0 +1,28 @@
+{
+  "unversionedId": "protocol/integration-issues",
+  "id": "protocol/integration-issues",
+  "title": "Token Integration Issues",
+  "description": "Fee-on-transfer and rebasing tokens will not function correctly on v3.",
+  "source": "@site/docs/concepts/protocol/integration-issues.md",
+  "sourceDirName": "protocol",
+  "slug": "/protocol/integration-issues",
+  "permalink": "/concepts/protocol/integration-issues",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "id": "integration-issues",
+    "title": "Token Integration Issues",
+    "sidebar_position": 6
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Swaps",
+    "permalink": "/concepts/protocol/swaps"
+  },
+  "next": {
+    "title": "Resources",
+    "permalink": "/concepts/resources"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "unversionedId": "v2/reference/periphery/staker/Design",
+  "id": "v2/reference/periphery/staker/Design",
+  "title": "Jingo V3 Staker Design",
+  "description": "The liquidity mining staker design is comprised of one canonical position staking contract, Staker. The technical reference for this contract is here and the source code is here.",
+  "source": "@site/docs/contracts/v2/reference/periphery/staker/Design.md",
+  "sourceDirName": "v2/reference/periphery/staker",
+  "slug": "/v2/reference/periphery/staker/Design",
+  "permalink": "/contracts/v2/reference/periphery/staker/Design",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/staker/Design.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_label": "Jingo V3 Staker Design",
+    "sidebar_position": 1
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "WeightedOracleLibrary",
+    "permalink": "/contracts/v2/reference/periphery/libraries/WeightedOracleLibrary"
+  },
+  "next": {
+    "title": "Jingo V3 Staker Contract",
+    "permalink": "/contracts/v2/reference/periphery/staker/PegasysV3Staker"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "unversionedId": "v1/guides/smart-contract-integration/providing-liquidity",
+  "id": "v1/guides/smart-contract-integration/providing-liquidity",
+  "title": "Providing Liquidity",
+  "description": "Introduction",
+  "source": "@site/docs/contracts/v1/guides/smart-contract-integration/03-providing-liquidity.md",
+  "sourceDirName": "v1/guides/smart-contract-integration",
+  "slug": "/v1/guides/smart-contract-integration/providing-liquidity",
+  "permalink": "/contracts/v1/guides/smart-contract-integration/providing-liquidity",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v1/guides/smart-contract-integration/03-providing-liquidity.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "providing-liquidity",
+    "title": "Providing Liquidity"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Implement a Swap",
+    "permalink": "/contracts/v1/guides/smart-contract-integration/trading-from-a-smart-contract"
+  },
+  "next": {
+    "title": "Building an Oracle",
+    "permalink": "/contracts/v1/guides/smart-contract-integration/building-an-oracle"
+  }
+}

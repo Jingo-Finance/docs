@@ -1,0 +1,28 @@
+{
+  "unversionedId": "v1/concepts/advanced-topics/research",
+  "id": "v1/concepts/advanced-topics/research",
+  "title": "Research",
+  "description": "The automated market maker is a new concept, and as such, new research comes out frequently. We've selected some of the most thoughtful here.",
+  "source": "@site/docs/contracts/v1/concepts/03-advanced-topics/06-research.md",
+  "sourceDirName": "v1/concepts/03-advanced-topics",
+  "slug": "/v1/concepts/advanced-topics/research",
+  "permalink": "/contracts/v1/concepts/advanced-topics/research",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v1/concepts/03-advanced-topics/06-research.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "id": "research",
+    "title": "Research"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Math",
+    "permalink": "/contracts/v1/concepts/advanced-topics/math"
+  },
+  "next": {
+    "title": "Using the API",
+    "permalink": "/contracts/v1/guides/interface-integration/using-the-api"
+  }
+}

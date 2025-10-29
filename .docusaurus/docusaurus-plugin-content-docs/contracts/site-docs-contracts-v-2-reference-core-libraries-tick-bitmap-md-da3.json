@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/core/libraries/TickBitmap",
+  "id": "v2/reference/core/libraries/TickBitmap",
+  "title": "TickBitmap",
+  "description": "Stores a packed mapping of tick index to its initialized state",
+  "source": "@site/docs/contracts/v2/reference/core/libraries/TickBitmap.md",
+  "sourceDirName": "v2/reference/core/libraries",
+  "slug": "/v2/reference/core/libraries/TickBitmap",
+  "permalink": "/contracts/v2/reference/core/libraries/TickBitmap",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/core/libraries/TickBitmap.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Tick",
+    "permalink": "/contracts/v2/reference/core/libraries/Tick"
+  },
+  "next": {
+    "title": "TickMath",
+    "permalink": "/contracts/v2/reference/core/libraries/TickMath"
+  }
+}

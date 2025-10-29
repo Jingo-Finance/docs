@@ -1,0 +1,23 @@
+{
+  "unversionedId": "v3/reference/interfaces/IncreaseSpecificOptions",
+  "id": "v3/reference/interfaces/IncreaseSpecificOptions",
+  "title": "IncreaseSpecificOptions",
+  "description": "@jingofi/v3-sdk / Exports / IncreaseSpecificOptions",
+  "source": "@site/docs/sdk/v3/reference/interfaces/IncreaseSpecificOptions.md",
+  "sourceDirName": "v3/reference/interfaces",
+  "slug": "/v3/reference/interfaces/IncreaseSpecificOptions",
+  "permalink": "/sdk/v3/reference/interfaces/IncreaseSpecificOptions",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "IncentiveKey",
+    "permalink": "/sdk/v3/reference/interfaces/IncentiveKey"
+  },
+  "next": {
+    "title": "MethodParameters",
+    "permalink": "/sdk/v3/reference/interfaces/MethodParameters"
+  }
+}

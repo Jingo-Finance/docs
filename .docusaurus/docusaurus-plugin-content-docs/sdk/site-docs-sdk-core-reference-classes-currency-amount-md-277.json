@@ -1,0 +1,23 @@
+{
+  "unversionedId": "core/reference/classes/CurrencyAmount",
+  "id": "core/reference/classes/CurrencyAmount",
+  "title": "CurrencyAmount",
+  "description": "@jingofi/sdk-core / Exports / CurrencyAmount",
+  "source": "@site/docs/sdk/core/reference/classes/CurrencyAmount.md",
+  "sourceDirName": "core/reference/classes",
+  "slug": "/core/reference/classes/CurrencyAmount",
+  "permalink": "/sdk/core/reference/classes/CurrencyAmount",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/sdk/core/reference/overview"
+  },
+  "next": {
+    "title": "Ether",
+    "permalink": "/sdk/core/reference/classes/Ether"
+  }
+}

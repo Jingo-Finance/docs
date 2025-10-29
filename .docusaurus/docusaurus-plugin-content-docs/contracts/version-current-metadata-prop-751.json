@@ -1,0 +1,2332 @@
+{
+  "pluginId": "contracts",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "defaultSidebar": [
+      {
+        "type": "category",
+        "label": "V3 Protocol",
+        "collapsible": true,
+        "collapsed": false,
+        "items": [
+          {
+            "type": "link",
+            "label": "Overview",
+            "href": "/contracts/v2/overview",
+            "docId": "v2/overview"
+          },
+          {
+            "type": "category",
+            "label": "Guides",
+            "collapsible": true,
+            "collapsed": false,
+            "items": [
+              {
+                "type": "link",
+                "label": "Set Up Your Local Environment",
+                "href": "/contracts/v2/guides/local-environment",
+                "docId": "v2/guides/local-environment"
+              },
+              {
+                "type": "category",
+                "label": "Implement A Swap",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Single Swaps",
+                    "href": "/contracts/v2/guides/swaps/single-swaps",
+                    "docId": "v2/guides/swaps/single-swaps"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Multihop Swaps",
+                    "href": "/contracts/v2/guides/swaps/multihop-swaps",
+                    "docId": "v2/guides/swaps/multihop-swaps"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Providing Liquidity",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Set Up Your Contract",
+                    "href": "/contracts/v2/guides/providing-liquidity/setting-up",
+                    "docId": "v2/guides/providing-liquidity/setting-up"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Mint a New Position",
+                    "href": "/contracts/v2/guides/providing-liquidity/mint-a-position",
+                    "docId": "v2/guides/providing-liquidity/mint-a-position"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Collecting Fees",
+                    "href": "/contracts/v2/guides/providing-liquidity/collect-fees",
+                    "docId": "v2/guides/providing-liquidity/collect-fees"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Decrease Liquidity",
+                    "href": "/contracts/v2/guides/providing-liquidity/decrease-liquidity",
+                    "docId": "v2/guides/providing-liquidity/decrease-liquidity"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Increase Liquidity",
+                    "href": "/contracts/v2/guides/providing-liquidity/increase-liquidity",
+                    "docId": "v2/guides/providing-liquidity/increase-liquidity"
+                  },
+                  {
+                    "type": "link",
+                    "label": "The Full Contract",
+                    "href": "/contracts/v2/guides/providing-liquidity/the-full-contract",
+                    "docId": "v2/guides/providing-liquidity/the-full-contract"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Liquidity Mining",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Overview",
+                    "href": "/contracts/v2/guides/liquidity-mining/overview",
+                    "docId": "v2/guides/liquidity-mining/overview"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Implement Flash Swaps",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Getting Started",
+                    "href": "/contracts/v2/guides/flash-integrations/inheritance-constructors",
+                    "docId": "v2/guides/flash-integrations/inheritance-constructors"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Calling Flash",
+                    "href": "/contracts/v2/guides/flash-integrations/calling-flash",
+                    "docId": "v2/guides/flash-integrations/calling-flash"
+                  },
+                  {
+                    "type": "link",
+                    "label": "The Flash Callback",
+                    "href": "/contracts/v2/guides/flash-integrations/flash-callback",
+                    "docId": "v2/guides/flash-integrations/flash-callback"
+                  },
+                  {
+                    "type": "link",
+                    "label": "The Final Contract",
+                    "href": "/contracts/v2/guides/flash-integrations/final-contract",
+                    "docId": "v2/guides/flash-integrations/final-contract"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Governance Proposals",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "License Modifications",
+                    "href": "/contracts/v2/guides/governance/liscense-modifications",
+                    "docId": "v2/guides/governance/liscense-modifications"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "Technical Reference",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Overview",
+                "href": "/contracts/v2/reference/overview",
+                "docId": "v2/reference/overview"
+              },
+              {
+                "type": "category",
+                "label": "Governance",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Overview",
+                    "href": "/contracts/v2/reference/Governance/overview",
+                    "docId": "v2/reference/Governance/overview"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Core",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "PegasysV3Factory",
+                    "href": "/contracts/v2/reference/core/PegasysV3Factory",
+                    "docId": "v2/reference/core/PegasysV3Factory"
+                  },
+                  {
+                    "type": "link",
+                    "label": "PegasysV3Pool",
+                    "href": "/contracts/v2/reference/core/PegasysV3Pool",
+                    "docId": "v2/reference/core/PegasysV3Pool"
+                  },
+                  {
+                    "type": "link",
+                    "label": "PegasysV3PoolDeployer",
+                    "href": "/contracts/v2/reference/core/PegasysV3PoolDeployer",
+                    "docId": "v2/reference/core/PegasysV3PoolDeployer"
+                  },
+                  {
+                    "type": "category",
+                    "label": "Interfaces",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "link",
+                        "label": "IERC20Minimal",
+                        "href": "/contracts/v2/reference/core/interfaces/IERC20Minimal",
+                        "docId": "v2/reference/core/interfaces/IERC20Minimal"
+                      },
+                      {
+                        "type": "link",
+                        "label": "IPegasysV3Factory",
+                        "href": "/contracts/v2/reference/core/interfaces/IPegasysV3Factory",
+                        "docId": "v2/reference/core/interfaces/IPegasysV3Factory"
+                      },
+                      {
+                        "type": "link",
+                        "label": "IPegasysV3Pool",
+                        "href": "/contracts/v2/reference/core/interfaces/IPegasysV3Pool",
+                        "docId": "v2/reference/core/interfaces/IPegasysV3Pool"
+                      },
+                      {
+                        "type": "link",
+                        "label": "IPegasysV3PoolDeployer",
+                        "href": "/contracts/v2/reference/core/interfaces/IPegasysV3PoolDeployer",
+                        "docId": "v2/reference/core/interfaces/IPegasysV3PoolDeployer"
+                      },
+                      {
+                        "type": "category",
+                        "label": "callback",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "link",
+                            "label": "IPegasysV3FlashCallback",
+                            "href": "/contracts/v2/reference/core/interfaces/callback/IPegasysV3FlashCallback",
+                            "docId": "v2/reference/core/interfaces/callback/IPegasysV3FlashCallback"
+                          },
+                          {
+                            "type": "link",
+                            "label": "IPegasysV3MintCallback",
+                            "href": "/contracts/v2/reference/core/interfaces/callback/IPegasysV3MintCallback",
+                            "docId": "v2/reference/core/interfaces/callback/IPegasysV3MintCallback"
+                          },
+                          {
+                            "type": "link",
+                            "label": "IPegasysV3SwapCallback",
+                            "href": "/contracts/v2/reference/core/interfaces/callback/IPegasysV3SwapCallback",
+                            "docId": "v2/reference/core/interfaces/callback/IPegasysV3SwapCallback"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "category",
+                        "label": "Pool",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "link",
+                            "label": "IPegasysV3PoolActions",
+                            "href": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolActions",
+                            "docId": "v2/reference/core/interfaces/pool/IPegasysV3PoolActions"
+                          },
+                          {
+                            "type": "link",
+                            "label": "IPegasysV3PoolDerivedState",
+                            "href": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolDerivedState",
+                            "docId": "v2/reference/core/interfaces/pool/IPegasysV3PoolDerivedState"
+                          },
+                          {
+                            "type": "link",
+                            "label": "IPegasysV3PoolEvents",
+                            "href": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolEvents",
+                            "docId": "v2/reference/core/interfaces/pool/IPegasysV3PoolEvents"
+                          },
+                          {
+                            "type": "link",
+                            "label": "IPegasysV3PoolImmutables",
+                            "href": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolImmutables",
+                            "docId": "v2/reference/core/interfaces/pool/IPegasysV3PoolImmutables"
+                          },
+                          {
+                            "type": "link",
+                            "label": "IPegasysV3PoolOwnerActions",
+                            "href": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolOwnerActions",
+                            "docId": "v2/reference/core/interfaces/pool/IPegasysV3PoolOwnerActions"
+                          },
+                          {
+                            "type": "link",
+                            "label": "IPegasysV3PoolState",
+                            "href": "/contracts/v2/reference/core/interfaces/pool/IPegasysV3PoolState",
+                            "docId": "v2/reference/core/interfaces/pool/IPegasysV3PoolState"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "label": "Libraries",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "link",
+                        "label": "BitMath",
+                        "href": "/contracts/v2/reference/core/libraries/BitMath",
+                        "docId": "v2/reference/core/libraries/BitMath"
+                      },
+                      {
+                        "type": "link",
+                        "label": "FixedPoint128",
+                        "href": "/contracts/v2/reference/core/libraries/FixedPoint128",
+                        "docId": "v2/reference/core/libraries/FixedPoint128"
+                      },
+                      {
+                        "type": "link",
+                        "label": "FixedPoint96",
+                        "href": "/contracts/v2/reference/core/libraries/FixedPoint96",
+                        "docId": "v2/reference/core/libraries/FixedPoint96"
+                      },
+                      {
+                        "type": "link",
+                        "label": "FullMath",
+                        "href": "/contracts/v2/reference/core/libraries/FullMath",
+                        "docId": "v2/reference/core/libraries/FullMath"
+                      },
+                      {
+                        "type": "link",
+                        "label": "LiquidityMath",
+                        "href": "/contracts/v2/reference/core/libraries/LiquidityMath",
+                        "docId": "v2/reference/core/libraries/LiquidityMath"
+                      },
+                      {
+                        "type": "link",
+                        "label": "LowGasSafeMath",
+                        "href": "/contracts/v2/reference/core/libraries/LowGasSafeMath",
+                        "docId": "v2/reference/core/libraries/LowGasSafeMath"
+                      },
+                      {
+                        "type": "link",
+                        "label": "Oracle",
+                        "href": "/contracts/v2/reference/core/libraries/Oracle",
+                        "docId": "v2/reference/core/libraries/Oracle"
+                      },
+                      {
+                        "type": "link",
+                        "label": "Position",
+                        "href": "/contracts/v2/reference/core/libraries/Position",
+                        "docId": "v2/reference/core/libraries/Position"
+                      },
+                      {
+                        "type": "link",
+                        "label": "SafeCast",
+                        "href": "/contracts/v2/reference/core/libraries/SafeCast",
+                        "docId": "v2/reference/core/libraries/SafeCast"
+                      },
+                      {
+                        "type": "link",
+                        "label": "SecondsOutside",
+                        "href": "/contracts/v2/reference/core/libraries/SecondsOutside",
+                        "docId": "v2/reference/core/libraries/SecondsOutside"
+                      },
+                      {
+                        "type": "link",
+                        "label": "SqrtPriceMath",
+                        "href": "/contracts/v2/reference/core/libraries/SqrtPriceMath",
+                        "docId": "v2/reference/core/libraries/SqrtPriceMath"
+                      },
+                      {
+                        "type": "link",
+                        "label": "SwapMath",
+                        "href": "/contracts/v2/reference/core/libraries/SwapMath",
+                        "docId": "v2/reference/core/libraries/SwapMath"
+                      },
+                      {
+                        "type": "link",
+                        "label": "Tick",
+                        "href": "/contracts/v2/reference/core/libraries/Tick",
+                        "docId": "v2/reference/core/libraries/Tick"
+                      },
+                      {
+                        "type": "link",
+                        "label": "TickBitmap",
+                        "href": "/contracts/v2/reference/core/libraries/TickBitmap",
+                        "docId": "v2/reference/core/libraries/TickBitmap"
+                      },
+                      {
+                        "type": "link",
+                        "label": "TickMath",
+                        "href": "/contracts/v2/reference/core/libraries/TickMath",
+                        "docId": "v2/reference/core/libraries/TickMath"
+                      },
+                      {
+                        "type": "link",
+                        "label": "TransferHelper",
+                        "href": "/contracts/v2/reference/core/libraries/TransferHelper",
+                        "docId": "v2/reference/core/libraries/TransferHelper"
+                      },
+                      {
+                        "type": "link",
+                        "label": "UnsafeMath",
+                        "href": "/contracts/v2/reference/core/libraries/UnsafeMath",
+                        "docId": "v2/reference/core/libraries/UnsafeMath"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Periphery",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "Base",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "link",
+                        "label": "BlockTimestamp",
+                        "href": "/contracts/v2/reference/periphery/base/BlockTimestamp",
+                        "docId": "v2/reference/periphery/base/BlockTimestamp"
+                      },
+                      {
+                        "type": "link",
+                        "label": "ERC721Permit",
+                        "href": "/contracts/v2/reference/periphery/base/ERC721Permit",
+                        "docId": "v2/reference/periphery/base/ERC721Permit"
+                      },
+                      {
+                        "type": "link",
+                        "label": "LiquidityManagement",
+                        "href": "/contracts/v2/reference/periphery/base/LiquidityManagement",
+                        "docId": "v2/reference/periphery/base/LiquidityManagement"
+                      },
+                      {
+                        "type": "link",
+                        "label": "Multicall",
+                        "href": "/contracts/v2/reference/periphery/base/Multicall",
+                        "docId": "v2/reference/periphery/base/Multicall"
+                      },
+                      {
+                        "type": "link",
+                        "label": "PeripheryImmutableState",
+                        "href": "/contracts/v2/reference/periphery/base/PeripheryImmutableState",
+                        "docId": "v2/reference/periphery/base/PeripheryImmutableState"
+                      },
+                      {
+                        "type": "link",
+                        "label": "PeripheryPayments",
+                        "href": "/contracts/v2/reference/periphery/base/PeripheryPayments",
+                        "docId": "v2/reference/periphery/base/PeripheryPayments"
+                      },
+                      {
+                        "type": "link",
+                        "label": "PeripheryPaymentsWithFee",
+                        "href": "/contracts/v2/reference/periphery/base/PeripheryPaymentsWithFee",
+                        "docId": "v2/reference/periphery/base/PeripheryPaymentsWithFee"
+                      },
+                      {
+                        "type": "link",
+                        "label": "PoolInitializer",
+                        "href": "/contracts/v2/reference/periphery/base/PoolInitializer",
+                        "docId": "v2/reference/periphery/base/PoolInitializer"
+                      },
+                      {
+                        "type": "link",
+                        "label": "SelfPermit",
+                        "href": "/contracts/v2/reference/periphery/base/SelfPermit",
+                        "docId": "v2/reference/periphery/base/SelfPermit"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "label": "Interfaces",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "link",
+                        "label": "IERC20Metadata",
+                        "href": "/contracts/v2/reference/periphery/interfaces/IERC20Metadata",
+                        "docId": "v2/reference/periphery/interfaces/IERC20Metadata"
+                      },
+                      {
+                        "type": "link",
+                        "label": "IERC721Permit",
+                        "href": "/contracts/v2/reference/periphery/interfaces/IERC721Permit",
+                        "docId": "v2/reference/periphery/interfaces/IERC721Permit"
+                      },
+                      {
+                        "type": "link",
+                        "label": "IMulticall",
+                        "href": "/contracts/v2/reference/periphery/interfaces/IMulticall",
+                        "docId": "v2/reference/periphery/interfaces/IMulticall"
+                      },
+                      {
+                        "type": "link",
+                        "label": "INonfungiblePositionManager",
+                        "href": "/contracts/v2/reference/periphery/interfaces/INonfungiblePositionManager",
+                        "docId": "v2/reference/periphery/interfaces/INonfungiblePositionManager"
+                      },
+                      {
+                        "type": "link",
+                        "label": "INonfungibleTokenPositionDescriptor",
+                        "href": "/contracts/v2/reference/periphery/interfaces/INonfungibleTokenPositionDescriptor",
+                        "docId": "v2/reference/periphery/interfaces/INonfungibleTokenPositionDescriptor"
+                      },
+                      {
+                        "type": "link",
+                        "label": "IPeripheryImmutableState",
+                        "href": "/contracts/v2/reference/periphery/interfaces/IPeripheryImmutableState",
+                        "docId": "v2/reference/periphery/interfaces/IPeripheryImmutableState"
+                      },
+                      {
+                        "type": "link",
+                        "label": "IPeripheryPayments",
+                        "href": "/contracts/v2/reference/periphery/interfaces/IPeripheryPayments",
+                        "docId": "v2/reference/periphery/interfaces/IPeripheryPayments"
+                      },
+                      {
+                        "type": "link",
+                        "label": "IPeripheryPaymentsWithFee",
+                        "href": "/contracts/v2/reference/periphery/interfaces/IPeripheryPaymentsWithFee",
+                        "docId": "v2/reference/periphery/interfaces/IPeripheryPaymentsWithFee"
+                      },
+                      {
+                        "type": "link",
+                        "label": "IPoolInitializer",
+                        "href": "/contracts/v2/reference/periphery/interfaces/IPoolInitializer",
+                        "docId": "v2/reference/periphery/interfaces/IPoolInitializer"
+                      },
+                      {
+                        "type": "link",
+                        "label": "IQuoter",
+                        "href": "/contracts/v2/reference/periphery/interfaces/IQuoter",
+                        "docId": "v2/reference/periphery/interfaces/IQuoter"
+                      },
+                      {
+                        "type": "link",
+                        "label": "IQuoterV2",
+                        "href": "/contracts/v2/reference/periphery/interfaces/IQuoterV2",
+                        "docId": "v2/reference/periphery/interfaces/IQuoterV2"
+                      },
+                      {
+                        "type": "link",
+                        "label": "ISelfPermit",
+                        "href": "/contracts/v2/reference/periphery/interfaces/ISelfPermit",
+                        "docId": "v2/reference/periphery/interfaces/ISelfPermit"
+                      },
+                      {
+                        "type": "link",
+                        "label": "ISwapRouter",
+                        "href": "/contracts/v2/reference/periphery/interfaces/ISwapRouter",
+                        "docId": "v2/reference/periphery/interfaces/ISwapRouter"
+                      },
+                      {
+                        "type": "link",
+                        "label": "ITickLens",
+                        "href": "/contracts/v2/reference/periphery/interfaces/ITickLens",
+                        "docId": "v2/reference/periphery/interfaces/ITickLens"
+                      },
+                      {
+                        "type": "link",
+                        "label": "IV3Migrator",
+                        "href": "/contracts/v2/reference/periphery/interfaces/IV3Migrator",
+                        "docId": "v2/reference/periphery/interfaces/IV3Migrator"
+                      },
+                      {
+                        "type": "category",
+                        "label": "external",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "link",
+                            "label": "IERC1271",
+                            "href": "/contracts/v2/reference/periphery/interfaces/external/IERC1271",
+                            "docId": "v2/reference/periphery/interfaces/external/IERC1271"
+                          },
+                          {
+                            "type": "link",
+                            "label": "IERC20PermitAllowed",
+                            "href": "/contracts/v2/reference/periphery/interfaces/external/IERC20PermitAllowed",
+                            "docId": "v2/reference/periphery/interfaces/external/IERC20PermitAllowed"
+                          },
+                          {
+                            "type": "link",
+                            "label": "IWETH9",
+                            "href": "/contracts/v2/reference/periphery/interfaces/external/IWETH9",
+                            "docId": "v2/reference/periphery/interfaces/external/IWETH9"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "label": "Lens",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "link",
+                        "label": "Quoter",
+                        "href": "/contracts/v2/reference/periphery/lens/Quoter",
+                        "docId": "v2/reference/periphery/lens/Quoter"
+                      },
+                      {
+                        "type": "link",
+                        "label": "QuoterV2",
+                        "href": "/contracts/v2/reference/periphery/lens/QuoterV2",
+                        "docId": "v2/reference/periphery/lens/QuoterV2"
+                      },
+                      {
+                        "type": "link",
+                        "label": "TickLens",
+                        "href": "/contracts/v2/reference/periphery/lens/TickLens",
+                        "docId": "v2/reference/periphery/lens/TickLens"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "label": "Libraries",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "link",
+                        "label": "Base64",
+                        "href": "/contracts/v2/reference/periphery/libraries/Base64",
+                        "docId": "v2/reference/periphery/libraries/Base64"
+                      },
+                      {
+                        "type": "link",
+                        "label": "BytesLib",
+                        "href": "/contracts/v2/reference/periphery/libraries/BytesLib",
+                        "docId": "v2/reference/periphery/libraries/BytesLib"
+                      },
+                      {
+                        "type": "link",
+                        "label": "CallbackValidation",
+                        "href": "/contracts/v2/reference/periphery/libraries/CallbackValidation",
+                        "docId": "v2/reference/periphery/libraries/CallbackValidation"
+                      },
+                      {
+                        "type": "link",
+                        "label": "ChainId",
+                        "href": "/contracts/v2/reference/periphery/libraries/ChainId",
+                        "docId": "v2/reference/periphery/libraries/ChainId"
+                      },
+                      {
+                        "type": "link",
+                        "label": "HexStrings",
+                        "href": "/contracts/v2/reference/periphery/libraries/HexStrings",
+                        "docId": "v2/reference/periphery/libraries/HexStrings"
+                      },
+                      {
+                        "type": "link",
+                        "label": "LiquidityAmounts",
+                        "href": "/contracts/v2/reference/periphery/libraries/LiquidityAmounts",
+                        "docId": "v2/reference/periphery/libraries/LiquidityAmounts"
+                      },
+                      {
+                        "type": "link",
+                        "label": "NFTDescriptor",
+                        "href": "/contracts/v2/reference/periphery/libraries/NFTDescriptor",
+                        "docId": "v2/reference/periphery/libraries/NFTDescriptor"
+                      },
+                      {
+                        "type": "link",
+                        "label": "NFTSVG",
+                        "href": "/contracts/v2/reference/periphery/libraries/NFTSVG",
+                        "docId": "v2/reference/periphery/libraries/NFTSVG"
+                      },
+                      {
+                        "type": "link",
+                        "label": "OracleLibrary",
+                        "href": "/contracts/v2/reference/periphery/libraries/OracleLibrary",
+                        "docId": "v2/reference/periphery/libraries/OracleLibrary"
+                      },
+                      {
+                        "type": "link",
+                        "label": "Path",
+                        "href": "/contracts/v2/reference/periphery/libraries/Path",
+                        "docId": "v2/reference/periphery/libraries/Path"
+                      },
+                      {
+                        "type": "link",
+                        "label": "PoolAddress",
+                        "href": "/contracts/v2/reference/periphery/libraries/PoolAddress",
+                        "docId": "v2/reference/periphery/libraries/PoolAddress"
+                      },
+                      {
+                        "type": "link",
+                        "label": "PoolTicksCounter",
+                        "href": "/contracts/v2/reference/periphery/libraries/PoolTicksCounter",
+                        "docId": "v2/reference/periphery/libraries/PoolTicksCounter"
+                      },
+                      {
+                        "type": "link",
+                        "label": "PositionKey",
+                        "href": "/contracts/v2/reference/periphery/libraries/PositionKey",
+                        "docId": "v2/reference/periphery/libraries/PositionKey"
+                      },
+                      {
+                        "type": "link",
+                        "label": "TokenRatioSortOrder",
+                        "href": "/contracts/v2/reference/periphery/libraries/TokenRatioSortOrder",
+                        "docId": "v2/reference/periphery/libraries/TokenRatioSortOrder"
+                      },
+                      {
+                        "type": "link",
+                        "label": "TransferHelper",
+                        "href": "/contracts/v2/reference/periphery/libraries/TransferHelper",
+                        "docId": "v2/reference/periphery/libraries/TransferHelper"
+                      },
+                      {
+                        "type": "link",
+                        "label": "WeightedOracleLibrary",
+                        "href": "/contracts/v2/reference/periphery/libraries/WeightedOracleLibrary",
+                        "docId": "v2/reference/periphery/libraries/WeightedOracleLibrary"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "label": "Staker",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "link",
+                        "label": "Jingo V3 Staker Design",
+                        "href": "/contracts/v2/reference/periphery/staker/Design",
+                        "docId": "v2/reference/periphery/staker/Design"
+                      },
+                      {
+                        "type": "link",
+                        "label": "Jingo V3 Staker Contract",
+                        "href": "/contracts/v2/reference/periphery/staker/PegasysV3Staker",
+                        "docId": "v2/reference/periphery/staker/PegasysV3Staker"
+                      },
+                      {
+                        "type": "category",
+                        "label": "Interfaces",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "link",
+                            "label": "IPegasysV3Staker",
+                            "href": "/contracts/v2/reference/periphery/staker/interfaces/IPegasysV3Staker",
+                            "docId": "v2/reference/periphery/staker/interfaces/IPegasysV3Staker"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "category",
+                        "label": "Libraries",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "link",
+                            "label": "IncentiveId",
+                            "href": "/contracts/v2/reference/periphery/staker/libraries/IncentiveId",
+                            "docId": "v2/reference/periphery/staker/libraries/IncentiveId"
+                          },
+                          {
+                            "type": "link",
+                            "label": "NFTPositionInfo",
+                            "href": "/contracts/v2/reference/periphery/staker/libraries/NFTPositionInfo",
+                            "docId": "v2/reference/periphery/staker/libraries/NFTPositionInfo"
+                          },
+                          {
+                            "type": "link",
+                            "label": "RewardMath",
+                            "href": "/contracts/v2/reference/periphery/staker/libraries/RewardMath",
+                            "docId": "v2/reference/periphery/staker/libraries/RewardMath"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "category",
+                    "label": "Test",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "link",
+                        "label": "Base64Test",
+                        "href": "/contracts/v2/reference/periphery/test/Base64Test",
+                        "docId": "v2/reference/periphery/test/Base64Test"
+                      },
+                      {
+                        "type": "link",
+                        "label": "LiquidityAmountsTest",
+                        "href": "/contracts/v2/reference/periphery/test/LiquidityAmountsTest",
+                        "docId": "v2/reference/periphery/test/LiquidityAmountsTest"
+                      },
+                      {
+                        "type": "link",
+                        "label": "MockTimeNonfungiblePositionManager",
+                        "href": "/contracts/v2/reference/periphery/test/MockTimeNonfungiblePositionManager",
+                        "docId": "v2/reference/periphery/test/MockTimeNonfungiblePositionManager"
+                      },
+                      {
+                        "type": "link",
+                        "label": "MockTimeSwapRouter",
+                        "href": "/contracts/v2/reference/periphery/test/MockTimeSwapRouter",
+                        "docId": "v2/reference/periphery/test/MockTimeSwapRouter"
+                      },
+                      {
+                        "type": "link",
+                        "label": "NFTDescriptorTest",
+                        "href": "/contracts/v2/reference/periphery/test/NFTDescriptorTest",
+                        "docId": "v2/reference/periphery/test/NFTDescriptorTest"
+                      },
+                      {
+                        "type": "link",
+                        "label": "PathTest",
+                        "href": "/contracts/v2/reference/periphery/test/PathTest",
+                        "docId": "v2/reference/periphery/test/PathTest"
+                      },
+                      {
+                        "type": "link",
+                        "label": "PeripheryImmutableStateTest",
+                        "href": "/contracts/v2/reference/periphery/test/PeripheryImmutableStateTest",
+                        "docId": "v2/reference/periphery/test/PeripheryImmutableStateTest"
+                      },
+                      {
+                        "type": "link",
+                        "label": "PoolAddressTest",
+                        "href": "/contracts/v2/reference/periphery/test/PoolAddressTest",
+                        "docId": "v2/reference/periphery/test/PoolAddressTest"
+                      },
+                      {
+                        "type": "link",
+                        "label": "SelfPermitTest",
+                        "href": "/contracts/v2/reference/periphery/test/SelfPermitTest",
+                        "docId": "v2/reference/periphery/test/SelfPermitTest"
+                      },
+                      {
+                        "type": "link",
+                        "label": "TestCallbackValidation",
+                        "href": "/contracts/v2/reference/periphery/test/TestCallbackValidation",
+                        "docId": "v2/reference/periphery/test/TestCallbackValidation"
+                      },
+                      {
+                        "type": "link",
+                        "label": "TestERC20",
+                        "href": "/contracts/v2/reference/periphery/test/TestERC20",
+                        "docId": "v2/reference/periphery/test/TestERC20"
+                      },
+                      {
+                        "type": "link",
+                        "label": "TestERC20Metadata",
+                        "href": "/contracts/v2/reference/periphery/test/TestERC20Metadata",
+                        "docId": "v2/reference/periphery/test/TestERC20Metadata"
+                      },
+                      {
+                        "type": "link",
+                        "label": "TestERC20PermitAllowed",
+                        "href": "/contracts/v2/reference/periphery/test/TestERC20PermitAllowed",
+                        "docId": "v2/reference/periphery/test/TestERC20PermitAllowed"
+                      },
+                      {
+                        "type": "link",
+                        "label": "TestMulticall",
+                        "href": "/contracts/v2/reference/periphery/test/TestMulticall",
+                        "docId": "v2/reference/periphery/test/TestMulticall"
+                      },
+                      {
+                        "type": "link",
+                        "label": "TestPegasysV3Callee",
+                        "href": "/contracts/v2/reference/periphery/test/TestPegasysV3Callee",
+                        "docId": "v2/reference/periphery/test/TestPegasysV3Callee"
+                      },
+                      {
+                        "type": "link",
+                        "label": "TestPositionNFTOwner",
+                        "href": "/contracts/v2/reference/periphery/test/TestPositionNFTOwner",
+                        "docId": "v2/reference/periphery/test/TestPositionNFTOwner"
+                      },
+                      {
+                        "type": "link",
+                        "label": "TickLensTest",
+                        "href": "/contracts/v2/reference/periphery/test/TickLensTest",
+                        "docId": "v2/reference/periphery/test/TickLensTest"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "link",
+                    "label": "NonfungiblePositionManager",
+                    "href": "/contracts/v2/reference/periphery/NonfungiblePositionManager",
+                    "docId": "v2/reference/periphery/NonfungiblePositionManager"
+                  },
+                  {
+                    "type": "link",
+                    "label": "NonfungibleTokenPositionDescriptor",
+                    "href": "/contracts/v2/reference/periphery/NonfungibleTokenPositionDescriptor",
+                    "docId": "v2/reference/periphery/NonfungibleTokenPositionDescriptor"
+                  },
+                  {
+                    "type": "link",
+                    "label": "SwapRouter",
+                    "href": "/contracts/v2/reference/periphery/SwapRouter",
+                    "docId": "v2/reference/periphery/SwapRouter"
+                  },
+                  {
+                    "type": "link",
+                    "label": "V3Migrator",
+                    "href": "/contracts/v2/reference/periphery/V3Migrator",
+                    "docId": "v2/reference/periphery/V3Migrator"
+                  }
+                ]
+              },
+              {
+                "type": "link",
+                "label": "Deployment Addresses",
+                "href": "/contracts/v2/reference/deployments",
+                "docId": "v2/reference/deployments"
+              },
+              {
+                "type": "link",
+                "label": "Error Codes",
+                "href": "/contracts/v2/reference/error-codes",
+                "docId": "v2/reference/error-codes"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Universal Router",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Overview",
+            "href": "/contracts/universal-router/overview",
+            "docId": "universal-router/overview"
+          },
+          {
+            "type": "link",
+            "label": "Technical Reference",
+            "href": "/contracts/universal-router/technical-reference",
+            "docId": "universal-router/technical-reference"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Permit2",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Overview",
+            "href": "/contracts/permit2/overview",
+            "docId": "permit2/overview"
+          },
+          {
+            "type": "category",
+            "label": "Technical Reference",
+            "collapsible": true,
+            "collapsed": false,
+            "items": [
+              {
+                "type": "link",
+                "label": "SignatureTransfer",
+                "href": "/contracts/permit2/reference/signature-transfer",
+                "docId": "permit2/reference/signature-transfer"
+              },
+              {
+                "type": "link",
+                "label": "AllowanceTransfer",
+                "href": "/contracts/permit2/reference/allowance-transfer",
+                "docId": "permit2/reference/allowance-transfer"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "V1 Protocol",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Overview",
+            "href": "/contracts/v1/overview",
+            "docId": "v1/overview"
+          },
+          {
+            "type": "category",
+            "label": "Concepts",
+            "collapsible": true,
+            "collapsed": false,
+            "items": [
+              {
+                "type": "category",
+                "label": "Protocol Overview",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "How Jingo works",
+                    "href": "/contracts/v1/concepts/protocol-overview/how-pegasys-works",
+                    "docId": "v1/concepts/protocol-overview/how-pegasys-works"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Ecosystem Participants",
+                    "href": "/contracts/v1/concepts/protocol-overview/ecosystem-participants",
+                    "docId": "v1/concepts/protocol-overview/ecosystem-participants"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Smart contracts",
+                    "href": "/contracts/v1/concepts/protocol-overview/smart-contracts",
+                    "docId": "v1/concepts/protocol-overview/smart-contracts"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Glossary",
+                    "href": "/contracts/v1/concepts/protocol-overview/glossary",
+                    "docId": "v1/concepts/protocol-overview/glossary"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Core Concepts",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Swaps",
+                    "href": "/contracts/v1/concepts/core-concepts/swaps",
+                    "docId": "v1/concepts/core-concepts/swaps"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Pools",
+                    "href": "/contracts/v1/concepts/core-concepts/pools",
+                    "docId": "v1/concepts/core-concepts/pools"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Flash Swaps",
+                    "href": "/contracts/v1/concepts/core-concepts/flash-swaps",
+                    "docId": "v1/concepts/core-concepts/flash-swaps"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Oracles",
+                    "href": "/contracts/v1/concepts/core-concepts/oracles",
+                    "docId": "v1/concepts/core-concepts/oracles"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Advanced Topics",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Fees",
+                    "href": "/contracts/v1/concepts/advanced-topics/fees",
+                    "docId": "v1/concepts/advanced-topics/fees"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Pricing",
+                    "href": "/contracts/v1/concepts/advanced-topics/pricing",
+                    "docId": "v1/concepts/advanced-topics/pricing"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Understanding Returns",
+                    "href": "/contracts/v1/concepts/advanced-topics/understanding-returns",
+                    "docId": "v1/concepts/advanced-topics/understanding-returns"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Security",
+                    "href": "/contracts/v1/concepts/advanced-topics/security",
+                    "docId": "v1/concepts/advanced-topics/security"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Math",
+                    "href": "/contracts/v1/concepts/advanced-topics/math",
+                    "docId": "v1/concepts/advanced-topics/math"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Research",
+                    "href": "/contracts/v1/concepts/advanced-topics/research",
+                    "docId": "v1/concepts/advanced-topics/research"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "Guides",
+            "collapsible": true,
+            "collapsed": false,
+            "items": [
+              {
+                "type": "category",
+                "label": "Interface Integration",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Using the API",
+                    "href": "/contracts/v1/guides/interface-integration/using-the-api",
+                    "docId": "v1/guides/interface-integration/using-the-api"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Custom Linking",
+                    "href": "/contracts/v1/guides/interface-integration/custom-interface-linking",
+                    "docId": "v1/guides/interface-integration/custom-interface-linking"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Iframe Integration",
+                    "href": "/contracts/v1/guides/interface-integration/iframe-integration",
+                    "docId": "v1/guides/interface-integration/iframe-integration"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Smart Contract Integration",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Smart Contract Quick start",
+                    "href": "/contracts/v1/guides/smart-contract-integration/quick-start",
+                    "docId": "v1/guides/smart-contract-integration/quick-start"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Implement a Swap",
+                    "href": "/contracts/v1/guides/smart-contract-integration/trading-from-a-smart-contract",
+                    "docId": "v1/guides/smart-contract-integration/trading-from-a-smart-contract"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Providing Liquidity",
+                    "href": "/contracts/v1/guides/smart-contract-integration/providing-liquidity",
+                    "docId": "v1/guides/smart-contract-integration/providing-liquidity"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Building an Oracle",
+                    "href": "/contracts/v1/guides/smart-contract-integration/building-an-oracle",
+                    "docId": "v1/guides/smart-contract-integration/building-an-oracle"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Flash Swaps",
+                    "href": "/contracts/v1/guides/smart-contract-integration/using-flash-swaps",
+                    "docId": "v1/guides/smart-contract-integration/using-flash-swaps"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Pair Addresses",
+                    "href": "/contracts/v1/guides/smart-contract-integration/getting-pair-addresses",
+                    "docId": "v1/guides/smart-contract-integration/getting-pair-addresses"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Supporting meta transactions",
+                    "href": "/contracts/v1/guides/smart-contract-integration/supporting-meta-transactions",
+                    "docId": "v1/guides/smart-contract-integration/supporting-meta-transactions"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "Technical Reference",
+            "collapsible": true,
+            "collapsed": false,
+            "items": [
+              {
+                "type": "category",
+                "label": "API",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "API Overview",
+                    "href": "/contracts/v1/reference/API/overview",
+                    "docId": "v1/reference/API/overview"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Entities",
+                    "href": "/contracts/v1/reference/API/entities",
+                    "docId": "v1/reference/API/entities"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Queries",
+                    "href": "/contracts/v1/reference/API/queries",
+                    "docId": "v1/reference/API/queries"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Governance",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Governance Reference",
+                    "href": "/contracts/v1/reference/Governance/governance-reference",
+                    "docId": "v1/reference/Governance/governance-reference"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Smart Contracts",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Factory",
+                    "href": "/contracts/v1/reference/smart-contracts/factory",
+                    "docId": "v1/reference/smart-contracts/factory"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Pair",
+                    "href": "/contracts/v1/reference/smart-contracts/pair",
+                    "docId": "v1/reference/smart-contracts/pair"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Pair (ERC-20)",
+                    "href": "/contracts/v1/reference/smart-contracts/Pair-ERC-20",
+                    "docId": "v1/reference/smart-contracts/Pair-ERC-20"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Library",
+                    "href": "/contracts/v1/reference/smart-contracts/library",
+                    "docId": "v1/reference/smart-contracts/library"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Router01",
+                    "href": "/contracts/v1/reference/smart-contracts/router-01",
+                    "docId": "v1/reference/smart-contracts/router-01"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Router02",
+                    "href": "/contracts/v1/reference/smart-contracts/router-02",
+                    "docId": "v1/reference/smart-contracts/router-02"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Common Errors",
+                    "href": "/contracts/v1/reference/smart-contracts/common-errors",
+                    "docId": "v1/reference/smart-contracts/common-errors"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "docs": {
+    "permit2/overview": {
+      "id": "permit2/overview",
+      "title": "Overview",
+      "description": "Permit2 is a unification of 2 contracts, SignatureTransfer and AllowanceTransfer. The SignatureTransfer contract handles all signature-based transfers, meaning that an allowance on the token is bypassed and permissions to the spender only last for the duration of the transaction that the one-time signature is spent. The AllowanceTransfer contract handles setting allowances on tokens, giving permissions to spenders on a specified amount for a specified duration of time. Any transfers that then happen through the AllowanceTransfer contract will only succeed if the proper permissions have been set.",
+      "sidebar": "defaultSidebar"
+    },
+    "permit2/reference/allowance-transfer": {
+      "id": "permit2/reference/allowance-transfer",
+      "title": "AllowanceTransfer",
+      "description": "Source Code",
+      "sidebar": "defaultSidebar"
+    },
+    "permit2/reference/signature-transfer": {
+      "id": "permit2/reference/signature-transfer",
+      "title": "SignatureTransfer",
+      "description": "Source Code",
+      "sidebar": "defaultSidebar"
+    },
+    "universal-router/overview": {
+      "id": "universal-router/overview",
+      "title": "Overview",
+      "description": "The UniversalRouter is an ETH, ERC20, and NFT swap router, that can aggregate trades across protocols to give users access highly-flexible and personalised transactions. The contract is unowned, and is not upgradeable.",
+      "sidebar": "defaultSidebar"
+    },
+    "universal-router/technical-reference": {
+      "id": "universal-router/technical-reference",
+      "title": "Technical Reference",
+      "description": "Functions",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/concepts/advanced-topics/fees": {
+      "id": "v1/concepts/advanced-topics/fees",
+      "title": "Fees",
+      "description": "Liquidity provider fees",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/concepts/advanced-topics/math": {
+      "id": "v1/concepts/advanced-topics/math",
+      "title": "Math",
+      "description": "This section will be expanded in the future. In the mean time, the Uniswap V2 whitepaper has most relevant math for Jingo V1.",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/concepts/advanced-topics/pricing": {
+      "id": "v1/concepts/advanced-topics/pricing",
+      "title": "Pricing",
+      "description": "As we learned in Protocol Overview, each pair on Jingo is actually underpinned by a liquidity pool. Liquidity pools are smart contracts that hold balances of two unique tokens and enforces rules around depositing and withdrawing them. The primary rule is the constant product formula. When a token is withdrawn (bought), a proportional amount must be deposited (sold) to maintain the constant. The ratio of tokens in the pool, in combination with the constant product formula, ultimately determine the price that a swap executes at.",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/concepts/advanced-topics/research": {
+      "id": "v1/concepts/advanced-topics/research",
+      "title": "Research",
+      "description": "The automated market maker is a new concept, and as such, new research comes out frequently. We've selected some of the most thoughtful here.",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/concepts/advanced-topics/security": {
+      "id": "v1/concepts/advanced-topics/security",
+      "title": "Security",
+      "description": "Between January 8 and April 30, a team of six engineers reviewed and formally verified crucial components of the smart contracts for Jingo V1.",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/concepts/advanced-topics/understanding-returns": {
+      "id": "v1/concepts/advanced-topics/understanding-returns",
+      "title": "Understanding Returns",
+      "description": "Jingo incentivizes users to add liquidity to trading pools by rewarding providers with the fees generated when other users trade with those pools. Market making, in general, is a complex activity. There is a risk of losing money during large and sustained movement in the underlying asset price compared to simply holding an asset.",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/concepts/core-concepts/flash-swaps": {
+      "id": "v1/concepts/core-concepts/flash-swaps",
+      "title": "Flash Swaps",
+      "description": "Jingo flash swaps allow you to withdraw up to the full reserves of any ERC20 token on Jingo and execute arbitrary logic at no upfront cost, provided that by the end of the transaction you either:",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/concepts/core-concepts/oracles": {
+      "id": "v1/concepts/core-concepts/oracles",
+      "title": "Oracles",
+      "description": "A price oracle is any tool used to view price information about a given asset. When you look at stock prices on your phone, you are using your phone as a price oracle. Similarly, the app on your phone relies on devices to retrieve price information - likely several, which are aggregated and then displayed to you, the end-user. These are price oracles as well.",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/concepts/core-concepts/pools": {
+      "id": "v1/concepts/core-concepts/pools",
+      "title": "Pools",
+      "description": "Each Jingo liquidity pool is a trading venue for a pair of ERC20 tokens. When a pool contract is created, its balances of each token are 0; in order for the pool to begin facilitating trades, someone must seed it with an initial deposit of each token. This first liquidity provider is the one who sets the initial price of the pool. They are incentivized to deposit an equal value of both tokens into the pool. To see why, consider the case where the first liquidity provider deposits tokens at a ratio different from the current market rate. This immediately creates a profitable arbitrage opportunity, which is likely to be taken by an external party.",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/concepts/core-concepts/swaps": {
+      "id": "v1/concepts/core-concepts/swaps",
+      "title": "Swaps",
+      "description": "Token swaps in Jingo are a simple way to trade one ERC-20 token for another.",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/concepts/protocol-overview/ecosystem-participants": {
+      "id": "v1/concepts/protocol-overview/ecosystem-participants",
+      "title": "Ecosystem Participants",
+      "description": "The Jingo ecosystem is primarily comprised of three types of users: liquidity providers, traders, and developers. Liquidity providers are incentivized to contribute ERC-20 tokens to common liquidity pools. Traders can swap these tokens for one another for a fixed 0.30% fee (which goes to liquidity providers). Developers can integrate directly with Jingo smart contracts to power new and exciting interactions with tokens, trading interfaces, retail experiences, and more.",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/concepts/protocol-overview/glossary": {
+      "id": "v1/concepts/protocol-overview/glossary",
+      "title": "Glossary",
+      "description": "Automated market maker",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/concepts/protocol-overview/how-pegasys-works": {
+      "id": "v1/concepts/protocol-overview/how-pegasys-works",
+      "title": "How Jingo works",
+      "description": "Jingo is an automated liquidity protocol powered by a constant product formula",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/concepts/protocol-overview/smart-contracts": {
+      "id": "v1/concepts/protocol-overview/smart-contracts",
+      "title": "Smart contracts",
+      "description": "Jingo V1 is a binary smart contract system. Core contracts provide fundamental safety guarantees for all parties interacting with Jingo. Periphery contracts interact with one or more core contracts but are not themselves part of the core.",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/guides/interface-integration/custom-interface-linking": {
+      "id": "v1/guides/interface-integration/custom-interface-linking",
+      "title": "Custom Linking",
+      "description": "The Jingo front-end supports URL query parameters to allow for custom linking to the Jingo frontend. Users and developers can use these query parameters to link to the Jingo frontend with custom prefilled settings.",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/guides/interface-integration/iframe-integration": {
+      "id": "v1/guides/interface-integration/iframe-integration",
+      "title": "Iframe Integration",
+      "description": "These docs are deprecated. Please refer to Swap Widget to embed the Jingo swap widget as a React component in your website in 2 minutes.",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/guides/interface-integration/using-the-api": {
+      "id": "v1/guides/interface-integration/using-the-api",
+      "title": "Using the API",
+      "description": "In this guide we will create a web interface that consumes and displays data from the Jingo Subgraph. The goal is to provide a quick overview of a setup that you can extend to create your own UIs and analytics around Jingo data.",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/guides/smart-contract-integration/building-an-oracle": {
+      "id": "v1/guides/smart-contract-integration/building-an-oracle",
+      "title": "Building an Oracle",
+      "description": "To build a price oracle on Jingo V1, you must first understand the",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/guides/smart-contract-integration/getting-pair-addresses": {
+      "id": "v1/guides/smart-contract-integration/getting-pair-addresses",
+      "title": "Pair Addresses",
+      "description": "The most obvious way to get the address for a pair is to call getPair on the factory. If the pair exists, this function will return its address, else address(0) (0x0000000000000000000000000000000000000000).",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/guides/smart-contract-integration/providing-liquidity": {
+      "id": "v1/guides/smart-contract-integration/providing-liquidity",
+      "title": "Providing Liquidity",
+      "description": "Introduction",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/guides/smart-contract-integration/quick-start": {
+      "id": "v1/guides/smart-contract-integration/quick-start",
+      "title": "Smart Contract Quick start",
+      "description": "Developing smart contracts for Ethereum involves a bevy of off-chain tools used for producing and testing bytecode",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/guides/smart-contract-integration/supporting-meta-transactions": {
+      "id": "v1/guides/smart-contract-integration/supporting-meta-transactions",
+      "title": "Supporting meta transactions",
+      "description": "All Jingo V1 pool tokens support meta-transaction approvals via the permit function. This obviates the need for a blocking approve transaction before programmatic interactions with pool tokens can occur.",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/guides/smart-contract-integration/trading-from-a-smart-contract": {
+      "id": "v1/guides/smart-contract-integration/trading-from-a-smart-contract",
+      "title": "Implement a Swap",
+      "description": "When trading from a smart contract, the most important thing to keep in mind is that access to an external price source is required. Without this, trades can be frontrun for considerable loss.",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/guides/smart-contract-integration/using-flash-swaps": {
+      "id": "v1/guides/smart-contract-integration/using-flash-swaps",
+      "title": "Flash Swaps",
+      "description": "Flash swaps are an integral feature of Jingo V1. In fact, under the hood, all swaps are actually flash swaps! This simply means that pair contracts send output tokens to the recipient before enforcing that enough input tokens have been received. This is slightly atypical, as one might expect a pair to ensure it's received payment before delivery. However, because Ethereum transactions are atomic, we can roll back the entire swap if it turns out that the contract hasn't received enough tokens to make itself whole by the end of the transaction.",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/overview": {
+      "id": "v1/overview",
+      "title": "Overview",
+      "description": "Welcome to the Jingo protocol V1 docs.",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/reference/API/entities": {
+      "id": "v1/reference/API/entities",
+      "title": "Entities",
+      "description": "Entities define the schema of the subgraph, and represent the data that can be queried. Within each entity are sets of fields that store useful information related to the entity. Below is a list of the available entities within the Jingo Subgraph, and descriptions for the available fields.",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/reference/API/overview": {
+      "id": "v1/reference/API/overview",
+      "title": "API Overview",
+      "description": "This section explains the Jingo Subgraph and how to interact with it. The Jingo subgraph indexes data from the Jingo contracts over time. It organizes data about pairs, tokens, Jingo as a whole, and more. The subgraph updates any time a transaction is made on Jingo. The subgraph runs on The Graph protocol's hosted service and can be openly queried.",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/reference/API/queries": {
+      "id": "v1/reference/API/queries",
+      "title": "Queries",
+      "description": "The subgraph can be queried to retrieve important information about Jingo, pairs, tokens, transactions, users, and more. This page will provide examples for common queries.",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/reference/Governance/governance-reference": {
+      "id": "v1/reference/Governance/governance-reference",
+      "title": "Governance Reference",
+      "description": "The updated reference for the newly deployed Governor Bravo is available via Etherscan, some of the reference material below may be out of date.",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/reference/smart-contracts/common-errors": {
+      "id": "v1/reference/smart-contracts/common-errors",
+      "title": "Common Errors",
+      "description": "This document covers a few error codes frequently encountered while building on Jingo V1.",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/reference/smart-contracts/factory": {
+      "id": "v1/reference/smart-contracts/factory",
+      "title": "Factory",
+      "description": "Code",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/reference/smart-contracts/library": {
+      "id": "v1/reference/smart-contracts/library",
+      "title": "Library",
+      "description": "Code",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/reference/smart-contracts/pair": {
+      "id": "v1/reference/smart-contracts/pair",
+      "title": "Pair",
+      "description": "This documentation covers Jingo-specific functionality. For ERC-20 functionality, see Pair (ERC-20).",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/reference/smart-contracts/Pair-ERC-20": {
+      "id": "v1/reference/smart-contracts/Pair-ERC-20",
+      "title": "Pair (ERC-20)",
+      "description": "This documentation covers ERC-20 functionality for denominating pool tokens. For Jingo-specific functionality, see Pair.",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/reference/smart-contracts/router-01": {
+      "id": "v1/reference/smart-contracts/router-01",
+      "title": "Router01",
+      "description": "PegasysV1Router01 should not be used any longer, because of the discovery of a low severity bug and the fact that some methods do not work with tokens that take fees on transfer. The current recommendation is to use PegasysV1Router02.",
+      "sidebar": "defaultSidebar"
+    },
+    "v1/reference/smart-contracts/router-02": {
+      "id": "v1/reference/smart-contracts/router-02",
+      "title": "Router02",
+      "description": "Because routers are stateless and do not hold token balances, they can be replaced safely and trustlessly, if necessary. This may happen if more efficient smart contract patterns are discovered, or if additional functionality is desired. For this reason, routers have release numbers, starting at 01. This is currently recommended release, 02.",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/guides/flash-integrations/calling-flash": {
+      "id": "v2/guides/flash-integrations/calling-flash",
+      "title": "Calling Flash",
+      "description": "Parameter Structs",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/guides/flash-integrations/final-contract": {
+      "id": "v2/guides/flash-integrations/final-contract",
+      "title": "The Final Contract",
+      "description": "The Full Contract",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/guides/flash-integrations/flash-callback": {
+      "id": "v2/guides/flash-integrations/flash-callback",
+      "title": "The Flash Callback",
+      "description": "Setting Up The Callback",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/guides/flash-integrations/inheritance-constructors": {
+      "id": "v2/guides/flash-integrations/inheritance-constructors",
+      "title": "Getting Started",
+      "description": "In this guide, we will write a smart contract that calls flash on a V3 pool and swaps the full amount withdrawn of token0 and token1 in the corresponding pools with the same token pair - but different fee tiers. After the swap, the contract will pay back the first pool and transfer profits to the original calling address.",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/guides/governance/liscense-modifications": {
+      "id": "v2/guides/governance/liscense-modifications",
+      "title": "License Modifications",
+      "description": "Licensing",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/guides/liquidity-mining/overview": {
+      "id": "v2/guides/liquidity-mining/overview",
+      "title": "Overview",
+      "description": "Introduction",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/guides/local-environment": {
+      "id": "v2/guides/local-environment",
+      "title": "Set Up Your Local Environment",
+      "description": "One of the most common questions we get asked is what development toolset to use to build on-chain integrations with Uniswap. There’s no right answer to this question but for this guide we’ll recommend a common one: Node.js , NPM and Hardhat.",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/guides/providing-liquidity/collect-fees": {
+      "id": "v2/guides/providing-liquidity/collect-fees",
+      "title": "Collecting Fees",
+      "description": "Collect Fees",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/guides/providing-liquidity/decrease-liquidity": {
+      "id": "v2/guides/providing-liquidity/decrease-liquidity",
+      "title": "Decrease Liquidity",
+      "description": "Make sure to go through the Setting Up Your Contract before continuing to this section",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/guides/providing-liquidity/increase-liquidity": {
+      "id": "v2/guides/providing-liquidity/increase-liquidity",
+      "title": "Increase Liquidity",
+      "description": "Increase Liquidity Within The Current Range",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/guides/providing-liquidity/mint-a-position": {
+      "id": "v2/guides/providing-liquidity/mint-a-position",
+      "title": "Mint a New Position",
+      "description": "Input Parameters",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/guides/providing-liquidity/setting-up": {
+      "id": "v2/guides/providing-liquidity/setting-up",
+      "title": "Set Up Your Contract",
+      "description": "Setting up the Contract",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/guides/providing-liquidity/the-full-contract": {
+      "id": "v2/guides/providing-liquidity/the-full-contract",
+      "title": "The Full Contract",
+      "description": "Below we have the complete functioning code example: a contract that can custody Jingo V3 position NFT's and manipulate the positions and liquidity therein by collecting fees, increasing or decreasing liquidity, and minting new positions. View on github here.",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/guides/swaps/multihop-swaps": {
+      "id": "v2/guides/swaps/multihop-swaps",
+      "title": "Multihop Swaps",
+      "description": "Introduction",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/guides/swaps/single-swaps": {
+      "id": "v2/guides/swaps/single-swaps",
+      "title": "Single Swaps",
+      "description": "Swaps are the most common interaction with the Jingo protocol. The following example shows you how to implement a single-path swap contract that uses two functions that you create:",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/overview": {
+      "id": "v2/overview",
+      "title": "Overview",
+      "description": "Welcome to the Jingo V3 smart contracts documentation.",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/core/interfaces/callback/IPegasysV3FlashCallback": {
+      "id": "v2/reference/core/interfaces/callback/IPegasysV3FlashCallback",
+      "title": "IPegasysV3FlashCallback",
+      "description": "Any contract that calls IPegasysV3PoolActions#flash must implement this interface",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/core/interfaces/callback/IPegasysV3MintCallback": {
+      "id": "v2/reference/core/interfaces/callback/IPegasysV3MintCallback",
+      "title": "IPegasysV3MintCallback",
+      "description": "Any contract that calls IPegasysV3PoolActions#mint must implement this interface",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/core/interfaces/callback/IPegasysV3SwapCallback": {
+      "id": "v2/reference/core/interfaces/callback/IPegasysV3SwapCallback",
+      "title": "IPegasysV3SwapCallback",
+      "description": "Any contract that calls IPegasysV3PoolActions#swap must implement this interface",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/core/interfaces/IERC20Minimal": {
+      "id": "v2/reference/core/interfaces/IERC20Minimal",
+      "title": "IERC20Minimal",
+      "description": "Contains a subset of the full ERC20 interface that is used in Jingo V3",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/core/interfaces/IPegasysV3Factory": {
+      "id": "v2/reference/core/interfaces/IPegasysV3Factory",
+      "title": "IPegasysV3Factory",
+      "description": "The Jingo V3 Factory facilitates creation of Jingo V3 pools and control over the protocol fees",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/core/interfaces/IPegasysV3Pool": {
+      "id": "v2/reference/core/interfaces/IPegasysV3Pool",
+      "title": "IPegasysV3Pool",
+      "description": "A Jingo pool facilitates swapping and automated market making between any two assets that strictly conform",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/core/interfaces/IPegasysV3PoolDeployer": {
+      "id": "v2/reference/core/interfaces/IPegasysV3PoolDeployer",
+      "title": "IPegasysV3PoolDeployer",
+      "description": "A contract that constructs a pool must implement this to pass arguments to the pool",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/core/interfaces/pool/IPegasysV3PoolActions": {
+      "id": "v2/reference/core/interfaces/pool/IPegasysV3PoolActions",
+      "title": "IPegasysV3PoolActions",
+      "description": "Contains pool methods that can be called by anyone",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/core/interfaces/pool/IPegasysV3PoolDerivedState": {
+      "id": "v2/reference/core/interfaces/pool/IPegasysV3PoolDerivedState",
+      "title": "IPegasysV3PoolDerivedState",
+      "description": "Contains view functions to provide information about the pool that is computed rather than stored on the",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/core/interfaces/pool/IPegasysV3PoolEvents": {
+      "id": "v2/reference/core/interfaces/pool/IPegasysV3PoolEvents",
+      "title": "IPegasysV3PoolEvents",
+      "description": "Contains all events emitted by the pool",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/core/interfaces/pool/IPegasysV3PoolImmutables": {
+      "id": "v2/reference/core/interfaces/pool/IPegasysV3PoolImmutables",
+      "title": "IPegasysV3PoolImmutables",
+      "description": "These parameters are fixed for a pool forever, i.e., the methods will always return the same values",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/core/interfaces/pool/IPegasysV3PoolOwnerActions": {
+      "id": "v2/reference/core/interfaces/pool/IPegasysV3PoolOwnerActions",
+      "title": "IPegasysV3PoolOwnerActions",
+      "description": "Contains pool methods that may only be called by the factory owner",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/core/interfaces/pool/IPegasysV3PoolState": {
+      "id": "v2/reference/core/interfaces/pool/IPegasysV3PoolState",
+      "title": "IPegasysV3PoolState",
+      "description": "These methods compose the pool's state, and can change with any frequency including multiple times",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/core/libraries/BitMath": {
+      "id": "v2/reference/core/libraries/BitMath",
+      "title": "BitMath",
+      "description": "This library provides functionality for computing bit properties of an unsigned integer",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/core/libraries/FixedPoint128": {
+      "id": "v2/reference/core/libraries/FixedPoint128",
+      "title": "FixedPoint128",
+      "description": "A library for handling binary fixed point numbers, see https://en.wikipedia.org/wiki/Q(numberformat)",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/core/libraries/FixedPoint96": {
+      "id": "v2/reference/core/libraries/FixedPoint96",
+      "title": "FixedPoint96",
+      "description": "A library for handling binary fixed point numbers, see https://en.wikipedia.org/wiki/Q(numberformat)",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/core/libraries/FullMath": {
+      "id": "v2/reference/core/libraries/FullMath",
+      "title": "FullMath",
+      "description": "Facilitates multiplication and division that can have overflow of an intermediate value without any loss of precision",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/core/libraries/LiquidityMath": {
+      "id": "v2/reference/core/libraries/LiquidityMath",
+      "title": "LiquidityMath",
+      "description": "Functions",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/core/libraries/LowGasSafeMath": {
+      "id": "v2/reference/core/libraries/LowGasSafeMath",
+      "title": "LowGasSafeMath",
+      "description": "Contains methods for doing math operations that revert on overflow or underflow for minimal gas cost",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/core/libraries/Oracle": {
+      "id": "v2/reference/core/libraries/Oracle",
+      "title": "Oracle",
+      "description": "Provides price and liquidity data useful for a wide variety of system designs",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/core/libraries/Position": {
+      "id": "v2/reference/core/libraries/Position",
+      "title": "Position",
+      "description": "Positions represent an owner address' liquidity between a lower and upper tick boundary",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/core/libraries/SafeCast": {
+      "id": "v2/reference/core/libraries/SafeCast",
+      "title": "SafeCast",
+      "description": "Contains methods for safely casting between types",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/core/libraries/SecondsOutside": {
+      "id": "v2/reference/core/libraries/SecondsOutside",
+      "title": "SecondsOutside",
+      "description": "Contains methods for working with a mapping from tick to 32 bit timestamp values, specifically seconds",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/core/libraries/SqrtPriceMath": {
+      "id": "v2/reference/core/libraries/SqrtPriceMath",
+      "title": "SqrtPriceMath",
+      "description": "Contains the math that uses square root of price as a Q64.96 and liquidity to compute deltas",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/core/libraries/SwapMath": {
+      "id": "v2/reference/core/libraries/SwapMath",
+      "title": "SwapMath",
+      "description": "Contains methods for computing the result of a swap within a single tick price range, i.e., a single tick.",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/core/libraries/Tick": {
+      "id": "v2/reference/core/libraries/Tick",
+      "title": "Tick",
+      "description": "Contains functions for managing tick processes and relevant calculations",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/core/libraries/TickBitmap": {
+      "id": "v2/reference/core/libraries/TickBitmap",
+      "title": "TickBitmap",
+      "description": "Stores a packed mapping of tick index to its initialized state",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/core/libraries/TickMath": {
+      "id": "v2/reference/core/libraries/TickMath",
+      "title": "TickMath",
+      "description": "Computes sqrt price for ticks of size 1.0001, i.e. sqrt(1.0001^tick) as fixed point Q64.96 numbers. Supports",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/core/libraries/TransferHelper": {
+      "id": "v2/reference/core/libraries/TransferHelper",
+      "title": "TransferHelper",
+      "description": "Contains helper methods for interacting with ERC20 tokens that do not consistently return true/false",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/core/libraries/UnsafeMath": {
+      "id": "v2/reference/core/libraries/UnsafeMath",
+      "title": "UnsafeMath",
+      "description": "Contains methods that perform common math functions but do not do any overflow or underflow checks",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/core/PegasysV3Factory": {
+      "id": "v2/reference/core/PegasysV3Factory",
+      "title": "PegasysV3Factory",
+      "description": "Deploys Jingo V3 pools and manages ownership and control over pool protocol fees",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/core/PegasysV3Pool": {
+      "id": "v2/reference/core/PegasysV3Pool",
+      "title": "PegasysV3Pool",
+      "description": "Functions",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/core/PegasysV3PoolDeployer": {
+      "id": "v2/reference/core/PegasysV3PoolDeployer",
+      "title": "PegasysV3PoolDeployer",
+      "description": "Functions",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/deployments": {
+      "id": "v2/reference/deployments",
+      "title": "Deployment Addresses",
+      "description": "The latest version of @jingofi/v3-core, @jingofi/v3-periphery, @jingofi/swap-router-contracts, and @jingofi/v3-staker are deployed at the addresses listed below. Integrators should no longer assume that they are deployed to the same addresses across chains and be extremely careful to confirm mappings below.",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/error-codes": {
+      "id": "v2/reference/error-codes",
+      "title": "Error Codes",
+      "description": "LiquidityMath.sol",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/Governance/overview": {
+      "id": "v2/reference/Governance/overview",
+      "title": "Overview",
+      "description": "The updated reference for the newly deployed Governor Bravo is available via Etherscan, some of the reference material below may be out of date.",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/overview": {
+      "id": "v2/reference/overview",
+      "title": "Overview",
+      "description": "Jingo V3 is a binary smart contract system comprised of many libraries, which together make the Core and Periphery.",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/base/BlockTimestamp": {
+      "id": "v2/reference/periphery/base/BlockTimestamp",
+      "title": "BlockTimestamp",
+      "description": "Base contract that is overridden for tests",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/base/ERC721Permit": {
+      "id": "v2/reference/periphery/base/ERC721Permit",
+      "title": "ERC721Permit",
+      "description": "Nonfungible tokens that support an approve via signature, i.e. permit",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/base/LiquidityManagement": {
+      "id": "v2/reference/periphery/base/LiquidityManagement",
+      "title": "LiquidityManagement",
+      "description": "Internal functions for safely managing liquidity in Jingo V3",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/base/Multicall": {
+      "id": "v2/reference/periphery/base/Multicall",
+      "title": "Multicall",
+      "description": "Enables calling multiple methods in a single call to the contract",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/base/PeripheryImmutableState": {
+      "id": "v2/reference/periphery/base/PeripheryImmutableState",
+      "title": "PeripheryImmutableState",
+      "description": "Immutable state used by periphery contracts",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/base/PeripheryPayments": {
+      "id": "v2/reference/periphery/base/PeripheryPayments",
+      "title": "PeripheryPayments",
+      "description": "Functions",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/base/PeripheryPaymentsWithFee": {
+      "id": "v2/reference/periphery/base/PeripheryPaymentsWithFee",
+      "title": "PeripheryPaymentsWithFee",
+      "description": "Functions",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/base/PoolInitializer": {
+      "id": "v2/reference/periphery/base/PoolInitializer",
+      "title": "PoolInitializer",
+      "description": "Functions",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/base/SelfPermit": {
+      "id": "v2/reference/periphery/base/SelfPermit",
+      "title": "SelfPermit",
+      "description": "Functionality to call permit on any EIP-2612-compliant token for use in the route",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/interfaces/external/IERC1271": {
+      "id": "v2/reference/periphery/interfaces/external/IERC1271",
+      "title": "IERC1271",
+      "description": "Interface that verifies provided signature for the data",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/interfaces/external/IERC20PermitAllowed": {
+      "id": "v2/reference/periphery/interfaces/external/IERC20PermitAllowed",
+      "title": "IERC20PermitAllowed",
+      "description": "Interface used by DAI/CHAI for permit",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/interfaces/external/IWETH9": {
+      "id": "v2/reference/periphery/interfaces/external/IWETH9",
+      "title": "IWETH9",
+      "description": "Functions",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/interfaces/IERC20Metadata": {
+      "id": "v2/reference/periphery/interfaces/IERC20Metadata",
+      "title": "IERC20Metadata",
+      "description": "Extension to IERC20 that includes token metadata",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/interfaces/IERC721Permit": {
+      "id": "v2/reference/periphery/interfaces/IERC721Permit",
+      "title": "IERC721Permit",
+      "description": "Extension to ERC721 that includes a permit function for signature based approvals",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/interfaces/IMulticall": {
+      "id": "v2/reference/periphery/interfaces/IMulticall",
+      "title": "IMulticall",
+      "description": "Enables calling multiple methods in a single call to the contract",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/interfaces/INonfungiblePositionManager": {
+      "id": "v2/reference/periphery/interfaces/INonfungiblePositionManager",
+      "title": "INonfungiblePositionManager",
+      "description": "Wraps Jingo V3 positions in a non-fungible token interface which allows for them to be transferred",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/interfaces/INonfungibleTokenPositionDescriptor": {
+      "id": "v2/reference/periphery/interfaces/INonfungibleTokenPositionDescriptor",
+      "title": "INonfungibleTokenPositionDescriptor",
+      "description": "Functions",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/interfaces/IPeripheryImmutableState": {
+      "id": "v2/reference/periphery/interfaces/IPeripheryImmutableState",
+      "title": "IPeripheryImmutableState",
+      "description": "Functions that return immutable state of the router",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/interfaces/IPeripheryPayments": {
+      "id": "v2/reference/periphery/interfaces/IPeripheryPayments",
+      "title": "IPeripheryPayments",
+      "description": "Functions to ease deposits and withdrawals of ETH",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/interfaces/IPeripheryPaymentsWithFee": {
+      "id": "v2/reference/periphery/interfaces/IPeripheryPaymentsWithFee",
+      "title": "IPeripheryPaymentsWithFee",
+      "description": "Functions to ease deposits and withdrawals of ETH",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/interfaces/IPoolInitializer": {
+      "id": "v2/reference/periphery/interfaces/IPoolInitializer",
+      "title": "IPoolInitializer",
+      "description": "Provides a method for creating and initializing a pool, if necessary, for bundling with other methods that",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/interfaces/IQuoter": {
+      "id": "v2/reference/periphery/interfaces/IQuoter",
+      "title": "IQuoter",
+      "description": "Supports quoting the calculated amounts from exact input or exact output swaps",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/interfaces/IQuoterV2": {
+      "id": "v2/reference/periphery/interfaces/IQuoterV2",
+      "title": "IQuoterV2",
+      "description": "Supports quoting the calculated amounts from exact input or exact output swaps.",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/interfaces/ISelfPermit": {
+      "id": "v2/reference/periphery/interfaces/ISelfPermit",
+      "title": "ISelfPermit",
+      "description": "Functionality to call permit on any EIP-2612-compliant token for use in the route",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/interfaces/ISwapRouter": {
+      "id": "v2/reference/periphery/interfaces/ISwapRouter",
+      "title": "ISwapRouter",
+      "description": "Functions for swapping tokens via Jingo V3",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/interfaces/ITickLens": {
+      "id": "v2/reference/periphery/interfaces/ITickLens",
+      "title": "ITickLens",
+      "description": "Provides functions for fetching chunks of tick data for a pool",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/interfaces/IV3Migrator": {
+      "id": "v2/reference/periphery/interfaces/IV3Migrator",
+      "title": "IV3Migrator",
+      "description": "Enables migration of liqudity from Jingo v1-compatible pairs into Jingo v3 pools",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/lens/Quoter": {
+      "id": "v2/reference/periphery/lens/Quoter",
+      "title": "Quoter",
+      "description": "Allows getting the expected amount out or amount in for a given swap without executing the swap",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/lens/QuoterV2": {
+      "id": "v2/reference/periphery/lens/QuoterV2",
+      "title": "QuoterV2",
+      "description": "Allows getting the expected amount out or amount in for a given swap without executing the swap",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/lens/TickLens": {
+      "id": "v2/reference/periphery/lens/TickLens",
+      "title": "TickLens",
+      "description": "Functions",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/libraries/Base64": {
+      "id": "v2/reference/periphery/libraries/Base64",
+      "title": "Base64",
+      "description": "Provides a function for encoding some bytes in base64",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/libraries/BytesLib": {
+      "id": "v2/reference/periphery/libraries/BytesLib",
+      "title": "BytesLib",
+      "description": "Functions",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/libraries/CallbackValidation": {
+      "id": "v2/reference/periphery/libraries/CallbackValidation",
+      "title": "CallbackValidation",
+      "description": "Provides validation for callbacks from Jingo V3 Pools",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/libraries/ChainId": {
+      "id": "v2/reference/periphery/libraries/ChainId",
+      "title": "ChainId",
+      "description": "Functions",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/libraries/HexStrings": {
+      "id": "v2/reference/periphery/libraries/HexStrings",
+      "title": "HexStrings",
+      "description": "Functions",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/libraries/LiquidityAmounts": {
+      "id": "v2/reference/periphery/libraries/LiquidityAmounts",
+      "title": "LiquidityAmounts",
+      "description": "Provides functions for computing liquidity amounts from token amounts and prices",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/libraries/NFTDescriptor": {
+      "id": "v2/reference/periphery/libraries/NFTDescriptor",
+      "title": "NFTDescriptor",
+      "description": "Functions",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/libraries/NFTSVG": {
+      "id": "v2/reference/periphery/libraries/NFTSVG",
+      "title": "NFTSVG",
+      "description": "A library that provides a function for generating an SVG associated with a Jingo NFT",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/libraries/OracleLibrary": {
+      "id": "v2/reference/periphery/libraries/OracleLibrary",
+      "title": "OracleLibrary",
+      "description": "Provides functions to integrate with V3 pool oracle",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/libraries/Path": {
+      "id": "v2/reference/periphery/libraries/Path",
+      "title": "Path",
+      "description": "Functions",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/libraries/PoolAddress": {
+      "id": "v2/reference/periphery/libraries/PoolAddress",
+      "title": "PoolAddress",
+      "description": "Functions",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/libraries/PoolTicksCounter": {
+      "id": "v2/reference/periphery/libraries/PoolTicksCounter",
+      "title": "PoolTicksCounter",
+      "description": "Functions",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/libraries/PositionKey": {
+      "id": "v2/reference/periphery/libraries/PositionKey",
+      "title": "PositionKey",
+      "description": "Functions",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/libraries/TokenRatioSortOrder": {
+      "id": "v2/reference/periphery/libraries/TokenRatioSortOrder",
+      "title": "TokenRatioSortOrder",
+      "description": "",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/libraries/TransferHelper": {
+      "id": "v2/reference/periphery/libraries/TransferHelper",
+      "title": "TransferHelper",
+      "description": "Functions",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/libraries/WeightedOracleLibrary": {
+      "id": "v2/reference/periphery/libraries/WeightedOracleLibrary",
+      "title": "WeightedOracleLibrary",
+      "description": "Provides functions to integrate with different tier oracles of the same V3 pair",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/NonfungiblePositionManager": {
+      "id": "v2/reference/periphery/NonfungiblePositionManager",
+      "title": "NonfungiblePositionManager",
+      "description": "Wraps Jingo V3 positions in the ERC721 non-fungible token interface",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/NonfungibleTokenPositionDescriptor": {
+      "id": "v2/reference/periphery/NonfungibleTokenPositionDescriptor",
+      "title": "NonfungibleTokenPositionDescriptor",
+      "description": "Produces a string containing the data URI for a JSON metadata string",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/staker/Design": {
+      "id": "v2/reference/periphery/staker/Design",
+      "title": "Jingo V3 Staker Design",
+      "description": "The liquidity mining staker design is comprised of one canonical position staking contract, Staker. The technical reference for this contract is here and the source code is here.",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/staker/interfaces/IPegasysV3Staker": {
+      "id": "v2/reference/periphery/staker/interfaces/IPegasysV3Staker",
+      "title": "IPegasysV3Staker",
+      "description": "Allows staking nonfungible liquidity tokens in exchange for reward tokens",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/staker/libraries/IncentiveId": {
+      "id": "v2/reference/periphery/staker/libraries/IncentiveId",
+      "title": "IncentiveId",
+      "description": "Functions",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/staker/libraries/NFTPositionInfo": {
+      "id": "v2/reference/periphery/staker/libraries/NFTPositionInfo",
+      "title": "NFTPositionInfo",
+      "description": "Encapsulates the logic for getting info about a NFT token ID",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/staker/libraries/RewardMath": {
+      "id": "v2/reference/periphery/staker/libraries/RewardMath",
+      "title": "RewardMath",
+      "description": "Allows computing rewards given some parameters of stakes and incentives",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/staker/PegasysV3Staker": {
+      "id": "v2/reference/periphery/staker/PegasysV3Staker",
+      "title": "Jingo V3 Staker Contract",
+      "description": "Below is the technical reference for the staker contract, PegasysV3Staker.sol. A technical guide for interacting with this staking contract will be released soon.",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/SwapRouter": {
+      "id": "v2/reference/periphery/SwapRouter",
+      "title": "SwapRouter",
+      "description": "Router for stateless execution of swaps against Jingo V3",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/test/Base64Test": {
+      "id": "v2/reference/periphery/test/Base64Test",
+      "title": "Base64Test",
+      "description": "Functions",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/test/LiquidityAmountsTest": {
+      "id": "v2/reference/periphery/test/LiquidityAmountsTest",
+      "title": "LiquidityAmountsTest",
+      "description": "Functions",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/test/MockTimeNonfungiblePositionManager": {
+      "id": "v2/reference/periphery/test/MockTimeNonfungiblePositionManager",
+      "title": "MockTimeNonfungiblePositionManager",
+      "description": "Functions",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/test/MockTimeSwapRouter": {
+      "id": "v2/reference/periphery/test/MockTimeSwapRouter",
+      "title": "MockTimeSwapRouter",
+      "description": "Functions",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/test/NFTDescriptorTest": {
+      "id": "v2/reference/periphery/test/NFTDescriptorTest",
+      "title": "NFTDescriptorTest",
+      "description": "Functions",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/test/PathTest": {
+      "id": "v2/reference/periphery/test/PathTest",
+      "title": "PathTest",
+      "description": "Functions",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/test/PeripheryImmutableStateTest": {
+      "id": "v2/reference/periphery/test/PeripheryImmutableStateTest",
+      "title": "PeripheryImmutableStateTest",
+      "description": "Functions",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/test/PoolAddressTest": {
+      "id": "v2/reference/periphery/test/PoolAddressTest",
+      "title": "PoolAddressTest",
+      "description": "Functions",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/test/SelfPermitTest": {
+      "id": "v2/reference/periphery/test/SelfPermitTest",
+      "title": "SelfPermitTest",
+      "description": "Same as SelfPermit but not abstract",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/test/TestCallbackValidation": {
+      "id": "v2/reference/periphery/test/TestCallbackValidation",
+      "title": "TestCallbackValidation",
+      "description": "Functions",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/test/TestERC20": {
+      "id": "v2/reference/periphery/test/TestERC20",
+      "title": "TestERC20",
+      "description": "Functions",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/test/TestERC20Metadata": {
+      "id": "v2/reference/periphery/test/TestERC20Metadata",
+      "title": "TestERC20Metadata",
+      "description": "Functions",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/test/TestERC20PermitAllowed": {
+      "id": "v2/reference/periphery/test/TestERC20PermitAllowed",
+      "title": "TestERC20PermitAllowed",
+      "description": "Functions",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/test/TestMulticall": {
+      "id": "v2/reference/periphery/test/TestMulticall",
+      "title": "TestMulticall",
+      "description": "Functions",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/test/TestPegasysV3Callee": {
+      "id": "v2/reference/periphery/test/TestPegasysV3Callee",
+      "title": "TestPegasysV3Callee",
+      "description": "Functions",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/test/TestPositionNFTOwner": {
+      "id": "v2/reference/periphery/test/TestPositionNFTOwner",
+      "title": "TestPositionNFTOwner",
+      "description": "Functions",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/test/TickLensTest": {
+      "id": "v2/reference/periphery/test/TickLensTest",
+      "title": "TickLensTest",
+      "description": "Functions",
+      "sidebar": "defaultSidebar"
+    },
+    "v2/reference/periphery/V3Migrator": {
+      "id": "v2/reference/periphery/V3Migrator",
+      "title": "V3Migrator",
+      "description": "Functions",
+      "sidebar": "defaultSidebar"
+    }
+  }
+}

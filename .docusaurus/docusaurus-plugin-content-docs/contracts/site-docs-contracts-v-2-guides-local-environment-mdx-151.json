@@ -1,0 +1,29 @@
+{
+  "unversionedId": "v2/guides/local-environment",
+  "id": "v2/guides/local-environment",
+  "title": "Set Up Your Local Environment",
+  "description": "One of the most common questions we get asked is what development toolset to use to build on-chain integrations with Uniswap. There’s no right answer to this question but for this guide we’ll recommend a common one: Node.js , NPM and Hardhat.",
+  "source": "@site/docs/contracts/v2/guides/local-environment.mdx",
+  "sourceDirName": "v2/guides",
+  "slug": "/v2/guides/local-environment",
+  "permalink": "/contracts/v2/guides/local-environment",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/guides/local-environment.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0.5,
+  "frontMatter": {
+    "id": "local-environment",
+    "title": "Set Up Your Local Environment",
+    "sidebar_position": 0.5
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/contracts/v2/overview"
+  },
+  "next": {
+    "title": "Single Swaps",
+    "permalink": "/contracts/v2/guides/swaps/single-swaps"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/test/TestERC20",
+  "id": "v2/reference/periphery/test/TestERC20",
+  "title": "TestERC20",
+  "description": "Functions",
+  "source": "@site/docs/contracts/v2/reference/periphery/test/TestERC20.md",
+  "sourceDirName": "v2/reference/periphery/test",
+  "slug": "/v2/reference/periphery/test/TestERC20",
+  "permalink": "/contracts/v2/reference/periphery/test/TestERC20",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/test/TestERC20.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "TestCallbackValidation",
+    "permalink": "/contracts/v2/reference/periphery/test/TestCallbackValidation"
+  },
+  "next": {
+    "title": "TestERC20Metadata",
+    "permalink": "/contracts/v2/reference/periphery/test/TestERC20Metadata"
+  }
+}

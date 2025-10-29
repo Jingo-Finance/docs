@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/interfaces/external/IERC1271",
+  "id": "v2/reference/periphery/interfaces/external/IERC1271",
+  "title": "IERC1271",
+  "description": "Interface that verifies provided signature for the data",
+  "source": "@site/docs/contracts/v2/reference/periphery/interfaces/external/IERC1271.md",
+  "sourceDirName": "v2/reference/periphery/interfaces/external",
+  "slug": "/v2/reference/periphery/interfaces/external/IERC1271",
+  "permalink": "/contracts/v2/reference/periphery/interfaces/external/IERC1271",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/interfaces/external/IERC1271.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "IV3Migrator",
+    "permalink": "/contracts/v2/reference/periphery/interfaces/IV3Migrator"
+  },
+  "next": {
+    "title": "IERC20PermitAllowed",
+    "permalink": "/contracts/v2/reference/periphery/interfaces/external/IERC20PermitAllowed"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "web3-react/guides/connect-wallet",
+  "id": "web3-react/guides/connect-wallet",
+  "title": "Connecting to Wallets",
+  "description": "Introduction",
+  "source": "@site/docs/sdk/web3-react/guides/01-connect-wallet.md",
+  "sourceDirName": "web3-react/guides",
+  "slug": "/web3-react/guides/connect-wallet",
+  "permalink": "/sdk/web3-react/guides/connect-wallet",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "connect-wallet",
+    "title": "Connecting to Wallets"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/sdk/web3-react/overview"
+  },
+  "next": {
+    "title": "Supported Connectors",
+    "permalink": "/sdk/web3-react/guides/connectors"
+  }
+}

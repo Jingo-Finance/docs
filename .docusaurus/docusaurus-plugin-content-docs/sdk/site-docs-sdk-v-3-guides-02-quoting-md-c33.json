@@ -1,0 +1,27 @@
+{
+  "unversionedId": "v3/guides/quoting",
+  "id": "v3/guides/quoting",
+  "title": "Getting a Quote",
+  "description": "Introduction",
+  "source": "@site/docs/sdk/v3/guides/02-quoting.md",
+  "sourceDirName": "v3/guides",
+  "slug": "/v3/guides/quoting",
+  "permalink": "/sdk/v3/guides/quoting",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "quoting",
+    "title": "Getting a Quote"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Background",
+    "permalink": "/sdk/v3/guides/background"
+  },
+  "next": {
+    "title": "Executing a Trade",
+    "permalink": "/sdk/v3/guides/trading"
+  }
+}

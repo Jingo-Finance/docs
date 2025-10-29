@@ -1,0 +1,28 @@
+{
+  "unversionedId": "v1/concepts/advanced-topics/math",
+  "id": "v1/concepts/advanced-topics/math",
+  "title": "Math",
+  "description": "This section will be expanded in the future. In the mean time, the Uniswap V2 whitepaper has most relevant math for Jingo V1.",
+  "source": "@site/docs/contracts/v1/concepts/03-advanced-topics/05-math.md",
+  "sourceDirName": "v1/concepts/03-advanced-topics",
+  "slug": "/v1/concepts/advanced-topics/math",
+  "permalink": "/contracts/v1/concepts/advanced-topics/math",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v1/concepts/03-advanced-topics/05-math.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "id": "math",
+    "title": "Math"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Security",
+    "permalink": "/contracts/v1/concepts/advanced-topics/security"
+  },
+  "next": {
+    "title": "Research",
+    "permalink": "/contracts/v1/concepts/advanced-topics/research"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "v3/reference/classes/TickList",
+  "id": "v3/reference/classes/TickList",
+  "title": "TickList",
+  "description": "@jingofi/v3-sdk / Exports / TickList",
+  "source": "@site/docs/sdk/v3/reference/classes/TickList.md",
+  "sourceDirName": "v3/reference/classes",
+  "slug": "/v3/reference/classes/TickList",
+  "permalink": "/sdk/v3/reference/classes/TickList",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "TickLibrary",
+    "permalink": "/sdk/v3/reference/classes/TickLibrary"
+  },
+  "next": {
+    "title": "TickListDataProvider",
+    "permalink": "/sdk/v3/reference/classes/TickListDataProvider"
+  }
+}

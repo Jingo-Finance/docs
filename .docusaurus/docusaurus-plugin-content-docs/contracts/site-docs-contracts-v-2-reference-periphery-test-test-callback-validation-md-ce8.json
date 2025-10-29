@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/test/TestCallbackValidation",
+  "id": "v2/reference/periphery/test/TestCallbackValidation",
+  "title": "TestCallbackValidation",
+  "description": "Functions",
+  "source": "@site/docs/contracts/v2/reference/periphery/test/TestCallbackValidation.md",
+  "sourceDirName": "v2/reference/periphery/test",
+  "slug": "/v2/reference/periphery/test/TestCallbackValidation",
+  "permalink": "/contracts/v2/reference/periphery/test/TestCallbackValidation",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/test/TestCallbackValidation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "SelfPermitTest",
+    "permalink": "/contracts/v2/reference/periphery/test/SelfPermitTest"
+  },
+  "next": {
+    "title": "TestERC20",
+    "permalink": "/contracts/v2/reference/periphery/test/TestERC20"
+  }
+}

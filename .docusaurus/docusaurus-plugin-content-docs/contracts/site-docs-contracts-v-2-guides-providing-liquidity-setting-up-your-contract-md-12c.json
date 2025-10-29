@@ -1,0 +1,29 @@
+{
+  "unversionedId": "v2/guides/providing-liquidity/setting-up",
+  "id": "v2/guides/providing-liquidity/setting-up",
+  "title": "Set Up Your Contract",
+  "description": "Setting up the Contract",
+  "source": "@site/docs/contracts/v2/guides/providing-liquidity/setting-up-your-contract.md",
+  "sourceDirName": "v2/guides/providing-liquidity",
+  "slug": "/v2/guides/providing-liquidity/setting-up",
+  "permalink": "/contracts/v2/guides/providing-liquidity/setting-up",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/guides/providing-liquidity/setting-up-your-contract.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "setting-up",
+    "title": "Set Up Your Contract",
+    "sidebar_position": 1
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Multihop Swaps",
+    "permalink": "/contracts/v2/guides/swaps/multihop-swaps"
+  },
+  "next": {
+    "title": "Mint a New Position",
+    "permalink": "/contracts/v2/guides/providing-liquidity/mint-a-position"
+  }
+}

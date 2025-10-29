@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/interfaces/ITickLens",
+  "id": "v2/reference/periphery/interfaces/ITickLens",
+  "title": "ITickLens",
+  "description": "Provides functions for fetching chunks of tick data for a pool",
+  "source": "@site/docs/contracts/v2/reference/periphery/interfaces/ITickLens.md",
+  "sourceDirName": "v2/reference/periphery/interfaces",
+  "slug": "/v2/reference/periphery/interfaces/ITickLens",
+  "permalink": "/contracts/v2/reference/periphery/interfaces/ITickLens",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/interfaces/ITickLens.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "ISwapRouter",
+    "permalink": "/contracts/v2/reference/periphery/interfaces/ISwapRouter"
+  },
+  "next": {
+    "title": "IV3Migrator",
+    "permalink": "/contracts/v2/reference/periphery/interfaces/IV3Migrator"
+  }
+}

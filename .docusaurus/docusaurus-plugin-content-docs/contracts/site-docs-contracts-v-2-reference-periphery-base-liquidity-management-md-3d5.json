@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/base/LiquidityManagement",
+  "id": "v2/reference/periphery/base/LiquidityManagement",
+  "title": "LiquidityManagement",
+  "description": "Internal functions for safely managing liquidity in Jingo V3",
+  "source": "@site/docs/contracts/v2/reference/periphery/base/LiquidityManagement.md",
+  "sourceDirName": "v2/reference/periphery/base",
+  "slug": "/v2/reference/periphery/base/LiquidityManagement",
+  "permalink": "/contracts/v2/reference/periphery/base/LiquidityManagement",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/base/LiquidityManagement.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "ERC721Permit",
+    "permalink": "/contracts/v2/reference/periphery/base/ERC721Permit"
+  },
+  "next": {
+    "title": "Multicall",
+    "permalink": "/contracts/v2/reference/periphery/base/Multicall"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/base/PeripheryImmutableState",
+  "id": "v2/reference/periphery/base/PeripheryImmutableState",
+  "title": "PeripheryImmutableState",
+  "description": "Immutable state used by periphery contracts",
+  "source": "@site/docs/contracts/v2/reference/periphery/base/PeripheryImmutableState.md",
+  "sourceDirName": "v2/reference/periphery/base",
+  "slug": "/v2/reference/periphery/base/PeripheryImmutableState",
+  "permalink": "/contracts/v2/reference/periphery/base/PeripheryImmutableState",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/base/PeripheryImmutableState.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Multicall",
+    "permalink": "/contracts/v2/reference/periphery/base/Multicall"
+  },
+  "next": {
+    "title": "PeripheryPayments",
+    "permalink": "/contracts/v2/reference/periphery/base/PeripheryPayments"
+  }
+}

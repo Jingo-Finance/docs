@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/test/SelfPermitTest",
+  "id": "v2/reference/periphery/test/SelfPermitTest",
+  "title": "SelfPermitTest",
+  "description": "Same as SelfPermit but not abstract",
+  "source": "@site/docs/contracts/v2/reference/periphery/test/SelfPermitTest.md",
+  "sourceDirName": "v2/reference/periphery/test",
+  "slug": "/v2/reference/periphery/test/SelfPermitTest",
+  "permalink": "/contracts/v2/reference/periphery/test/SelfPermitTest",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/test/SelfPermitTest.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "PoolAddressTest",
+    "permalink": "/contracts/v2/reference/periphery/test/PoolAddressTest"
+  },
+  "next": {
+    "title": "TestCallbackValidation",
+    "permalink": "/contracts/v2/reference/periphery/test/TestCallbackValidation"
+  }
+}

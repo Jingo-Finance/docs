@@ -1,0 +1,23 @@
+{
+  "unversionedId": "v3/reference/classes/PositionLibrary",
+  "id": "v3/reference/classes/PositionLibrary",
+  "title": "PositionLibrary",
+  "description": "@jingofi/v3-sdk / Exports / PositionLibrary",
+  "source": "@site/docs/sdk/v3/reference/classes/PositionLibrary.md",
+  "sourceDirName": "v3/reference/classes",
+  "slug": "/v3/reference/classes/PositionLibrary",
+  "permalink": "/sdk/v3/reference/classes/PositionLibrary",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Position",
+    "permalink": "/sdk/v3/reference/classes/Position"
+  },
+  "next": {
+    "title": "Route",
+    "permalink": "/sdk/v3/reference/classes/Route"
+  }
+}

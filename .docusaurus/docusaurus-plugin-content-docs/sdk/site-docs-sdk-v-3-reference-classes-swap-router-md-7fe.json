@@ -1,0 +1,23 @@
+{
+  "unversionedId": "v3/reference/classes/SwapRouter",
+  "id": "v3/reference/classes/SwapRouter",
+  "title": "SwapRouter",
+  "description": "@jingofi/v3-sdk / Exports / SwapRouter",
+  "source": "@site/docs/sdk/v3/reference/classes/SwapRouter.md",
+  "sourceDirName": "v3/reference/classes",
+  "slug": "/v3/reference/classes/SwapRouter",
+  "permalink": "/sdk/v3/reference/classes/SwapRouter",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "SwapQuoter",
+    "permalink": "/sdk/v3/reference/classes/SwapQuoter"
+  },
+  "next": {
+    "title": "Tick",
+    "permalink": "/sdk/v3/reference/classes/Tick"
+  }
+}

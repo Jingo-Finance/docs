@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/base/PeripheryPayments",
+  "id": "v2/reference/periphery/base/PeripheryPayments",
+  "title": "PeripheryPayments",
+  "description": "Functions",
+  "source": "@site/docs/contracts/v2/reference/periphery/base/PeripheryPayments.md",
+  "sourceDirName": "v2/reference/periphery/base",
+  "slug": "/v2/reference/periphery/base/PeripheryPayments",
+  "permalink": "/contracts/v2/reference/periphery/base/PeripheryPayments",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/base/PeripheryPayments.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "PeripheryImmutableState",
+    "permalink": "/contracts/v2/reference/periphery/base/PeripheryImmutableState"
+  },
+  "next": {
+    "title": "PeripheryPaymentsWithFee",
+    "permalink": "/contracts/v2/reference/periphery/base/PeripheryPaymentsWithFee"
+  }
+}

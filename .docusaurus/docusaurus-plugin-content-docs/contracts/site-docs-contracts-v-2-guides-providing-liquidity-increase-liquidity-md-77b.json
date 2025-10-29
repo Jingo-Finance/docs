@@ -1,0 +1,29 @@
+{
+  "unversionedId": "v2/guides/providing-liquidity/increase-liquidity",
+  "id": "v2/guides/providing-liquidity/increase-liquidity",
+  "title": "Increase Liquidity",
+  "description": "Increase Liquidity Within The Current Range",
+  "source": "@site/docs/contracts/v2/guides/providing-liquidity/increase-liquidity.md",
+  "sourceDirName": "v2/guides/providing-liquidity",
+  "slug": "/v2/guides/providing-liquidity/increase-liquidity",
+  "permalink": "/contracts/v2/guides/providing-liquidity/increase-liquidity",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/guides/providing-liquidity/increase-liquidity.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "id": "increase-liquidity",
+    "title": "Increase Liquidity",
+    "sidebar_position": 5
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Decrease Liquidity",
+    "permalink": "/contracts/v2/guides/providing-liquidity/decrease-liquidity"
+  },
+  "next": {
+    "title": "The Full Contract",
+    "permalink": "/contracts/v2/guides/providing-liquidity/the-full-contract"
+  }
+}

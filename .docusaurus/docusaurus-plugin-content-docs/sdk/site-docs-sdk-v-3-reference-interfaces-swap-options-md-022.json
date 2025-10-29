@@ -1,0 +1,23 @@
+{
+  "unversionedId": "v3/reference/interfaces/SwapOptions",
+  "id": "v3/reference/interfaces/SwapOptions",
+  "title": "SwapOptions",
+  "description": "@jingofi/v3-sdk / Exports / SwapOptions",
+  "source": "@site/docs/sdk/v3/reference/interfaces/SwapOptions.md",
+  "sourceDirName": "v3/reference/interfaces",
+  "slug": "/v3/reference/interfaces/SwapOptions",
+  "permalink": "/sdk/v3/reference/interfaces/SwapOptions",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "StandardPermitArguments",
+    "permalink": "/sdk/v3/reference/interfaces/StandardPermitArguments"
+  },
+  "next": {
+    "title": "TickConstructorArgs",
+    "permalink": "/sdk/v3/reference/interfaces/TickConstructorArgs"
+  }
+}

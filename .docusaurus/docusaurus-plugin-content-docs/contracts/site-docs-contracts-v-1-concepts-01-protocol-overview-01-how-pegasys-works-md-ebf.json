@@ -1,0 +1,28 @@
+{
+  "unversionedId": "v1/concepts/protocol-overview/how-pegasys-works",
+  "id": "v1/concepts/protocol-overview/how-pegasys-works",
+  "title": "How Jingo works",
+  "description": "Jingo is an automated liquidity protocol powered by a constant product formula",
+  "source": "@site/docs/contracts/v1/concepts/01-protocol-overview/01-how-pegasys-works.md",
+  "sourceDirName": "v1/concepts/01-protocol-overview",
+  "slug": "/v1/concepts/protocol-overview/how-pegasys-works",
+  "permalink": "/contracts/v1/concepts/protocol-overview/how-pegasys-works",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v1/concepts/01-protocol-overview/01-how-pegasys-works.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "how-pegasys-works",
+    "title": "How Jingo works"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/contracts/v1/overview"
+  },
+  "next": {
+    "title": "Ecosystem Participants",
+    "permalink": "/contracts/v1/concepts/protocol-overview/ecosystem-participants"
+  }
+}

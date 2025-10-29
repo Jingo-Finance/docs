@@ -1,0 +1,28 @@
+{
+  "unversionedId": "v1/concepts/advanced-topics/pricing",
+  "id": "v1/concepts/advanced-topics/pricing",
+  "title": "Pricing",
+  "description": "As we learned in Protocol Overview, each pair on Jingo is actually underpinned by a liquidity pool. Liquidity pools are smart contracts that hold balances of two unique tokens and enforces rules around depositing and withdrawing them. The primary rule is the constant product formula. When a token is withdrawn (bought), a proportional amount must be deposited (sold) to maintain the constant. The ratio of tokens in the pool, in combination with the constant product formula, ultimately determine the price that a swap executes at.",
+  "source": "@site/docs/contracts/v1/concepts/03-advanced-topics/02-pricing.md",
+  "sourceDirName": "v1/concepts/03-advanced-topics",
+  "slug": "/v1/concepts/advanced-topics/pricing",
+  "permalink": "/contracts/v1/concepts/advanced-topics/pricing",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v1/concepts/03-advanced-topics/02-pricing.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "pricing",
+    "title": "Pricing"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Fees",
+    "permalink": "/contracts/v1/concepts/advanced-topics/fees"
+  },
+  "next": {
+    "title": "Understanding Returns",
+    "permalink": "/contracts/v1/concepts/advanced-topics/understanding-returns"
+  }
+}

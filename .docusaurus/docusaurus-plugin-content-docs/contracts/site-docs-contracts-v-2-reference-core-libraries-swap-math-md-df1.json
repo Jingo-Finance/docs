@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/core/libraries/SwapMath",
+  "id": "v2/reference/core/libraries/SwapMath",
+  "title": "SwapMath",
+  "description": "Contains methods for computing the result of a swap within a single tick price range, i.e., a single tick.",
+  "source": "@site/docs/contracts/v2/reference/core/libraries/SwapMath.md",
+  "sourceDirName": "v2/reference/core/libraries",
+  "slug": "/v2/reference/core/libraries/SwapMath",
+  "permalink": "/contracts/v2/reference/core/libraries/SwapMath",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/core/libraries/SwapMath.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "SqrtPriceMath",
+    "permalink": "/contracts/v2/reference/core/libraries/SqrtPriceMath"
+  },
+  "next": {
+    "title": "Tick",
+    "permalink": "/contracts/v2/reference/core/libraries/Tick"
+  }
+}

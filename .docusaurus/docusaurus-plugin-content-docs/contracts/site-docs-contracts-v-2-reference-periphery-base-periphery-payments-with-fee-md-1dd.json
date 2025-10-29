@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/base/PeripheryPaymentsWithFee",
+  "id": "v2/reference/periphery/base/PeripheryPaymentsWithFee",
+  "title": "PeripheryPaymentsWithFee",
+  "description": "Functions",
+  "source": "@site/docs/contracts/v2/reference/periphery/base/PeripheryPaymentsWithFee.md",
+  "sourceDirName": "v2/reference/periphery/base",
+  "slug": "/v2/reference/periphery/base/PeripheryPaymentsWithFee",
+  "permalink": "/contracts/v2/reference/periphery/base/PeripheryPaymentsWithFee",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/base/PeripheryPaymentsWithFee.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "PeripheryPayments",
+    "permalink": "/contracts/v2/reference/periphery/base/PeripheryPayments"
+  },
+  "next": {
+    "title": "PoolInitializer",
+    "permalink": "/contracts/v2/reference/periphery/base/PoolInitializer"
+  }
+}

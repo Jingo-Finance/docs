@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/test/TestERC20PermitAllowed",
+  "id": "v2/reference/periphery/test/TestERC20PermitAllowed",
+  "title": "TestERC20PermitAllowed",
+  "description": "Functions",
+  "source": "@site/docs/contracts/v2/reference/periphery/test/TestERC20PermitAllowed.md",
+  "sourceDirName": "v2/reference/periphery/test",
+  "slug": "/v2/reference/periphery/test/TestERC20PermitAllowed",
+  "permalink": "/contracts/v2/reference/periphery/test/TestERC20PermitAllowed",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/test/TestERC20PermitAllowed.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "TestERC20Metadata",
+    "permalink": "/contracts/v2/reference/periphery/test/TestERC20Metadata"
+  },
+  "next": {
+    "title": "TestMulticall",
+    "permalink": "/contracts/v2/reference/periphery/test/TestMulticall"
+  }
+}

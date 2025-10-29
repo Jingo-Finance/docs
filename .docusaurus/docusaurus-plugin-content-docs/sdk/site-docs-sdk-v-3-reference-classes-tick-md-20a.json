@@ -1,0 +1,23 @@
+{
+  "unversionedId": "v3/reference/classes/Tick",
+  "id": "v3/reference/classes/Tick",
+  "title": "Tick",
+  "description": "@jingofi/v3-sdk / Exports / Tick",
+  "source": "@site/docs/sdk/v3/reference/classes/Tick.md",
+  "sourceDirName": "v3/reference/classes",
+  "slug": "/v3/reference/classes/Tick",
+  "permalink": "/sdk/v3/reference/classes/Tick",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "SwapRouter",
+    "permalink": "/sdk/v3/reference/classes/SwapRouter"
+  },
+  "next": {
+    "title": "TickLibrary",
+    "permalink": "/sdk/v3/reference/classes/TickLibrary"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "unversionedId": "v1/concepts/protocol-overview/smart-contracts",
+  "id": "v1/concepts/protocol-overview/smart-contracts",
+  "title": "Smart contracts",
+  "description": "Jingo V1 is a binary smart contract system. Core contracts provide fundamental safety guarantees for all parties interacting with Jingo. Periphery contracts interact with one or more core contracts but are not themselves part of the core.",
+  "source": "@site/docs/contracts/v1/concepts/01-protocol-overview/03-smart-contracts.md",
+  "sourceDirName": "v1/concepts/01-protocol-overview",
+  "slug": "/v1/concepts/protocol-overview/smart-contracts",
+  "permalink": "/contracts/v1/concepts/protocol-overview/smart-contracts",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v1/concepts/01-protocol-overview/03-smart-contracts.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "smart-contracts",
+    "title": "Smart contracts"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Ecosystem Participants",
+    "permalink": "/contracts/v1/concepts/protocol-overview/ecosystem-participants"
+  },
+  "next": {
+    "title": "Glossary",
+    "permalink": "/contracts/v1/concepts/protocol-overview/glossary"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "core/reference/enums/Rounding",
+  "id": "core/reference/enums/Rounding",
+  "title": "Rounding",
+  "description": "@jingofi/sdk-core / Exports / Rounding",
+  "source": "@site/docs/sdk/core/reference/enums/Rounding.md",
+  "sourceDirName": "core/reference/enums",
+  "slug": "/core/reference/enums/Rounding",
+  "permalink": "/sdk/core/reference/enums/Rounding",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Token",
+    "permalink": "/sdk/core/reference/classes/Token"
+  },
+  "next": {
+    "title": "SupportedChainId",
+    "permalink": "/sdk/core/reference/enums/SupportedChainId"
+  }
+}

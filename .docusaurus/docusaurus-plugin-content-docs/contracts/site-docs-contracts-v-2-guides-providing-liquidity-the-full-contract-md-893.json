@@ -1,0 +1,29 @@
+{
+  "unversionedId": "v2/guides/providing-liquidity/the-full-contract",
+  "id": "v2/guides/providing-liquidity/the-full-contract",
+  "title": "The Full Contract",
+  "description": "Below we have the complete functioning code example: a contract that can custody Jingo V3 position NFT's and manipulate the positions and liquidity therein by collecting fees, increasing or decreasing liquidity, and minting new positions. View on github here.",
+  "source": "@site/docs/contracts/v2/guides/providing-liquidity/the-full-contract.md",
+  "sourceDirName": "v2/guides/providing-liquidity",
+  "slug": "/v2/guides/providing-liquidity/the-full-contract",
+  "permalink": "/contracts/v2/guides/providing-liquidity/the-full-contract",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/guides/providing-liquidity/the-full-contract.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "id": "the-full-contract",
+    "title": "The Full Contract",
+    "sidebar_position": 6
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Increase Liquidity",
+    "permalink": "/contracts/v2/guides/providing-liquidity/increase-liquidity"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/contracts/v2/guides/liquidity-mining/overview"
+  }
+}

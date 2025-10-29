@@ -1,0 +1,27 @@
+{
+  "unversionedId": "v1/reference/Governance/governance-reference",
+  "id": "v1/reference/Governance/governance-reference",
+  "title": "Governance Reference",
+  "description": "The updated reference for the newly deployed Governor Bravo is available via Etherscan, some of the reference material below may be out of date.",
+  "source": "@site/docs/contracts/v1/reference/Governance/governance-reference.md",
+  "sourceDirName": "v1/reference/Governance",
+  "slug": "/v1/reference/Governance/governance-reference",
+  "permalink": "/contracts/v1/reference/Governance/governance-reference",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v1/reference/Governance/governance-reference.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "governance-reference",
+    "title": "Governance Reference"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Queries",
+    "permalink": "/contracts/v1/reference/API/queries"
+  },
+  "next": {
+    "title": "Factory",
+    "permalink": "/contracts/v1/reference/smart-contracts/factory"
+  }
+}

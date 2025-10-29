@@ -1,0 +1,23 @@
+{
+  "unversionedId": "v3/reference/interfaces/SafeTransferOptions",
+  "id": "v3/reference/interfaces/SafeTransferOptions",
+  "title": "SafeTransferOptions",
+  "description": "@jingofi/v3-sdk / Exports / SafeTransferOptions",
+  "source": "@site/docs/sdk/v3/reference/interfaces/SafeTransferOptions.md",
+  "sourceDirName": "v3/reference/interfaces",
+  "slug": "/v3/reference/interfaces/SafeTransferOptions",
+  "permalink": "/sdk/v3/reference/interfaces/SafeTransferOptions",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "RemoveLiquidityOptions",
+    "permalink": "/sdk/v3/reference/interfaces/RemoveLiquidityOptions"
+  },
+  "next": {
+    "title": "StandardPermitArguments",
+    "permalink": "/sdk/v3/reference/interfaces/StandardPermitArguments"
+  }
+}

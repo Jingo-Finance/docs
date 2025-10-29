@@ -1,0 +1,29 @@
+{
+  "unversionedId": "v2/guides/flash-integrations/calling-flash",
+  "id": "v2/guides/flash-integrations/calling-flash",
+  "title": "Calling Flash",
+  "description": "Parameter Structs",
+  "source": "@site/docs/contracts/v2/guides/flash-integrations/calling-flash.md",
+  "sourceDirName": "v2/guides/flash-integrations",
+  "slug": "/v2/guides/flash-integrations/calling-flash",
+  "permalink": "/contracts/v2/guides/flash-integrations/calling-flash",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/guides/flash-integrations/calling-flash.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "calling-flash",
+    "title": "Calling Flash",
+    "sidebar_position": 2
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/contracts/v2/guides/flash-integrations/inheritance-constructors"
+  },
+  "next": {
+    "title": "The Flash Callback",
+    "permalink": "/contracts/v2/guides/flash-integrations/flash-callback"
+  }
+}

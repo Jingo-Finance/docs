@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/libraries/WeightedOracleLibrary",
+  "id": "v2/reference/periphery/libraries/WeightedOracleLibrary",
+  "title": "WeightedOracleLibrary",
+  "description": "Provides functions to integrate with different tier oracles of the same V3 pair",
+  "source": "@site/docs/contracts/v2/reference/periphery/libraries/WeightedOracleLibrary.md",
+  "sourceDirName": "v2/reference/periphery/libraries",
+  "slug": "/v2/reference/periphery/libraries/WeightedOracleLibrary",
+  "permalink": "/contracts/v2/reference/periphery/libraries/WeightedOracleLibrary",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/libraries/WeightedOracleLibrary.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "TransferHelper",
+    "permalink": "/contracts/v2/reference/periphery/libraries/TransferHelper"
+  },
+  "next": {
+    "title": "Jingo V3 Staker Design",
+    "permalink": "/contracts/v2/reference/periphery/staker/Design"
+  }
+}

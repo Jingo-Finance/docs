@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v3/overview",
+  "id": "v3/overview",
+  "title": "Overview",
+  "description": "Welcome to the V3 Jingo SDK!",
+  "source": "@site/docs/sdk/v3/overview.md",
+  "sourceDirName": "v3",
+  "slug": "/v3/overview",
+  "permalink": "/sdk/v3/overview",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "overview",
+    "sidebar_position": 1,
+    "title": "Overview"
+  },
+  "sidebar": "defaultSidebar",
+  "next": {
+    "title": "Background",
+    "permalink": "/sdk/v3/guides/background"
+  }
+}

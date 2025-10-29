@@ -1,0 +1,28 @@
+{
+  "unversionedId": "protocol/oracle",
+  "id": "protocol/oracle",
+  "title": "Oracle",
+  "description": "Unfamiliar with the concept of an oracle? Check out the Ethereum Foundation's oracle overview first.",
+  "source": "@site/docs/concepts/protocol/oracle.md",
+  "sourceDirName": "protocol",
+  "slug": "/protocol/oracle",
+  "permalink": "/concepts/protocol/oracle",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "oracle",
+    "title": "Oracle",
+    "sidebar_position": 3
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Fees",
+    "permalink": "/concepts/protocol/fees"
+  },
+  "next": {
+    "title": "Range Orders",
+    "permalink": "/concepts/protocol/range-orders"
+  }
+}

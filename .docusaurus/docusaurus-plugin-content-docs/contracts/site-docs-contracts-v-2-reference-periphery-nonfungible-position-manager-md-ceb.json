@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/NonfungiblePositionManager",
+  "id": "v2/reference/periphery/NonfungiblePositionManager",
+  "title": "NonfungiblePositionManager",
+  "description": "Wraps Jingo V3 positions in the ERC721 non-fungible token interface",
+  "source": "@site/docs/contracts/v2/reference/periphery/NonfungiblePositionManager.md",
+  "sourceDirName": "v2/reference/periphery",
+  "slug": "/v2/reference/periphery/NonfungiblePositionManager",
+  "permalink": "/contracts/v2/reference/periphery/NonfungiblePositionManager",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/NonfungiblePositionManager.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "TickLensTest",
+    "permalink": "/contracts/v2/reference/periphery/test/TickLensTest"
+  },
+  "next": {
+    "title": "NonfungibleTokenPositionDescriptor",
+    "permalink": "/contracts/v2/reference/periphery/NonfungibleTokenPositionDescriptor"
+  }
+}

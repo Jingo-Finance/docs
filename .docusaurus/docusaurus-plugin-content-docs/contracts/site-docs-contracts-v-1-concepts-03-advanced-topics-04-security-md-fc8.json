@@ -1,0 +1,28 @@
+{
+  "unversionedId": "v1/concepts/advanced-topics/security",
+  "id": "v1/concepts/advanced-topics/security",
+  "title": "Security",
+  "description": "Between January 8 and April 30, a team of six engineers reviewed and formally verified crucial components of the smart contracts for Jingo V1.",
+  "source": "@site/docs/contracts/v1/concepts/03-advanced-topics/04-security.md",
+  "sourceDirName": "v1/concepts/03-advanced-topics",
+  "slug": "/v1/concepts/advanced-topics/security",
+  "permalink": "/contracts/v1/concepts/advanced-topics/security",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v1/concepts/03-advanced-topics/04-security.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "id": "security",
+    "title": "Security"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Understanding Returns",
+    "permalink": "/contracts/v1/concepts/advanced-topics/understanding-returns"
+  },
+  "next": {
+    "title": "Math",
+    "permalink": "/contracts/v1/concepts/advanced-topics/math"
+  }
+}

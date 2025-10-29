@@ -1,0 +1,28 @@
+{
+  "unversionedId": "v1/reference/smart-contracts/factory",
+  "id": "v1/reference/smart-contracts/factory",
+  "title": "Factory",
+  "description": "Code",
+  "source": "@site/docs/contracts/v1/reference/smart-contracts/01-factory.md",
+  "sourceDirName": "v1/reference/smart-contracts",
+  "slug": "/v1/reference/smart-contracts/factory",
+  "permalink": "/contracts/v1/reference/smart-contracts/factory",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v1/reference/smart-contracts/01-factory.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "factory",
+    "title": "Factory"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Governance Reference",
+    "permalink": "/contracts/v1/reference/Governance/governance-reference"
+  },
+  "next": {
+    "title": "Pair",
+    "permalink": "/contracts/v1/reference/smart-contracts/pair"
+  }
+}

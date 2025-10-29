@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/staker/libraries/NFTPositionInfo",
+  "id": "v2/reference/periphery/staker/libraries/NFTPositionInfo",
+  "title": "NFTPositionInfo",
+  "description": "Encapsulates the logic for getting info about a NFT token ID",
+  "source": "@site/docs/contracts/v2/reference/periphery/staker/libraries/NFTPositionInfo.md",
+  "sourceDirName": "v2/reference/periphery/staker/libraries",
+  "slug": "/v2/reference/periphery/staker/libraries/NFTPositionInfo",
+  "permalink": "/contracts/v2/reference/periphery/staker/libraries/NFTPositionInfo",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/staker/libraries/NFTPositionInfo.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "IncentiveId",
+    "permalink": "/contracts/v2/reference/periphery/staker/libraries/IncentiveId"
+  },
+  "next": {
+    "title": "RewardMath",
+    "permalink": "/contracts/v2/reference/periphery/staker/libraries/RewardMath"
+  }
+}

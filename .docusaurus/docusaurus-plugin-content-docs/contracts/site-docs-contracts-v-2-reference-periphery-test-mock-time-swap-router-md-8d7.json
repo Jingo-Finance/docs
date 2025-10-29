@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/test/MockTimeSwapRouter",
+  "id": "v2/reference/periphery/test/MockTimeSwapRouter",
+  "title": "MockTimeSwapRouter",
+  "description": "Functions",
+  "source": "@site/docs/contracts/v2/reference/periphery/test/MockTimeSwapRouter.md",
+  "sourceDirName": "v2/reference/periphery/test",
+  "slug": "/v2/reference/periphery/test/MockTimeSwapRouter",
+  "permalink": "/contracts/v2/reference/periphery/test/MockTimeSwapRouter",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/test/MockTimeSwapRouter.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "MockTimeNonfungiblePositionManager",
+    "permalink": "/contracts/v2/reference/periphery/test/MockTimeNonfungiblePositionManager"
+  },
+  "next": {
+    "title": "NFTDescriptorTest",
+    "permalink": "/contracts/v2/reference/periphery/test/NFTDescriptorTest"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "unversionedId": "v2/guides/governance/liscense-modifications",
+  "id": "v2/guides/governance/liscense-modifications",
+  "title": "License Modifications",
+  "description": "Licensing",
+  "source": "@site/docs/contracts/v2/guides/governance/license-modifications.md",
+  "sourceDirName": "v2/guides/governance",
+  "slug": "/v2/guides/governance/liscense-modifications",
+  "permalink": "/contracts/v2/guides/governance/liscense-modifications",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/guides/governance/license-modifications.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "liscense-modifications",
+    "title": "License Modifications"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "The Final Contract",
+    "permalink": "/contracts/v2/guides/flash-integrations/final-contract"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/contracts/v2/reference/overview"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/lens/QuoterV2",
+  "id": "v2/reference/periphery/lens/QuoterV2",
+  "title": "QuoterV2",
+  "description": "Allows getting the expected amount out or amount in for a given swap without executing the swap",
+  "source": "@site/docs/contracts/v2/reference/periphery/lens/QuoterV2.md",
+  "sourceDirName": "v2/reference/periphery/lens",
+  "slug": "/v2/reference/periphery/lens/QuoterV2",
+  "permalink": "/contracts/v2/reference/periphery/lens/QuoterV2",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/lens/QuoterV2.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Quoter",
+    "permalink": "/contracts/v2/reference/periphery/lens/Quoter"
+  },
+  "next": {
+    "title": "TickLens",
+    "permalink": "/contracts/v2/reference/periphery/lens/TickLens"
+  }
+}

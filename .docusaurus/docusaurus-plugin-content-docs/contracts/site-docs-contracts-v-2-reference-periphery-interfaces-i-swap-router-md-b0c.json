@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/interfaces/ISwapRouter",
+  "id": "v2/reference/periphery/interfaces/ISwapRouter",
+  "title": "ISwapRouter",
+  "description": "Functions for swapping tokens via Jingo V3",
+  "source": "@site/docs/contracts/v2/reference/periphery/interfaces/ISwapRouter.md",
+  "sourceDirName": "v2/reference/periphery/interfaces",
+  "slug": "/v2/reference/periphery/interfaces/ISwapRouter",
+  "permalink": "/contracts/v2/reference/periphery/interfaces/ISwapRouter",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/interfaces/ISwapRouter.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "ISelfPermit",
+    "permalink": "/contracts/v2/reference/periphery/interfaces/ISelfPermit"
+  },
+  "next": {
+    "title": "ITickLens",
+    "permalink": "/contracts/v2/reference/periphery/interfaces/ITickLens"
+  }
+}

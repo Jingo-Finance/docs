@@ -1,0 +1,23 @@
+{
+  "unversionedId": "v3/reference/interfaces/WithdrawOptions",
+  "id": "v3/reference/interfaces/WithdrawOptions",
+  "title": "WithdrawOptions",
+  "description": "@jingofi/v3-sdk / Exports / WithdrawOptions",
+  "source": "@site/docs/sdk/v3/reference/interfaces/WithdrawOptions.md",
+  "sourceDirName": "v3/reference/interfaces",
+  "slug": "/v3/reference/interfaces/WithdrawOptions",
+  "permalink": "/sdk/v3/reference/interfaces/WithdrawOptions",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "TickDataProvider",
+    "permalink": "/sdk/v3/reference/interfaces/TickDataProvider"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/sdk/swap-widget/overview"
+  }
+}

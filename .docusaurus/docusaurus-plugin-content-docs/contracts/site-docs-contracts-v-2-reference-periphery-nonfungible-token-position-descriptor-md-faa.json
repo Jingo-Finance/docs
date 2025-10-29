@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/NonfungibleTokenPositionDescriptor",
+  "id": "v2/reference/periphery/NonfungibleTokenPositionDescriptor",
+  "title": "NonfungibleTokenPositionDescriptor",
+  "description": "Produces a string containing the data URI for a JSON metadata string",
+  "source": "@site/docs/contracts/v2/reference/periphery/NonfungibleTokenPositionDescriptor.md",
+  "sourceDirName": "v2/reference/periphery",
+  "slug": "/v2/reference/periphery/NonfungibleTokenPositionDescriptor",
+  "permalink": "/contracts/v2/reference/periphery/NonfungibleTokenPositionDescriptor",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/NonfungibleTokenPositionDescriptor.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "NonfungiblePositionManager",
+    "permalink": "/contracts/v2/reference/periphery/NonfungiblePositionManager"
+  },
+  "next": {
+    "title": "SwapRouter",
+    "permalink": "/contracts/v2/reference/periphery/SwapRouter"
+  }
+}

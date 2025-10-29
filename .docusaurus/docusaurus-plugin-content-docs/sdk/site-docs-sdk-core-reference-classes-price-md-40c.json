@@ -1,0 +1,23 @@
+{
+  "unversionedId": "core/reference/classes/Price",
+  "id": "core/reference/classes/Price",
+  "title": "Price",
+  "description": "@jingofi/sdk-core / Exports / Price",
+  "source": "@site/docs/sdk/core/reference/classes/Price.md",
+  "sourceDirName": "core/reference/classes",
+  "slug": "/core/reference/classes/Price",
+  "permalink": "/sdk/core/reference/classes/Price",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Percent",
+    "permalink": "/sdk/core/reference/classes/Percent"
+  },
+  "next": {
+    "title": "Token",
+    "permalink": "/sdk/core/reference/classes/Token"
+  }
+}

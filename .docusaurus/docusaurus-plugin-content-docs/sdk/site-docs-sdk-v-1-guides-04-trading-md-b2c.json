@@ -1,0 +1,27 @@
+{
+  "unversionedId": "v1/guides/trading",
+  "id": "v1/guides/trading",
+  "title": "Trading",
+  "description": "Looking for a quickstart?",
+  "source": "@site/docs/sdk/v1/guides/04-trading.md",
+  "sourceDirName": "v1/guides",
+  "slug": "/v1/guides/trading",
+  "permalink": "/sdk/v1/guides/trading",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "id": "trading",
+    "title": "Trading"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Pricing",
+    "permalink": "/sdk/v1/guides/pricing"
+  },
+  "next": {
+    "title": "Pair Addresses",
+    "permalink": "/sdk/v1/guides/getting-pair-addresses"
+  }
+}

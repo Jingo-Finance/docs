@@ -1,0 +1,23 @@
+{
+  "unversionedId": "v3/reference/interfaces/CollectOptions",
+  "id": "v3/reference/interfaces/CollectOptions",
+  "title": "CollectOptions",
+  "description": "@jingofi/v3-sdk / Exports / CollectOptions",
+  "source": "@site/docs/sdk/v3/reference/interfaces/CollectOptions.md",
+  "sourceDirName": "v3/reference/interfaces",
+  "slug": "/v3/reference/interfaces/CollectOptions",
+  "permalink": "/sdk/v3/reference/interfaces/CollectOptions",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "ClaimOptions",
+    "permalink": "/sdk/v3/reference/interfaces/ClaimOptions"
+  },
+  "next": {
+    "title": "CommonAddLiquidityOptions",
+    "permalink": "/sdk/v3/reference/interfaces/CommonAddLiquidityOptions"
+  }
+}

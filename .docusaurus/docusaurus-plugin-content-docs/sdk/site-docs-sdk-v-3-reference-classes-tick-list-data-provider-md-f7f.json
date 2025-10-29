@@ -1,0 +1,23 @@
+{
+  "unversionedId": "v3/reference/classes/TickListDataProvider",
+  "id": "v3/reference/classes/TickListDataProvider",
+  "title": "TickListDataProvider",
+  "description": "@jingofi/v3-sdk / Exports / TickListDataProvider",
+  "source": "@site/docs/sdk/v3/reference/classes/TickListDataProvider.md",
+  "sourceDirName": "v3/reference/classes",
+  "slug": "/v3/reference/classes/TickListDataProvider",
+  "permalink": "/sdk/v3/reference/classes/TickListDataProvider",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "TickList",
+    "permalink": "/sdk/v3/reference/classes/TickList"
+  },
+  "next": {
+    "title": "TickMath",
+    "permalink": "/sdk/v3/reference/classes/TickMath"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "unversionedId": "protocol/range-orders",
+  "id": "protocol/range-orders",
+  "title": "Range Orders",
+  "description": "Customizable liquidity positions, along with single-sided asset provisioning, allow for a new style of swapping with automated market makers: the range order.",
+  "source": "@site/docs/concepts/protocol/range-orders.md",
+  "sourceDirName": "protocol",
+  "slug": "/protocol/range-orders",
+  "permalink": "/concepts/protocol/range-orders",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "id": "range-orders",
+    "title": "Range Orders",
+    "sidebar_position": 4
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Oracle",
+    "permalink": "/concepts/protocol/oracle"
+  },
+  "next": {
+    "title": "Swaps",
+    "permalink": "/concepts/protocol/swaps"
+  }
+}

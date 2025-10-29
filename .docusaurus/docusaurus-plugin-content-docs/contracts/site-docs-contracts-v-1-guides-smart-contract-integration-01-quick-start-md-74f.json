@@ -1,0 +1,28 @@
+{
+  "unversionedId": "v1/guides/smart-contract-integration/quick-start",
+  "id": "v1/guides/smart-contract-integration/quick-start",
+  "title": "Smart Contract Quick start",
+  "description": "Developing smart contracts for Ethereum involves a bevy of off-chain tools used for producing and testing bytecode",
+  "source": "@site/docs/contracts/v1/guides/smart-contract-integration/01-quick-start.md",
+  "sourceDirName": "v1/guides/smart-contract-integration",
+  "slug": "/v1/guides/smart-contract-integration/quick-start",
+  "permalink": "/contracts/v1/guides/smart-contract-integration/quick-start",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v1/guides/smart-contract-integration/01-quick-start.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "quick-start",
+    "title": "Smart Contract Quick start"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Iframe Integration",
+    "permalink": "/contracts/v1/guides/interface-integration/iframe-integration"
+  },
+  "next": {
+    "title": "Implement a Swap",
+    "permalink": "/contracts/v1/guides/smart-contract-integration/trading-from-a-smart-contract"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "unversionedId": "v2/guides/swaps/single-swaps",
+  "id": "v2/guides/swaps/single-swaps",
+  "title": "Single Swaps",
+  "description": "Swaps are the most common interaction with the Jingo protocol. The following example shows you how to implement a single-path swap contract that uses two functions that you create:",
+  "source": "@site/docs/contracts/v2/guides/swaps/single-swaps.md",
+  "sourceDirName": "v2/guides/swaps",
+  "slug": "/v2/guides/swaps/single-swaps",
+  "permalink": "/contracts/v2/guides/swaps/single-swaps",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/guides/swaps/single-swaps.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "single-swaps",
+    "title": "Single Swaps",
+    "sidebar_position": 1
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Set Up Your Local Environment",
+    "permalink": "/contracts/v2/guides/local-environment"
+  },
+  "next": {
+    "title": "Multihop Swaps",
+    "permalink": "/contracts/v2/guides/swaps/multihop-swaps"
+  }
+}

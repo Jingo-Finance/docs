@@ -1,0 +1,27 @@
+{
+  "unversionedId": "v2/reference/Governance/overview",
+  "id": "v2/reference/Governance/overview",
+  "title": "Overview",
+  "description": "The updated reference for the newly deployed Governor Bravo is available via Etherscan, some of the reference material below may be out of date.",
+  "source": "@site/docs/contracts/v2/reference/Governance/overview.md",
+  "sourceDirName": "v2/reference/Governance",
+  "slug": "/v2/reference/Governance/overview",
+  "permalink": "/contracts/v2/reference/Governance/overview",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/Governance/overview.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "overview",
+    "title": "Overview"
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/contracts/v2/reference/overview"
+  },
+  "next": {
+    "title": "PegasysV3Factory",
+    "permalink": "/contracts/v2/reference/core/PegasysV3Factory"
+  }
+}

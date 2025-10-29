@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/core/PegasysV3Factory",
+  "id": "v2/reference/core/PegasysV3Factory",
+  "title": "PegasysV3Factory",
+  "description": "Deploys Jingo V3 pools and manages ownership and control over pool protocol fees",
+  "source": "@site/docs/contracts/v2/reference/core/PegasysV3Factory.md",
+  "sourceDirName": "v2/reference/core",
+  "slug": "/v2/reference/core/PegasysV3Factory",
+  "permalink": "/contracts/v2/reference/core/PegasysV3Factory",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/core/PegasysV3Factory.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/contracts/v2/reference/Governance/overview"
+  },
+  "next": {
+    "title": "PegasysV3Pool",
+    "permalink": "/contracts/v2/reference/core/PegasysV3Pool"
+  }
+}

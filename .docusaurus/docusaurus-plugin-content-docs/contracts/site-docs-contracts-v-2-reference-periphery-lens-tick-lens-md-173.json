@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/lens/TickLens",
+  "id": "v2/reference/periphery/lens/TickLens",
+  "title": "TickLens",
+  "description": "Functions",
+  "source": "@site/docs/contracts/v2/reference/periphery/lens/TickLens.md",
+  "sourceDirName": "v2/reference/periphery/lens",
+  "slug": "/v2/reference/periphery/lens/TickLens",
+  "permalink": "/contracts/v2/reference/periphery/lens/TickLens",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/lens/TickLens.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "QuoterV2",
+    "permalink": "/contracts/v2/reference/periphery/lens/QuoterV2"
+  },
+  "next": {
+    "title": "Base64",
+    "permalink": "/contracts/v2/reference/periphery/libraries/Base64"
+  }
+}

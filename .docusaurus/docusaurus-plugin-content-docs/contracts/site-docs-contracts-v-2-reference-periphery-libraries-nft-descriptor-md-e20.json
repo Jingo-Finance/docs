@@ -1,0 +1,24 @@
+{
+  "unversionedId": "v2/reference/periphery/libraries/NFTDescriptor",
+  "id": "v2/reference/periphery/libraries/NFTDescriptor",
+  "title": "NFTDescriptor",
+  "description": "Functions",
+  "source": "@site/docs/contracts/v2/reference/periphery/libraries/NFTDescriptor.md",
+  "sourceDirName": "v2/reference/periphery/libraries",
+  "slug": "/v2/reference/periphery/libraries/NFTDescriptor",
+  "permalink": "/contracts/v2/reference/periphery/libraries/NFTDescriptor",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/periphery/libraries/NFTDescriptor.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "LiquidityAmounts",
+    "permalink": "/contracts/v2/reference/periphery/libraries/LiquidityAmounts"
+  },
+  "next": {
+    "title": "NFTSVG",
+    "permalink": "/contracts/v2/reference/periphery/libraries/NFTSVG"
+  }
+}

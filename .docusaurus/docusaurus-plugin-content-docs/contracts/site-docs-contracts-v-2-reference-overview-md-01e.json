@@ -1,0 +1,29 @@
+{
+  "unversionedId": "v2/reference/overview",
+  "id": "v2/reference/overview",
+  "title": "Overview",
+  "description": "Jingo V3 is a binary smart contract system comprised of many libraries, which together make the Core and Periphery.",
+  "source": "@site/docs/contracts/v2/reference/overview.md",
+  "sourceDirName": "v2/reference",
+  "slug": "/v2/reference/overview",
+  "permalink": "/contracts/v2/reference/overview",
+  "draft": false,
+  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v2/reference/overview.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "overview",
+    "title": "Overview",
+    "sidebar_position": 1
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "License Modifications",
+    "permalink": "/contracts/v2/guides/governance/liscense-modifications"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/contracts/v2/reference/Governance/overview"
+  }
+}

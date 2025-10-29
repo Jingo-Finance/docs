@@ -1,0 +1,29 @@
+{
+  "unversionedId": "swap-widget/guides/examples",
+  "id": "swap-widget/guides/examples",
+  "title": "Swap Widget Example Themes",
+  "description": "The Getting Started guide showed how to embed the swap widget and let your users trade tokens on the Jingo Protocol without leaving your dApp.",
+  "source": "@site/docs/sdk/swap-widget/guides/swap-widget-examples.mdx",
+  "sourceDirName": "swap-widget/guides",
+  "slug": "/swap-widget/guides/examples",
+  "permalink": "/sdk/swap-widget/guides/examples",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "examples",
+    "title": "Swap Widget Example Themes",
+    "sidebar_label": "Example Themes",
+    "sidebar_position": 2
+  },
+  "sidebar": "defaultSidebar",
+  "previous": {
+    "title": "Getting Started",
+    "permalink": "/sdk/swap-widget/guides/getting-started"
+  },
+  "next": {
+    "title": "API V1 Reference",
+    "permalink": "/sdk/swap-widget/reference/v1"
+  }
+}
