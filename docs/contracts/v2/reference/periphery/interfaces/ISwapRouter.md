@@ -1,4 +1,4 @@
-Functions for swapping tokens via Pegasys V3
+Functions for swapping tokens via Jingo V3
 
 ## Parameter Structs
 

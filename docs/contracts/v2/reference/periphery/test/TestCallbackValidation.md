@@ -4,5 +4,5 @@
 
 ```solidity
   function verifyCallback(
-  ) external returns (contract IPegasysV3Pool pool)
+  ) external returns (contract IJingoV3Pool pool)
 ```

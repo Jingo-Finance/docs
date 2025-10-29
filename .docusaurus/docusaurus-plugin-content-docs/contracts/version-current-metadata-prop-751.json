@@ -1038,8 +1038,8 @@
                   {
                     "type": "link",
                     "label": "How Jingo works",
-                    "href": "/contracts/v1/concepts/protocol-overview/how-pegasys-works",
-                    "docId": "v1/concepts/protocol-overview/how-pegasys-works"
+                    "href": "/contracts/v1/concepts/protocol-overview/how-jingo-works",
+                    "docId": "v1/concepts/protocol-overview/how-jingo-works"
                   },
                   {
                     "type": "link",
@@ -1428,8 +1428,8 @@
       "description": "Automated market maker",
       "sidebar": "defaultSidebar"
     },
-    "v1/concepts/protocol-overview/how-pegasys-works": {
-      "id": "v1/concepts/protocol-overview/how-pegasys-works",
+    "v1/concepts/protocol-overview/how-jingo-works": {
+      "id": "v1/concepts/protocol-overview/how-jingo-works",
       "title": "How Jingo works",
       "description": "Jingo is an automated liquidity protocol powered by a constant product formula",
       "sidebar": "defaultSidebar"
@@ -1563,7 +1563,7 @@
     "v1/reference/smart-contracts/router-01": {
       "id": "v1/reference/smart-contracts/router-01",
       "title": "Router01",
-      "description": "PegasysV1Router01 should not be used any longer, because of the discovery of a low severity bug and the fact that some methods do not work with tokens that take fees on transfer. The current recommendation is to use PegasysV1Router02.",
+      "description": "JingoV1Router01 should not be used any longer, because of the discovery of a low severity bug and the fact that some methods do not work with tokens that take fees on transfer. The current recommendation is to use JingoV1Router02.",
       "sidebar": "defaultSidebar"
     },
     "v1/reference/smart-contracts/router-02": {
@@ -1671,19 +1671,19 @@
     "v2/reference/core/interfaces/callback/IPegasysV3FlashCallback": {
       "id": "v2/reference/core/interfaces/callback/IPegasysV3FlashCallback",
       "title": "IPegasysV3FlashCallback",
-      "description": "Any contract that calls IPegasysV3PoolActions#flash must implement this interface",
+      "description": "Any contract that calls IJingoV3PoolActions#flash must implement this interface",
       "sidebar": "defaultSidebar"
     },
     "v2/reference/core/interfaces/callback/IPegasysV3MintCallback": {
       "id": "v2/reference/core/interfaces/callback/IPegasysV3MintCallback",
       "title": "IPegasysV3MintCallback",
-      "description": "Any contract that calls IPegasysV3PoolActions#mint must implement this interface",
+      "description": "Any contract that calls IJingoV3PoolActions#mint must implement this interface",
       "sidebar": "defaultSidebar"
     },
     "v2/reference/core/interfaces/callback/IPegasysV3SwapCallback": {
       "id": "v2/reference/core/interfaces/callback/IPegasysV3SwapCallback",
       "title": "IPegasysV3SwapCallback",
-      "description": "Any contract that calls IPegasysV3PoolActions#swap must implement this interface",
+      "description": "Any contract that calls IJingoV3PoolActions#swap must implement this interface",
       "sidebar": "defaultSidebar"
     },
     "v2/reference/core/interfaces/IERC20Minimal": {
@@ -2211,7 +2211,7 @@
     "v2/reference/periphery/staker/PegasysV3Staker": {
       "id": "v2/reference/periphery/staker/PegasysV3Staker",
       "title": "Jingo V3 Staker Contract",
-      "description": "Below is the technical reference for the staker contract, PegasysV3Staker.sol. A technical guide for interacting with this staking contract will be released soon.",
+      "description": "Below is the technical reference for the staker contract, JingoV3Staker.sol. A technical guide for interacting with this staking contract will be released soon.",
       "sidebar": "defaultSidebar"
     },
     "v2/reference/periphery/SwapRouter": {

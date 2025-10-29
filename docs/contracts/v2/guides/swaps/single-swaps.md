@@ -4,7 +4,7 @@ title: Single Swaps
 sidebar_position: 1
 ---
 
-Swaps are the most common interaction with the Pegasys protocol. The following example shows you how to implement a single-path swap contract that uses two functions that you create:
+Swaps are the most common interaction with the Jingo protocol. The following example shows you how to implement a single-path swap contract that uses two functions that you create:
 
 - `swapExactInputSingle`
 - `swapExactOutputSingle`
@@ -33,8 +33,8 @@ pragma abicoder v2;
 Import the two relevant contracts from the npm package installation
 
 ```solidity
-import '@pegasys-fi/v3-periphery/contracts/interfaces/ISwapRouter.sol';
-import '@pegasys-fi/v3-periphery/contracts/libraries/TransferHelper.sol';
+import '@jingofi/v3-periphery/contracts/interfaces/ISwapRouter.sol';
+import '@jingofi/v3-periphery/contracts/libraries/TransferHelper.sol';
 ```
 
 Create a contract called `SwapExamples`, and declare an immutable public variable `swapRouter` of type `ISwapRouter`.
@@ -69,7 +69,7 @@ Hardcode the token contract addresses and pool fee tiers for the example. In pro
 ## Exact Input Swaps
 
 The caller must `approve` the contract to withdraw the tokens from the calling address's account to execute a swap. Remember that because
-our contract is a contract itself and not an extension of the caller (us); we must also approve the Pegasys protocol router contract to use the tokens that our contract will be in possession of after they have been withdrawn from the calling address (us).
+our contract is a contract itself and not an extension of the caller (us); we must also approve the Jingo protocol router contract to use the tokens that our contract will be in possession of after they have been withdrawn from the calling address (us).
 
 Then, transfer the `amount` of Dai from the calling address into our contract, and use `amount` as the value passed to the second `approve`.
 
@@ -181,8 +181,8 @@ function swapExactOutputSingle(uint256 amountOut, uint256 amountInMaximum) exter
 pragma solidity =0.7.6;
 pragma abicoder v2;
 
-import '@pegasys-fi/v3-periphery/contracts/libraries/TransferHelper.sol';
-import '@pegasys-fi/v3-periphery/contracts/interfaces/ISwapRouter.sol';
+import '@jingofi/v3-periphery/contracts/libraries/TransferHelper.sol';
+import '@jingofi/v3-periphery/contracts/interfaces/ISwapRouter.sol';
 
 contract SwapExamples {
     // For the scope of these swap examples,

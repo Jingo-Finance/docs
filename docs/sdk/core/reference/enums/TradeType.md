@@ -1,4 +1,4 @@
-[@pegasys-fi/sdk-core](../README.md) / [Exports](../modules.md) / TradeType
+[@jingofi/sdk-core](../README.md) / [Exports](../modules.md) / TradeType
 
 # Enumeration: TradeType
 
@@ -17,7 +17,7 @@
 
 #### Defined in
 
-[constants.ts:27](https://github.com/Pegasys-fi/sdk-core/blob/9997e88/src/constants.ts#L27)
+[constants.ts:27](https://github.com/Jingo-Finance/sdk-core/blob/9997e88/src/constants.ts#L27)
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 #### Defined in
 
-[constants.ts:28](https://github.com/Pegasys-fi/sdk-core/blob/9997e88/src/constants.ts#L28)
+[constants.ts:28](https://github.com/Jingo-Finance/sdk-core/blob/9997e88/src/constants.ts#L28)

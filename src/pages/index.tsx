@@ -17,44 +17,44 @@ import SearchBarWithAnalytics from '../theme/SearchBar'
 
 export const actions = [
   {
-    title: 'What is Pegasys',
+    title: 'What is Jingo',
     icon: Info,
     to: '/concepts/overview',
-    text: `Learn about the core concepts of the Pegasys Protocol, Swaps, Pools, Concentrated Liquidity and more.`,
+    text: `Learn about the core concepts of the Jingo Protocol, Swaps, Pools, Concentrated Liquidity and more.`,
   },
   {
-    title: 'Integrate with Pegasys',
+    title: 'Integrate with Jingo',
     icon: HelpCircle,
     to: '/sdk/v3/overview',
-    text: `Learn how to integrate with Pegasys by building a dApp through guided examples.`,
+    text: `Learn how to integrate with Jingo by building a dApp through guided examples.`,
   },
   {
-    title: 'The Pegasys smart contracts',
+    title: 'The Jingo smart contracts',
     icon: BookOpen,
     to: '/contracts/v3/overview',
-    text: `Learn about the architecture of the Pegasys Protocol smart contracts through guided examples.`,
+    text: `Learn about the architecture of the Jingo Protocol smart contracts through guided examples.`,
   },
 ]
 
 export const developerLinks = [
   {
     title: 'v3-core',
-    href: 'https://github.com/Pegasys-fi/v3-core',
+    href: 'https://github.com/Jingo-Finance/v3-core',
     icon: GitHub,
   },
   {
     title: 'v3-sdk',
-    href: 'https://github.com/Pegasys-fi/v3-sdk',
+    href: 'https://github.com/Jingo-Finance/v3-sdk',
     icon: GitHub,
   },
   {
     title: 'v3-periphery',
-    href: 'https://github.com/Pegasys-fi/v3-periphery',
+    href: 'https://github.com/Jingo-Finance/v3-periphery',
     icon: GitHub,
   },
   // {
   //   title: 'Deployment addresses',
-  //   href: 'https://github.com/Pegasys-fi/v3-periphery/blob/main/deploys.md',
+  //   href: 'https://github.com/Jingo-Finance/v3-periphery/blob/main/deploys.md',
   //   icon: GitHub,
   // },
   {
@@ -287,7 +287,7 @@ const StyledIcon = styled.div`
 
 export default function Home() {
   return (
-    <Layout title={`Pegasys Docs`} description="Technical Documentation For The Pegasys Protocol">
+    <Layout title={`Jingo Docs`} description="Technical Documentation For The Jingo Protocol">
       <Container>
         <DocsHeader>
           <div
@@ -299,7 +299,7 @@ export default function Home() {
               alignItems: 'center',
             }}
           >
-            <h1 style={{ fontWeight: 600, color: 'white' }}> Welcome to Pegasys Docs</h1>
+            <h1 style={{ fontWeight: 600, color: 'white' }}> Welcome to Jingo Docs</h1>
             <HideMedium>
               <SearchBarWithAnalytics />
             </HideMedium>
@@ -339,7 +339,7 @@ export default function Home() {
         >
           <div>
             <h2>Integrate your dApp</h2>
-            <p>Explore these guided tutorials to get started integrating with Pegasys in your dApp.</p>
+            <p>Explore these guided tutorials to get started integrating with Jingo in your dApp.</p>
             <div>
               {dAppGuides.map((action) => (
                 <Link style={{ textDecoration: 'none' }} key={action.title} to={action.to}>
@@ -360,7 +360,7 @@ export default function Home() {
           </div>
           <div>
             <h2>Integrate your smart contracts</h2>
-            <p>Explore these guided tutorials to get started integrating with Pegasys in your smart contracts.</p>
+            <p>Explore these guided tutorials to get started integrating with Jingo in your smart contracts.</p>
             <div>
               {smartContractGuides.map((action) => (
                 <Link style={{ textDecoration: 'none' }} key={action.title} to={action.to}>
@@ -429,7 +429,7 @@ export default function Home() {
             </CenterCard>
           </Link>
 
-          <Link style={{ textDecoration: 'none' }} href={'https://gov.pegasys.fi/'}>
+          <Link style={{ textDecoration: 'none' }} href={'https://gov.jingo.fi/'}>
             <CenterCard>
               <MessageCircle style={{ width: '48px', height: '48px' }} />
               <div>
@@ -439,14 +439,14 @@ export default function Home() {
             </CenterCard>
           </Link>
 
-          <Link style={{ textDecoration: 'none' }} href={'https://github.com/Pegasys-fi'}>
+          <Link style={{ textDecoration: 'none' }} href={'https://github.com/Jingo-Finance'}>
             <CenterCard>
               <StyledIcon>
                 <GitHub style={{ width: '48px', height: '48px' }} />
               </StyledIcon>
               <div>
                 <h3>GitHub</h3>
-                <p>View all Pegasys repositories.</p>
+                <p>View all Jingo repositories.</p>
               </div>
             </CenterCard>
           </Link>
@@ -471,10 +471,10 @@ export default function Home() {
           >
             <img src={UGP} width={'120px'} />
             <div>
-              <h2 style={{ marginBottom: '0.5rem' }}>Pegasys Grants Program</h2>
+              <h2 style={{ marginBottom: '0.5rem' }}>Jingo Grants Program</h2>
               <p style={{ margin: '0rem' }}>
-                Pegasys Governance offers grant funding for people who are building apps, tools, and activities for
-                Pegasys Protocol users, builders, and community members.{' '}
+                Jingo Governance offers grant funding for people who are building apps, tools, and activities for
+                Jingo Protocol users, builders, and community members.{' '}
               </p>
             </div>
           </WideCard>

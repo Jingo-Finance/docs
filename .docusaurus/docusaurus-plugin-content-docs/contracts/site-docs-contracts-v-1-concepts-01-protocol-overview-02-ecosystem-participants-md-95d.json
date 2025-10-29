@@ -8,7 +8,7 @@
   "slug": "/v1/concepts/protocol-overview/ecosystem-participants",
   "permalink": "/contracts/v1/concepts/protocol-overview/ecosystem-participants",
   "draft": false,
-  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v1/concepts/01-protocol-overview/02-ecosystem-participants.md",
+  "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v1/concepts/01-protocol-overview/02-ecosystem-participants.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
@@ -19,7 +19,7 @@
   "sidebar": "defaultSidebar",
   "previous": {
     "title": "How Jingo works",
-    "permalink": "/contracts/v1/concepts/protocol-overview/how-pegasys-works"
+    "permalink": "/contracts/v1/concepts/protocol-overview/how-jingo-works"
   },
   "next": {
     "title": "Smart contracts",

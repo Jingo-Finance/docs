@@ -3,11 +3,11 @@ id: pair
 title: Pair
 ---
 
-This documentation covers Pegasys-specific functionality. For ERC-20 functionality, see [Pair (ERC-20)](../smart-contracts/pair-erc-20).
+This documentation covers Jingo-specific functionality. For ERC-20 functionality, see [Pair (ERC-20)](../smart-contracts/pair-erc-20).
 
 # Code
 
-[`PegasysV1Pair.sol`](https://github.com/Pegasys-fi/v1-core/blob/master/contracts/PegasysV1Pair.sol)
+[`JingoV1Pair.sol`](https://github.com/Jingo-Finance/v1-core/blob/master/contracts/JingoV1Pair.sol)
 
 # Address
 
@@ -173,13 +173,13 @@ See the <a href='/whitepaper.pdf' target='_blank' rel='noopener noreferrer'>whit
 # Interface
 
 ```solidity
-import '@pegasys-fi/v1-core/contracts/interfaces/IPegasysV1Pair.sol';
+import '@jingofi/v1-core/contracts/interfaces/IJingoV1Pair.sol';
 ```
 
 ```solidity
 pragma solidity >=0.5.0;
 
-interface IPegasysV1Pair {
+interface IJingoV1Pair {
   event Approval(address indexed owner, address indexed spender, uint value);
   event Transfer(address indexed from, address indexed to, uint value);
 
@@ -232,7 +232,7 @@ interface IPegasysV1Pair {
 # ABI
 
 ```typescript
-import IPegasysV1Pair from '@pegasys-fi/v1-core/build/IPegasysV1Pair.json'
+import IJingoV1Pair from '@jingofi/v1-core/build/IJingoV1Pair.json'
 ```
 
-[https://unpkg.com/@pegasys-fi/v1-core@1.0.0/build/IPegasysV1Pair.json](https://unpkg.com/@pegasys-fi/v1-core@1.0.0/build/IPegasysV1Pair.json)
+[https://unpkg.com/@jingofi/v1-core@1.0.0/build/IJingoV1Pair.json](https://unpkg.com/@jingofi/v1-core@1.0.0/build/IJingoV1Pair.json)

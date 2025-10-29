@@ -12,20 +12,20 @@ the swap and check the amounts in the callback.
   ) public
 ```
 
-### pegasysV3SwapCallback
+### jingoV3SwapCallback
 
 ```solidity
-  function pegasysV3SwapCallback(
+  function jingoV3SwapCallback(
     int256 amount0Delta,
     int256 amount1Delta,
     bytes data
   ) external
 ```
 
-Called to `msg.sender` after executing a swap via IPegasysV3Pool#swap.
+Called to `msg.sender` after executing a swap via IJingoV3Pool#swap.
 
 In the implementation you must pay the pool tokens owed for the swap.
-The caller of this method must be checked to be a PegasysV3Pool deployed by the canonical PegasysV3Factory.
+The caller of this method must be checked to be a JingoV3Pool deployed by the canonical JingoV3Factory.
 amount0Delta and amount1Delta can both be 0 if no tokens were swapped.
 
 #### Parameters:
@@ -37,7 +37,7 @@ amount0Delta and amount1Delta can both be 0 if no tokens were swapped.
 the end of the swap. If positive, the callback must send that amount of token0 to the pool.
 |`amount1Delta` | int256 | The amount of token1 that was sent (negative) or must be received (positive) by the pool by
 the end of the swap. If positive, the callback must send that amount of token1 to the pool.
-|`data` | bytes | Any data passed through by the caller via the IPegasysV3PoolActions#swap call
+|`data` | bytes | Any data passed through by the caller via the IJingoV3PoolActions#swap call
 
 ### quoteExactInputSingle
 

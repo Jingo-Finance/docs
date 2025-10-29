@@ -32,7 +32,7 @@ A single bit flag, that signals whether or not the command should be allowed to 
 2 unused bytes, reserved for future use. Leaving these 2 bits as `0` will save gas, but any value passed into the contract will be ignored. Later versions of the `UniversalRouter` will likely expand the 5 bits used for `command` to use at least 1 of these bits.
 
 ### `command` 
-A 5 bit unique identifier for the command that should be carried out. The values of these commands can be found within [Commands.sol](https://github.com/Pegasys-fi/universal-router/blob/main/contracts/libraries/Commands.sol), or can be viewed in the table below.
+A 5 bit unique identifier for the command that should be carried out. The values of these commands can be found within [Commands.sol](https://github.com/Jingo-Finance/universal-router/blob/main/contracts/libraries/Commands.sol), or can be viewed in the table below.
     
 The command types that are not defined do not have an assigned command at this moment in time. Providing one of these identifiers will cause the transaction to revert with `InvalidCommandType`.
 
@@ -88,7 +88,7 @@ The input parameters required for each command are outlined below:
 - `address` The recipient of the output of the trade
 - `uint256` The amount of input tokens for the trade
 - `uint256` The minimum amount of output tokens the user wants
-- `bytes` The PegasysV3 encoded path to trade along
+- `bytes` The JingoV3 encoded path to trade along
 - `bool` A flag for whether the input tokens should come from the `msg.sender` (through Permit2) or whether the funds are already in the `UniversalRouter`
 
 ### `V3_SWAP_EXACT_OUT`
@@ -96,7 +96,7 @@ The input parameters required for each command are outlined below:
 - `address` The recipient of the output of the trade
 - `uint256` The amount of output tokens to receive
 - `uint256` The maximum number of input tokens that should be spent
-- `bytes` The PegasysV3 encoded path to trade along
+- `bytes` The JingoV3 encoded path to trade along
 - `bool` A flag for whether the input tokens should come from the `msg.sender` (through Permit2) or whether the funds are already in the `UniversalRouter`
 
 ### `PERMIT2_TRANSFER_FROM`
@@ -137,7 +137,7 @@ The individual that signed the permits must be the `msg.sender` of the transacti
 - `address` The recipient of the output of the trade
 - `uint256` The amount of input tokens for the trade
 - `uint256` The minimum amount of output tokens the user wants
-- `address[]` The PegasysV1 token path to trade along
+- `address[]` The JingoV1 token path to trade along
 - `bool` A flag for whether the input tokens should come from the `msg.sender` (through Permit2) or whether the funds are already in the `UniversalRouter`
 
 ### `V1_SWAP_EXACT_OUT`
@@ -145,7 +145,7 @@ The individual that signed the permits must be the `msg.sender` of the transacti
 - `address` The recipient of the output of the trade
 - `uint256` The amount of output tokens to receive
 - `uint256` The maximum number of input tokens that should be spent
-- `address[]` The PegasysV1 token path to trade along
+- `address[]` The JingoV1 token path to trade along
 - `bool` A flag for whether the input tokens should come from the `msg.sender` (through Permit2) or whether the funds are already in the `UniversalRouter`
 
 ### `PERMIT2_PERMIT`

@@ -1,6 +1,6 @@
 {
-  "name": "@pegasys-fi/docs",
-  "description": "Pegasys-fi docs",
+  "name": "@jingofi/docs",
+  "description": "Jingo-Finance docs",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",

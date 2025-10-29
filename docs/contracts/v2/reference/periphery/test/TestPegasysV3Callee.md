@@ -28,9 +28,9 @@
   ) external
 ```
 
-### pegasysV3SwapCallback
+### jingoV3SwapCallback
 
 ```solidity
-  function pegasysV3SwapCallback(
+  function jingoV3SwapCallback(
   ) external
 ```

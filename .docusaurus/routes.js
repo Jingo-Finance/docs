@@ -3,6 +3,41 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug', '4da'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config', '7be'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content', '2da'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData', '680'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata', 'baf'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry', '0bc'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes', '064'),
+    exact: true
+  },
+  {
     path: '/search',
     component: ComponentCreator('/search', '372'),
     exact: true
@@ -27,7 +62,7 @@ export default [
   },
   {
     path: '/concepts/',
-    component: ComponentCreator('/concepts/', '2cf'),
+    component: ComponentCreator('/concepts/', '153'),
     routes: [
       {
         path: '/concepts/glossary',
@@ -37,7 +72,7 @@ export default [
       },
       {
         path: '/concepts/jingo-protocol',
-        component: ComponentCreator('/concepts/jingo-protocol', 'ab2'),
+        component: ComponentCreator('/concepts/jingo-protocol', 'b3e'),
         exact: true,
         sidebar: "defaultSidebar"
       },
@@ -93,7 +128,7 @@ export default [
   },
   {
     path: '/contracts/',
-    component: ComponentCreator('/contracts/', '56b'),
+    component: ComponentCreator('/contracts/', '423'),
     routes: [
       {
         path: '/contracts/permit2/overview',
@@ -198,8 +233,8 @@ export default [
         sidebar: "defaultSidebar"
       },
       {
-        path: '/contracts/v1/concepts/protocol-overview/how-pegasys-works',
-        component: ComponentCreator('/contracts/v1/concepts/protocol-overview/how-pegasys-works', '1d1'),
+        path: '/contracts/v1/concepts/protocol-overview/how-jingo-works',
+        component: ComponentCreator('/contracts/v1/concepts/protocol-overview/how-jingo-works', '8d9'),
         exact: true,
         sidebar: "defaultSidebar"
       },

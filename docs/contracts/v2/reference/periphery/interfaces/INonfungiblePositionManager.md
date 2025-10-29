@@ -1,4 +1,4 @@
-Wraps Pegasys V3 positions in a non-fungible token interface which allows for them to be transferred
+Wraps Jingo V3 positions in a non-fungible token interface which allows for them to be transferred
 and authorized.
 
 ## Parameter Structs

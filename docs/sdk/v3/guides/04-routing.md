@@ -5,7 +5,7 @@ title: Routing a Swap
 
 ## Introduction
 
-This guide will cover how to use Pegasys's smart order router to compute optimal routes and execute swaps. Rather than trading between a single pool, smart routing may use multiple hops (as many as needed) to ensure that the end result of the swap is the optimal price. It is based on the [routing code example](https://github.com/uniswap/examples/tree/main/v3-sdk/routing), found in the Pegasys code examples [repository](https://github.com/Uniswap/examples). To run this example, check out the guide's [README](https://github.com/uniswap/examples/blob/main/v3-sdk/routing/README.md) and follow the setup instructions.
+This guide will cover how to use Jingo's smart order router to compute optimal routes and execute swaps. Rather than trading between a single pool, smart routing may use multiple hops (as many as needed) to ensure that the end result of the swap is the optimal price. It is based on the [routing code example](https://github.com/uniswap/examples/tree/main/v3-sdk/routing), found in the Jingo code examples [repository](https://github.com/Uniswap/examples). To run this example, check out the guide's [README](https://github.com/uniswap/examples/blob/main/v3-sdk/routing/README.md) and follow the setup instructions.
 
 :::info
 If you need a briefer on the SDK and to learn more about how these guides connect to the examples repository, please visit our [background](./01-background.md) page!
@@ -21,17 +21,17 @@ The guide will **cover**:
 
 At the end of the guide, we should be able to create a route and and execute a swap between any two currencies tokens using the example's included UI.
 
-For this guide, the following Pegasys packages are used:
+For this guide, the following Jingo packages are used:
 
-- [`@pegasys-fi/v3-sdk`](https://www.npmjs.com/package/@pollum-io/v3-sdk)
-- [`@pegasys-fi/sdk-core`](https://www.npmjs.com/package/@pollum-io/sdk-core)
-- [`@pegasys-fi/smart-order-router`](https://www.npmjs.com/package/@pollum-io/smart-order-router)
+- [`@jingofi/v3-sdk`](https://www.npmjs.com/package/@pollum-io/v3-sdk)
+- [`@jingofi/sdk-core`](https://www.npmjs.com/package/@pollum-io/sdk-core)
+- [`@jingofi/smart-order-router`](https://www.npmjs.com/package/@pollum-io/smart-order-router)
 
 The core code of this guide can be found in [`routing.ts`](https://github.com/uniswap/examples/blob/main/v3-sdk/routing/src/libs/routing.ts)
 
 ## Creating a router instance
 
-To compute our route, we will use the `@pegasys-fi/smart-order-router` package, specifically the `AlphaRouter` class which requires a `chainId` and a `provider`. Note that routing is not supported for local forks, so we will use a mainnet provider even when swapping on a local fork:
+To compute our route, we will use the `@jingofi/smart-order-router` package, specifically the `AlphaRouter` class which requires a `chainId` and a `provider`. Note that routing is not supported for local forks, so we will use a mainnet provider even when swapping on a local fork:
 
 ```typescript reference title="Instantiating an AlphaRouter" referenceLinkText="View on Github" customStyling
 https://github.com/Uniswap/examples/blob/38ff60aeb3ad8ff839db9e7952a726ca7d6b68fd/v3-sdk/routing/src/libs/routing.ts#L24-L27
@@ -71,4 +71,4 @@ After swapping, you should see the currency balances update in the UI shortly af
 
 ## Next Steps
 
-Now that you're familiar with trading, consider checking out our next guides on [pooling liquidity](./liquidity/01-minting-position.md) to Pegasys!
+Now that you're familiar with trading, consider checking out our next guides on [pooling liquidity](./liquidity/01-minting-position.md) to Jingo!

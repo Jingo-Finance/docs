@@ -1,4 +1,4 @@
-A library that provides a function for generating an SVG associated with a Pegasys NFT
+A library that provides a function for generating an SVG associated with a Jingo NFT
 
 The main function in this library is `generateSVG`, which is used to generate an SVG image based on the parameters provided. It takes an `SVGParams` memory parameter which contains the `quoteToken`, `baseToken`, `quoteTokenSymbol`, `baseTokenSymbol`, `feeTier`, `tickLower`, `tickUpper`, `tickSpacing`, `overRange`, and `tokenId`.
 

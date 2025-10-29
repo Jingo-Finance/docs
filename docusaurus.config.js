@@ -11,15 +11,15 @@ module.exports = {
     // From node
     nodeEnv: process.env.NODE_ENV,
   },
-  title: 'Pegasys',
+  title: 'Jingo',
   tagline: 'Documentation and Guides',
-  url: 'https://docs.pegasys.fi/',
+  url: 'https://docs.jingo.finance/',
   baseUrl: '/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'ignore',
-  favicon: 'img/pegasys.png',
-  organizationName: 'Pegasys-fi', // Usually your GitHub org/user name.
-  projectName: 'Pegasys-fi-docs', // Usually your repo name.
+  favicon: 'img/jingo.png',
+  organizationName: 'Jingo-Finance', // Usually your GitHub org/user name.
+  projectName: 'Jingo-Finance-docs', // Usually your repo name.
   themeConfig: {
     image: 'img/twitter_card_bg.jpg',
     prism: {
@@ -31,10 +31,10 @@ module.exports = {
       appId: 'ULGD82ZSGJ',
     },
     navbar: {
-      title: 'Pegasys-fi Docs',
+      title: 'Jingo-Finance Docs',
       logo: {
-        alt: 'Pegasys-fi Unicorn',
-        src: 'img/logoPegasys.svg',
+        alt: 'Jingo-Finance Unicorn',
+        src: 'img/logoJingo.svg',
       },
       items: [
         {
@@ -68,13 +68,25 @@ module.exports = {
         //   className: 'persistent',
         // },
         {
-          label: 'Litepaper',
-          to: 'https://pegasys.fi/blog/introducing-pegasys/',
+          label: 'Launchpad',
+          to: 'https://jingo.fun/',
+          position: 'right',
+          className: 'persistent',
+        },
+         {
+          label: 'Website',
+          to: 'https://jingo.finance/',
           position: 'right',
           className: 'persistent',
         },
         {
-          href: 'https://github.com/pegasys-fi/docs',
+          label: 'Socials',
+          to: 'https://link3.to/jingo/',
+          position: 'right',
+          className: 'persistent',
+        },
+        {
+          href: 'https://github.com/Jingo-Finance/docs',
           label: 'GitHub',
           position: 'right',
           className: 'persistent',
@@ -99,15 +111,15 @@ module.exports = {
             // },
             // {
             //   label: 'Bug Bounty',
-            //   href: 'https://github.com/Pegasys-fi/v1-periphery/blob/main/bug-bounty.md',
+            //   href: 'https://github.com/Jingo-Finance/v1-periphery/blob/main/bug-bounty.md',
             // },
             {
               label: '#dev-chat',
               href: 'https://discord.com/invite/UzjWbWWERz',
             },
             {
-              label: 'Litepaper',
-              href: 'https://pegasys.fi/blog/introducing-pegasys/',
+              label: 'Blog',
+              href: 'https://paragraph.com/@jingo',
             },
             {
               label: 'Whitepaper (Uniswap v3)',
@@ -120,19 +132,19 @@ module.exports = {
           items: [
             {
               label: 'v3-core',
-              href: 'https://github.com/Pegasys-fi/v3-core',
+              href: 'https://github.com/Jingo-Finance/v3-core',
             },
             {
               label: 'v3-sdk',
-              href: 'https://github.com/Pegasys-fi/v3-sdk',
+              href: 'https://github.com/Jingo-Finance/v3-sdk',
             },
             {
               label: 'v3-periphery',
-              href: 'https://github.com/Pegasys-fi/v3-periphery',
+              href: 'https://github.com/Jingo-Finance/v3-periphery',
             },
             // {
             //   label: 'Deployment addresses',
-            //   href: 'https://github.com/Pegasys-fi/v3-periphery/blob/main/deploys.md',
+            //   href: 'https://github.com/Jingo-Finance/v3-periphery/blob/main/deploys.md',
             // },
           ],
         },
@@ -141,15 +153,15 @@ module.exports = {
           items: [
             {
               label: 'Home',
-              href: 'https://pegasys.fi/',
+              href: 'https://jingo.finance/',
             },
             {
               label: 'App',
-              href: 'https://app.pegasys.fi/',
+              href: 'https://app.jingo.finance/',
             },
             {
               label: 'Analytics',
-              href: 'https://info.pegasys.fi/home',
+              href: 'https://info.jingo.finance/home',
             },
             // {
             //   label: 'Token Lists',
@@ -166,7 +178,7 @@ module.exports = {
           items: [
             // {
             //   label: 'Governance',
-            //   href: 'https://gov.pegasys.fi/',
+            //   href: 'https://gov.jingo.fi/',
             // },
             {
               label: 'Discord',
@@ -174,11 +186,11 @@ module.exports = {
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/PegasysDEX',
+              href: 'https://twitter.com/JingoDEX',
             },
             // {
             //   label: 'Blog',
-            //   href: 'https://pegasys.fi/blog/',
+            //   href: 'https://jingo.finance/blog/',
             // },
           ],
         },
@@ -208,7 +220,7 @@ module.exports = {
           routeBasePath: 'contracts/',
           remarkPlugins: [math],
           rehypePlugins: [katex],
-          editUrl: 'https://github.com/pegasys-fi/docs/tree/main/',
+          editUrl: 'https://github.com/Jingo-Finance/docs/tree/main/',
           includeCurrentVersion: true,
         },
         blog: {

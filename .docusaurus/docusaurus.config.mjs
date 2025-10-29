@@ -5,17 +5,17 @@
  */
 export default {
   "customFields": {
-    "nodeEnv": "production"
+    "nodeEnv": "development"
   },
   "title": "Jingo",
   "tagline": "Documentation and Guides",
-  "url": "https://docs.pegasys.fi",
+  "url": "https://docs.jingo.finance",
   "baseUrl": "/",
   "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "ignore",
-  "favicon": "img/pegasys.png",
-  "organizationName": "Jingo-fi",
-  "projectName": "Jingo-fi-docs",
+  "favicon": "img/jingo.png",
+  "organizationName": "Jingo-Finance",
+  "projectName": "Jingo-Finance-docs",
   "themeConfig": {
     "image": "img/twitter_card_bg.jpg",
     "prism": {
@@ -171,10 +171,10 @@ export default {
       "searchPagePath": "search"
     },
     "navbar": {
-      "title": "Jingo-fi Docs",
+      "title": "Jingo-Finance Docs",
       "logo": {
-        "alt": "Jingo-fi Unicorn",
-        "src": "img/logoPegasys.svg"
+        "alt": "Jingo-Finance Unicorn",
+        "src": "img/logoJingo.svg"
       },
       "items": [
         {
@@ -202,13 +202,25 @@ export default {
           "className": "V1_active"
         },
         {
-          "label": "Litepaper",
-          "to": "https://pegasys.fi/blog/introducing-pegasys/",
+          "label": "Launchpad",
+          "to": "https://jingo.fun/",
           "position": "right",
           "className": "persistent"
         },
         {
-          "href": "https://github.com/pegasys-fi/docs",
+          "label": "Website",
+          "to": "https://jingo.finance/",
+          "position": "right",
+          "className": "persistent"
+        },
+        {
+          "label": "Socials",
+          "to": "https://link3.to/jingo/",
+          "position": "right",
+          "className": "persistent"
+        },
+        {
+          "href": "https://github.com/Jingo-Finance/docs",
           "label": "GitHub",
           "position": "right",
           "className": "persistent"
@@ -226,8 +238,8 @@ export default {
               "href": "https://discord.com/invite/UzjWbWWERz"
             },
             {
-              "label": "Litepaper",
-              "href": "https://pegasys.fi/blog/introducing-pegasys/"
+              "label": "Blog",
+              "href": "https://paragraph.com/@jingo"
             },
             {
               "label": "Whitepaper (Uniswap v3)",
@@ -257,7 +269,7 @@ export default {
           "items": [
             {
               "label": "Home",
-              "href": "https://pegasys.fi/"
+              "href": "https://jingo.finance/"
             },
             {
               "label": "App",
@@ -278,7 +290,7 @@ export default {
             },
             {
               "label": "Twitter",
-              "href": "https://x.com/JingoFinance"
+              "href": "https://twitter.com/JingoDEX"
             }
           ]
         }
@@ -317,7 +329,7 @@ export default {
           "rehypePlugins": [
             null
           ],
-          "editUrl": "https://github.com/pegasys-fi/docs/tree/main/",
+          "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/",
           "includeCurrentVersion": true
         },
         "blog": {

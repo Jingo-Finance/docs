@@ -5,16 +5,16 @@ title: Trading
 
 > Looking for a [quickstart](quick-start)?
 
-The SDK _cannot execute trades or send transactions on your behalf_. Rather, it offers utility classes and functions which make it easy to calculate the data required to safely interact with Pegasys. Nearly everything you need to safely transact with Pegasys is provided by the [Trade](../reference/trade) entity. However, it is your responsibility to use this data to send transactions in whatever context makes sense for your application.
+The SDK _cannot execute trades or send transactions on your behalf_. Rather, it offers utility classes and functions which make it easy to calculate the data required to safely interact with Jingo. Nearly everything you need to safely transact with Jingo is provided by the [Trade](../reference/trade) entity. However, it is your responsibility to use this data to send transactions in whatever context makes sense for your application.
 
-This guide will focus exclusively on sending a transaction to the [currently recommended Pegasys router](../../../contracts/v1/reference/smart-contracts/router-02)
+This guide will focus exclusively on sending a transaction to the [currently recommended Jingo router](../../../contracts/v1/reference/smart-contracts/router-02)
 
 # Sending a Transaction to the Router
 
 Let's say we want to trade 1 WETH for as much DAI as possible:
 
 ```typescript
-import { ChainId, Token, WETH, Fetcher, Trade, Route, TokenAmount, TradeType } from '@pegasys-fi/v3-sdk'
+import { ChainId, Token, WETH, Fetcher, Trade, Route, TokenAmount, TradeType } from '@jingofi/v3-sdk'
 
 const DAI = new Token(ChainId.MAINNET, '0x6B175474E89094C44Da98b954EedeAC495271d0F', 18)
 
@@ -31,7 +31,7 @@ const trade = new Trade(route, new TokenAmount(WETH[DAI.chainId], amountIn), Tra
 
 So, we've constructed a trade entity, but how do we use it to actually send a transaction? There are still a few pieces we need to put in place.
 
-Before going on, we should explore how ETH works in the context of trading. Internally, the SDK uses WETH, as all Pegasys V1 pairs use WETH under the hood. However, it's perfectly possible for you as an end user to use ETH, and rely on the router to handle converting to/from WETH. So, let's use ETH.
+Before going on, we should explore how ETH works in the context of trading. Internally, the SDK uses WETH, as all Jingo V1 pairs use WETH under the hood. However, it's perfectly possible for you as an end user to use ETH, and rely on the router to handle converting to/from WETH. So, let's use ETH.
 
 The first step is selecting the appropriate router function. The names of router functions are intended to be self-explanatory; in this case we want [swapExactETHForTokens](../../../contracts/v1/reference/smart-contracts/router-02#swapexactethfortokens), because we're swapping an exact amount of ETH for tokens.
 
@@ -47,7 +47,7 @@ function swapExactETHForTokens(uint amountOutMin, address[] calldata path, addre
 Jumping back to our trading code, we can construct all the necessary parameters:
 
 ```typescript
-import { Percent } from '@pegasys-fi/v3-sdk'
+import { Percent } from '@jingofi/v3-sdk'
 
 const slippageTolerance = new Percent('50', '10000') // 50 bips, or 0.50%
 

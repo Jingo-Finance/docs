@@ -8,7 +8,7 @@
   "slug": "/v1/overview",
   "permalink": "/contracts/v1/overview",
   "draft": false,
-  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v1/overview.md",
+  "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v1/overview.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
@@ -24,6 +24,6 @@
   },
   "next": {
     "title": "How Jingo works",
-    "permalink": "/contracts/v1/concepts/protocol-overview/how-pegasys-works"
+    "permalink": "/contracts/v1/concepts/protocol-overview/how-jingo-works"
   }
 }

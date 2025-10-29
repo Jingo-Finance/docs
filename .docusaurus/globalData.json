@@ -1,493 +1,5 @@
 {
   "docusaurus-plugin-content-docs": {
-    "api": {
-      "path": "/api/",
-      "versions": [
-        {
-          "name": "current",
-          "label": "Next",
-          "isLast": true,
-          "path": "/api/",
-          "mainDocId": "subgraph/overview",
-          "docs": [
-            {
-              "id": "subgraph/guides/examples",
-              "path": "/api/subgraph/guides/examples",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "subgraph/overview",
-              "path": "/api/subgraph/overview",
-              "sidebar": "defaultSidebar"
-            }
-          ],
-          "draftIds": [],
-          "sidebars": {
-            "defaultSidebar": {
-              "link": {
-                "path": "/api/subgraph/overview",
-                "label": "subgraph/overview"
-              }
-            }
-          }
-        }
-      ],
-      "breadcrumbs": true
-    },
-    "sdk": {
-      "path": "/sdk",
-      "versions": [
-        {
-          "name": "current",
-          "label": "Next",
-          "isLast": true,
-          "path": "/sdk",
-          "mainDocId": "v3/overview",
-          "docs": [
-            {
-              "id": "core/overview",
-              "path": "/sdk/core/overview",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "core/reference/classes/CurrencyAmount",
-              "path": "/sdk/core/reference/classes/CurrencyAmount",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "core/reference/classes/Ether",
-              "path": "/sdk/core/reference/classes/Ether",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "core/reference/classes/Fraction",
-              "path": "/sdk/core/reference/classes/Fraction",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "core/reference/classes/NativeCurrency",
-              "path": "/sdk/core/reference/classes/NativeCurrency",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "core/reference/classes/Percent",
-              "path": "/sdk/core/reference/classes/Percent",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "core/reference/classes/Price",
-              "path": "/sdk/core/reference/classes/Price",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "core/reference/classes/Token",
-              "path": "/sdk/core/reference/classes/Token",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "core/reference/enums/Rounding",
-              "path": "/sdk/core/reference/enums/Rounding",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "core/reference/enums/SupportedChainId",
-              "path": "/sdk/core/reference/enums/SupportedChainId",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "core/reference/enums/TradeType",
-              "path": "/sdk/core/reference/enums/TradeType",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "core/reference/overview",
-              "path": "/sdk/core/reference/overview",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "swap-widget/guides/examples",
-              "path": "/sdk/swap-widget/guides/examples",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "swap-widget/guides/getting-started",
-              "path": "/sdk/swap-widget/guides/getting-started",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "swap-widget/overview",
-              "path": "/sdk/swap-widget/overview",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "swap-widget/reference/v1",
-              "path": "/sdk/swap-widget/reference/v1",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v1/guides/fetching-data",
-              "path": "/sdk/v1/guides/fetching-data",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v1/guides/getting-pair-addresses",
-              "path": "/sdk/v1/guides/getting-pair-addresses",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v1/guides/pricing",
-              "path": "/sdk/v1/guides/pricing",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v1/guides/quick-start",
-              "path": "/sdk/v1/guides/quick-start",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v1/guides/trading",
-              "path": "/sdk/v1/guides/trading",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v1/overview",
-              "path": "/sdk/v1/overview",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v1/reference/fetcher",
-              "path": "/sdk/v1/reference/fetcher",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v1/reference/fractions",
-              "path": "/sdk/v1/reference/fractions",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v1/reference/getting-started",
-              "path": "/sdk/v1/reference/getting-started",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v1/reference/other-exports",
-              "path": "/sdk/v1/reference/other-exports",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v1/reference/pair",
-              "path": "/sdk/v1/reference/pair",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v1/reference/route",
-              "path": "/sdk/v1/reference/route",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v1/reference/token",
-              "path": "/sdk/v1/reference/token",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v1/reference/trade",
-              "path": "/sdk/v1/reference/trade",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/guides/background",
-              "path": "/sdk/v3/guides/background",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/guides/liquidity/liquidity-fees",
-              "path": "/sdk/v3/guides/liquidity/liquidity-fees",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/guides/liquidity/minting",
-              "path": "/sdk/v3/guides/liquidity/minting",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/guides/liquidity/modifying-position",
-              "path": "/sdk/v3/guides/liquidity/modifying-position",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/guides/liquidity/swap-and-add",
-              "path": "/sdk/v3/guides/liquidity/swap-and-add",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/guides/quoting",
-              "path": "/sdk/v3/guides/quoting",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/guides/routing",
-              "path": "/sdk/v3/guides/routing",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/guides/trading",
-              "path": "/sdk/v3/guides/trading",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/overview",
-              "path": "/sdk/v3/overview",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/classes/FullMath",
-              "path": "/sdk/v3/reference/classes/FullMath",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/classes/LiquidityMath",
-              "path": "/sdk/v3/reference/classes/LiquidityMath",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/classes/Multicall",
-              "path": "/sdk/v3/reference/classes/Multicall",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/classes/NonfungiblePositionManager",
-              "path": "/sdk/v3/reference/classes/NonfungiblePositionManager",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/classes/NoTickDataProvider",
-              "path": "/sdk/v3/reference/classes/NoTickDataProvider",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/classes/Payments",
-              "path": "/sdk/v3/reference/classes/Payments",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/classes/Pool",
-              "path": "/sdk/v3/reference/classes/Pool",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/classes/Position",
-              "path": "/sdk/v3/reference/classes/Position",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/classes/PositionLibrary",
-              "path": "/sdk/v3/reference/classes/PositionLibrary",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/classes/Route",
-              "path": "/sdk/v3/reference/classes/Route",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/classes/SelfPermit",
-              "path": "/sdk/v3/reference/classes/SelfPermit",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/classes/SqrtPriceMath",
-              "path": "/sdk/v3/reference/classes/SqrtPriceMath",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/classes/Staker",
-              "path": "/sdk/v3/reference/classes/Staker",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/classes/SwapMath",
-              "path": "/sdk/v3/reference/classes/SwapMath",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/classes/SwapQuoter",
-              "path": "/sdk/v3/reference/classes/SwapQuoter",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/classes/SwapRouter",
-              "path": "/sdk/v3/reference/classes/SwapRouter",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/classes/Tick",
-              "path": "/sdk/v3/reference/classes/Tick",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/classes/TickLibrary",
-              "path": "/sdk/v3/reference/classes/TickLibrary",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/classes/TickList",
-              "path": "/sdk/v3/reference/classes/TickList",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/classes/TickListDataProvider",
-              "path": "/sdk/v3/reference/classes/TickListDataProvider",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/classes/TickMath",
-              "path": "/sdk/v3/reference/classes/TickMath",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/classes/Trade",
-              "path": "/sdk/v3/reference/classes/Trade",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/enums/FeeAmount",
-              "path": "/sdk/v3/reference/enums/FeeAmount",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/interfaces/AllowedPermitArguments",
-              "path": "/sdk/v3/reference/interfaces/AllowedPermitArguments",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/interfaces/BestTradeOptions",
-              "path": "/sdk/v3/reference/interfaces/BestTradeOptions",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/interfaces/ClaimOptions",
-              "path": "/sdk/v3/reference/interfaces/ClaimOptions",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/interfaces/CollectOptions",
-              "path": "/sdk/v3/reference/interfaces/CollectOptions",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/interfaces/CommonAddLiquidityOptions",
-              "path": "/sdk/v3/reference/interfaces/CommonAddLiquidityOptions",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/interfaces/FeeOptions",
-              "path": "/sdk/v3/reference/interfaces/FeeOptions",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/interfaces/IncentiveKey",
-              "path": "/sdk/v3/reference/interfaces/IncentiveKey",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/interfaces/IncreaseSpecificOptions",
-              "path": "/sdk/v3/reference/interfaces/IncreaseSpecificOptions",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/interfaces/MethodParameters",
-              "path": "/sdk/v3/reference/interfaces/MethodParameters",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/interfaces/MintSpecificOptions",
-              "path": "/sdk/v3/reference/interfaces/MintSpecificOptions",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/interfaces/NFTPermitOptions",
-              "path": "/sdk/v3/reference/interfaces/NFTPermitOptions",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/interfaces/QuoteOptions",
-              "path": "/sdk/v3/reference/interfaces/QuoteOptions",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/interfaces/RemoveLiquidityOptions",
-              "path": "/sdk/v3/reference/interfaces/RemoveLiquidityOptions",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/interfaces/SafeTransferOptions",
-              "path": "/sdk/v3/reference/interfaces/SafeTransferOptions",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/interfaces/StandardPermitArguments",
-              "path": "/sdk/v3/reference/interfaces/StandardPermitArguments",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/interfaces/SwapOptions",
-              "path": "/sdk/v3/reference/interfaces/SwapOptions",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/interfaces/TickConstructorArgs",
-              "path": "/sdk/v3/reference/interfaces/TickConstructorArgs",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/interfaces/TickDataProvider",
-              "path": "/sdk/v3/reference/interfaces/TickDataProvider",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/interfaces/WithdrawOptions",
-              "path": "/sdk/v3/reference/interfaces/WithdrawOptions",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "v3/reference/overview",
-              "path": "/sdk/v3/reference/overview",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "web3-react/guides/connect-wallet",
-              "path": "/sdk/web3-react/guides/connect-wallet",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "web3-react/guides/connectors",
-              "path": "/sdk/web3-react/guides/connectors",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "web3-react/guides/switch-chains",
-              "path": "/sdk/web3-react/guides/switch-chains",
-              "sidebar": "defaultSidebar"
-            },
-            {
-              "id": "web3-react/overview",
-              "path": "/sdk/web3-react/overview",
-              "sidebar": "defaultSidebar"
-            }
-          ],
-          "draftIds": [],
-          "sidebars": {
-            "defaultSidebar": {
-              "link": {
-                "path": "/sdk/v3/overview",
-                "label": "v3/overview"
-              }
-            }
-          }
-        }
-      ],
-      "breadcrumbs": true
-    },
     "contracts": {
       "path": "/contracts/",
       "versions": [
@@ -584,8 +96,8 @@
               "sidebar": "defaultSidebar"
             },
             {
-              "id": "v1/concepts/protocol-overview/how-pegasys-works",
-              "path": "/contracts/v1/concepts/protocol-overview/how-pegasys-works",
+              "id": "v1/concepts/protocol-overview/how-jingo-works",
+              "path": "/contracts/v1/concepts/protocol-overview/how-jingo-works",
               "sidebar": "defaultSidebar"
             },
             {
@@ -1340,6 +852,494 @@
               "link": {
                 "path": "/contracts/v2/overview",
                 "label": "v2/overview"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "sdk": {
+      "path": "/sdk",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/sdk",
+          "mainDocId": "v3/overview",
+          "docs": [
+            {
+              "id": "core/overview",
+              "path": "/sdk/core/overview",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "core/reference/classes/CurrencyAmount",
+              "path": "/sdk/core/reference/classes/CurrencyAmount",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "core/reference/classes/Ether",
+              "path": "/sdk/core/reference/classes/Ether",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "core/reference/classes/Fraction",
+              "path": "/sdk/core/reference/classes/Fraction",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "core/reference/classes/NativeCurrency",
+              "path": "/sdk/core/reference/classes/NativeCurrency",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "core/reference/classes/Percent",
+              "path": "/sdk/core/reference/classes/Percent",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "core/reference/classes/Price",
+              "path": "/sdk/core/reference/classes/Price",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "core/reference/classes/Token",
+              "path": "/sdk/core/reference/classes/Token",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "core/reference/enums/Rounding",
+              "path": "/sdk/core/reference/enums/Rounding",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "core/reference/enums/SupportedChainId",
+              "path": "/sdk/core/reference/enums/SupportedChainId",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "core/reference/enums/TradeType",
+              "path": "/sdk/core/reference/enums/TradeType",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "core/reference/overview",
+              "path": "/sdk/core/reference/overview",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "swap-widget/guides/examples",
+              "path": "/sdk/swap-widget/guides/examples",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "swap-widget/guides/getting-started",
+              "path": "/sdk/swap-widget/guides/getting-started",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "swap-widget/overview",
+              "path": "/sdk/swap-widget/overview",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "swap-widget/reference/v1",
+              "path": "/sdk/swap-widget/reference/v1",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/guides/fetching-data",
+              "path": "/sdk/v1/guides/fetching-data",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/guides/getting-pair-addresses",
+              "path": "/sdk/v1/guides/getting-pair-addresses",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/guides/pricing",
+              "path": "/sdk/v1/guides/pricing",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/guides/quick-start",
+              "path": "/sdk/v1/guides/quick-start",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/guides/trading",
+              "path": "/sdk/v1/guides/trading",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/overview",
+              "path": "/sdk/v1/overview",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/reference/fetcher",
+              "path": "/sdk/v1/reference/fetcher",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/reference/fractions",
+              "path": "/sdk/v1/reference/fractions",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/reference/getting-started",
+              "path": "/sdk/v1/reference/getting-started",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/reference/other-exports",
+              "path": "/sdk/v1/reference/other-exports",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/reference/pair",
+              "path": "/sdk/v1/reference/pair",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/reference/route",
+              "path": "/sdk/v1/reference/route",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/reference/token",
+              "path": "/sdk/v1/reference/token",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v1/reference/trade",
+              "path": "/sdk/v1/reference/trade",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/guides/background",
+              "path": "/sdk/v3/guides/background",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/guides/liquidity/liquidity-fees",
+              "path": "/sdk/v3/guides/liquidity/liquidity-fees",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/guides/liquidity/minting",
+              "path": "/sdk/v3/guides/liquidity/minting",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/guides/liquidity/modifying-position",
+              "path": "/sdk/v3/guides/liquidity/modifying-position",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/guides/liquidity/swap-and-add",
+              "path": "/sdk/v3/guides/liquidity/swap-and-add",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/guides/quoting",
+              "path": "/sdk/v3/guides/quoting",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/guides/routing",
+              "path": "/sdk/v3/guides/routing",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/guides/trading",
+              "path": "/sdk/v3/guides/trading",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/overview",
+              "path": "/sdk/v3/overview",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/FullMath",
+              "path": "/sdk/v3/reference/classes/FullMath",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/LiquidityMath",
+              "path": "/sdk/v3/reference/classes/LiquidityMath",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/Multicall",
+              "path": "/sdk/v3/reference/classes/Multicall",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/NonfungiblePositionManager",
+              "path": "/sdk/v3/reference/classes/NonfungiblePositionManager",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/NoTickDataProvider",
+              "path": "/sdk/v3/reference/classes/NoTickDataProvider",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/Payments",
+              "path": "/sdk/v3/reference/classes/Payments",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/Pool",
+              "path": "/sdk/v3/reference/classes/Pool",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/Position",
+              "path": "/sdk/v3/reference/classes/Position",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/PositionLibrary",
+              "path": "/sdk/v3/reference/classes/PositionLibrary",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/Route",
+              "path": "/sdk/v3/reference/classes/Route",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/SelfPermit",
+              "path": "/sdk/v3/reference/classes/SelfPermit",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/SqrtPriceMath",
+              "path": "/sdk/v3/reference/classes/SqrtPriceMath",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/Staker",
+              "path": "/sdk/v3/reference/classes/Staker",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/SwapMath",
+              "path": "/sdk/v3/reference/classes/SwapMath",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/SwapQuoter",
+              "path": "/sdk/v3/reference/classes/SwapQuoter",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/SwapRouter",
+              "path": "/sdk/v3/reference/classes/SwapRouter",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/Tick",
+              "path": "/sdk/v3/reference/classes/Tick",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/TickLibrary",
+              "path": "/sdk/v3/reference/classes/TickLibrary",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/TickList",
+              "path": "/sdk/v3/reference/classes/TickList",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/TickListDataProvider",
+              "path": "/sdk/v3/reference/classes/TickListDataProvider",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/TickMath",
+              "path": "/sdk/v3/reference/classes/TickMath",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/classes/Trade",
+              "path": "/sdk/v3/reference/classes/Trade",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/enums/FeeAmount",
+              "path": "/sdk/v3/reference/enums/FeeAmount",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/interfaces/AllowedPermitArguments",
+              "path": "/sdk/v3/reference/interfaces/AllowedPermitArguments",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/interfaces/BestTradeOptions",
+              "path": "/sdk/v3/reference/interfaces/BestTradeOptions",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/interfaces/ClaimOptions",
+              "path": "/sdk/v3/reference/interfaces/ClaimOptions",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/interfaces/CollectOptions",
+              "path": "/sdk/v3/reference/interfaces/CollectOptions",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/interfaces/CommonAddLiquidityOptions",
+              "path": "/sdk/v3/reference/interfaces/CommonAddLiquidityOptions",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/interfaces/FeeOptions",
+              "path": "/sdk/v3/reference/interfaces/FeeOptions",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/interfaces/IncentiveKey",
+              "path": "/sdk/v3/reference/interfaces/IncentiveKey",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/interfaces/IncreaseSpecificOptions",
+              "path": "/sdk/v3/reference/interfaces/IncreaseSpecificOptions",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/interfaces/MethodParameters",
+              "path": "/sdk/v3/reference/interfaces/MethodParameters",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/interfaces/MintSpecificOptions",
+              "path": "/sdk/v3/reference/interfaces/MintSpecificOptions",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/interfaces/NFTPermitOptions",
+              "path": "/sdk/v3/reference/interfaces/NFTPermitOptions",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/interfaces/QuoteOptions",
+              "path": "/sdk/v3/reference/interfaces/QuoteOptions",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/interfaces/RemoveLiquidityOptions",
+              "path": "/sdk/v3/reference/interfaces/RemoveLiquidityOptions",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/interfaces/SafeTransferOptions",
+              "path": "/sdk/v3/reference/interfaces/SafeTransferOptions",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/interfaces/StandardPermitArguments",
+              "path": "/sdk/v3/reference/interfaces/StandardPermitArguments",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/interfaces/SwapOptions",
+              "path": "/sdk/v3/reference/interfaces/SwapOptions",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/interfaces/TickConstructorArgs",
+              "path": "/sdk/v3/reference/interfaces/TickConstructorArgs",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/interfaces/TickDataProvider",
+              "path": "/sdk/v3/reference/interfaces/TickDataProvider",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/interfaces/WithdrawOptions",
+              "path": "/sdk/v3/reference/interfaces/WithdrawOptions",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "v3/reference/overview",
+              "path": "/sdk/v3/reference/overview",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "web3-react/guides/connect-wallet",
+              "path": "/sdk/web3-react/guides/connect-wallet",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "web3-react/guides/connectors",
+              "path": "/sdk/web3-react/guides/connectors",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "web3-react/guides/switch-chains",
+              "path": "/sdk/web3-react/guides/switch-chains",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "web3-react/overview",
+              "path": "/sdk/web3-react/overview",
+              "sidebar": "defaultSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "defaultSidebar": {
+              "link": {
+                "path": "/sdk/v3/overview",
+                "label": "v3/overview"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    },
+    "api": {
+      "path": "/api/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/api/",
+          "mainDocId": "subgraph/overview",
+          "docs": [
+            {
+              "id": "subgraph/guides/examples",
+              "path": "/api/subgraph/guides/examples",
+              "sidebar": "defaultSidebar"
+            },
+            {
+              "id": "subgraph/overview",
+              "path": "/api/subgraph/overview",
+              "sidebar": "defaultSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "defaultSidebar": {
+              "link": {
+                "path": "/api/subgraph/overview",
+                "label": "subgraph/overview"
               }
             }
           }

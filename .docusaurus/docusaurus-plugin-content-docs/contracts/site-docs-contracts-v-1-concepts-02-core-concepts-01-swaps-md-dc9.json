@@ -8,14 +8,14 @@
   "slug": "/v1/concepts/core-concepts/swaps",
   "permalink": "/contracts/v1/concepts/core-concepts/swaps",
   "draft": false,
-  "editUrl": "https://github.com/pegasys-fi/docs/tree/main/docs/contracts/v1/concepts/02-core-concepts/01-swaps.md",
+  "editUrl": "https://github.com/Jingo-Finance/docs/tree/main/docs/contracts/v1/concepts/02-core-concepts/01-swaps.md",
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
     "id": "swaps",
     "title": "Swaps",
-    "subtitle": "Learn about the core functionality of the pegasys protocol. Token Swaps."
+    "subtitle": "Learn about the core functionality of the jingo protocol. Token Swaps."
   },
   "sidebar": "defaultSidebar",
   "previous": {

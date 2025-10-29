@@ -7,12 +7,12 @@ title: Route
 constructor(pairs: Pair[], input: Token)
 ```
 
-The Route entity represents one or more ordered Pegasys pairs with a fully specified path from input token to output token.
+The Route entity represents one or more ordered Jingo pairs with a fully specified path from input token to output token.
 
 # Example
 
 ```typescript
-import { ChainId, Token, TokenAmount, Pair, Route } from '@pegasys-fi/v3-sdk'
+import { ChainId, Token, TokenAmount, Pair, Route } from '@jingofi/v3-sdk'
 
 const HOT = new Token(ChainId.MAINNET, '0xc0FFee0000000000000000000000000000000000', 18, 'HOT', 'Caffeine')
 const NOT = new Token(ChainId.MAINNET, '0xDeCAf00000000000000000000000000000000000', 18, 'NOT', 'Caffeine')

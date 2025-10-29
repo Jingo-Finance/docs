@@ -1,4 +1,4 @@
-The Pegasys V3 Factory facilitates creation of Pegasys V3 pools and control over the protocol fees
+The Jingo V3 Factory facilitates creation of Jingo V3 pools and control over the protocol fees
 
 ## Functions
 

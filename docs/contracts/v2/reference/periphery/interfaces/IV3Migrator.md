@@ -1,4 +1,4 @@
-Enables migration of liqudity from Pegasys v1-compatible pairs into Pegasys v3 pools
+Enables migration of liqudity from Jingo v1-compatible pairs into Jingo v3 pools
 
 ## Functions
 

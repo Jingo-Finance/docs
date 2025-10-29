@@ -1,15 +1,15 @@
-# Pegasys Documentation
+# Jingo Documentation
 
-This web application contains all documentation for Pegasys products. It is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+This web application contains all documentation for Jingo products. It is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
 
 
 # Project Layout
 
-### Pegasys documentation is broken down into four sections:
-- Concepts - General Pegasys information or concepts useful for using Pegasys products, such as *Liquidity* and *Fees*
-- Contracts - Pegasys smart contracts such as the V3 Contracts or *Permit2*
-- SDKs - Pegasys integrations such as the *v3-sdk* and the *Swap Widget*
-- APIs - The Pegasys APIs such the *Subgraph API*
+### Jingo documentation is broken down into four sections:
+- Concepts - General Jingo information or concepts useful for using Jingo products, such as *Liquidity* and *Fees*
+- Contracts - Jingo smart contracts such as the V3 Contracts or *Permit2*
+- SDKs - Jingo integrations such as the *v3-sdk* and the *Swap Widget*
+- APIs - The Jingo APIs such the *Subgraph API*
 
 ### Each item in a section should include the following:
 - *Overview*
@@ -31,7 +31,7 @@ A good example is the [V3 Smart Contracts](./docs/contracts/v3/overview.md).
 
 ### Guides
 > Guides should follow the **Principles of a Good Guide**:
-- A guide corresponds to a reusable piece of code that demonstrates a single concept in the Pegasys ecosystem.
+- A guide corresponds to a reusable piece of code that demonstrates a single concept in the Jingo ecosystem.
 - Guides have three parts:
     1. An **introduction** that explains the concept that the piece of code implements and a summary of what the guide will cover and result in.
     2. A step-by-step **walkthrough** of each line of the example code 
@@ -45,7 +45,7 @@ A good example is the [V3 Smart Contracts](./docs/contracts/v3/overview.md).
 - Use the least dependencies as possible
 - Input changes (eg address, tokens, amounts) should be in the code
 
-By implementing these consistent principles Pegasys will have docs that are easy to understand and produce reusable code for its community.
+By implementing these consistent principles Jingo will have docs that are easy to understand and produce reusable code for its community.
 
 
 A good example is the [V3 SDK Guides](./docs/sdk/v3/guides/01-quick-start.md).
@@ -54,7 +54,7 @@ A good example is the [V3 SDK Guides](./docs/sdk/v3/guides/01-quick-start.md).
 This should contain the technical reference for the exported interfaces. A good example is the [V3 SDK](./docs/sdk/v3/reference/overview).
 These files can be created using the [guides below](#how-to-create-a-technical-reference).
 
-# Contributing to Pegasys Docs
+# Contributing to Jingo Docs
 
 ## Guidelines
 Contributing to the docs site is a great way to get involved in the dev community and help other developers along the way! Check out our guidelines [here](./CONTRIBUTING.md).
@@ -123,7 +123,7 @@ See https://www.npmjs.com/package/typedoc-plugin-markdown for details.
 If you don't have those, one for the Engineering Managers should be able to help you.
 - Edit config.json file if needed:
     - Start url from updated website
-    - Sitemap url from updated website: eg for docs: https://docs.pegasys.fi/sitemap.xml
+    - Sitemap url from updated website: eg for docs: https://docs.jingo.finance/sitemap.xml
     - Use "v3-docs" as the index name
 - [Install](https://www.docker.com/products/docker-desktop/) and start running Docker Desktop
 - Install jq `brew install jq`
@@ -159,4 +159,4 @@ This command generates static content into the `build` directory and can be serv
 
 
 ## Deployment
-The application automatically deployed to production using [Vercel](https://vercel.com/pegasys-fi/docs) upon merge into **main**.
+The application automatically deployed to production using [Vercel](https://vercel.com/jingofi/docs) upon merge into **main**.

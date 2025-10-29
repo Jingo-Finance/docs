@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## Setting up the Contract
 
-This guide is an example of a custodial contract Pegasys V3 positions, which allows interaction with the Pegasys V3 Periphery by minting a position, adding liquidity to a position, decreasing liquidity, and collecting fees.
+This guide is an example of a custodial contract Jingo V3 positions, which allows interaction with the Jingo V3 Periphery by minting a position, adding liquidity to a position, decreasing liquidity, and collecting fees.
 
 First, declare the solidity version used to compile the contract and `abicoder v2` to allow arbitrary nested arrays and structs to be encoded and decoded in calldata, a feature we use when transacting with a pool.
 
@@ -19,13 +19,13 @@ pragma abicoder v2;
 Import the contracts needed from the npm package installation.
 
 ```solidity
-import '@pegasys-fi/v3-core/contracts/interfaces/IPegasysV3Pool.sol';
-import '@pegasys-fi/v3-core/contracts/libraries/TickMath.sol';
+import '@jingofi/v3-core/contracts/interfaces/IJingoV3Pool.sol';
+import '@jingofi/v3-core/contracts/libraries/TickMath.sol';
 import '@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol';
-import '@pegasys-fi/v3-periphery/contracts/interfaces/ISwapRouter.sol';
-import '@pegasys-fi/v3-periphery/contracts/interfaces/INonfungiblePositionManager.sol';
-import '@pegasys-fi/v3-periphery/contracts/libraries/TransferHelper.sol';
-import '@pegasys-fi/v3-periphery/contracts/base/LiquidityManagement.sol';
+import '@jingofi/v3-periphery/contracts/interfaces/ISwapRouter.sol';
+import '@jingofi/v3-periphery/contracts/interfaces/INonfungiblePositionManager.sol';
+import '@jingofi/v3-periphery/contracts/libraries/TransferHelper.sol';
+import '@jingofi/v3-periphery/contracts/base/LiquidityManagement.sol';
 ```
 
 Create a contract called `LiquidityExamples` and inherit both `IERC721Receiver` and `LiquidityManagement`.
@@ -120,8 +120,8 @@ To add a `Deposit` instance to the `deposits` mapping, create an internal functi
 pragma solidity =0.7.6;
 pragma abicoder v2;
 
-import '@pegasys-fi/v3-core/contracts/interfaces/IPegasysV3Pool.sol';
-import '@pegasys-fi/v3-core/contracts/libraries/TickMath.sol';
+import '@jingofi/v3-core/contracts/interfaces/IJingoV3Pool.sol';
+import '@jingofi/v3-core/contracts/libraries/TickMath.sol';
 import '@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol';
 import '../libraries/TransferHelper.sol';
 import '../interfaces/INonfungiblePositionManager.sol';
